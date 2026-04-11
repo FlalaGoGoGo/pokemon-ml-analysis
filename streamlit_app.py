@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from html import escape
+import unicodedata
 
 import pandas as pd
 import streamlit as st
@@ -45,6 +46,20 @@ def _name_from_option(option: str) -> str:
     return option.split(" - ", 1)[1].strip()
 
 
+def _ascii_text(value: object) -> str:
+    text = "" if value is None else str(value)
+    normalized = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode("ascii")
+    return normalized or text
+
+
+def _mount_html(html: str, container=None) -> None:
+    target = container or st
+    if hasattr(target, "html"):
+        target.html(html)
+    else:
+        target.markdown(html, unsafe_allow_html=True)
+
+
 def _render_type_badges(types: list[str]) -> str:
     badges = []
     for type_name in types:
@@ -79,7 +94,7 @@ def _render_probability_meter(probability_df: pd.DataFrame, top_n: int = 6) -> s
 
 def _render_commentary_lines(lines: list[str], panel_title: str, tone: str = "neutral") -> str:
     items = "".join(
-        f"<div class='log-line {tone}'><span class='log-bullet'>&gt;</span>{escape(line)}</div>" for line in lines
+        f"<div class='log-line {tone}'><span class='log-bullet'>&gt;</span>{escape(_ascii_text(line))}</div>" for line in lines
     )
     return f"""
     <div class="pixel-panel log-panel">
@@ -93,8 +108,8 @@ def _render_stat_strip(items: list[tuple[str, str]]) -> str:
     cells = "".join(
         f"""
         <div class="mini-stat">
-          <div class="mini-stat-label">{escape(label)}</div>
-          <div class="mini-stat-value">{escape(value)}</div>
+          <div class="mini-stat-label">{escape(_ascii_text(label))}</div>
+          <div class="mini-stat-value">{escape(_ascii_text(value))}</div>
         </div>
         """
         for label, value in items
@@ -114,7 +129,7 @@ def _render_sidebar_table(df: pd.DataFrame, columns: list[str], value_formats: d
                 fmt = value_formats.get(column, ".3f")
                 display_value = format(value, fmt)
             else:
-                display_value = str(value)
+                display_value = _ascii_text(value)
             cells.append(f"<div class='side-table-cell'>{escape(display_value)}</div>")
         rows.append(f"<div class='side-table-row' style='grid-template-columns:{grid_template};'>" + "".join(cells) + "</div>")
     return (
@@ -128,29 +143,55 @@ def _render_sidebar_table(df: pd.DataFrame, columns: list[str], value_formats: d
 
 
 def _render_app_shell(bundle: dict, page_label: str) -> None:
+    type_report = bundle["type_bundle"]["random_report"].sort_values(["exact_match", "micro_f1"], ascending=False).iloc[0]
+    battle_report = bundle["battle_bundle"]["grouped_report"].sort_values(["roc_auc", "accuracy"], ascending=False).iloc[0]
     app_html = f"""
-    <div class="app-shell">
+    <div class="app-shell start-shell">
       <div class="status-ribbon">
         <span>TRAINER DEVICE ONLINE</span>
         <span>BUNDLE :: {escape(str(bundle.get('bundle_source', 'unknown')).upper())}</span>
         <span>MODE :: {escape(page_label.upper())}</span>
       </div>
-      <div class="app-hero">
-        <div class="hero-copy">
-          <div class="panel-kicker">POKEMON ML ANALYSIS CONSOLE</div>
-          <h1>RETRO POKEDEX + BATTLE HUD</h1>
+      <div class="start-grid">
+        <div class="hero-copy start-copy">
+          <div class="panel-kicker">BOOT SEQUENCE COMPLETE</div>
+          <div class="start-subkicker">TRAINER ANALYSIS SYSTEM v2.0</div>
+          <h1>POKEMON ML ANALYSIS</h1>
+          <div class="game-logo-bar">POKEDEX SCAN // BATTLE FORECAST // RETRO HUD</div>
           <p>
-            A portfolio-ready game interface for type prediction and 1v1 battle forecasting.
+            A retro handheld game interface for type prediction and one versus one battle forecasting.
           </p>
+          <div class="press-start">PRESS START TO ENTER {escape(page_label.upper())}</div>
         </div>
-        <div class="hero-chips">
-          <span class="hero-chip">TYPE MODEL :: {escape(bundle['type_bundle']['final_model_name'].upper())}</span>
-          <span class="hero-chip">BATTLE MODEL :: {escape(bundle['battle_bundle']['final_model_name'].upper())}</span>
+        <div class="boot-monitor">
+          <div class="boot-screen">
+            <div class="screen-title">MISSION STATUS</div>
+            <div class="screen-line">TYPE MODEL :: {escape(_ascii_text(bundle['type_bundle']['final_model_name']).upper())}</div>
+            <div class="screen-line">BATTLE MODEL :: {escape(_ascii_text(bundle['battle_bundle']['final_model_name']).upper())}</div>
+            <div class="screen-line">TYPE EXACT MATCH :: {float(type_report['exact_match']):.3f}</div>
+            <div class="screen-line">BATTLE ROC AUC :: {float(battle_report['roc_auc']):.3f}</div>
+          </div>
         </div>
+      </div>
+      <div class="launch-strip">
+        <span class="launch-chip">CHOOSE A MODE BELOW</span>
+        <span class="launch-chip">PIXEL UI ACTIVE</span>
+        <span class="launch-chip">LOCAL MODELS READY</span>
       </div>
     </div>
     """
-    st.markdown(app_html, unsafe_allow_html=True)
+    _mount_html(app_html)
+
+
+def _render_mode_menu(page_label: str) -> None:
+    menu_html = f"""
+    <div class="pixel-panel mode-panel">
+      <div class="panel-kicker">MODE SELECT</div>
+      <div class="panel-title">PRESS START AND CHOOSE YOUR GAME SCREEN</div>
+      <div class="mode-copy">Current selection :: {escape(page_label.upper())}</div>
+    </div>
+    """
+    _mount_html(menu_html)
 
 
 def inject_global_styles() -> None:
@@ -326,6 +367,120 @@ def inject_global_styles() -> None:
           margin-bottom: 1.2rem;
         }
 
+        .start-shell {
+          overflow: visible;
+        }
+
+        .start-grid {
+          display: grid;
+          grid-template-columns: 1.7fr 1fr;
+          gap: 1rem;
+          align-items: stretch;
+          padding: 1.25rem;
+          background:
+            linear-gradient(135deg, rgba(153,227,212,0.38), rgba(255,247,227,0.94) 55%),
+            linear-gradient(180deg, rgba(16,32,60,0.03), rgba(16,32,60,0.0));
+        }
+
+        .start-copy {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          min-height: 300px;
+        }
+
+        .start-subkicker {
+          display: inline-block;
+          margin-bottom: 0.8rem;
+          color: #243550;
+          font-size: 1.25rem;
+          letter-spacing: 0.08em;
+        }
+
+        .game-logo-bar {
+          display: inline-block;
+          margin: 0.25rem 0 0.8rem;
+          padding: 0.7rem 0.85rem;
+          border: 3px solid rgba(16,32,60,0.3);
+          background: rgba(255,247,227,0.88);
+          box-shadow: inset 0 0 0 3px rgba(16,32,60,0.08);
+          color: var(--shell-navy);
+          font-size: 1.2rem;
+          letter-spacing: 0.05em;
+        }
+
+        .press-start {
+          display: inline-block;
+          margin-top: 1rem;
+          padding: 0.85rem 1rem;
+          background: var(--battle-red);
+          color: var(--cartridge-cream);
+          border: 4px solid #7F2218;
+          box-shadow: 4px 4px 0 rgba(13,19,33,0.4);
+          font-family: "Press Start 2P", "Courier New", monospace !important;
+          font-size: 0.62rem;
+          letter-spacing: 0.1em;
+          animation: pulseStart 1.8s steps(2, end) infinite;
+        }
+
+        .boot-monitor {
+          display: flex;
+          align-items: stretch;
+        }
+
+        .boot-screen {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap: 0.75rem;
+          padding: 1rem;
+          background:
+            linear-gradient(180deg, rgba(16,32,60,0.08) 50%, rgba(16,32,60,0.02) 50%),
+            linear-gradient(180deg, #bdf7ea, #8edacb);
+          background-size: 100% 8px, auto;
+          border: var(--panel-border);
+          box-shadow: inset 0 0 0 4px rgba(255,255,255,0.35), var(--panel-shadow);
+          min-height: 300px;
+        }
+
+        .screen-title {
+          color: var(--battle-red);
+          font-family: "Press Start 2P", "Courier New", monospace !important;
+          font-size: 0.62rem;
+          letter-spacing: 0.08em;
+          margin-bottom: 0.3rem;
+        }
+
+        .screen-line {
+          font-size: 1.5rem;
+          line-height: 1.08;
+          color: var(--shell-navy);
+          padding: 0.45rem 0.55rem;
+          border: 3px solid rgba(16,32,60,0.22);
+          background: rgba(255,247,227,0.58);
+        }
+
+        .launch-strip {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 0.8rem;
+          padding: 0 1.25rem 1.2rem;
+          background: linear-gradient(180deg, rgba(255,247,227,0.95), rgba(255,247,227,0.86));
+        }
+
+        .launch-chip {
+          display: inline-flex;
+          align-items: center;
+          padding: 0.6rem 0.8rem;
+          border: 3px solid rgba(16,32,60,0.28);
+          background: rgba(16,32,60,0.08);
+          color: var(--shell-navy);
+          font-family: "Press Start 2P", "Courier New", monospace !important;
+          font-size: 0.54rem;
+          letter-spacing: 0.06em;
+        }
+
         .status-ribbon {
           display: flex;
           justify-content: space-between;
@@ -461,6 +616,17 @@ def inject_global_styles() -> None:
         .pixel-panel {
           padding: 1rem;
           margin-bottom: 1rem;
+        }
+
+        .mode-panel {
+          background: linear-gradient(135deg, rgba(255,247,227,0.95), rgba(153,227,212,0.28));
+          margin-bottom: 0.35rem;
+        }
+
+        .mode-copy {
+          font-size: 1.35rem;
+          color: #243550;
+          line-height: 1.1;
         }
 
         .panel-title {
@@ -710,6 +876,11 @@ def inject_global_styles() -> None:
           color: #243550;
         }
 
+        @keyframes pulseStart {
+          0%, 100% { transform: translate(0, 0); }
+          50% { transform: translate(2px, 2px); box-shadow: 2px 2px 0 rgba(13,19,33,0.4); }
+        }
+
         .sidebar-shell {
           padding: 1rem;
           margin-bottom: 1rem;
@@ -776,6 +947,7 @@ def inject_global_styles() -> None:
 
         @media (max-width: 1100px) {
           .app-hero,
+          .start-grid,
           .page-hero,
           .hud-grid,
           .battle-hero {
@@ -818,7 +990,7 @@ def inject_global_styles() -> None:
 
 def render_sidebar(bundle: dict) -> None:
     tables = notebook_ready_tables(bundle)
-    st.sidebar.markdown(
+    _mount_html(
         f"""
         <div class="sidebar-shell">
           <div class="panel-kicker">TRAINER CONSOLE</div>
@@ -831,10 +1003,10 @@ def render_sidebar(bundle: dict) -> None:
           <div class="note-card">Battle model :: {escape(bundle['battle_bundle']['final_model_name'])}</div>
         </div>
         """,
-        unsafe_allow_html=True,
+        container=st.sidebar,
     )
 
-    st.sidebar.markdown(
+    _mount_html(
         f"""
         <div class="sidebar-shell">
           <div class="panel-kicker">TYPE LEADERBOARD</div>
@@ -845,10 +1017,10 @@ def render_sidebar(bundle: dict) -> None:
           )}
         </div>
         """,
-        unsafe_allow_html=True,
+        container=st.sidebar,
     )
 
-    st.sidebar.markdown(
+    _mount_html(
         f"""
         <div class="sidebar-shell">
           <div class="panel-kicker">BATTLE LEADERBOARD</div>
@@ -859,7 +1031,7 @@ def render_sidebar(bundle: dict) -> None:
           )}
         </div>
         """,
-        unsafe_allow_html=True,
+        container=st.sidebar,
     )
 
 
@@ -934,15 +1106,15 @@ def render_type_page(bundle: dict) -> None:
       </div>
     </div>
     """
-    st.markdown(hero_html, unsafe_allow_html=True)
+    _mount_html(hero_html)
 
     left_col, right_col = st.columns([1, 1])
     with left_col:
-        st.markdown(_render_type_overview_card(row, result), unsafe_allow_html=True)
+        _mount_html(_render_type_overview_card(row, result))
     with right_col:
-        st.markdown(_render_type_prediction_card(result), unsafe_allow_html=True)
+        _mount_html(_render_type_prediction_card(result))
 
-    st.markdown(_render_commentary_lines(result["explanation"], "PROFESSOR NOTES", tone="type"), unsafe_allow_html=True)
+    _mount_html(_render_commentary_lines(result["explanation"], "PROFESSOR NOTES", tone="type"))
 
 
 def _render_battle_header(result: dict) -> str:
@@ -1067,10 +1239,10 @@ def render_battle_page(bundle: dict) -> None:
         option_b = st.selectbox("Choose Pokemon B", options, index=8)
 
     result = predict_battle(_name_from_option(option_a), _name_from_option(option_b), bundle).payload
-    st.markdown(_render_battle_header(result), unsafe_allow_html=True)
-    st.markdown(_render_battle_probability_panel(result), unsafe_allow_html=True)
-    st.markdown(_render_feature_snapshot(result["feature_snapshot"]), unsafe_allow_html=True)
-    st.markdown(_render_commentary_lines(result["explanation"], "BATTLE COMMENTARY", tone="battle"), unsafe_allow_html=True)
+    _mount_html(_render_battle_header(result))
+    _mount_html(_render_battle_probability_panel(result))
+    _mount_html(_render_feature_snapshot(result["feature_snapshot"]))
+    _mount_html(_render_commentary_lines(result["explanation"], "BATTLE COMMENTARY", tone="battle"))
 
 
 def main() -> None:
@@ -1079,14 +1251,24 @@ def main() -> None:
     bundle = load_bundle()
     render_sidebar(bundle)
 
+    options = ["Pokedex Scan", "Battle HUD"]
+    current_page = st.session_state.get("mode_selector", options[0])
+    if current_page not in options:
+        current_page = options[0]
+
+    _render_app = "Pokedex Scan" if current_page == "Pokedex Scan" else "Battle HUD"
+    _render_app_shell(bundle, _render_app)
+    _render_mode_menu(_render_app)
+
     page = st.radio(
         "Select a mode",
-        ["Pokedex Scan", "Battle HUD"],
+        options,
         horizontal=True,
         label_visibility="collapsed",
+        key="mode_selector",
+        index=options.index(current_page),
     )
     _render_app = "Pokedex Scan" if page == "Pokedex Scan" else "Battle HUD"
-    _render_app_shell(bundle, _render_app)
 
     if page == "Pokedex Scan":
         render_type_page(bundle)
