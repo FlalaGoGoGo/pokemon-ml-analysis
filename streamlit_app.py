@@ -143,8 +143,27 @@ def _render_sidebar_table(df: pd.DataFrame, columns: list[str], value_formats: d
 
 
 def _render_app_shell(bundle: dict, page_label: str) -> None:
-    type_report = bundle["type_bundle"]["random_report"].sort_values(["exact_match", "micro_f1"], ascending=False).iloc[0]
-    battle_report = bundle["battle_bundle"]["grouped_report"].sort_values(["roc_auc", "accuracy"], ascending=False).iloc[0]
+    type_reports = bundle.get("type_reports")
+    battle_reports = bundle.get("battle_reports")
+
+    if isinstance(type_reports, pd.DataFrame) and not type_reports.empty:
+        type_random = type_reports[type_reports["split"] == "random"].copy()
+        if type_random.empty:
+            type_random = type_reports.copy()
+        type_report = type_random.sort_values(["exact_match", "micro_f1"], ascending=[False, False]).iloc[0]
+        type_exact_match = float(type_report.get("exact_match", 0.0))
+    else:
+        type_exact_match = 0.0
+
+    if isinstance(battle_reports, pd.DataFrame) and not battle_reports.empty:
+        battle_grouped = battle_reports[battle_reports["split"] == "grouped"].copy()
+        if battle_grouped.empty:
+            battle_grouped = battle_reports.copy()
+        battle_report = battle_grouped.sort_values(["roc_auc", "accuracy"], ascending=[False, False]).iloc[0]
+        battle_roc_auc = float(battle_report.get("roc_auc", 0.0))
+    else:
+        battle_roc_auc = 0.0
+
     app_html = f"""
     <div class="app-shell start-shell">
       <div class="status-ribbon">
@@ -168,8 +187,8 @@ def _render_app_shell(bundle: dict, page_label: str) -> None:
             <div class="screen-title">MISSION STATUS</div>
             <div class="screen-line">TYPE MODEL :: {escape(_ascii_text(bundle['type_bundle']['final_model_name']).upper())}</div>
             <div class="screen-line">BATTLE MODEL :: {escape(_ascii_text(bundle['battle_bundle']['final_model_name']).upper())}</div>
-            <div class="screen-line">TYPE EXACT MATCH :: {float(type_report['exact_match']):.3f}</div>
-            <div class="screen-line">BATTLE ROC AUC :: {float(battle_report['roc_auc']):.3f}</div>
+            <div class="screen-line">TYPE EXACT MATCH :: {type_exact_match:.3f}</div>
+            <div class="screen-line">BATTLE ROC AUC :: {battle_roc_auc:.3f}</div>
           </div>
         </div>
       </div>
