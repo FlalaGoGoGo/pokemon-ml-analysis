@@ -1060,8 +1060,8 @@ def _render_type_overview_card(row: pd.Series, result: dict) -> str:
         ability_text += f" / {row['ability2']}"
     return f"""
     <div class="pixel-panel">
-      <div class="panel-kicker">KNOWN PROFILE</div>
-      <div class="panel-title">POKEDEX DATA</div>
+      <div class="panel-kicker">GROUND TRUTH</div>
+      <div class="panel-title">TRUE TYPE FROM DATASET</div>
       <div>{_render_type_badges([result['true_primary'], result['true_secondary']])}</div>
       {_render_stat_strip([
           ("DEX", f"#{int(row['dexnum_int']):03d}"),
@@ -1080,15 +1080,15 @@ def _render_type_prediction_card(result: dict) -> str:
     confidence_state = "LOCKED IN" if top_probability >= 0.8 else "CHECK SIGNAL"
     return f"""
     <div class="pixel-panel">
-      <div class="panel-kicker">MODEL OUTPUT</div>
-      <div class="panel-title">PREDICTED TYPING</div>
+      <div class="panel-kicker">MODEL PREDICTION</div>
+      <div class="panel-title">PREDICTED TYPE FROM ML MODEL</div>
       <div>{_render_type_badges([result['predicted_primary'], result['predicted_secondary']])}</div>
       {_render_stat_strip([
           ("MODEL", result["model_name"].replace("ClassifierChain ", "").upper()),
           ("TOP CONF", f"{top_probability:.1%}"),
           ("STATE", confidence_state),
       ])}
-      <div class="note-card">SECOND SLOT :: {escape(result['predicted_secondary'].upper())}</div>
+      <div class="note-card">PREDICTED SECONDARY :: {escape(result['predicted_secondary'].upper())}</div>
     </div>
     """
 
@@ -1108,12 +1108,12 @@ def render_type_page(bundle: dict) -> None:
         </div>
         <div class="hero-data">
           <div class="hero-status">POKEDEX SCAN MODE :: ACTIVE</div>
-          <div class="panel-kicker">SPECIMEN ANALYSIS</div>
+          <div class="panel-kicker">GROUND TRUTH VS MODEL PREDICTION</div>
           <h2>DEX #{int(result['dexnum_int']):03d} :: {escape(result['name'].upper())}</h2>
           <p>Reading stat signature, species tag, growth profile, and ability fingerprint.</p>
           {_render_stat_strip([
-              ("PRIMARY", result["true_primary"].upper()),
-              ("SECONDARY", result["true_secondary"].upper()),
+              ("TRUE PRIMARY", result["true_primary"].upper()),
+              ("TRUE SECONDARY", result["true_secondary"].upper()),
               ("MODEL", result["model_name"].replace("ClassifierChain ", "").upper()),
           ])}
         </div>
