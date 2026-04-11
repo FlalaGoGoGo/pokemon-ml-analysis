@@ -157,6 +157,8 @@ def inject_global_styles() -> None:
     st.markdown(
         """
         <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+
         :root {
           --cartridge-cream: #FFF7E3;
           --shell-navy: #10203C;
@@ -171,7 +173,19 @@ def inject_global_styles() -> None:
           --panel-border: 4px solid #10203C;
         }
 
-        html, body, [class*="css"], [data-testid="stMarkdownContainer"], p, label, li, div, span {
+        html, body, .stApp, [data-testid="stMarkdownContainer"], p, label, li, input, textarea {
+          font-family: "VT323", "Courier New", monospace !important;
+        }
+
+        .app-shell *,
+        .pixel-panel *,
+        .sidebar-shell *,
+        .note-card,
+        .side-table *,
+        .hero-data *,
+        .fighter-card *,
+        .log-shell *,
+        .mini-stat * {
           font-family: "VT323", "Courier New", monospace !important;
         }
 
@@ -240,10 +254,12 @@ def inject_global_styles() -> None:
           min-height: 62px;
         }
 
-        div[data-baseweb="select"] * {
+        div[data-baseweb="select"] input,
+        div[data-baseweb="select"] [role="combobox"] {
           color: var(--shell-navy) !important;
           font-size: 1.35rem !important;
           letter-spacing: 0.02em;
+          font-family: "VT323", "Courier New", monospace !important;
         }
 
         div[data-baseweb="popover"] [role="listbox"] {
@@ -1058,7 +1074,7 @@ def render_battle_page(bundle: dict) -> None:
 
 
 def main() -> None:
-    st.set_page_config(page_title="Pokemon ML Analysis", page_icon="🕹️", layout="wide")
+    st.set_page_config(page_title="Pokemon ML Analysis", layout="wide")
     inject_global_styles()
     bundle = load_bundle()
     render_sidebar(bundle)

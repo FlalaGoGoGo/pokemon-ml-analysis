@@ -1187,7 +1187,7 @@ def _type_profile_explanation(row: pd.Series, predicted_primary: str, predicted_
     explanation.append(
         f"Model leans toward {predicted_primary}"
         + (f" + {predicted_secondary}" if predicted_secondary != "None" else "")
-        + " because this profile is similar to known Pokémon with matching stat and ability patterns."
+        + " because this profile is similar to known Pokemon with matching stat and ability patterns."
     )
     return explanation
 
