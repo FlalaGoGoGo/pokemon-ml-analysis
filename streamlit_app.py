@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from html import escape
 import unicodedata
+from urllib.parse import urlparse
 
 import pandas as pd
 import streamlit as st
@@ -60,6 +61,68 @@ def _mount_html(html: str, container=None) -> None:
         target.markdown(html, unsafe_allow_html=True)
 
 
+def _humanize_token(value: object) -> str:
+    text = _ascii_text(value).replace("_", " ").replace("-", " ")
+    return " ".join(part for part in text.split() if part)
+
+
+def _display_feature_mode(feature_mode: str) -> str:
+    return _humanize_token(feature_mode).upper()
+
+
+def _display_model_variant(model_name: str) -> str:
+    text = _humanize_token(model_name)
+    prefixes = [
+        "Structured + Text ",
+        "Structured Text ",
+        "Structured + ",
+        "Structured ",
+        "Multimodal ",
+    ]
+    for prefix in prefixes:
+        if text.startswith(prefix):
+            text = text[len(prefix) :]
+            break
+    text = text.replace("ClassifierChain", "Chain")
+    return text.upper()
+
+
+def _display_validation_status(validation_status: str) -> str:
+    mapping = {
+        "official_media_verified_link_generated": "MEDIA VERIFIED",
+        "official_media_link_generated": "LINK GENERATED",
+        "official_verified": "OFFICIAL VERIFIED",
+        "generated": "GENERATED",
+        "missing": "MISSING",
+        "mismatch": "MISMATCH",
+    }
+    normalized = _ascii_text(validation_status).strip().lower()
+    return mapping.get(normalized, _humanize_token(normalized).upper() or "UNKNOWN")
+
+
+def _compact_url_label(url: str) -> str:
+    if not url:
+        return "UNAVAILABLE"
+    parsed = urlparse(url)
+    path = parsed.path.strip("/")
+    if len(path) > 42:
+        path = f"{path[:20]}...{path[-16:]}"
+    compact = f"{parsed.netloc}/{path}" if path else parsed.netloc
+    return compact or url
+
+
+def _render_link_note(label: str, url: str) -> str:
+    safe_label = escape(_ascii_text(label).upper())
+    if not url:
+        return f'<div class="note-card note-card-wrap">{safe_label} :: UNAVAILABLE</div>'
+    safe_url = escape(url, quote=True)
+    safe_text = escape(_compact_url_label(url))
+    return (
+        f'<div class="note-card note-card-wrap">{safe_label} :: '
+        f'<a href="{safe_url}" target="_blank" rel="noopener noreferrer">{safe_text}</a></div>'
+    )
+
+
 def _render_type_badges(types: list[str]) -> str:
     badges = []
     for type_name in types:
@@ -104,10 +167,25 @@ def _render_commentary_lines(lines: list[str], panel_title: str, tone: str = "ne
     """
 
 
-def _render_stat_strip(items: list[tuple[str, str]]) -> str:
+def _render_stat_strip(
+    items: list[tuple[str, str]],
+    compact_labels: set[str] | None = None,
+    wrap_labels: set[str] | None = None,
+) -> str:
+    compact_labels = compact_labels or set()
+    wrap_labels = wrap_labels or set()
+
+    def _card_class(label: str) -> str:
+        classes = ["mini-stat"]
+        if label in compact_labels:
+            classes.append("mini-stat-compact")
+        if label in wrap_labels:
+            classes.append("mini-stat-wrap")
+        return " ".join(classes)
+
     cells = "".join(
         f"""
-        <div class="mini-stat">
+        <div class="{_card_class(label)}">
           <div class="mini-stat-label">{escape(_ascii_text(label))}</div>
           <div class="mini-stat-value">{escape(_ascii_text(value))}</div>
         </div>
@@ -117,8 +195,16 @@ def _render_stat_strip(items: list[tuple[str, str]]) -> str:
     return f"<div class='mini-stat-grid'>{cells}</div>"
 
 
-def _render_sidebar_table(df: pd.DataFrame, columns: list[str], value_formats: dict[str, str]) -> str:
-    grid_template = " ".join(["1fr" for _ in columns])
+def _render_sidebar_table(
+    df: pd.DataFrame,
+    columns: list[str],
+    value_formats: dict[str, str],
+    column_widths: dict[str, str] | None = None,
+    wrap_columns: set[str] | None = None,
+) -> str:
+    column_widths = column_widths or {}
+    wrap_columns = wrap_columns or set()
+    grid_template = " ".join([column_widths.get(column, "1fr") for column in columns])
     header = "".join(f"<div class='side-table-head'>{escape(column.replace('_', ' ').title())}</div>" for column in columns)
     rows = []
     for row in df.itertuples(index=False):
@@ -130,7 +216,12 @@ def _render_sidebar_table(df: pd.DataFrame, columns: list[str], value_formats: d
                 display_value = format(value, fmt)
             else:
                 display_value = _ascii_text(value)
-            cells.append(f"<div class='side-table-cell'>{escape(display_value)}</div>")
+            classes = ["side-table-cell"]
+            if column in wrap_columns:
+                classes.append("side-table-cell-wrap")
+            cells.append(
+                f"<div class='{' '.join(classes)}' title='{escape(display_value, quote=True)}'>{escape(display_value)}</div>"
+            )
         rows.append(f"<div class='side-table-row' style='grid-template-columns:{grid_template};'>" + "".join(cells) + "</div>")
     return (
         "<div class='side-table'>"
@@ -803,6 +894,7 @@ def inject_global_styles() -> None:
           background: rgba(16,32,60,0.08);
           border: 3px solid rgba(16,32,60,0.3);
           padding: 0.55rem 0.65rem;
+          min-width: 0;
         }
 
         .mini-stat-label {
@@ -816,6 +908,20 @@ def inject_global_styles() -> None:
           font-size: 1.55rem;
           line-height: 1;
           color: var(--shell-navy);
+          min-width: 0;
+        }
+
+        .mini-stat-compact .mini-stat-value {
+          font-size: 1.15rem;
+          line-height: 1.15;
+        }
+
+        .mini-stat-wrap .mini-stat-value {
+          font-size: 1.15rem;
+          line-height: 1.2;
+          white-space: normal;
+          overflow-wrap: anywhere;
+          word-break: break-word;
         }
 
         .meter-stack {
@@ -1071,6 +1177,17 @@ def inject_global_styles() -> None:
           overflow: hidden;
           text-overflow: ellipsis;
           white-space: nowrap;
+          min-width: 0;
+        }
+
+        .side-table-cell-wrap {
+          white-space: normal;
+          overflow: visible;
+          text-overflow: clip;
+          overflow-wrap: anywhere;
+          word-break: break-word;
+          line-height: 1.12;
+          font-size: 0.84rem;
         }
 
         .note-card {
@@ -1080,6 +1197,18 @@ def inject_global_styles() -> None:
           font-size: 1.15rem;
           line-height: 1.1;
           margin-top: 0.65rem;
+        }
+
+        .note-card-wrap {
+          white-space: normal;
+          overflow-wrap: anywhere;
+          word-break: break-word;
+          line-height: 1.18;
+        }
+
+        .note-card a {
+          color: var(--electric-yellow);
+          text-decoration: underline;
         }
 
         @media (max-width: 1100px) {
@@ -1116,6 +1245,10 @@ def inject_global_styles() -> None:
             grid-template-columns: 1.4fr 1fr 1fr 1fr;
           }
 
+          .side-table-cell-wrap {
+            font-size: 0.8rem;
+          }
+
           div[data-testid="stRadio"] > div {
             flex-direction: column;
           }
@@ -1136,10 +1269,10 @@ def render_sidebar(bundle: dict) -> None:
           <div class="console-copy">
             Retro device styling wrapped around a canonical hybrid Pokemon dataset.
           </div>
-          <div class="note-card">Bundle source :: {escape(str(bundle.get('bundle_source', 'unknown')).upper())}</div>
-          <div class="note-card">Type model :: {escape(bundle['type_bundle']['final_model_name'])}</div>
-          <div class="note-card">Battle model :: {escape(bundle['battle_bundle']['final_model_name'])}</div>
-          <div class="note-card">Data source :: CANONICAL HYBRID</div>
+          <div class="note-card note-card-wrap">Bundle source :: {escape(str(bundle.get('bundle_source', 'unknown')).upper())}</div>
+          <div class="note-card note-card-wrap">Type model :: {escape(bundle['type_bundle']['final_model_name'])}</div>
+          <div class="note-card note-card-wrap">Battle model :: {escape(bundle['battle_bundle']['final_model_name'])}</div>
+          <div class="note-card note-card-wrap">Data source :: CANONICAL HYBRID</div>
         </div>
         """,
         container=st.sidebar,
@@ -1153,6 +1286,8 @@ def render_sidebar(bundle: dict) -> None:
               tables["type_random"][["model", "micro_f1", "macro_f1", "exact_match"]].round(3),
               ["model", "micro_f1", "macro_f1", "exact_match"],
               {"micro_f1": ".3f", "macro_f1": ".3f", "exact_match": ".3f"},
+              column_widths={"model": "2.8fr", "micro_f1": "0.85fr", "macro_f1": "0.85fr", "exact_match": "0.95fr"},
+              wrap_columns={"model"},
           )}
         </div>
         """,
@@ -1167,6 +1302,8 @@ def render_sidebar(bundle: dict) -> None:
               tables["battle_grouped"][["model", "accuracy", "roc_auc"]].round(3),
               ["model", "accuracy", "roc_auc"],
               {"accuracy": ".3f", "roc_auc": ".3f"},
+              column_widths={"model": "2.2fr", "accuracy": "0.9fr", "roc_auc": "0.9fr"},
+              wrap_columns={"model"},
           )}
         </div>
         """,
@@ -1190,10 +1327,10 @@ def _render_type_overview_card(row: pd.Series, result: dict) -> str:
           ("SPECIES", str(row.get('species_display_name', row.get('display_name', 'UNKNOWN'))).upper()),
           ("GEN", f"{int(row['generation'])}"),
           ("BST", f"{int(row['total'])}"),
-      ])}
+      ], compact_labels={"SPECIES"}, wrap_labels={"SPECIES"})}
       <div class="note-card">ABILITY :: {escape(ability_text.upper())}</div>
       <div class="note-card">SCAN CLASS :: {"DUAL-TYPE" if result['true_secondary'] != 'None' else "SINGLE-TYPE"}</div>
-      <div class="note-card">VALIDATION :: {escape(str(result.get('validation_status', 'UNKNOWN')).upper())}</div>
+      <div class="note-card note-card-wrap">VALIDATION :: {escape(_display_validation_status(str(result.get('validation_status', 'UNKNOWN'))))}</div>
     </div>
     """
 
@@ -1207,10 +1344,10 @@ def _render_type_prediction_card(result: dict) -> str:
       <div class="panel-title">PREDICTED TYPE FROM ML MODEL</div>
       <div>{_render_type_badges([result['predicted_primary'], result['predicted_secondary']])}</div>
       {_render_stat_strip([
-          ("MODEL", result["model_name"].replace("ClassifierChain ", "").upper()),
+          ("MODEL", _display_model_variant(result["model_name"])),
           ("TOP CONF", f"{top_probability:.1%}"),
-          ("MODE", result.get("feature_mode", "structured").replace("_", "+").upper()),
-      ])}
+          ("MODE", _display_feature_mode(result.get("feature_mode", "structured"))),
+      ], compact_labels={"MODEL", "MODE"}, wrap_labels={"MODEL", "MODE"})}
       <div class="note-card">PREDICTED SECONDARY :: {escape(result['predicted_secondary'].upper())}</div>
       <div class="note-card">STATE :: {confidence_state}</div>
     </div>
@@ -1226,10 +1363,10 @@ def _render_provenance_card(result: dict) -> str:
       {_render_stat_strip([
           ("SOURCE", "POKEAPI + OFFICIAL REFS"),
           ("SLUG", result.get("canonical_slug", "unknown").upper()),
-          ("VALID", provenance.get("validation_status", "unknown").upper()),
-      ])}
-      <div class="note-card">POKEDEX URL :: {escape(provenance.get("official_pokedex_url", ""))}</div>
-      <div class="note-card">ARTWORK URL :: {escape(provenance.get("official_artwork_url", ""))}</div>
+          ("VALID", _display_validation_status(str(provenance.get("validation_status", "unknown")))),
+      ], compact_labels={"SOURCE", "SLUG", "VALID"}, wrap_labels={"SOURCE", "SLUG", "VALID"})}
+      {_render_link_note("Pokedex URL", provenance.get("official_pokedex_url", ""))}
+      {_render_link_note("Artwork URL", provenance.get("official_artwork_url", ""))}
     </div>
     """
 
