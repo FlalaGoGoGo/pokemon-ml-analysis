@@ -193,9 +193,9 @@ def _render_app_shell(bundle: dict, page_label: str) -> None:
         </div>
       </div>
       <div class="launch-strip">
-        <span class="launch-chip">CHOOSE A MODE BELOW</span>
+        <span class="launch-chip chip-deploy">CURRENT APP :: DEPLOYMENT MODE</span>
+        <span class="launch-chip chip-benchmark">BENCHMARK MODE :: HELD-OUT SPLIT + OOF STATS</span>
         <span class="launch-chip">PIXEL UI ACTIVE</span>
-        <span class="launch-chip">LOCAL MODELS READY</span>
       </div>
     </div>
     """
@@ -208,6 +208,10 @@ def _render_mode_menu(page_label: str) -> None:
       <div class="panel-kicker">MODE SELECT</div>
       <div class="panel-title">PRESS START AND CHOOSE YOUR GAME SCREEN</div>
       <div class="mode-copy">Current selection :: {escape(page_label.upper())}</div>
+      <div class="mode-legend">
+        <span class="legend-badge benchmark">BENCHMARK MODE = NOTEBOOK SCORES FROM HELD-OUT OR OOF EVALUATION</span>
+        <span class="legend-badge deployment">DEPLOYMENT MODE = LIVE APP PREDICTION FROM THE DEPLOYED MODEL</span>
+      </div>
     </div>
     """
     _mount_html(menu_html)
@@ -500,6 +504,16 @@ def inject_global_styles() -> None:
           letter-spacing: 0.06em;
         }
 
+        .chip-benchmark {
+          background: rgba(103,184,95,0.18);
+          border-color: rgba(71,124,66,0.5);
+        }
+
+        .chip-deploy {
+          background: rgba(217,74,58,0.16);
+          border-color: rgba(151,44,34,0.5);
+        }
+
         .status-ribbon {
           display: flex;
           justify-content: space-between;
@@ -646,6 +660,33 @@ def inject_global_styles() -> None:
           font-size: 1.35rem;
           color: #243550;
           line-height: 1.1;
+        }
+
+        .mode-legend {
+          display: flex;
+          flex-direction: column;
+          gap: 0.55rem;
+          margin-top: 0.85rem;
+        }
+
+        .legend-badge {
+          display: block;
+          padding: 0.6rem 0.75rem;
+          border: 3px solid rgba(16,32,60,0.24);
+          font-size: 1.1rem;
+          line-height: 1.12;
+          color: #243550;
+          background: rgba(16,32,60,0.06);
+        }
+
+        .legend-badge.benchmark {
+          background: rgba(103,184,95,0.16);
+          border-color: rgba(71,124,66,0.42);
+        }
+
+        .legend-badge.deployment {
+          background: rgba(217,74,58,0.12);
+          border-color: rgba(151,44,34,0.36);
         }
 
         .panel-title {

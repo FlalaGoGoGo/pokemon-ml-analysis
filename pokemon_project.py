@@ -18,7 +18,7 @@ from sklearn.ensemble import ExtraTreesClassifier, RandomForestClassifier
 from sklearn.impute import SimpleImputer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, f1_score, hamming_loss, roc_auc_score
-from sklearn.model_selection import GroupShuffleSplit, train_test_split
+from sklearn.model_selection import GroupKFold, GroupShuffleSplit, KFold, train_test_split
 from sklearn.multioutput import ClassifierChain, MultiOutputClassifier
 from sklearn.multiclass import OneVsRestClassifier
 from sklearn.pipeline import Pipeline
@@ -239,6 +239,16 @@ OPTIONAL_EXTERNAL_CATEGORICAL_COLUMNS = [
     "pokeapi_shape",
     "pokeapi_habitat",
 ]
+
+TYPE_MODEL_CANDIDATES = [
+    ("OVR Logistic", "baseline", "ovr_logistic"),
+    ("ClassifierChain Logistic (C=10)", "rich", "chain_logistic"),
+    ("ExtraTrees MultiOutput", "rich", "extra_trees"),
+]
+TYPE_MODEL_LOOKUP = {
+    display_name: {"feature_key": feature_key, "model_key": model_key}
+    for display_name, feature_key, model_key in TYPE_MODEL_CANDIDATES
+}
 
 
 @dataclass
@@ -537,6 +547,77 @@ def _build_preprocessor(numeric_columns: list[str], categorical_columns: list[st
     )
 
 
+def _fit_type_estimator(
+    model_key: str,
+    preprocessor: ColumnTransformer,
+    X_train: pd.DataFrame,
+    y_train: np.ndarray,
+) -> Any:
+    if model_key == "ovr_logistic":
+        estimator = Pipeline(
+            steps=[
+                ("preprocessor", preprocessor),
+                ("model", OneVsRestClassifier(LogisticRegression(max_iter=500))),
+            ]
+        )
+        estimator.fit(X_train, y_train)
+        return estimator
+
+    if model_key == "chain_logistic":
+        transformed_train = preprocessor.fit_transform(X_train)
+        estimator = ClassifierChain(
+            LogisticRegression(max_iter=800, C=10.0),
+            order="random",
+            random_state=1,
+        )
+        estimator.fit(transformed_train, y_train)
+        return estimator
+
+    estimator = Pipeline(
+        steps=[
+            ("preprocessor", preprocessor),
+            (
+                "model",
+                MultiOutputClassifier(
+                    ExtraTreesClassifier(
+                        n_estimators=300,
+                        random_state=42,
+                        n_jobs=-1,
+                    )
+                ),
+            ),
+        ]
+    )
+    estimator.fit(X_train, y_train)
+    return estimator
+
+
+def _predict_type_labels(
+    estimator: Any,
+    preprocessor: ColumnTransformer,
+    model_key: str,
+    X_eval: pd.DataFrame,
+) -> np.ndarray:
+    if model_key == "chain_logistic":
+        transformed_eval = preprocessor.transform(X_eval)
+        return estimator.predict(transformed_eval)
+    return estimator.predict(X_eval)
+
+
+def _predict_type_probabilities(
+    estimator: Any,
+    preprocessor: ColumnTransformer,
+    model_key: str,
+    X_eval: pd.DataFrame,
+) -> np.ndarray:
+    if model_key == "chain_logistic":
+        transformed_eval = preprocessor.transform(X_eval)
+        raw_output = estimator.predict_proba(transformed_eval)
+    else:
+        raw_output = estimator.predict_proba(X_eval)
+    return _normalize_multilabel_proba(raw_output)
+
+
 def _type_split_indices(master_df: pd.DataFrame, split_mode: str) -> tuple[np.ndarray, np.ndarray]:
     if split_mode == "random":
         train_idx, test_idx = train_test_split(master_df.index.to_numpy(), test_size=0.2, random_state=42)
@@ -570,12 +651,6 @@ def evaluate_type_models(master_df: pd.DataFrame) -> tuple[pd.DataFrame, dict[st
     reports: list[dict[str, Any]] = []
     fitted_models: dict[str, dict[str, Any]] = {}
 
-    candidates = [
-        ("OVR Logistic", "baseline", "ovr_logistic"),
-        ("ClassifierChain Logistic (C=10)", "rich", "chain_logistic"),
-        ("ExtraTrees MultiOutput", "rich", "extra_trees"),
-    ]
-
     for split_mode in ["random", "grouped"]:
         train_idx, test_idx = _type_split_indices(master_df, split_mode)
         X_train = master_df.iloc[train_idx]
@@ -583,47 +658,11 @@ def evaluate_type_models(master_df: pd.DataFrame) -> tuple[pd.DataFrame, dict[st
         y_train = y_all[train_idx]
         y_test = y_all[test_idx]
 
-        for display_name, feature_key, model_key in candidates:
+        for display_name, feature_key, model_key in TYPE_MODEL_CANDIDATES:
             columns = feature_sets[feature_key]
             preprocessor = _build_preprocessor(columns["numeric"], columns["categorical"])
-
-            if model_key == "ovr_logistic":
-                estimator = Pipeline(
-                    steps=[
-                        ("preprocessor", preprocessor),
-                        ("model", OneVsRestClassifier(LogisticRegression(max_iter=500))),
-                    ]
-                )
-                estimator.fit(X_train, y_train)
-                y_pred = estimator.predict(X_test)
-            elif model_key == "chain_logistic":
-                transformed_train = preprocessor.fit_transform(X_train)
-                transformed_test = preprocessor.transform(X_test)
-                estimator = ClassifierChain(
-                    LogisticRegression(max_iter=800, C=10.0),
-                    order="random",
-                    random_state=1,
-                )
-                estimator.fit(transformed_train, y_train)
-                y_pred = estimator.predict(transformed_test)
-            else:
-                estimator = Pipeline(
-                    steps=[
-                        ("preprocessor", preprocessor),
-                        (
-                            "model",
-                            MultiOutputClassifier(
-                                ExtraTreesClassifier(
-                                    n_estimators=300,
-                                    random_state=42,
-                                    n_jobs=-1,
-                                )
-                            ),
-                        ),
-                    ]
-                )
-                estimator.fit(X_train, y_train)
-                y_pred = estimator.predict(X_test)
+            estimator = _fit_type_estimator(model_key, preprocessor, X_train, y_train)
+            y_pred = _predict_type_labels(estimator, preprocessor, model_key, X_test)
 
             report = {
                 "task": "type_prediction",
@@ -668,6 +707,103 @@ def evaluate_type_models(master_df: pd.DataFrame) -> tuple[pd.DataFrame, dict[st
         "final_feature_key": final_model["feature_key"],
         "final_threshold": 0.30,
     }
+
+
+def type_oof_statistics(
+    master_df: pd.DataFrame,
+    type_bundle: dict[str, Any],
+    split_mode: str = "grouped",
+    n_splits: int = 5,
+) -> tuple[pd.DataFrame, pd.DataFrame]:
+    model_name = type_bundle["final_model_name"]
+    model_spec = TYPE_MODEL_LOOKUP[model_name]
+    feature_key = type_bundle.get("final_feature_key", model_spec["feature_key"])
+    model_key = model_spec["model_key"]
+    feature_sets = type_bundle.get("feature_sets", _type_feature_sets(master_df))
+    mlb = type_bundle["mlb"]
+    threshold = float(type_bundle.get("final_threshold", 0.30))
+    classes = mlb.classes_
+    y_all = mlb.transform(master_df[["type1", "type2"]].values.tolist())
+    columns = feature_sets[feature_key]
+
+    if split_mode == "grouped":
+        groups = master_df["species"].fillna(master_df["dexnum_int"].astype(str))
+        fold_count = max(2, min(n_splits, int(groups.nunique())))
+        splitter = GroupKFold(n_splits=fold_count)
+        fold_iterator = splitter.split(master_df, y_all, groups=groups)
+    else:
+        fold_count = max(2, min(n_splits, len(master_df)))
+        splitter = KFold(n_splits=fold_count, shuffle=True, random_state=42)
+        fold_iterator = splitter.split(master_df, y_all)
+
+    detail_rows: list[dict[str, Any]] = []
+
+    for fold_id, (train_idx, test_idx) in enumerate(fold_iterator, start=1):
+        X_train = master_df.iloc[train_idx]
+        X_test = master_df.iloc[test_idx]
+        y_train = y_all[train_idx]
+        preprocessor = _build_preprocessor(columns["numeric"], columns["categorical"])
+        estimator = _fit_type_estimator(model_key, preprocessor, X_train, y_train)
+        fold_probabilities = _predict_type_probabilities(estimator, preprocessor, model_key, X_test)
+
+        for row, probabilities in zip(X_test.itertuples(index=False), fold_probabilities):
+            pred_primary, pred_secondary = _decode_type_prediction(probabilities, classes, threshold)
+            true_set = {label for label in [row.type1, row.type2] if label != "None"}
+            predicted_set = {label for label in [pred_primary, pred_secondary] if label != "None"}
+            overlap_n = len(true_set & predicted_set)
+            all_types_correct = true_set == predicted_set
+            ordered_match = pred_primary == row.type1 and pred_secondary == row.type2
+            if all_types_correct:
+                bucket = "all_types_correct"
+            elif overlap_n == 1:
+                bucket = "one_type_correct"
+            else:
+                bucket = "zero_type_correct"
+
+            detail_rows.append(
+                {
+                    "split_mode": split_mode,
+                    "fold": fold_id,
+                    "dexnum_int": int(row.dexnum_int),
+                    "name": row.name,
+                    "true_primary": row.type1,
+                    "true_secondary": row.type2,
+                    "predicted_primary": pred_primary,
+                    "predicted_secondary": pred_secondary,
+                    "all_types_correct": bool(all_types_correct),
+                    "ordered_match": bool(ordered_match),
+                    "matched_type_count": int(overlap_n),
+                    "result_bucket": bucket,
+                    "single_type_truth": bool(row.type2 == "None"),
+                }
+            )
+
+    detail_df = pd.DataFrame(detail_rows).sort_values(["fold", "dexnum_int"]).reset_index(drop=True)
+    n_total = len(detail_df)
+    all_types_correct_n = int((detail_df["result_bucket"] == "all_types_correct").sum())
+    one_type_correct_n = int((detail_df["result_bucket"] == "one_type_correct").sum())
+    zero_type_correct_n = int((detail_df["result_bucket"] == "zero_type_correct").sum())
+
+    summary_df = pd.DataFrame(
+        [
+            {
+                "split_mode": split_mode,
+                "model": model_name,
+                "feature_key": feature_key,
+                "n_splits": int(fold_count),
+                "n_total": int(n_total),
+                "all_types_correct_n": all_types_correct_n,
+                "all_types_correct_pct": float(all_types_correct_n / n_total) if n_total else 0.0,
+                "one_type_correct_n": one_type_correct_n,
+                "one_type_correct_pct": float(one_type_correct_n / n_total) if n_total else 0.0,
+                "zero_type_correct_n": zero_type_correct_n,
+                "zero_type_correct_pct": float(zero_type_correct_n / n_total) if n_total else 0.0,
+                "ordered_match_n": int(detail_df["ordered_match"].sum()),
+                "ordered_match_pct": float(detail_df["ordered_match"].mean()) if n_total else 0.0,
+            }
+        ]
+    )
+    return summary_df, detail_df
 
 
 def _type_multiplier(move_type: str, defender_types: list[str]) -> float:
