@@ -806,6 +806,12 @@ def type_oof_statistics(
     return summary_df, detail_df
 
 
+def build_type_oof_summary_table(master_df: pd.DataFrame, type_bundle: dict[str, Any]) -> pd.DataFrame:
+    grouped_summary, _ = type_oof_statistics(master_df, type_bundle, split_mode="grouped", n_splits=5)
+    random_summary, _ = type_oof_statistics(master_df, type_bundle, split_mode="random", n_splits=5)
+    return pd.concat([grouped_summary, random_summary], ignore_index=True)
+
+
 def _type_multiplier(move_type: str, defender_types: list[str]) -> float:
     multiplier = 1.0
     for defender_type in defender_types:
@@ -1134,6 +1140,7 @@ def train_project_bundle(root: Path | None = None, include_external: bool = Fals
     local_data = load_local_data(base)
     master_df = build_master_table(base, include_external=include_external)
     type_reports, type_bundle = evaluate_type_models(master_df)
+    type_oof_summary = build_type_oof_summary_table(master_df, type_bundle)
     battle_df = build_battle_dataset(master_df, local_data["single_combats"])
     battle_reports, battle_bundle = evaluate_battle_models(battle_df)
     battle_history_df = build_battle_history_table(local_data["single_combats"])
@@ -1146,6 +1153,7 @@ def train_project_bundle(root: Path | None = None, include_external: bool = Fals
         "battle_df": battle_df,
         "battle_history_df": battle_history_df,
         "type_reports": type_reports,
+        "type_oof_summary": type_oof_summary,
         "battle_reports": battle_reports,
         "type_bundle": type_bundle,
         "battle_bundle": battle_bundle,
@@ -1208,6 +1216,7 @@ def train_deploy_bundle(root: Path | None = None, include_external: bool = False
     local_data = load_local_data(base)
     master_df = build_master_table(base, include_external=include_external)
     type_reports, type_bundle = evaluate_type_models(master_df)
+    type_oof_summary = build_type_oof_summary_table(master_df, type_bundle)
     battle_df = build_battle_dataset(master_df, local_data["single_combats"])
     battle_reports, battle_bundle = _train_deploy_battle_bundle(battle_df)
     battle_history_df = build_battle_history_table(local_data["single_combats"])
@@ -1256,6 +1265,7 @@ def train_deploy_bundle(root: Path | None = None, include_external: bool = False
         "master_df": master_df[minimal_master_columns].copy(),
         "battle_history_df": battle_history_df,
         "type_reports": type_reports,
+        "type_oof_summary": type_oof_summary,
         "battle_reports": battle_reports,
         "type_bundle": type_bundle,
         "battle_bundle": battle_bundle,

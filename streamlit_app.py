@@ -142,6 +142,58 @@ def _render_sidebar_table(df: pd.DataFrame, columns: list[str], value_formats: d
     )
 
 
+def _render_type_oof_summary_card(bundle: dict) -> str:
+    summary_df = bundle.get("type_oof_summary")
+    if not isinstance(summary_df, pd.DataFrame) or summary_df.empty:
+        return """
+        <div class="pixel-panel oof-panel">
+          <div class="panel-kicker">BENCHMARK SNAPSHOT</div>
+          <div class="panel-title">TYPE OOF SUMMARY</div>
+          <div class="mode-copy">OOF summary is not available in the current bundle.</div>
+        </div>
+        """
+
+    grouped_df = summary_df[summary_df["split_mode"] == "grouped"].copy()
+    if grouped_df.empty:
+        grouped_df = summary_df.copy()
+    row = grouped_df.iloc[0]
+    total = int(row["n_total"])
+    all_correct_n = int(row["all_types_correct_n"])
+    one_correct_n = int(row["one_type_correct_n"])
+    zero_correct_n = int(row["zero_type_correct_n"])
+
+    return f"""
+    <div class="pixel-panel oof-panel">
+      <div class="panel-kicker">BENCHMARK SNAPSHOT</div>
+      <div class="panel-title">GROUPED OOF TYPE SUMMARY</div>
+      {_render_stat_strip([
+          ("TOTAL", str(total)),
+          ("ALL CORRECT", str(all_correct_n)),
+          ("ONE TYPE", str(one_correct_n)),
+          ("ZERO TYPE", str(zero_correct_n)),
+      ])}
+      <div class="oof-meter-shell">
+        <div class="oof-meter-row">
+          <div class="oof-meter-label">ALL TYPES CORRECT</div>
+          <div class="meter-track"><div class="meter-fill" style="width:{float(row['all_types_correct_pct']) * 100:.1f}%;background:#67B85F;"></div></div>
+          <div class="meter-row-value" style="background:#67B85F;color:#FFF7E3;">{float(row['all_types_correct_pct']):.1%}</div>
+        </div>
+        <div class="oof-meter-row">
+          <div class="oof-meter-label">ONE TYPE CORRECT</div>
+          <div class="meter-track"><div class="meter-fill" style="width:{float(row['one_type_correct_pct']) * 100:.1f}%;background:#F7D64A;"></div></div>
+          <div class="meter-row-value" style="background:#F7D64A;color:#10203C;">{float(row['one_type_correct_pct']):.1%}</div>
+        </div>
+        <div class="oof-meter-row">
+          <div class="oof-meter-label">ZERO TYPE CORRECT</div>
+          <div class="meter-track"><div class="meter-fill" style="width:{float(row['zero_type_correct_pct']) * 100:.1f}%;background:#D94A3A;"></div></div>
+          <div class="meter-row-value" style="background:#D94A3A;color:#FFF7E3;">{float(row['zero_type_correct_pct']):.1%}</div>
+        </div>
+      </div>
+      <div class="note-card">This card uses grouped OOF evaluation, so each Pokemon is predicted by a model that did not train on that Pokemon.</div>
+    </div>
+    """
+
+
 def _render_app_shell(bundle: dict, page_label: str) -> None:
     type_reports = bundle.get("type_reports")
     battle_reports = bundle.get("battle_reports")
@@ -651,6 +703,10 @@ def inject_global_styles() -> None:
           margin-bottom: 1rem;
         }
 
+        .oof-panel {
+          background: linear-gradient(135deg, rgba(255,247,227,0.96), rgba(103,184,95,0.10));
+        }
+
         .mode-panel {
           background: linear-gradient(135deg, rgba(255,247,227,0.95), rgba(153,227,212,0.28));
           margin-bottom: 0.35rem;
@@ -687,6 +743,26 @@ def inject_global_styles() -> None:
         .legend-badge.deployment {
           background: rgba(217,74,58,0.12);
           border-color: rgba(151,44,34,0.36);
+        }
+
+        .oof-meter-shell {
+          display: flex;
+          flex-direction: column;
+          gap: 0.75rem;
+          margin-top: 0.9rem;
+        }
+
+        .oof-meter-row {
+          display: grid;
+          grid-template-columns: 160px 1fr 86px;
+          gap: 0.7rem;
+          align-items: center;
+        }
+
+        .oof-meter-label {
+          font-size: 1.12rem;
+          line-height: 1.05;
+          color: var(--shell-navy);
         }
 
         .panel-title {
@@ -1030,6 +1106,7 @@ def inject_global_styles() -> None:
           }
 
           .meter-row,
+          .oof-meter-row,
           .battle-meter-row {
             grid-template-columns: 1fr;
           }
@@ -1093,6 +1170,8 @@ def render_sidebar(bundle: dict) -> None:
         """,
         container=st.sidebar,
     )
+
+    _mount_html(_render_type_oof_summary_card(bundle), container=st.sidebar)
 
 
 def _render_type_overview_card(row: pd.Series, result: dict) -> str:
