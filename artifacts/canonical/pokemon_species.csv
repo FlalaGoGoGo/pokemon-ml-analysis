@@ -1,0 +1,1026 @@
+species_slug,species_display_name,dexnum_int,generation,gender_rate,capture_rate,base_happiness,hatch_counter,is_baby,is_legendary,is_mythical,color,shape,habitat,generation_name,growth_rate,egg_group1,egg_group2,percent_male,percent_female,evolution_chain_id,genus_en
+bulbasaur,Bulbasaur,1,1,1,45,70,20,0,0,0,Green,Quadruped,Grassland,generation-i,Medium Slow,Monster,Plant,87.5,12.5,1,Seed Pokémon
+ivysaur,Ivysaur,2,1,1,45,70,20,0,0,0,Green,Quadruped,Grassland,generation-i,Medium Slow,Monster,Plant,87.5,12.5,1,Seed Pokémon
+venusaur,Venusaur,3,1,1,45,70,20,0,0,0,Green,Quadruped,Grassland,generation-i,Medium Slow,Monster,Plant,87.5,12.5,1,Seed Pokémon
+charmander,Charmander,4,1,1,45,70,20,0,0,0,Red,Upright,Mountain,generation-i,Medium Slow,Monster,Dragon,87.5,12.5,2,Lizard Pokémon
+charmeleon,Charmeleon,5,1,1,45,70,20,0,0,0,Red,Upright,Mountain,generation-i,Medium Slow,Monster,Dragon,87.5,12.5,2,Flame Pokémon
+charizard,Charizard,6,1,1,45,70,20,0,0,0,Red,Upright,Mountain,generation-i,Medium Slow,Monster,Dragon,87.5,12.5,2,Flame Pokémon
+squirtle,Squirtle,7,1,1,45,70,20,0,0,0,Blue,Upright,Waters Edge,generation-i,Medium Slow,Monster,Water1,87.5,12.5,3,Tiny Turtle Pokémon
+wartortle,Wartortle,8,1,1,45,70,20,0,0,0,Blue,Upright,Waters Edge,generation-i,Medium Slow,Monster,Water1,87.5,12.5,3,Turtle Pokémon
+blastoise,Blastoise,9,1,1,45,70,20,0,0,0,Blue,Upright,Waters Edge,generation-i,Medium Slow,Monster,Water1,87.5,12.5,3,Shellfish Pokémon
+caterpie,Caterpie,10,1,4,255,70,15,0,0,0,Green,Armor,Forest,generation-i,Medium,Bug,Unknown,50.0,50.0,4,Worm Pokémon
+metapod,Metapod,11,1,4,120,70,15,0,0,0,Green,Squiggle,Forest,generation-i,Medium,Bug,Unknown,50.0,50.0,4,Cocoon Pokémon
+butterfree,Butterfree,12,1,4,45,70,15,0,0,0,White,Bug Wings,Forest,generation-i,Medium,Bug,Unknown,50.0,50.0,4,Butterfly Pokémon
+weedle,Weedle,13,1,4,255,70,15,0,0,0,Brown,Armor,Forest,generation-i,Medium,Bug,Unknown,50.0,50.0,5,Hairy Bug Pokémon
+kakuna,Kakuna,14,1,4,120,70,15,0,0,0,Yellow,Squiggle,Forest,generation-i,Medium,Bug,Unknown,50.0,50.0,5,Cocoon Pokémon
+beedrill,Beedrill,15,1,4,45,70,15,0,0,0,Yellow,Bug Wings,Forest,generation-i,Medium,Bug,Unknown,50.0,50.0,5,Poison Bee Pokémon
+pidgey,Pidgey,16,1,4,255,70,15,0,0,0,Brown,Wings,Forest,generation-i,Medium Slow,Flying,Unknown,50.0,50.0,6,Tiny Bird Pokémon
+pidgeotto,Pidgeotto,17,1,4,120,70,15,0,0,0,Brown,Wings,Forest,generation-i,Medium Slow,Flying,Unknown,50.0,50.0,6,Bird Pokémon
+pidgeot,Pidgeot,18,1,4,45,70,15,0,0,0,Brown,Wings,Forest,generation-i,Medium Slow,Flying,Unknown,50.0,50.0,6,Bird Pokémon
+rattata,Rattata,19,1,4,255,70,15,0,0,0,Purple,Quadruped,Grassland,generation-i,Medium,Ground,Unknown,50.0,50.0,7,Mouse Pokémon
+raticate,Raticate,20,1,4,127,70,15,0,0,0,Brown,Quadruped,Grassland,generation-i,Medium,Ground,Unknown,50.0,50.0,7,Mouse Pokémon
+spearow,Spearow,21,1,4,255,70,15,0,0,0,Brown,Wings,Rough Terrain,generation-i,Medium,Flying,Unknown,50.0,50.0,8,Tiny Bird Pokémon
+fearow,Fearow,22,1,4,90,70,15,0,0,0,Brown,Wings,Rough Terrain,generation-i,Medium,Flying,Unknown,50.0,50.0,8,Beak Pokémon
+ekans,Ekans,23,1,4,255,70,20,0,0,0,Purple,Squiggle,Grassland,generation-i,Medium,Ground,Dragon,50.0,50.0,9,Snake Pokémon
+arbok,Arbok,24,1,4,90,70,20,0,0,0,Purple,Squiggle,Grassland,generation-i,Medium,Ground,Dragon,50.0,50.0,9,Cobra Pokémon
+pikachu,Pikachu,25,1,4,190,70,10,0,0,0,Yellow,Quadruped,Forest,generation-i,Medium,Ground,Fairy,50.0,50.0,10,Mouse Pokémon
+raichu,Raichu,26,1,4,75,70,10,0,0,0,Yellow,Upright,Forest,generation-i,Medium,Ground,Fairy,50.0,50.0,10,Mouse Pokémon
+sandshrew,Sandshrew,27,1,4,255,70,20,0,0,0,Yellow,Upright,Rough Terrain,generation-i,Medium,Ground,Unknown,50.0,50.0,11,Mouse Pokémon
+sandslash,Sandslash,28,1,4,90,70,20,0,0,0,Yellow,Upright,Rough Terrain,generation-i,Medium,Ground,Unknown,50.0,50.0,11,Mouse Pokémon
+nidoran-f,Nidoran♀,29,1,8,235,70,20,0,0,0,Blue,Quadruped,Grassland,generation-i,Medium Slow,Monster,Ground,0.0,100.0,12,Poison Pin Pokémon
+nidorina,Nidorina,30,1,8,120,70,20,0,0,0,Blue,Quadruped,Grassland,generation-i,Medium Slow,No Eggs,Unknown,0.0,100.0,12,Poison Pin Pokémon
+nidoqueen,Nidoqueen,31,1,8,45,70,20,0,0,0,Blue,Upright,Grassland,generation-i,Medium Slow,No Eggs,Unknown,0.0,100.0,12,Drill Pokémon
+nidoran-m,Nidoran♂,32,1,0,235,70,20,0,0,0,Purple,Quadruped,Grassland,generation-i,Medium Slow,Monster,Ground,100.0,0.0,13,Poison Pin Pokémon
+nidorino,Nidorino,33,1,0,120,70,20,0,0,0,Purple,Quadruped,Grassland,generation-i,Medium Slow,Monster,Ground,100.0,0.0,13,Poison Pin Pokémon
+nidoking,Nidoking,34,1,0,45,70,20,0,0,0,Purple,Upright,Grassland,generation-i,Medium Slow,Monster,Ground,100.0,0.0,13,Drill Pokémon
+clefairy,Clefairy,35,1,6,150,140,10,0,0,0,Pink,Upright,Mountain,generation-i,Fast,Fairy,Unknown,25.0,75.0,14,Fairy Pokémon
+clefable,Clefable,36,1,6,25,140,10,0,0,0,Pink,Upright,Mountain,generation-i,Fast,Fairy,Unknown,25.0,75.0,14,Fairy Pokémon
+vulpix,Vulpix,37,1,6,190,70,20,0,0,0,Brown,Quadruped,Grassland,generation-i,Medium,Ground,Unknown,25.0,75.0,15,Fox Pokémon
+ninetales,Ninetales,38,1,6,75,70,20,0,0,0,Yellow,Quadruped,Grassland,generation-i,Medium,Ground,Unknown,25.0,75.0,15,Fox Pokémon
+jigglypuff,Jigglypuff,39,1,6,170,70,10,0,0,0,Pink,Humanoid,Grassland,generation-i,Fast,Fairy,Unknown,25.0,75.0,16,Balloon Pokémon
+wigglytuff,Wigglytuff,40,1,6,50,70,10,0,0,0,Pink,Humanoid,Grassland,generation-i,Fast,Fairy,Unknown,25.0,75.0,16,Balloon Pokémon
+zubat,Zubat,41,1,4,255,70,15,0,0,0,Purple,Wings,Cave,generation-i,Medium,Flying,Unknown,50.0,50.0,17,Bat Pokémon
+golbat,Golbat,42,1,4,90,70,15,0,0,0,Purple,Wings,Cave,generation-i,Medium,Flying,Unknown,50.0,50.0,17,Bat Pokémon
+oddish,Oddish,43,1,4,255,70,20,0,0,0,Blue,Legs,Grassland,generation-i,Medium Slow,Plant,Unknown,50.0,50.0,18,Weed Pokémon
+gloom,Gloom,44,1,4,120,70,20,0,0,0,Blue,Humanoid,Grassland,generation-i,Medium Slow,Plant,Unknown,50.0,50.0,18,Weed Pokémon
+vileplume,Vileplume,45,1,4,45,70,20,0,0,0,Red,Humanoid,Grassland,generation-i,Medium Slow,Plant,Unknown,50.0,50.0,18,Flower Pokémon
+paras,Paras,46,1,4,190,70,20,0,0,0,Red,Armor,Forest,generation-i,Medium,Bug,Plant,50.0,50.0,19,Mushroom Pokémon
+parasect,Parasect,47,1,4,75,70,20,0,0,0,Red,Armor,Forest,generation-i,Medium,Bug,Plant,50.0,50.0,19,Mushroom Pokémon
+venonat,Venonat,48,1,4,190,70,20,0,0,0,Purple,Humanoid,Forest,generation-i,Medium,Bug,Unknown,50.0,50.0,20,Insect Pokémon
+venomoth,Venomoth,49,1,4,75,70,20,0,0,0,Purple,Bug Wings,Forest,generation-i,Medium,Bug,Unknown,50.0,50.0,20,Poison Moth Pokémon
+diglett,Diglett,50,1,4,255,70,20,0,0,0,Brown,Blob,Cave,generation-i,Medium,Ground,Unknown,50.0,50.0,21,Mole Pokémon
+dugtrio,Dugtrio,51,1,4,50,70,20,0,0,0,Brown,Heads,Cave,generation-i,Medium,Ground,Unknown,50.0,50.0,21,Mole Pokémon
+meowth,Meowth,52,1,4,255,70,20,0,0,0,Yellow,Quadruped,Urban,generation-i,Medium,Ground,Unknown,50.0,50.0,22,Scratch Cat Pokémon
+persian,Persian,53,1,4,90,70,20,0,0,0,Yellow,Quadruped,Urban,generation-i,Medium,Ground,Unknown,50.0,50.0,22,Classy Cat Pokémon
+psyduck,Psyduck,54,1,4,190,70,20,0,0,0,Yellow,Upright,Waters Edge,generation-i,Medium,Water1,Ground,50.0,50.0,23,Duck Pokémon
+golduck,Golduck,55,1,4,75,70,20,0,0,0,Blue,Upright,Waters Edge,generation-i,Medium,Water1,Ground,50.0,50.0,23,Duck Pokémon
+mankey,Mankey,56,1,4,190,70,20,0,0,0,Brown,Upright,Mountain,generation-i,Medium,Ground,Unknown,50.0,50.0,24,Pig Monkey Pokémon
+primeape,Primeape,57,1,4,75,70,20,0,0,0,Brown,Upright,Mountain,generation-i,Medium,Ground,Unknown,50.0,50.0,24,Pig Monkey Pokémon
+growlithe,Growlithe,58,1,2,190,70,20,0,0,0,Brown,Quadruped,Grassland,generation-i,Slow,Ground,Unknown,75.0,25.0,25,Puppy Pokémon
+arcanine,Arcanine,59,1,2,75,70,20,0,0,0,Brown,Quadruped,Grassland,generation-i,Slow,Ground,Unknown,75.0,25.0,25,Legendary Pokémon
+poliwag,Poliwag,60,1,4,255,70,20,0,0,0,Blue,Legs,Waters Edge,generation-i,Medium Slow,Water1,Unknown,50.0,50.0,26,Tadpole Pokémon
+poliwhirl,Poliwhirl,61,1,4,120,70,20,0,0,0,Blue,Humanoid,Waters Edge,generation-i,Medium Slow,Water1,Unknown,50.0,50.0,26,Tadpole Pokémon
+poliwrath,Poliwrath,62,1,4,45,70,20,0,0,0,Blue,Humanoid,Waters Edge,generation-i,Medium Slow,Water1,Unknown,50.0,50.0,26,Tadpole Pokémon
+abra,Abra,63,1,2,200,70,20,0,0,0,Brown,Upright,Urban,generation-i,Medium Slow,Humanshape,Unknown,75.0,25.0,27,Psi Pokémon
+kadabra,Kadabra,64,1,2,100,70,20,0,0,0,Brown,Upright,Urban,generation-i,Medium Slow,Humanshape,Unknown,75.0,25.0,27,Psi Pokémon
+alakazam,Alakazam,65,1,2,50,70,20,0,0,0,Brown,Humanoid,Urban,generation-i,Medium Slow,Humanshape,Unknown,75.0,25.0,27,Psi Pokémon
+machop,Machop,66,1,2,180,70,20,0,0,0,Gray,Upright,Mountain,generation-i,Medium Slow,Humanshape,Unknown,75.0,25.0,28,Superpower Pokémon
+machoke,Machoke,67,1,2,90,70,20,0,0,0,Gray,Humanoid,Mountain,generation-i,Medium Slow,Humanshape,Unknown,75.0,25.0,28,Superpower Pokémon
+machamp,Machamp,68,1,2,45,70,20,0,0,0,Gray,Humanoid,Mountain,generation-i,Medium Slow,Humanshape,Unknown,75.0,25.0,28,Superpower Pokémon
+bellsprout,Bellsprout,69,1,4,255,70,20,0,0,0,Green,Humanoid,Forest,generation-i,Medium Slow,Plant,Unknown,50.0,50.0,29,Flower Pokémon
+weepinbell,Weepinbell,70,1,4,120,70,20,0,0,0,Green,Blob,Forest,generation-i,Medium Slow,Plant,Unknown,50.0,50.0,29,Flycatcher Pokémon
+victreebel,Victreebel,71,1,4,45,70,20,0,0,0,Green,Blob,Forest,generation-i,Medium Slow,Plant,Unknown,50.0,50.0,29,Flycatcher Pokémon
+tentacool,Tentacool,72,1,4,190,70,20,0,0,0,Blue,Tentacles,Sea,generation-i,Slow,Water3,Unknown,50.0,50.0,30,Jellyfish Pokémon
+tentacruel,Tentacruel,73,1,4,60,70,20,0,0,0,Blue,Tentacles,Sea,generation-i,Slow,Water3,Unknown,50.0,50.0,30,Jellyfish Pokémon
+geodude,Geodude,74,1,4,255,70,15,0,0,0,Brown,Arms,Mountain,generation-i,Medium Slow,Mineral,Unknown,50.0,50.0,31,Rock Pokémon
+graveler,Graveler,75,1,4,120,70,15,0,0,0,Brown,Humanoid,Mountain,generation-i,Medium Slow,Mineral,Unknown,50.0,50.0,31,Rock Pokémon
+golem,Golem,76,1,4,45,70,15,0,0,0,Brown,Humanoid,Mountain,generation-i,Medium Slow,Mineral,Unknown,50.0,50.0,31,Megaton Pokémon
+ponyta,Ponyta,77,1,4,190,70,20,0,0,0,Yellow,Quadruped,Grassland,generation-i,Medium,Ground,Unknown,50.0,50.0,32,Fire Horse Pokémon
+rapidash,Rapidash,78,1,4,60,70,20,0,0,0,Yellow,Quadruped,Grassland,generation-i,Medium,Ground,Unknown,50.0,50.0,32,Fire Horse Pokémon
+slowpoke,Slowpoke,79,1,4,190,70,20,0,0,0,Pink,Quadruped,Waters Edge,generation-i,Medium,Monster,Water1,50.0,50.0,33,Dopey Pokémon
+slowbro,Slowbro,80,1,4,75,70,20,0,0,0,Pink,Upright,Waters Edge,generation-i,Medium,Monster,Water1,50.0,50.0,33,Hermit Crab Pokémon
+magnemite,Magnemite,81,1,-1,190,70,20,0,0,0,Gray,Arms,Rough Terrain,generation-i,Medium,Mineral,Unknown,,,34,Magnet Pokémon
+magneton,Magneton,82,1,-1,60,70,20,0,0,0,Gray,Heads,Rough Terrain,generation-i,Medium,Mineral,Unknown,,,34,Magnet Pokémon
+farfetchd,Farfetch’d,83,1,4,45,70,20,0,0,0,Brown,Wings,Grassland,generation-i,Medium,Flying,Ground,50.0,50.0,35,Wild Duck Pokémon
+doduo,Doduo,84,1,4,190,70,20,0,0,0,Brown,Legs,Grassland,generation-i,Medium,Flying,Unknown,50.0,50.0,36,Twin Bird Pokémon
+dodrio,Dodrio,85,1,4,45,70,20,0,0,0,Brown,Legs,Grassland,generation-i,Medium,Flying,Unknown,50.0,50.0,36,Triple Bird Pokémon
+seel,Seel,86,1,4,190,70,20,0,0,0,White,Fish,Sea,generation-i,Medium,Water1,Ground,50.0,50.0,37,Sea Lion Pokémon
+dewgong,Dewgong,87,1,4,75,70,20,0,0,0,White,Fish,Sea,generation-i,Medium,Water1,Ground,50.0,50.0,37,Sea Lion Pokémon
+grimer,Grimer,88,1,4,190,70,20,0,0,0,Purple,Arms,Urban,generation-i,Medium,Indeterminate,Unknown,50.0,50.0,38,Sludge Pokémon
+muk,Muk,89,1,4,75,70,20,0,0,0,Purple,Arms,Urban,generation-i,Medium,Indeterminate,Unknown,50.0,50.0,38,Sludge Pokémon
+shellder,Shellder,90,1,4,190,70,20,0,0,0,Purple,Ball,Sea,generation-i,Slow,Water3,Unknown,50.0,50.0,39,Bivalve Pokémon
+cloyster,Cloyster,91,1,4,60,70,20,0,0,0,Purple,Ball,Sea,generation-i,Slow,Water3,Unknown,50.0,50.0,39,Bivalve Pokémon
+gastly,Gastly,92,1,4,190,70,20,0,0,0,Purple,Ball,Cave,generation-i,Medium Slow,Indeterminate,Unknown,50.0,50.0,40,Gas Pokémon
+haunter,Haunter,93,1,4,90,70,20,0,0,0,Purple,Arms,Cave,generation-i,Medium Slow,Indeterminate,Unknown,50.0,50.0,40,Gas Pokémon
+gengar,Gengar,94,1,4,45,70,20,0,0,0,Purple,Upright,Cave,generation-i,Medium Slow,Indeterminate,Unknown,50.0,50.0,40,Shadow Pokémon
+onix,Onix,95,1,4,45,70,25,0,0,0,Gray,Squiggle,Cave,generation-i,Medium,Mineral,Unknown,50.0,50.0,41,Rock Snake Pokémon
+drowzee,Drowzee,96,1,4,190,70,20,0,0,0,Yellow,Humanoid,Grassland,generation-i,Medium,Humanshape,Unknown,50.0,50.0,42,Hypnosis Pokémon
+hypno,Hypno,97,1,4,75,70,20,0,0,0,Yellow,Humanoid,Grassland,generation-i,Medium,Humanshape,Unknown,50.0,50.0,42,Hypnosis Pokémon
+krabby,Krabby,98,1,4,225,70,20,0,0,0,Red,Armor,Waters Edge,generation-i,Medium,Water3,Unknown,50.0,50.0,43,River Crab Pokémon
+kingler,Kingler,99,1,4,60,70,20,0,0,0,Red,Armor,Waters Edge,generation-i,Medium,Water3,Unknown,50.0,50.0,43,Pincer Pokémon
+voltorb,Voltorb,100,1,-1,190,70,20,0,0,0,Red,Ball,Urban,generation-i,Medium,Mineral,Unknown,,,44,Ball Pokémon
+electrode,Electrode,101,1,-1,60,70,20,0,0,0,Red,Ball,Urban,generation-i,Medium,Mineral,Unknown,,,44,Ball Pokémon
+exeggcute,Exeggcute,102,1,4,90,70,20,0,0,0,Pink,Heads,Forest,generation-i,Slow,Plant,Unknown,50.0,50.0,45,Egg Pokémon
+exeggutor,Exeggutor,103,1,4,45,70,20,0,0,0,Yellow,Legs,Forest,generation-i,Slow,Plant,Unknown,50.0,50.0,45,Coconut Pokémon
+cubone,Cubone,104,1,4,190,70,20,0,0,0,Brown,Upright,Mountain,generation-i,Medium,Monster,Unknown,50.0,50.0,46,Lonely Pokémon
+marowak,Marowak,105,1,4,75,70,20,0,0,0,Brown,Upright,Mountain,generation-i,Medium,Monster,Unknown,50.0,50.0,46,Bone Keeper Pokémon
+hitmonlee,Hitmonlee,106,1,0,45,70,25,0,0,0,Brown,Humanoid,Urban,generation-i,Medium,Humanshape,Unknown,100.0,0.0,47,Kicking Pokémon
+hitmonchan,Hitmonchan,107,1,0,45,70,25,0,0,0,Brown,Humanoid,Urban,generation-i,Medium,Humanshape,Unknown,100.0,0.0,47,Punching Pokémon
+lickitung,Lickitung,108,1,4,45,70,20,0,0,0,Pink,Upright,Grassland,generation-i,Medium,Monster,Unknown,50.0,50.0,48,Licking Pokémon
+koffing,Koffing,109,1,4,190,70,20,0,0,0,Purple,Ball,Urban,generation-i,Medium,Indeterminate,Unknown,50.0,50.0,49,Poison Gas Pokémon
+weezing,Weezing,110,1,4,60,70,20,0,0,0,Purple,Heads,Urban,generation-i,Medium,Indeterminate,Unknown,50.0,50.0,49,Poison Gas Pokémon
+rhyhorn,Rhyhorn,111,1,4,120,70,20,0,0,0,Gray,Quadruped,Rough Terrain,generation-i,Slow,Monster,Ground,50.0,50.0,50,Spikes Pokémon
+rhydon,Rhydon,112,1,4,60,70,20,0,0,0,Gray,Upright,Rough Terrain,generation-i,Slow,Monster,Ground,50.0,50.0,50,Drill Pokémon
+chansey,Chansey,113,1,8,30,140,40,0,0,0,Pink,Upright,Urban,generation-i,Fast,Fairy,Unknown,0.0,100.0,51,Egg Pokémon
+tangela,Tangela,114,1,4,45,70,20,0,0,0,Blue,Legs,Grassland,generation-i,Medium,Plant,Unknown,50.0,50.0,52,Vine Pokémon
+kangaskhan,Kangaskhan,115,1,8,45,70,20,0,0,0,Brown,Upright,Grassland,generation-i,Medium,Monster,Unknown,0.0,100.0,53,Parent Pokémon
+horsea,Horsea,116,1,4,225,70,20,0,0,0,Blue,Blob,Sea,generation-i,Medium,Water1,Dragon,50.0,50.0,54,Dragon Pokémon
+seadra,Seadra,117,1,4,75,70,20,0,0,0,Blue,Blob,Sea,generation-i,Medium,Water1,Dragon,50.0,50.0,54,Dragon Pokémon
+goldeen,Goldeen,118,1,4,225,70,20,0,0,0,Red,Fish,Waters Edge,generation-i,Medium,Water2,Unknown,50.0,50.0,55,Goldfish Pokémon
+seaking,Seaking,119,1,4,60,70,20,0,0,0,Red,Fish,Waters Edge,generation-i,Medium,Water2,Unknown,50.0,50.0,55,Goldfish Pokémon
+staryu,Staryu,120,1,-1,225,70,20,0,0,0,Brown,Blob,Sea,generation-i,Slow,Water3,Unknown,,,56,Star Shape Pokémon
+starmie,Starmie,121,1,-1,60,70,20,0,0,0,Purple,Blob,Sea,generation-i,Slow,Water3,Unknown,,,56,Mysterious Pokémon
+mr-mime,Mr. Mime,122,1,4,45,70,25,0,0,0,Pink,Humanoid,Urban,generation-i,Medium,Humanshape,Unknown,50.0,50.0,57,Barrier Pokémon
+scyther,Scyther,123,1,4,45,70,25,0,0,0,Green,Bug Wings,Grassland,generation-i,Medium,Bug,Unknown,50.0,50.0,58,Mantis Pokémon
+jynx,Jynx,124,1,8,45,70,25,0,0,0,Red,Humanoid,Urban,generation-i,Medium,Humanshape,Unknown,0.0,100.0,59,Human Shape Pokémon
+electabuzz,Electabuzz,125,1,2,45,70,25,0,0,0,Yellow,Upright,Grassland,generation-i,Medium,Humanshape,Unknown,75.0,25.0,60,Electric Pokémon
+magmar,Magmar,126,1,2,45,70,25,0,0,0,Red,Upright,Mountain,generation-i,Medium,Humanshape,Unknown,75.0,25.0,61,Spitfire Pokémon
+pinsir,Pinsir,127,1,4,45,70,25,0,0,0,Brown,Humanoid,Forest,generation-i,Slow,Bug,Unknown,50.0,50.0,62,Stag Beetle Pokémon
+tauros,Tauros,128,1,0,45,70,20,0,0,0,Brown,Quadruped,Grassland,generation-i,Slow,Ground,Unknown,100.0,0.0,63,Wild Bull Pokémon
+magikarp,Magikarp,129,1,4,255,70,5,0,0,0,Red,Fish,Waters Edge,generation-i,Slow,Water2,Dragon,50.0,50.0,64,Fish Pokémon
+gyarados,Gyarados,130,1,4,45,70,5,0,0,0,Blue,Squiggle,Waters Edge,generation-i,Slow,Water2,Dragon,50.0,50.0,64,Atrocious Pokémon
+lapras,Lapras,131,1,4,45,70,40,0,0,0,Blue,Fish,Sea,generation-i,Slow,Monster,Water1,50.0,50.0,65,Transport Pokémon
+ditto,Ditto,132,1,-1,35,70,20,0,0,0,Purple,Ball,Urban,generation-i,Medium,Ditto,Unknown,,,66,Transform Pokémon
+eevee,Eevee,133,1,1,45,70,35,0,0,0,Brown,Quadruped,Urban,generation-i,Medium,Ground,Unknown,87.5,12.5,67,Evolution Pokémon
+vaporeon,Vaporeon,134,1,1,45,70,35,0,0,0,Blue,Quadruped,Urban,generation-i,Medium,Ground,Unknown,87.5,12.5,67,Bubble Jet Pokémon
+jolteon,Jolteon,135,1,1,45,70,35,0,0,0,Yellow,Quadruped,Urban,generation-i,Medium,Ground,Unknown,87.5,12.5,67,Lightning Pokémon
+flareon,Flareon,136,1,1,45,70,35,0,0,0,Red,Quadruped,Urban,generation-i,Medium,Ground,Unknown,87.5,12.5,67,Flame Pokémon
+porygon,Porygon,137,1,-1,45,70,20,0,0,0,Pink,Legs,Urban,generation-i,Medium,Mineral,Unknown,,,68,Virtual Pokémon
+omanyte,Omanyte,138,1,1,45,70,30,0,0,0,Blue,Tentacles,Sea,generation-i,Medium,Water1,Water3,87.5,12.5,69,Spiral Pokémon
+omastar,Omastar,139,1,1,45,70,30,0,0,0,Blue,Tentacles,Sea,generation-i,Medium,Water1,Water3,87.5,12.5,69,Spiral Pokémon
+kabuto,Kabuto,140,1,1,45,70,30,0,0,0,Brown,Armor,Sea,generation-i,Medium,Water1,Water3,87.5,12.5,70,Shellfish Pokémon
+kabutops,Kabutops,141,1,1,45,70,30,0,0,0,Brown,Upright,Sea,generation-i,Medium,Water1,Water3,87.5,12.5,70,Shellfish Pokémon
+aerodactyl,Aerodactyl,142,1,1,45,70,35,0,0,0,Purple,Wings,Mountain,generation-i,Slow,Flying,Unknown,87.5,12.5,71,Fossil Pokémon
+snorlax,Snorlax,143,1,1,25,70,40,0,0,0,Black,Humanoid,Mountain,generation-i,Slow,Monster,Unknown,87.5,12.5,72,Sleeping Pokémon
+articuno,Articuno,144,1,-1,3,35,80,0,1,0,Blue,Wings,Rare,generation-i,Slow,No Eggs,Unknown,,,73,Freeze Pokémon
+zapdos,Zapdos,145,1,-1,3,35,80,0,1,0,Yellow,Wings,Rare,generation-i,Slow,No Eggs,Unknown,,,74,Electric Pokémon
+moltres,Moltres,146,1,-1,3,35,80,0,1,0,Yellow,Wings,Rare,generation-i,Slow,No Eggs,Unknown,,,75,Flame Pokémon
+dratini,Dratini,147,1,4,45,35,40,0,0,0,Blue,Squiggle,Waters Edge,generation-i,Slow,Water1,Dragon,50.0,50.0,76,Dragon Pokémon
+dragonair,Dragonair,148,1,4,45,35,40,0,0,0,Blue,Squiggle,Waters Edge,generation-i,Slow,Water1,Dragon,50.0,50.0,76,Dragon Pokémon
+dragonite,Dragonite,149,1,4,45,35,40,0,0,0,Brown,Upright,Waters Edge,generation-i,Slow,Water1,Dragon,50.0,50.0,76,Dragon Pokémon
+mewtwo,Mewtwo,150,1,-1,3,0,120,0,1,0,Purple,Upright,Rare,generation-i,Slow,No Eggs,Unknown,,,77,Genetic Pokémon
+mew,Mew,151,1,-1,45,100,120,0,0,1,Pink,Upright,Rare,generation-i,Medium Slow,No Eggs,Unknown,,,78,New Species Pokémon
+chikorita,Chikorita,152,2,1,45,70,20,0,0,0,Green,Quadruped,Grassland,generation-ii,Medium Slow,Monster,Plant,87.5,12.5,79,Leaf Pokémon
+bayleef,Bayleef,153,2,1,45,70,20,0,0,0,Green,Quadruped,Grassland,generation-ii,Medium Slow,Monster,Plant,87.5,12.5,79,Leaf Pokémon
+meganium,Meganium,154,2,1,45,70,20,0,0,0,Green,Quadruped,Grassland,generation-ii,Medium Slow,Monster,Plant,87.5,12.5,79,Herb Pokémon
+cyndaquil,Cyndaquil,155,2,1,45,70,20,0,0,0,Yellow,Humanoid,Grassland,generation-ii,Medium Slow,Ground,Unknown,87.5,12.5,80,Fire Mouse Pokémon
+quilava,Quilava,156,2,1,45,70,20,0,0,0,Yellow,Quadruped,Grassland,generation-ii,Medium Slow,Ground,Unknown,87.5,12.5,80,Volcano Pokémon
+typhlosion,Typhlosion,157,2,1,45,70,20,0,0,0,Yellow,Quadruped,Grassland,generation-ii,Medium Slow,Ground,Unknown,87.5,12.5,80,Volcano Pokémon
+totodile,Totodile,158,2,1,45,70,20,0,0,0,Blue,Upright,Waters Edge,generation-ii,Medium Slow,Monster,Water1,87.5,12.5,81,Big Jaw Pokémon
+croconaw,Croconaw,159,2,1,45,70,20,0,0,0,Blue,Upright,Waters Edge,generation-ii,Medium Slow,Monster,Water1,87.5,12.5,81,Big Jaw Pokémon
+feraligatr,Feraligatr,160,2,1,45,70,20,0,0,0,Blue,Upright,Waters Edge,generation-ii,Medium Slow,Monster,Water1,87.5,12.5,81,Big Jaw Pokémon
+sentret,Sentret,161,2,4,255,70,15,0,0,0,Brown,Quadruped,Grassland,generation-ii,Medium,Ground,Unknown,50.0,50.0,82,Scout Pokémon
+furret,Furret,162,2,4,90,70,15,0,0,0,Brown,Quadruped,Grassland,generation-ii,Medium,Ground,Unknown,50.0,50.0,82,Long Body Pokémon
+hoothoot,Hoothoot,163,2,4,255,70,15,0,0,0,Brown,Wings,Forest,generation-ii,Medium,Flying,Unknown,50.0,50.0,83,Owl Pokémon
+noctowl,Noctowl,164,2,4,90,70,15,0,0,0,Brown,Wings,Forest,generation-ii,Medium,Flying,Unknown,50.0,50.0,83,Owl Pokémon
+ledyba,Ledyba,165,2,4,255,70,15,0,0,0,Red,Wings,Forest,generation-ii,Fast,Bug,Unknown,50.0,50.0,84,Five Star Pokémon
+ledian,Ledian,166,2,4,90,70,15,0,0,0,Red,Wings,Forest,generation-ii,Fast,Bug,Unknown,50.0,50.0,84,Five Star Pokémon
+spinarak,Spinarak,167,2,4,255,70,15,0,0,0,Green,Armor,Forest,generation-ii,Fast,Bug,Unknown,50.0,50.0,85,String Spit Pokémon
+ariados,Ariados,168,2,4,90,70,15,0,0,0,Red,Armor,Forest,generation-ii,Fast,Bug,Unknown,50.0,50.0,85,Long Leg Pokémon
+crobat,Crobat,169,2,4,90,70,15,0,0,0,Purple,Bug Wings,Cave,generation-ii,Medium,Flying,Unknown,50.0,50.0,17,Bat Pokémon
+chinchou,Chinchou,170,2,4,190,70,20,0,0,0,Blue,Fish,Sea,generation-ii,Slow,Water2,Unknown,50.0,50.0,86,Angler Pokémon
+lanturn,Lanturn,171,2,4,75,70,20,0,0,0,Blue,Fish,Sea,generation-ii,Slow,Water2,Unknown,50.0,50.0,86,Light Pokémon
+pichu,Pichu,172,2,4,190,70,10,1,0,0,Yellow,Quadruped,Forest,generation-ii,Medium,No Eggs,Unknown,50.0,50.0,10,Tiny Mouse Pokémon
+cleffa,Cleffa,173,2,6,150,140,10,1,0,0,Pink,Upright,Mountain,generation-ii,Fast,No Eggs,Unknown,25.0,75.0,14,Star Shape Pokémon
+igglybuff,Igglybuff,174,2,6,170,70,10,1,0,0,Pink,Humanoid,Grassland,generation-ii,Fast,No Eggs,Unknown,25.0,75.0,16,Balloon Pokémon
+togepi,Togepi,175,2,1,190,70,10,1,0,0,White,Humanoid,Forest,generation-ii,Fast,No Eggs,Unknown,87.5,12.5,87,Spike Ball Pokémon
+togetic,Togetic,176,2,1,75,70,10,0,0,0,White,Humanoid,Forest,generation-ii,Fast,Flying,Fairy,87.5,12.5,87,Happiness Pokémon
+natu,Natu,177,2,4,190,70,20,0,0,0,Green,Wings,Forest,generation-ii,Medium,Flying,Unknown,50.0,50.0,88,Tiny Bird Pokémon
+xatu,Xatu,178,2,4,75,70,20,0,0,0,Green,Wings,Forest,generation-ii,Medium,Flying,Unknown,50.0,50.0,88,Mystic Pokémon
+mareep,Mareep,179,2,4,235,70,20,0,0,0,White,Quadruped,Grassland,generation-ii,Medium Slow,Monster,Ground,50.0,50.0,89,Wool Pokémon
+flaaffy,Flaaffy,180,2,4,120,70,20,0,0,0,Pink,Upright,Grassland,generation-ii,Medium Slow,Monster,Ground,50.0,50.0,89,Wool Pokémon
+ampharos,Ampharos,181,2,4,45,70,20,0,0,0,Yellow,Upright,Grassland,generation-ii,Medium Slow,Monster,Ground,50.0,50.0,89,Light Pokémon
+bellossom,Bellossom,182,2,4,45,70,20,0,0,0,Green,Humanoid,Grassland,generation-ii,Medium Slow,Plant,Unknown,50.0,50.0,18,Flower Pokémon
+marill,Marill,183,2,4,190,70,10,0,0,0,Blue,Upright,Waters Edge,generation-ii,Fast,Water1,Fairy,50.0,50.0,90,Aqua Mouse Pokémon
+azumarill,Azumarill,184,2,4,75,70,10,0,0,0,Blue,Upright,Waters Edge,generation-ii,Fast,Water1,Fairy,50.0,50.0,90,Aqua Rabbit Pokémon
+sudowoodo,Sudowoodo,185,2,4,65,70,20,0,0,0,Brown,Humanoid,Forest,generation-ii,Medium,Mineral,Unknown,50.0,50.0,91,Imitation Pokémon
+politoed,Politoed,186,2,4,45,70,20,0,0,0,Green,Humanoid,Waters Edge,generation-ii,Medium Slow,Water1,Unknown,50.0,50.0,26,Frog Pokémon
+hoppip,Hoppip,187,2,4,255,70,20,0,0,0,Pink,Upright,Grassland,generation-ii,Medium Slow,Fairy,Plant,50.0,50.0,92,Cottonweed Pokémon
+skiploom,Skiploom,188,2,4,120,70,20,0,0,0,Green,Upright,Grassland,generation-ii,Medium Slow,Fairy,Plant,50.0,50.0,92,Cottonweed Pokémon
+jumpluff,Jumpluff,189,2,4,45,70,20,0,0,0,Blue,Upright,Grassland,generation-ii,Medium Slow,Fairy,Plant,50.0,50.0,92,Cottonweed Pokémon
+aipom,Aipom,190,2,4,45,70,20,0,0,0,Purple,Upright,Forest,generation-ii,Fast,Ground,Unknown,50.0,50.0,93,Long Tail Pokémon
+sunkern,Sunkern,191,2,4,235,70,20,0,0,0,Yellow,Ball,Grassland,generation-ii,Medium Slow,Plant,Unknown,50.0,50.0,94,Seed Pokémon
+sunflora,Sunflora,192,2,4,120,70,20,0,0,0,Yellow,Humanoid,Grassland,generation-ii,Medium Slow,Plant,Unknown,50.0,50.0,94,Sun Pokémon
+yanma,Yanma,193,2,4,75,70,20,0,0,0,Red,Bug Wings,Forest,generation-ii,Medium,Bug,Unknown,50.0,50.0,95,Clear Wing Pokémon
+wooper,Wooper,194,2,4,255,70,20,0,0,0,Blue,Legs,Waters Edge,generation-ii,Medium,Water1,Ground,50.0,50.0,96,Water Fish Pokémon
+quagsire,Quagsire,195,2,4,90,70,20,0,0,0,Blue,Upright,Waters Edge,generation-ii,Medium,Water1,Ground,50.0,50.0,96,Water Fish Pokémon
+espeon,Espeon,196,2,1,45,70,35,0,0,0,Purple,Quadruped,Urban,generation-ii,Medium,Ground,Unknown,87.5,12.5,67,Sun Pokémon
+umbreon,Umbreon,197,2,1,45,35,35,0,0,0,Black,Quadruped,Urban,generation-ii,Medium,Ground,Unknown,87.5,12.5,67,Moonlight Pokémon
+murkrow,Murkrow,198,2,4,30,35,20,0,0,0,Black,Wings,Forest,generation-ii,Medium Slow,Flying,Unknown,50.0,50.0,97,Darkness Pokémon
+slowking,Slowking,199,2,4,70,70,20,0,0,0,Pink,Upright,Waters Edge,generation-ii,Medium,Monster,Water1,50.0,50.0,33,Royal Pokémon
+misdreavus,Misdreavus,200,2,4,45,35,25,0,0,0,Gray,Ball,Cave,generation-ii,Fast,Indeterminate,Unknown,50.0,50.0,98,Screech Pokémon
+unown,Unown,201,2,-1,225,70,40,0,0,0,Black,Ball,Rare,generation-ii,Medium,No Eggs,Unknown,,,99,Symbol Pokémon
+wobbuffet,Wobbuffet,202,2,4,45,70,20,0,0,0,Blue,Blob,Cave,generation-ii,Medium,Indeterminate,Unknown,50.0,50.0,100,Patient Pokémon
+girafarig,Girafarig,203,2,4,60,70,20,0,0,0,Yellow,Quadruped,Grassland,generation-ii,Medium,Ground,Unknown,50.0,50.0,101,Long Neck Pokémon
+pineco,Pineco,204,2,4,190,70,20,0,0,0,Gray,Ball,Forest,generation-ii,Medium,Bug,Unknown,50.0,50.0,102,Bagworm Pokémon
+forretress,Forretress,205,2,4,75,70,20,0,0,0,Purple,Ball,Forest,generation-ii,Medium,Bug,Unknown,50.0,50.0,102,Bagworm Pokémon
+dunsparce,Dunsparce,206,2,4,190,70,20,0,0,0,Yellow,Squiggle,Cave,generation-ii,Medium,Ground,Unknown,50.0,50.0,103,Land Snake Pokémon
+gligar,Gligar,207,2,4,60,70,20,0,0,0,Purple,Wings,Mountain,generation-ii,Medium Slow,Bug,Unknown,50.0,50.0,104,Fly Scorpion Pokémon
+steelix,Steelix,208,2,4,25,70,25,0,0,0,Gray,Squiggle,Cave,generation-ii,Medium,Mineral,Unknown,50.0,50.0,41,Iron Snake Pokémon
+snubbull,Snubbull,209,2,6,190,70,20,0,0,0,Pink,Humanoid,Urban,generation-ii,Fast,Ground,Fairy,25.0,75.0,105,Fairy Pokémon
+granbull,Granbull,210,2,6,75,70,20,0,0,0,Purple,Upright,Urban,generation-ii,Fast,Ground,Fairy,25.0,75.0,105,Fairy Pokémon
+qwilfish,Qwilfish,211,2,4,45,70,20,0,0,0,Gray,Fish,Sea,generation-ii,Medium,Water2,Unknown,50.0,50.0,106,Balloon Pokémon
+scizor,Scizor,212,2,4,25,70,25,0,0,0,Red,Bug Wings,Grassland,generation-ii,Medium,Bug,Unknown,50.0,50.0,58,Pincer Pokémon
+shuckle,Shuckle,213,2,4,190,70,20,0,0,0,Yellow,Armor,Mountain,generation-ii,Medium Slow,Bug,Unknown,50.0,50.0,107,Mold Pokémon
+heracross,Heracross,214,2,4,45,70,25,0,0,0,Blue,Humanoid,Forest,generation-ii,Slow,Bug,Unknown,50.0,50.0,108,Single Horn Pokémon
+sneasel,Sneasel,215,2,4,60,35,20,0,0,0,Black,Upright,Forest,generation-ii,Medium Slow,Ground,Unknown,50.0,50.0,109,Sharp Claw Pokémon
+teddiursa,Teddiursa,216,2,4,120,70,20,0,0,0,Brown,Upright,Mountain,generation-ii,Medium,Ground,Unknown,50.0,50.0,110,Little Bear Pokémon
+ursaring,Ursaring,217,2,4,60,70,20,0,0,0,Brown,Upright,Mountain,generation-ii,Medium,Ground,Unknown,50.0,50.0,110,Hibernator Pokémon
+slugma,Slugma,218,2,4,190,70,20,0,0,0,Red,Squiggle,Mountain,generation-ii,Medium,Indeterminate,Unknown,50.0,50.0,111,Lava Pokémon
+magcargo,Magcargo,219,2,4,75,70,20,0,0,0,Red,Squiggle,Mountain,generation-ii,Medium,Indeterminate,Unknown,50.0,50.0,111,Lava Pokémon
+swinub,Swinub,220,2,4,225,70,20,0,0,0,Brown,Quadruped,Cave,generation-ii,Slow,Ground,Unknown,50.0,50.0,112,Pig Pokémon
+piloswine,Piloswine,221,2,4,75,70,20,0,0,0,Brown,Quadruped,Cave,generation-ii,Slow,Ground,Unknown,50.0,50.0,112,Swine Pokémon
+corsola,Corsola,222,2,6,60,70,20,0,0,0,Pink,Armor,Sea,generation-ii,Fast,Water1,Water3,25.0,75.0,113,Coral Pokémon
+remoraid,Remoraid,223,2,4,190,70,20,0,0,0,Gray,Fish,Sea,generation-ii,Medium,Water1,Water2,50.0,50.0,114,Jet Pokémon
+octillery,Octillery,224,2,4,75,70,20,0,0,0,Red,Tentacles,Sea,generation-ii,Medium,Water1,Water2,50.0,50.0,114,Jet Pokémon
+delibird,Delibird,225,2,4,45,70,20,0,0,0,Red,Wings,Mountain,generation-ii,Fast,Water1,Ground,50.0,50.0,115,Delivery Pokémon
+mantine,Mantine,226,2,4,25,70,25,0,0,0,Purple,Wings,Sea,generation-ii,Slow,Water1,Unknown,50.0,50.0,116,Kite Pokémon
+skarmory,Skarmory,227,2,4,25,70,25,0,0,0,Gray,Wings,Rough Terrain,generation-ii,Slow,Flying,Unknown,50.0,50.0,117,Armor Bird Pokémon
+houndour,Houndour,228,2,4,120,35,20,0,0,0,Black,Quadruped,Rough Terrain,generation-ii,Slow,Ground,Unknown,50.0,50.0,118,Dark Pokémon
+houndoom,Houndoom,229,2,4,45,35,20,0,0,0,Black,Quadruped,Rough Terrain,generation-ii,Slow,Ground,Unknown,50.0,50.0,118,Dark Pokémon
+kingdra,Kingdra,230,2,4,45,70,20,0,0,0,Blue,Blob,Sea,generation-ii,Medium,Water1,Dragon,50.0,50.0,54,Dragon Pokémon
+phanpy,Phanpy,231,2,4,120,70,20,0,0,0,Blue,Quadruped,Rough Terrain,generation-ii,Medium,Ground,Unknown,50.0,50.0,119,Long Nose Pokémon
+donphan,Donphan,232,2,4,60,70,20,0,0,0,Gray,Quadruped,Rough Terrain,generation-ii,Medium,Ground,Unknown,50.0,50.0,119,Armor Pokémon
+porygon2,Porygon2,233,2,-1,45,70,20,0,0,0,Red,Legs,Urban,generation-ii,Medium,Mineral,Unknown,,,68,Virtual Pokémon
+stantler,Stantler,234,2,4,45,70,20,0,0,0,Brown,Quadruped,Forest,generation-ii,Slow,Ground,Unknown,50.0,50.0,120,Big Horn Pokémon
+smeargle,Smeargle,235,2,4,45,70,20,0,0,0,White,Upright,Urban,generation-ii,Fast,Ground,Unknown,50.0,50.0,121,Painter Pokémon
+tyrogue,Tyrogue,236,2,0,75,70,25,1,0,0,Purple,Humanoid,Urban,generation-ii,Medium,No Eggs,Unknown,100.0,0.0,47,Scuffle Pokémon
+hitmontop,Hitmontop,237,2,0,45,70,25,0,0,0,Brown,Upright,Urban,generation-ii,Medium,Humanshape,Unknown,100.0,0.0,47,Handstand Pokémon
+smoochum,Smoochum,238,2,8,45,70,25,1,0,0,Pink,Humanoid,Urban,generation-ii,Medium,No Eggs,Unknown,0.0,100.0,59,Kiss Pokémon
+elekid,Elekid,239,2,2,45,70,25,1,0,0,Yellow,Humanoid,Grassland,generation-ii,Medium,No Eggs,Unknown,75.0,25.0,60,Electric Pokémon
+magby,Magby,240,2,2,45,70,25,1,0,0,Red,Upright,Mountain,generation-ii,Medium,No Eggs,Unknown,75.0,25.0,61,Live Coal Pokémon
+miltank,Miltank,241,2,8,45,70,20,0,0,0,Pink,Upright,Grassland,generation-ii,Slow,Ground,Unknown,0.0,100.0,122,Milk Cow Pokémon
+blissey,Blissey,242,2,8,30,140,40,0,0,0,Pink,Humanoid,Urban,generation-ii,Fast,Fairy,Unknown,0.0,100.0,51,Happiness Pokémon
+raikou,Raikou,243,2,-1,3,35,80,0,1,0,Yellow,Quadruped,Grassland,generation-ii,Slow,No Eggs,Unknown,,,123,Thunder Pokémon
+entei,Entei,244,2,-1,3,35,80,0,1,0,Brown,Quadruped,Grassland,generation-ii,Slow,No Eggs,Unknown,,,124,Volcano Pokémon
+suicune,Suicune,245,2,-1,3,35,80,0,1,0,Blue,Quadruped,Grassland,generation-ii,Slow,No Eggs,Unknown,,,125,Aurora Pokémon
+larvitar,Larvitar,246,2,4,45,35,40,0,0,0,Green,Upright,Mountain,generation-ii,Slow,Monster,Unknown,50.0,50.0,126,Rock Skin Pokémon
+pupitar,Pupitar,247,2,4,45,35,40,0,0,0,Gray,Squiggle,Mountain,generation-ii,Slow,Monster,Unknown,50.0,50.0,126,Hard Shell Pokémon
+tyranitar,Tyranitar,248,2,4,45,35,40,0,0,0,Green,Upright,Mountain,generation-ii,Slow,Monster,Unknown,50.0,50.0,126,Armor Pokémon
+lugia,Lugia,249,2,-1,3,0,120,0,1,0,White,Wings,Rare,generation-ii,Slow,No Eggs,Unknown,,,127,Diving Pokémon
+ho-oh,Ho-Oh,250,2,-1,3,0,120,0,1,0,Red,Wings,Rare,generation-ii,Slow,No Eggs,Unknown,,,128,Rainbow Pokémon
+celebi,Celebi,251,2,-1,45,100,120,0,0,1,Green,Humanoid,Forest,generation-ii,Medium Slow,No Eggs,Unknown,,,129,Time Travel Pokémon
+treecko,Treecko,252,3,1,45,70,20,0,0,0,Green,Upright,Forest,generation-iii,Medium Slow,Monster,Dragon,87.5,12.5,130,Wood Gecko Pokémon
+grovyle,Grovyle,253,3,1,45,70,20,0,0,0,Green,Upright,Forest,generation-iii,Medium Slow,Monster,Dragon,87.5,12.5,130,Wood Gecko Pokémon
+sceptile,Sceptile,254,3,1,45,70,20,0,0,0,Green,Upright,Forest,generation-iii,Medium Slow,Monster,Dragon,87.5,12.5,130,Forest Pokémon
+torchic,Torchic,255,3,1,45,70,20,0,0,0,Red,Legs,Grassland,generation-iii,Medium Slow,Ground,Unknown,87.5,12.5,131,Chick Pokémon
+combusken,Combusken,256,3,1,45,70,20,0,0,0,Red,Upright,Grassland,generation-iii,Medium Slow,Ground,Unknown,87.5,12.5,131,Young Fowl Pokémon
+blaziken,Blaziken,257,3,1,45,70,20,0,0,0,Red,Upright,Grassland,generation-iii,Medium Slow,Ground,Unknown,87.5,12.5,131,Blaze Pokémon
+mudkip,Mudkip,258,3,1,45,70,20,0,0,0,Blue,Quadruped,Waters Edge,generation-iii,Medium Slow,Monster,Water1,87.5,12.5,132,Mud Fish Pokémon
+marshtomp,Marshtomp,259,3,1,45,70,20,0,0,0,Blue,Upright,Waters Edge,generation-iii,Medium Slow,Monster,Water1,87.5,12.5,132,Mud Fish Pokémon
+swampert,Swampert,260,3,1,45,70,20,0,0,0,Blue,Upright,Waters Edge,generation-iii,Medium Slow,Monster,Water1,87.5,12.5,132,Mud Fish Pokémon
+poochyena,Poochyena,261,3,4,255,70,15,0,0,0,Gray,Quadruped,Grassland,generation-iii,Medium,Ground,Unknown,50.0,50.0,133,Bite Pokémon
+mightyena,Mightyena,262,3,4,127,70,15,0,0,0,Gray,Quadruped,Grassland,generation-iii,Medium,Ground,Unknown,50.0,50.0,133,Bite Pokémon
+zigzagoon,Zigzagoon,263,3,4,255,70,15,0,0,0,Brown,Quadruped,Grassland,generation-iii,Medium,Ground,Unknown,50.0,50.0,134,Tiny Raccoon Pokémon
+linoone,Linoone,264,3,4,90,70,15,0,0,0,White,Quadruped,Grassland,generation-iii,Medium,Ground,Unknown,50.0,50.0,134,Rushing Pokémon
+wurmple,Wurmple,265,3,4,255,70,15,0,0,0,Red,Armor,Forest,generation-iii,Medium,Bug,Unknown,50.0,50.0,135,Worm Pokémon
+silcoon,Silcoon,266,3,4,120,70,15,0,0,0,White,Ball,Forest,generation-iii,Medium,Bug,Unknown,50.0,50.0,135,Cocoon Pokémon
+beautifly,Beautifly,267,3,4,45,70,15,0,0,0,Yellow,Bug Wings,Forest,generation-iii,Medium,Bug,Unknown,50.0,50.0,135,Butterfly Pokémon
+cascoon,Cascoon,268,3,4,120,70,15,0,0,0,Purple,Ball,Forest,generation-iii,Medium,Bug,Unknown,50.0,50.0,135,Cocoon Pokémon
+dustox,Dustox,269,3,4,45,70,15,0,0,0,Green,Bug Wings,Forest,generation-iii,Medium,Bug,Unknown,50.0,50.0,135,Poison Moth Pokémon
+lotad,Lotad,270,3,4,255,70,15,0,0,0,Green,Armor,Waters Edge,generation-iii,Medium Slow,Water1,Plant,50.0,50.0,136,Water Weed Pokémon
+lombre,Lombre,271,3,4,120,70,15,0,0,0,Green,Humanoid,Waters Edge,generation-iii,Medium Slow,Water1,Plant,50.0,50.0,136,Jolly Pokémon
+ludicolo,Ludicolo,272,3,4,45,70,15,0,0,0,Green,Humanoid,Waters Edge,generation-iii,Medium Slow,Water1,Plant,50.0,50.0,136,Carefree Pokémon
+seedot,Seedot,273,3,4,255,70,15,0,0,0,Brown,Legs,Forest,generation-iii,Medium Slow,Ground,Plant,50.0,50.0,137,Acorn Pokémon
+nuzleaf,Nuzleaf,274,3,4,120,70,15,0,0,0,Brown,Humanoid,Forest,generation-iii,Medium Slow,Ground,Plant,50.0,50.0,137,Wily Pokémon
+shiftry,Shiftry,275,3,4,45,70,15,0,0,0,Brown,Humanoid,Forest,generation-iii,Medium Slow,Ground,Plant,50.0,50.0,137,Wicked Pokémon
+taillow,Taillow,276,3,4,200,70,15,0,0,0,Blue,Wings,Grassland,generation-iii,Medium Slow,Flying,Unknown,50.0,50.0,138,Tiny Swallow Pokémon
+swellow,Swellow,277,3,4,45,70,15,0,0,0,Blue,Wings,Grassland,generation-iii,Medium Slow,Flying,Unknown,50.0,50.0,138,Swallow Pokémon
+wingull,Wingull,278,3,4,190,70,20,0,0,0,White,Wings,Sea,generation-iii,Medium,Water1,Flying,50.0,50.0,139,Seagull Pokémon
+pelipper,Pelipper,279,3,4,45,70,20,0,0,0,Yellow,Wings,Sea,generation-iii,Medium,Water1,Flying,50.0,50.0,139,Water Bird Pokémon
+ralts,Ralts,280,3,4,235,35,20,0,0,0,White,Humanoid,Urban,generation-iii,Slow,Humanshape,Indeterminate,50.0,50.0,140,Feeling Pokémon
+kirlia,Kirlia,281,3,4,120,35,20,0,0,0,White,Humanoid,Urban,generation-iii,Slow,Humanshape,Indeterminate,50.0,50.0,140,Emotion Pokémon
+gardevoir,Gardevoir,282,3,4,45,35,20,0,0,0,White,Humanoid,Urban,generation-iii,Slow,Humanshape,Indeterminate,50.0,50.0,140,Embrace Pokémon
+surskit,Surskit,283,3,4,200,70,15,0,0,0,Blue,Armor,Waters Edge,generation-iii,Medium,Water1,Bug,50.0,50.0,141,Pond Skater Pokémon
+masquerain,Masquerain,284,3,4,75,70,15,0,0,0,Blue,Bug Wings,Waters Edge,generation-iii,Medium,Water1,Bug,50.0,50.0,141,Eyeball Pokémon
+shroomish,Shroomish,285,3,4,255,70,15,0,0,0,Brown,Legs,Forest,generation-iii,Fast Then Very Slow,Fairy,Plant,50.0,50.0,142,Mushroom Pokémon
+breloom,Breloom,286,3,4,90,70,15,0,0,0,Green,Upright,Forest,generation-iii,Fast Then Very Slow,Fairy,Plant,50.0,50.0,142,Mushroom Pokémon
+slakoth,Slakoth,287,3,4,255,70,15,0,0,0,Brown,Quadruped,Forest,generation-iii,Slow,Ground,Unknown,50.0,50.0,143,Slacker Pokémon
+vigoroth,Vigoroth,288,3,4,120,70,15,0,0,0,White,Upright,Forest,generation-iii,Slow,Ground,Unknown,50.0,50.0,143,Wild Monkey Pokémon
+slaking,Slaking,289,3,4,45,70,15,0,0,0,Brown,Humanoid,Forest,generation-iii,Slow,Ground,Unknown,50.0,50.0,143,Lazy Pokémon
+nincada,Nincada,290,3,4,255,70,15,0,0,0,Gray,Armor,Forest,generation-iii,Slow Then Very femaleast,Bug,Unknown,50.0,50.0,144,Trainee Pokémon
+ninjask,Ninjask,291,3,4,120,70,15,0,0,0,Yellow,Bug Wings,Forest,generation-iii,Slow Then Very femaleast,Bug,Unknown,50.0,50.0,144,Ninja Pokémon
+shedinja,Shedinja,292,3,-1,45,70,15,0,0,0,Brown,Blob,Forest,generation-iii,Slow Then Very femaleast,Mineral,Unknown,,,144,Shed Pokémon
+whismur,Whismur,293,3,4,190,70,20,0,0,0,Pink,Upright,Cave,generation-iii,Medium Slow,Monster,Ground,50.0,50.0,145,Whisper Pokémon
+loudred,Loudred,294,3,4,120,70,20,0,0,0,Blue,Upright,Cave,generation-iii,Medium Slow,Monster,Ground,50.0,50.0,145,Big Voice Pokémon
+exploud,Exploud,295,3,4,45,70,20,0,0,0,Blue,Upright,Cave,generation-iii,Medium Slow,Monster,Ground,50.0,50.0,145,Loud Noise Pokémon
+makuhita,Makuhita,296,3,2,180,70,20,0,0,0,Yellow,Humanoid,Mountain,generation-iii,Fast Then Very Slow,Humanshape,Unknown,75.0,25.0,146,Guts Pokémon
+hariyama,Hariyama,297,3,2,200,70,20,0,0,0,Brown,Humanoid,Mountain,generation-iii,Fast Then Very Slow,Humanshape,Unknown,75.0,25.0,146,Arm Thrust Pokémon
+azurill,Azurill,298,3,6,150,70,10,1,0,0,Blue,Legs,Waters Edge,generation-iii,Fast,No Eggs,Unknown,25.0,75.0,90,Polka Dot Pokémon
+nosepass,Nosepass,299,3,4,255,70,20,0,0,0,Gray,Humanoid,Cave,generation-iii,Medium,Mineral,Unknown,50.0,50.0,147,Compass Pokémon
+skitty,Skitty,300,3,6,255,70,15,0,0,0,Pink,Quadruped,Forest,generation-iii,Fast,Ground,Fairy,25.0,75.0,148,Kitten Pokémon
+delcatty,Delcatty,301,3,6,60,70,15,0,0,0,Purple,Quadruped,Forest,generation-iii,Fast,Ground,Fairy,25.0,75.0,148,Prim Pokémon
+sableye,Sableye,302,3,4,45,35,25,0,0,0,Purple,Humanoid,Cave,generation-iii,Medium Slow,Humanshape,Unknown,50.0,50.0,149,Darkness Pokémon
+mawile,Mawile,303,3,4,45,70,20,0,0,0,Black,Humanoid,Cave,generation-iii,Fast,Ground,Fairy,50.0,50.0,150,Deceiver Pokémon
+aron,Aron,304,3,4,180,35,35,0,0,0,Gray,Quadruped,Mountain,generation-iii,Slow,Monster,Unknown,50.0,50.0,151,Iron Armor Pokémon
+lairon,Lairon,305,3,4,90,35,35,0,0,0,Gray,Quadruped,Mountain,generation-iii,Slow,Monster,Unknown,50.0,50.0,151,Iron Armor Pokémon
+aggron,Aggron,306,3,4,45,35,35,0,0,0,Gray,Upright,Mountain,generation-iii,Slow,Monster,Unknown,50.0,50.0,151,Iron Armor Pokémon
+meditite,Meditite,307,3,4,180,70,20,0,0,0,Blue,Humanoid,Mountain,generation-iii,Medium,Humanshape,Unknown,50.0,50.0,152,Meditate Pokémon
+medicham,Medicham,308,3,4,90,70,20,0,0,0,Red,Humanoid,Mountain,generation-iii,Medium,Humanshape,Unknown,50.0,50.0,152,Meditate Pokémon
+electrike,Electrike,309,3,4,120,70,20,0,0,0,Green,Quadruped,Grassland,generation-iii,Slow,Ground,Unknown,50.0,50.0,153,Lightning Pokémon
+manectric,Manectric,310,3,4,45,70,20,0,0,0,Yellow,Quadruped,Grassland,generation-iii,Slow,Ground,Unknown,50.0,50.0,153,Discharge Pokémon
+plusle,Plusle,311,3,4,200,70,20,0,0,0,Yellow,Upright,Grassland,generation-iii,Medium,Fairy,Unknown,50.0,50.0,154,Cheering Pokémon
+minun,Minun,312,3,4,200,70,20,0,0,0,Yellow,Upright,Grassland,generation-iii,Medium,Fairy,Unknown,50.0,50.0,155,Cheering Pokémon
+volbeat,Volbeat,313,3,0,150,70,15,0,0,0,Gray,Upright,Forest,generation-iii,Slow Then Very femaleast,Bug,Humanshape,100.0,0.0,156,Firefly Pokémon
+illumise,Illumise,314,3,8,150,70,15,0,0,0,Purple,Humanoid,Forest,generation-iii,Fast Then Very Slow,Bug,Humanshape,0.0,100.0,157,Firefly Pokémon
+roselia,Roselia,315,3,4,150,70,20,0,0,0,Green,Humanoid,Grassland,generation-iii,Medium Slow,Fairy,Plant,50.0,50.0,158,Thorn Pokémon
+gulpin,Gulpin,316,3,4,225,70,20,0,0,0,Green,Arms,Grassland,generation-iii,Fast Then Very Slow,Indeterminate,Unknown,50.0,50.0,159,Stomach Pokémon
+swalot,Swalot,317,3,4,75,70,20,0,0,0,Purple,Arms,Grassland,generation-iii,Fast Then Very Slow,Indeterminate,Unknown,50.0,50.0,159,Poison Bag Pokémon
+carvanha,Carvanha,318,3,4,225,35,20,0,0,0,Red,Fish,Sea,generation-iii,Slow,Water2,Unknown,50.0,50.0,160,Savage Pokémon
+sharpedo,Sharpedo,319,3,4,60,35,20,0,0,0,Blue,Fish,Sea,generation-iii,Slow,Water2,Unknown,50.0,50.0,160,Brutal Pokémon
+wailmer,Wailmer,320,3,4,125,70,40,0,0,0,Blue,Fish,Sea,generation-iii,Fast Then Very Slow,Ground,Water2,50.0,50.0,161,Ball Whale Pokémon
+wailord,Wailord,321,3,4,60,70,40,0,0,0,Blue,Fish,Sea,generation-iii,Fast Then Very Slow,Ground,Water2,50.0,50.0,161,Float Whale Pokémon
+numel,Numel,322,3,4,255,70,20,0,0,0,Yellow,Quadruped,Mountain,generation-iii,Medium,Ground,Unknown,50.0,50.0,162,Numb Pokémon
+camerupt,Camerupt,323,3,4,150,70,20,0,0,0,Red,Quadruped,Mountain,generation-iii,Medium,Ground,Unknown,50.0,50.0,162,Eruption Pokémon
+torkoal,Torkoal,324,3,4,90,70,20,0,0,0,Brown,Quadruped,Mountain,generation-iii,Medium,Ground,Unknown,50.0,50.0,163,Coal Pokémon
+spoink,Spoink,325,3,4,255,70,20,0,0,0,Black,Arms,Mountain,generation-iii,Fast,Ground,Unknown,50.0,50.0,164,Bounce Pokémon
+grumpig,Grumpig,326,3,4,60,70,20,0,0,0,Purple,Upright,Mountain,generation-iii,Fast,Ground,Unknown,50.0,50.0,164,Manipulate Pokémon
+spinda,Spinda,327,3,4,255,70,15,0,0,0,Brown,Upright,Mountain,generation-iii,Fast,Ground,Humanshape,50.0,50.0,165,Spot Panda Pokémon
+trapinch,Trapinch,328,3,4,255,70,20,0,0,0,Brown,Armor,Rough Terrain,generation-iii,Medium Slow,Bug,Dragon,50.0,50.0,166,Ant Pit Pokémon
+vibrava,Vibrava,329,3,4,120,70,20,0,0,0,Green,Bug Wings,Rough Terrain,generation-iii,Medium Slow,Bug,Dragon,50.0,50.0,166,Vibration Pokémon
+flygon,Flygon,330,3,4,45,70,20,0,0,0,Green,Wings,Rough Terrain,generation-iii,Medium Slow,Bug,Dragon,50.0,50.0,166,Mystic Pokémon
+cacnea,Cacnea,331,3,4,190,35,20,0,0,0,Green,Humanoid,Rough Terrain,generation-iii,Medium Slow,Plant,Humanshape,50.0,50.0,167,Cactus Pokémon
+cacturne,Cacturne,332,3,4,60,35,20,0,0,0,Green,Humanoid,Rough Terrain,generation-iii,Medium Slow,Plant,Humanshape,50.0,50.0,167,Scarecrow Pokémon
+swablu,Swablu,333,3,4,255,70,20,0,0,0,Blue,Wings,Forest,generation-iii,Slow Then Very femaleast,Flying,Dragon,50.0,50.0,168,Cotton Bird Pokémon
+altaria,Altaria,334,3,4,45,70,20,0,0,0,Blue,Wings,Forest,generation-iii,Slow Then Very femaleast,Flying,Dragon,50.0,50.0,168,Humming Pokémon
+zangoose,Zangoose,335,3,4,90,70,20,0,0,0,White,Upright,Grassland,generation-iii,Slow Then Very femaleast,Ground,Unknown,50.0,50.0,169,Cat Ferret Pokémon
+seviper,Seviper,336,3,4,90,70,20,0,0,0,Black,Squiggle,Grassland,generation-iii,Fast Then Very Slow,Ground,Dragon,50.0,50.0,170,Fang Snake Pokémon
+lunatone,Lunatone,337,3,-1,45,70,25,0,0,0,Yellow,Ball,Cave,generation-iii,Fast,Mineral,Unknown,,,171,Meteorite Pokémon
+solrock,Solrock,338,3,-1,45,70,25,0,0,0,Red,Ball,Cave,generation-iii,Fast,Mineral,Unknown,,,172,Meteorite Pokémon
+barboach,Barboach,339,3,4,190,70,20,0,0,0,Gray,Fish,Waters Edge,generation-iii,Medium,Water2,Unknown,50.0,50.0,173,Whiskers Pokémon
+whiscash,Whiscash,340,3,4,75,70,20,0,0,0,Blue,Fish,Waters Edge,generation-iii,Medium,Water2,Unknown,50.0,50.0,173,Whiskers Pokémon
+corphish,Corphish,341,3,4,205,70,15,0,0,0,Red,Armor,Waters Edge,generation-iii,Fast Then Very Slow,Water1,Water3,50.0,50.0,174,Ruffian Pokémon
+crawdaunt,Crawdaunt,342,3,4,155,70,15,0,0,0,Red,Armor,Waters Edge,generation-iii,Fast Then Very Slow,Water1,Water3,50.0,50.0,174,Rogue Pokémon
+baltoy,Baltoy,343,3,-1,255,70,20,0,0,0,Brown,Arms,Rough Terrain,generation-iii,Medium,Mineral,Unknown,,,175,Clay Doll Pokémon
+claydol,Claydol,344,3,-1,90,70,20,0,0,0,Black,Arms,Rough Terrain,generation-iii,Medium,Mineral,Unknown,,,175,Clay Doll Pokémon
+lileep,Lileep,345,3,1,45,70,30,0,0,0,Purple,Blob,Sea,generation-iii,Slow Then Very femaleast,Water3,Unknown,87.5,12.5,176,Sea Lily Pokémon
+cradily,Cradily,346,3,1,45,70,30,0,0,0,Green,Blob,Sea,generation-iii,Slow Then Very femaleast,Water3,Unknown,87.5,12.5,176,Barnacle Pokémon
+anorith,Anorith,347,3,1,45,70,30,0,0,0,Gray,Armor,Waters Edge,generation-iii,Slow Then Very femaleast,Water3,Unknown,87.5,12.5,177,Old Shrimp Pokémon
+armaldo,Armaldo,348,3,1,45,70,30,0,0,0,Gray,Upright,Waters Edge,generation-iii,Slow Then Very femaleast,Water3,Unknown,87.5,12.5,177,Plate Pokémon
+feebas,Feebas,349,3,4,255,70,20,0,0,0,Brown,Fish,Waters Edge,generation-iii,Slow Then Very femaleast,Water1,Dragon,50.0,50.0,178,Fish Pokémon
+milotic,Milotic,350,3,4,60,70,20,0,0,0,Pink,Squiggle,Waters Edge,generation-iii,Slow Then Very femaleast,Water1,Dragon,50.0,50.0,178,Tender Pokémon
+castform,Castform,351,3,4,45,70,25,0,0,0,Gray,Ball,Grassland,generation-iii,Medium,Fairy,Indeterminate,50.0,50.0,179,Weather Pokémon
+kecleon,Kecleon,352,3,4,200,70,20,0,0,0,Green,Upright,Forest,generation-iii,Medium Slow,Ground,Unknown,50.0,50.0,180,Color Swap Pokémon
+shuppet,Shuppet,353,3,4,225,35,25,0,0,0,Black,Ball,Urban,generation-iii,Fast,Indeterminate,Unknown,50.0,50.0,181,Puppet Pokémon
+banette,Banette,354,3,4,45,35,25,0,0,0,Black,Upright,Urban,generation-iii,Fast,Indeterminate,Unknown,50.0,50.0,181,Marionette Pokémon
+duskull,Duskull,355,3,4,190,35,25,0,0,0,Black,Arms,Forest,generation-iii,Fast,Indeterminate,Unknown,50.0,50.0,182,Requiem Pokémon
+dusclops,Dusclops,356,3,4,90,35,25,0,0,0,Black,Humanoid,Forest,generation-iii,Fast,Indeterminate,Unknown,50.0,50.0,182,Beckon Pokémon
+tropius,Tropius,357,3,4,200,70,25,0,0,0,Green,Quadruped,Forest,generation-iii,Slow,Monster,Plant,50.0,50.0,183,Fruit Pokémon
+chimecho,Chimecho,358,3,4,45,70,25,0,0,0,Blue,Arms,Grassland,generation-iii,Fast,Indeterminate,Unknown,50.0,50.0,184,Wind Chime Pokémon
+absol,Absol,359,3,4,30,35,25,0,0,0,White,Quadruped,Mountain,generation-iii,Medium Slow,Ground,Unknown,50.0,50.0,185,Disaster Pokémon
+wynaut,Wynaut,360,3,4,125,70,20,1,0,0,Blue,Upright,Cave,generation-iii,Medium,No Eggs,Unknown,50.0,50.0,100,Bright Pokémon
+snorunt,Snorunt,361,3,4,190,70,20,0,0,0,Gray,Humanoid,Cave,generation-iii,Medium,Fairy,Mineral,50.0,50.0,186,Snow Hat Pokémon
+glalie,Glalie,362,3,4,75,70,20,0,0,0,Gray,Ball,Cave,generation-iii,Medium,Fairy,Mineral,50.0,50.0,186,Face Pokémon
+spheal,Spheal,363,3,4,255,70,20,0,0,0,Blue,Fish,Sea,generation-iii,Medium Slow,Water1,Ground,50.0,50.0,187,Clap Pokémon
+sealeo,Sealeo,364,3,4,120,70,20,0,0,0,Blue,Fish,Sea,generation-iii,Medium Slow,Water1,Ground,50.0,50.0,187,Ball Roll Pokémon
+walrein,Walrein,365,3,4,45,70,20,0,0,0,Blue,Quadruped,Sea,generation-iii,Medium Slow,Water1,Ground,50.0,50.0,187,Ice Break Pokémon
+clamperl,Clamperl,366,3,4,255,70,20,0,0,0,Blue,Ball,Sea,generation-iii,Slow Then Very femaleast,Water1,Unknown,50.0,50.0,188,Bivalve Pokémon
+huntail,Huntail,367,3,4,60,70,20,0,0,0,Blue,Squiggle,Sea,generation-iii,Slow Then Very femaleast,Water1,Unknown,50.0,50.0,188,Deep Sea Pokémon
+gorebyss,Gorebyss,368,3,4,60,70,20,0,0,0,Pink,Squiggle,Sea,generation-iii,Slow Then Very femaleast,Water1,Unknown,50.0,50.0,188,South Sea Pokémon
+relicanth,Relicanth,369,3,1,25,70,40,0,0,0,Gray,Fish,Sea,generation-iii,Slow,Water1,Water2,87.5,12.5,189,Longevity Pokémon
+luvdisc,Luvdisc,370,3,6,225,70,20,0,0,0,Pink,Fish,Sea,generation-iii,Fast,Water2,Unknown,25.0,75.0,190,Rendezvous Pokémon
+bagon,Bagon,371,3,4,45,35,40,0,0,0,Blue,Humanoid,Rough Terrain,generation-iii,Slow,Dragon,Unknown,50.0,50.0,191,Rock Head Pokémon
+shelgon,Shelgon,372,3,4,45,35,40,0,0,0,White,Quadruped,Rough Terrain,generation-iii,Slow,Dragon,Unknown,50.0,50.0,191,Endurance Pokémon
+salamence,Salamence,373,3,4,45,35,40,0,0,0,Blue,Quadruped,Rough Terrain,generation-iii,Slow,Dragon,Unknown,50.0,50.0,191,Dragon Pokémon
+beldum,Beldum,374,3,-1,3,35,40,0,0,0,Blue,Blob,Rough Terrain,generation-iii,Slow,Mineral,Unknown,,,192,Iron Ball Pokémon
+metang,Metang,375,3,-1,3,35,40,0,0,0,Blue,Arms,Rough Terrain,generation-iii,Slow,Mineral,Unknown,,,192,Iron Claw Pokémon
+metagross,Metagross,376,3,-1,3,35,40,0,0,0,Blue,Heads,Rough Terrain,generation-iii,Slow,Mineral,Unknown,,,192,Iron Leg Pokémon
+regirock,Regirock,377,3,-1,3,35,80,0,1,0,Brown,Humanoid,Cave,generation-iii,Slow,No Eggs,Unknown,,,193,Rock Peak Pokémon
+regice,Regice,378,3,-1,3,35,80,0,1,0,Blue,Humanoid,Cave,generation-iii,Slow,No Eggs,Unknown,,,194,Iceberg Pokémon
+registeel,Registeel,379,3,-1,3,35,80,0,1,0,Gray,Humanoid,Cave,generation-iii,Slow,No Eggs,Unknown,,,195,Iron Pokémon
+latias,Latias,380,3,8,3,90,120,0,1,0,Red,Wings,Waters Edge,generation-iii,Slow,No Eggs,Unknown,0.0,100.0,196,Eon Pokémon
+latios,Latios,381,3,0,3,90,120,0,1,0,Blue,Wings,Waters Edge,generation-iii,Slow,No Eggs,Unknown,100.0,0.0,197,Eon Pokémon
+kyogre,Kyogre,382,3,-1,3,0,120,0,1,0,Blue,Fish,Sea,generation-iii,Slow,No Eggs,Unknown,,,198,Sea Basin Pokémon
+groudon,Groudon,383,3,-1,3,0,120,0,1,0,Red,Upright,Rough Terrain,generation-iii,Slow,No Eggs,Unknown,,,199,Continent Pokémon
+rayquaza,Rayquaza,384,3,-1,45,0,120,0,1,0,Green,Squiggle,Rare,generation-iii,Slow,No Eggs,Unknown,,,200,Sky High Pokémon
+jirachi,Jirachi,385,3,-1,3,100,120,0,0,1,Yellow,Humanoid,Mountain,generation-iii,Slow,No Eggs,Unknown,,,201,Wish Pokémon
+deoxys,Deoxys,386,3,-1,3,0,120,0,0,1,Red,Humanoid,Rare,generation-iii,Slow,No Eggs,Unknown,,,202,DNA Pokémon
+turtwig,Turtwig,387,4,1,45,70,20,0,0,0,Green,Quadruped,Unknown,generation-iv,Medium Slow,Monster,Plant,87.5,12.5,203,Tiny Leaf Pokémon
+grotle,Grotle,388,4,1,45,70,20,0,0,0,Green,Quadruped,Unknown,generation-iv,Medium Slow,Monster,Plant,87.5,12.5,203,Grove Pokémon
+torterra,Torterra,389,4,1,45,70,20,0,0,0,Green,Quadruped,Unknown,generation-iv,Medium Slow,Monster,Plant,87.5,12.5,203,Continent Pokémon
+chimchar,Chimchar,390,4,1,45,70,20,0,0,0,Brown,Upright,Unknown,generation-iv,Medium Slow,Ground,Humanshape,87.5,12.5,204,Chimp Pokémon
+monferno,Monferno,391,4,1,45,70,20,0,0,0,Brown,Upright,Unknown,generation-iv,Medium Slow,Ground,Humanshape,87.5,12.5,204,Playful Pokémon
+infernape,Infernape,392,4,1,45,70,20,0,0,0,Brown,Upright,Unknown,generation-iv,Medium Slow,Ground,Humanshape,87.5,12.5,204,Flame Pokémon
+piplup,Piplup,393,4,1,45,70,20,0,0,0,Blue,Humanoid,Unknown,generation-iv,Medium Slow,Water1,Ground,87.5,12.5,205,Penguin Pokémon
+prinplup,Prinplup,394,4,1,45,70,20,0,0,0,Blue,Upright,Unknown,generation-iv,Medium Slow,Water1,Ground,87.5,12.5,205,Penguin Pokémon
+empoleon,Empoleon,395,4,1,45,70,20,0,0,0,Blue,Upright,Unknown,generation-iv,Medium Slow,Water1,Ground,87.5,12.5,205,Emperor Pokémon
+starly,Starly,396,4,4,255,70,15,0,0,0,Brown,Wings,Unknown,generation-iv,Medium Slow,Flying,Unknown,50.0,50.0,206,Starling Pokémon
+staravia,Staravia,397,4,4,120,70,15,0,0,0,Brown,Wings,Unknown,generation-iv,Medium Slow,Flying,Unknown,50.0,50.0,206,Starling Pokémon
+staraptor,Staraptor,398,4,4,45,70,15,0,0,0,Brown,Wings,Unknown,generation-iv,Medium Slow,Flying,Unknown,50.0,50.0,206,Predator Pokémon
+bidoof,Bidoof,399,4,4,255,70,15,0,0,0,Brown,Quadruped,Unknown,generation-iv,Medium,Water1,Ground,50.0,50.0,207,Plump Mouse Pokémon
+bibarel,Bibarel,400,4,4,127,70,15,0,0,0,Brown,Upright,Unknown,generation-iv,Medium,Water1,Ground,50.0,50.0,207,Beaver Pokémon
+kricketot,Kricketot,401,4,4,255,70,15,0,0,0,Red,Humanoid,Unknown,generation-iv,Medium Slow,Bug,Unknown,50.0,50.0,208,Cricket Pokémon
+kricketune,Kricketune,402,4,4,45,70,15,0,0,0,Red,Bug Wings,Unknown,generation-iv,Medium Slow,Bug,Unknown,50.0,50.0,208,Cricket Pokémon
+shinx,Shinx,403,4,4,235,70,20,0,0,0,Blue,Quadruped,Unknown,generation-iv,Medium Slow,Ground,Unknown,50.0,50.0,209,Flash Pokémon
+luxio,Luxio,404,4,4,120,100,20,0,0,0,Blue,Quadruped,Unknown,generation-iv,Medium Slow,Ground,Unknown,50.0,50.0,209,Spark Pokémon
+luxray,Luxray,405,4,4,45,70,20,0,0,0,Blue,Quadruped,Unknown,generation-iv,Medium Slow,Ground,Unknown,50.0,50.0,209,Gleam Eyes Pokémon
+budew,Budew,406,4,4,255,70,20,1,0,0,Green,Humanoid,Unknown,generation-iv,Medium Slow,No Eggs,Unknown,50.0,50.0,158,Bud Pokémon
+roserade,Roserade,407,4,4,75,70,20,0,0,0,Green,Humanoid,Unknown,generation-iv,Medium Slow,Fairy,Plant,50.0,50.0,158,Bouquet Pokémon
+cranidos,Cranidos,408,4,1,45,70,30,0,0,0,Blue,Upright,Unknown,generation-iv,Slow Then Very femaleast,Monster,Unknown,87.5,12.5,211,Head Butt Pokémon
+rampardos,Rampardos,409,4,1,45,70,30,0,0,0,Blue,Upright,Unknown,generation-iv,Slow Then Very femaleast,Monster,Unknown,87.5,12.5,211,Head Butt Pokémon
+shieldon,Shieldon,410,4,1,45,70,30,0,0,0,Gray,Quadruped,Unknown,generation-iv,Slow Then Very femaleast,Monster,Unknown,87.5,12.5,212,Shield Pokémon
+bastiodon,Bastiodon,411,4,1,45,70,30,0,0,0,Gray,Quadruped,Unknown,generation-iv,Slow Then Very femaleast,Monster,Unknown,87.5,12.5,212,Shield Pokémon
+burmy,Burmy,412,4,4,120,70,15,0,0,0,Green,Blob,Unknown,generation-iv,Medium,Bug,Unknown,50.0,50.0,213,Bagworm Pokémon
+wormadam,Wormadam,413,4,8,45,70,15,0,0,0,Green,Blob,Unknown,generation-iv,Medium,Bug,Unknown,0.0,100.0,213,Bagworm Pokémon
+mothim,Mothim,414,4,0,45,70,15,0,0,0,Yellow,Bug Wings,Unknown,generation-iv,Medium,Bug,Unknown,100.0,0.0,213,Moth Pokémon
+combee,Combee,415,4,1,120,70,15,0,0,0,Yellow,Heads,Unknown,generation-iv,Medium Slow,Bug,Unknown,87.5,12.5,214,Tiny Bee Pokémon
+vespiquen,Vespiquen,416,4,8,45,70,15,0,0,0,Yellow,Bug Wings,Unknown,generation-iv,Medium Slow,Bug,Unknown,0.0,100.0,214,Beehive Pokémon
+pachirisu,Pachirisu,417,4,4,200,100,10,0,0,0,White,Quadruped,Unknown,generation-iv,Medium,Ground,Fairy,50.0,50.0,215,EleSquirrel Pokémon
+buizel,Buizel,418,4,4,190,70,20,0,0,0,Brown,Quadruped,Unknown,generation-iv,Medium,Water1,Ground,50.0,50.0,216,Sea Weasel Pokémon
+floatzel,Floatzel,419,4,4,75,70,20,0,0,0,Brown,Quadruped,Unknown,generation-iv,Medium,Water1,Ground,50.0,50.0,216,Sea Weasel Pokémon
+cherubi,Cherubi,420,4,4,190,70,20,0,0,0,Pink,Heads,Unknown,generation-iv,Medium,Fairy,Plant,50.0,50.0,217,Cherry Pokémon
+cherrim,Cherrim,421,4,4,75,70,20,0,0,0,Purple,Legs,Unknown,generation-iv,Medium,Fairy,Plant,50.0,50.0,217,Blossom Pokémon
+shellos,Shellos,422,4,4,190,70,20,0,0,0,Purple,Squiggle,Unknown,generation-iv,Medium,Water1,Indeterminate,50.0,50.0,218,Sea Slug Pokémon
+gastrodon,Gastrodon,423,4,4,75,70,20,0,0,0,Purple,Squiggle,Unknown,generation-iv,Medium,Water1,Indeterminate,50.0,50.0,218,Sea Slug Pokémon
+ambipom,Ambipom,424,4,4,45,100,20,0,0,0,Purple,Upright,Unknown,generation-iv,Fast,Ground,Unknown,50.0,50.0,93,Long Tail Pokémon
+drifloon,Drifloon,425,4,4,125,70,30,0,0,0,Purple,Arms,Unknown,generation-iv,Fast Then Very Slow,Indeterminate,Unknown,50.0,50.0,219,Balloon Pokémon
+drifblim,Drifblim,426,4,4,60,70,30,0,0,0,Purple,Arms,Unknown,generation-iv,Fast Then Very Slow,Indeterminate,Unknown,50.0,50.0,219,Blimp Pokémon
+buneary,Buneary,427,4,4,190,0,20,0,0,0,Brown,Upright,Unknown,generation-iv,Medium,Ground,Humanshape,50.0,50.0,220,Rabbit Pokémon
+lopunny,Lopunny,428,4,4,60,140,20,0,0,0,Brown,Upright,Unknown,generation-iv,Medium,Ground,Humanshape,50.0,50.0,220,Rabbit Pokémon
+mismagius,Mismagius,429,4,4,45,35,25,0,0,0,Purple,Ball,Unknown,generation-iv,Fast,Indeterminate,Unknown,50.0,50.0,98,Magical Pokémon
+honchkrow,Honchkrow,430,4,4,30,35,20,0,0,0,Black,Wings,Unknown,generation-iv,Medium Slow,Flying,Unknown,50.0,50.0,97,Big Boss Pokémon
+glameow,Glameow,431,4,6,190,70,20,0,0,0,Gray,Quadruped,Unknown,generation-iv,Fast,Ground,Unknown,25.0,75.0,221,Catty Pokémon
+purugly,Purugly,432,4,6,75,70,20,0,0,0,Gray,Quadruped,Unknown,generation-iv,Fast,Ground,Unknown,25.0,75.0,221,Tiger Cat Pokémon
+chingling,Chingling,433,4,4,120,70,25,1,0,0,Yellow,Humanoid,Unknown,generation-iv,Fast,No Eggs,Unknown,50.0,50.0,184,Bell Pokémon
+stunky,Stunky,434,4,4,225,70,20,0,0,0,Purple,Quadruped,Unknown,generation-iv,Medium,Ground,Unknown,50.0,50.0,223,Skunk Pokémon
+skuntank,Skuntank,435,4,4,60,70,20,0,0,0,Purple,Quadruped,Unknown,generation-iv,Medium,Ground,Unknown,50.0,50.0,223,Skunk Pokémon
+bronzor,Bronzor,436,4,-1,255,70,20,0,0,0,Green,Ball,Unknown,generation-iv,Medium,Mineral,Unknown,,,224,Bronze Pokémon
+bronzong,Bronzong,437,4,-1,90,70,20,0,0,0,Green,Arms,Unknown,generation-iv,Medium,Mineral,Unknown,,,224,Bronze Bell Pokémon
+bonsly,Bonsly,438,4,4,255,70,20,1,0,0,Brown,Legs,Unknown,generation-iv,Medium,No Eggs,Unknown,50.0,50.0,91,Bonsai Pokémon
+mime-jr,Mime Jr.,439,4,4,145,70,25,1,0,0,Pink,Humanoid,Unknown,generation-iv,Medium,No Eggs,Unknown,50.0,50.0,57,Mime Pokémon
+happiny,Happiny,440,4,8,130,140,40,1,0,0,Pink,Humanoid,Unknown,generation-iv,Fast,No Eggs,Unknown,0.0,100.0,51,Playhouse Pokémon
+chatot,Chatot,441,4,4,30,35,20,0,0,0,Black,Wings,Unknown,generation-iv,Medium Slow,Flying,Unknown,50.0,50.0,228,Music Note Pokémon
+spiritomb,Spiritomb,442,4,4,100,70,30,0,0,0,Purple,Blob,Unknown,generation-iv,Medium,Indeterminate,Unknown,50.0,50.0,229,Forbidden Pokémon
+gible,Gible,443,4,4,45,70,40,0,0,0,Blue,Upright,Unknown,generation-iv,Slow,Monster,Dragon,50.0,50.0,230,Land Shark Pokémon
+gabite,Gabite,444,4,4,45,70,40,0,0,0,Blue,Upright,Unknown,generation-iv,Slow,Monster,Dragon,50.0,50.0,230,Cave Pokémon
+garchomp,Garchomp,445,4,4,45,70,40,0,0,0,Blue,Upright,Unknown,generation-iv,Slow,Monster,Dragon,50.0,50.0,230,Mach Pokémon
+munchlax,Munchlax,446,4,1,50,70,40,1,0,0,Black,Humanoid,Unknown,generation-iv,Slow,No Eggs,Unknown,87.5,12.5,72,Big Eater Pokémon
+riolu,Riolu,447,4,1,75,70,25,1,0,0,Blue,Upright,Unknown,generation-iv,Medium Slow,No Eggs,Unknown,87.5,12.5,232,Emanation Pokémon
+lucario,Lucario,448,4,1,45,70,25,0,0,0,Blue,Upright,Unknown,generation-iv,Medium Slow,Ground,Humanshape,87.5,12.5,232,Aura Pokémon
+hippopotas,Hippopotas,449,4,4,140,70,30,0,0,0,Brown,Quadruped,Unknown,generation-iv,Slow,Ground,Unknown,50.0,50.0,233,Hippo Pokémon
+hippowdon,Hippowdon,450,4,4,60,70,30,0,0,0,Brown,Quadruped,Unknown,generation-iv,Slow,Ground,Unknown,50.0,50.0,233,Heavyweight Pokémon
+skorupi,Skorupi,451,4,4,120,70,20,0,0,0,Purple,Armor,Unknown,generation-iv,Slow,Bug,Water3,50.0,50.0,234,Scorpion Pokémon
+drapion,Drapion,452,4,4,45,70,20,0,0,0,Purple,Armor,Unknown,generation-iv,Slow,Bug,Water3,50.0,50.0,234,Ogre Scorpion Pokémon
+croagunk,Croagunk,453,4,4,140,100,10,0,0,0,Blue,Humanoid,Unknown,generation-iv,Medium,Humanshape,Unknown,50.0,50.0,235,Toxic Mouth Pokémon
+toxicroak,Toxicroak,454,4,4,75,70,20,0,0,0,Blue,Humanoid,Unknown,generation-iv,Medium,Humanshape,Unknown,50.0,50.0,235,Toxic Mouth Pokémon
+carnivine,Carnivine,455,4,4,200,70,25,0,0,0,Green,Tentacles,Unknown,generation-iv,Slow,Plant,Unknown,50.0,50.0,236,Bug Catcher Pokémon
+finneon,Finneon,456,4,4,190,70,20,0,0,0,Blue,Fish,Unknown,generation-iv,Slow Then Very femaleast,Water2,Unknown,50.0,50.0,237,Wing Fish Pokémon
+lumineon,Lumineon,457,4,4,75,70,20,0,0,0,Blue,Fish,Unknown,generation-iv,Slow Then Very femaleast,Water2,Unknown,50.0,50.0,237,Neon Pokémon
+mantyke,Mantyke,458,4,4,25,70,25,1,0,0,Blue,Wings,Unknown,generation-iv,Slow,No Eggs,Unknown,50.0,50.0,116,Kite Pokémon
+snover,Snover,459,4,4,120,70,20,0,0,0,White,Upright,Unknown,generation-iv,Slow,Monster,Plant,50.0,50.0,239,Frost Tree Pokémon
+abomasnow,Abomasnow,460,4,4,60,70,20,0,0,0,White,Upright,Unknown,generation-iv,Slow,Monster,Plant,50.0,50.0,239,Frost Tree Pokémon
+weavile,Weavile,461,4,4,45,35,20,0,0,0,Black,Upright,Unknown,generation-iv,Medium Slow,Ground,Unknown,50.0,50.0,109,Sharp Claw Pokémon
+magnezone,Magnezone,462,4,-1,30,70,20,0,0,0,Gray,Arms,Unknown,generation-iv,Medium,Mineral,Unknown,,,34,Magnet Area Pokémon
+lickilicky,Lickilicky,463,4,4,30,70,20,0,0,0,Pink,Humanoid,Unknown,generation-iv,Medium,Monster,Unknown,50.0,50.0,48,Licking Pokémon
+rhyperior,Rhyperior,464,4,4,30,70,20,0,0,0,Gray,Upright,Unknown,generation-iv,Slow,Monster,Ground,50.0,50.0,50,Drill Pokémon
+tangrowth,Tangrowth,465,4,4,30,70,20,0,0,0,Blue,Humanoid,Unknown,generation-iv,Medium,Plant,Unknown,50.0,50.0,52,Vine Pokémon
+electivire,Electivire,466,4,2,30,70,25,0,0,0,Yellow,Upright,Unknown,generation-iv,Medium,Humanshape,Unknown,75.0,25.0,60,Thunderbolt Pokémon
+magmortar,Magmortar,467,4,2,30,70,25,0,0,0,Red,Upright,Unknown,generation-iv,Medium,Humanshape,Unknown,75.0,25.0,61,Blast Pokémon
+togekiss,Togekiss,468,4,1,30,70,10,0,0,0,White,Wings,Unknown,generation-iv,Fast,Flying,Fairy,87.5,12.5,87,Jubilee Pokémon
+yanmega,Yanmega,469,4,4,30,70,20,0,0,0,Green,Bug Wings,Unknown,generation-iv,Medium,Bug,Unknown,50.0,50.0,95,Ogre Darner Pokémon
+leafeon,Leafeon,470,4,1,45,35,35,0,0,0,Green,Quadruped,Unknown,generation-iv,Medium,Ground,Unknown,87.5,12.5,67,Verdant Pokémon
+glaceon,Glaceon,471,4,1,45,35,35,0,0,0,Blue,Quadruped,Unknown,generation-iv,Medium,Ground,Unknown,87.5,12.5,67,Fresh Snow Pokémon
+gliscor,Gliscor,472,4,4,30,70,20,0,0,0,Purple,Wings,Unknown,generation-iv,Medium Slow,Bug,Unknown,50.0,50.0,104,Fang Scorpion Pokémon
+mamoswine,Mamoswine,473,4,4,50,70,20,0,0,0,Brown,Quadruped,Unknown,generation-iv,Slow,Ground,Unknown,50.0,50.0,112,Twin Tusk Pokémon
+porygon-z,Porygon-Z,474,4,-1,30,70,20,0,0,0,Red,Arms,Unknown,generation-iv,Medium,Mineral,Unknown,,,68,Virtual Pokémon
+gallade,Gallade,475,4,0,45,35,20,0,0,0,White,Humanoid,Unknown,generation-iv,Slow,Humanshape,Indeterminate,100.0,0.0,140,Blade Pokémon
+probopass,Probopass,476,4,4,60,70,20,0,0,0,Gray,Heads,Unknown,generation-iv,Medium,Mineral,Unknown,50.0,50.0,147,Compass Pokémon
+dusknoir,Dusknoir,477,4,4,45,35,25,0,0,0,Black,Arms,Unknown,generation-iv,Fast,Indeterminate,Unknown,50.0,50.0,182,Gripper Pokémon
+froslass,Froslass,478,4,8,75,70,20,0,0,0,White,Arms,Unknown,generation-iv,Medium,Fairy,Mineral,0.0,100.0,186,Snow Land Pokémon
+rotom,Rotom,479,4,-1,45,70,20,0,0,0,Red,Ball,Unknown,generation-iv,Medium,Indeterminate,Unknown,,,240,Plasma Pokémon
+uxie,Uxie,480,4,-1,3,140,80,0,1,0,Yellow,Upright,Unknown,generation-iv,Slow,No Eggs,Unknown,,,241,Knowledge Pokémon
+mesprit,Mesprit,481,4,-1,3,140,80,0,1,0,Pink,Upright,Unknown,generation-iv,Slow,No Eggs,Unknown,,,242,Emotion Pokémon
+azelf,Azelf,482,4,-1,3,140,80,0,1,0,Blue,Upright,Unknown,generation-iv,Slow,No Eggs,Unknown,,,243,Willpower Pokémon
+dialga,Dialga,483,4,-1,3,0,120,0,1,0,White,Quadruped,Unknown,generation-iv,Slow,No Eggs,Unknown,,,244,Temporal Pokémon
+palkia,Palkia,484,4,-1,3,0,120,0,1,0,Purple,Upright,Unknown,generation-iv,Slow,No Eggs,Unknown,,,245,Spatial Pokémon
+heatran,Heatran,485,4,4,3,100,10,0,1,0,Brown,Quadruped,Unknown,generation-iv,Slow,No Eggs,Unknown,50.0,50.0,246,Lava Dome Pokémon
+regigigas,Regigigas,486,4,-1,3,0,120,0,1,0,White,Humanoid,Unknown,generation-iv,Slow,No Eggs,Unknown,,,247,Colossal Pokémon
+giratina,Giratina,487,4,-1,3,0,120,0,1,0,Black,Tentacles,Unknown,generation-iv,Slow,No Eggs,Unknown,,,248,Renegade Pokémon
+cresselia,Cresselia,488,4,8,3,100,120,0,1,0,Yellow,Squiggle,Unknown,generation-iv,Slow,No Eggs,Unknown,0.0,100.0,249,Lunar Pokémon
+phione,Phione,489,4,-1,30,70,40,0,0,1,Blue,Arms,Unknown,generation-iv,Slow,Water1,Fairy,,,250,Sea Drifter Pokémon
+manaphy,Manaphy,490,4,-1,3,70,10,0,0,1,Blue,Humanoid,Unknown,generation-iv,Slow,Water1,Fairy,,,250,Seafaring Pokémon
+darkrai,Darkrai,491,4,-1,3,0,120,0,0,1,Black,Humanoid,Unknown,generation-iv,Slow,No Eggs,Unknown,,,252,Pitch-Black Pokémon
+shaymin,Shaymin,492,4,-1,45,100,120,0,0,1,Green,Quadruped,Unknown,generation-iv,Medium Slow,No Eggs,Unknown,,,253,Gratitude Pokémon
+arceus,Arceus,493,4,-1,3,0,120,0,0,1,White,Quadruped,Unknown,generation-iv,Slow,No Eggs,Unknown,,,254,Alpha Pokémon
+victini,Victini,494,5,-1,3,100,120,0,0,1,Yellow,Humanoid,Unknown,generation-v,Slow,No Eggs,Unknown,,,255,Victory Pokémon
+snivy,Snivy,495,5,1,45,70,20,0,0,0,Green,Upright,Unknown,generation-v,Medium Slow,Ground,Plant,87.5,12.5,256,Grass Snake Pokémon
+servine,Servine,496,5,1,45,70,20,0,0,0,Green,Upright,Unknown,generation-v,Medium Slow,Ground,Plant,87.5,12.5,256,Grass Snake Pokémon
+serperior,Serperior,497,5,1,45,70,20,0,0,0,Green,Squiggle,Unknown,generation-v,Medium Slow,Ground,Plant,87.5,12.5,256,Regal Pokémon
+tepig,Tepig,498,5,1,45,70,20,0,0,0,Red,Quadruped,Unknown,generation-v,Medium Slow,Ground,Unknown,87.5,12.5,257,Fire Pig Pokémon
+pignite,Pignite,499,5,1,45,70,20,0,0,0,Red,Upright,Unknown,generation-v,Medium Slow,Ground,Unknown,87.5,12.5,257,Fire Pig Pokémon
+emboar,Emboar,500,5,1,45,70,20,0,0,0,Red,Upright,Unknown,generation-v,Medium Slow,Ground,Unknown,87.5,12.5,257,Mega Fire Pig Pokémon
+oshawott,Oshawott,501,5,1,45,70,20,0,0,0,Blue,Upright,Unknown,generation-v,Medium Slow,Ground,Unknown,87.5,12.5,258,Sea Otter Pokémon
+dewott,Dewott,502,5,1,45,70,20,0,0,0,Blue,Upright,Unknown,generation-v,Medium Slow,Ground,Unknown,87.5,12.5,258,Discipline Pokémon
+samurott,Samurott,503,5,1,45,70,20,0,0,0,Blue,Quadruped,Unknown,generation-v,Medium Slow,Ground,Unknown,87.5,12.5,258,Formidable Pokémon
+patrat,Patrat,504,5,4,255,70,15,0,0,0,Brown,Quadruped,Unknown,generation-v,Medium,Ground,Unknown,50.0,50.0,259,Scout Pokémon
+watchog,Watchog,505,5,4,255,70,20,0,0,0,Brown,Upright,Unknown,generation-v,Medium,Ground,Unknown,50.0,50.0,259,Lookout Pokémon
+lillipup,Lillipup,506,5,4,255,70,15,0,0,0,Brown,Quadruped,Unknown,generation-v,Medium Slow,Ground,Unknown,50.0,50.0,260,Puppy Pokémon
+herdier,Herdier,507,5,4,120,70,15,0,0,0,Gray,Quadruped,Unknown,generation-v,Medium Slow,Ground,Unknown,50.0,50.0,260,Loyal Dog Pokémon
+stoutland,Stoutland,508,5,4,45,70,15,0,0,0,Gray,Quadruped,Unknown,generation-v,Medium Slow,Ground,Unknown,50.0,50.0,260,Big-Hearted Pokémon
+purrloin,Purrloin,509,5,4,255,70,20,0,0,0,Purple,Quadruped,Unknown,generation-v,Medium,Ground,Unknown,50.0,50.0,261,Devious Pokémon
+liepard,Liepard,510,5,4,90,70,20,0,0,0,Purple,Quadruped,Unknown,generation-v,Medium,Ground,Unknown,50.0,50.0,261,Cruel Pokémon
+pansage,Pansage,511,5,1,190,70,20,0,0,0,Green,Upright,Unknown,generation-v,Medium,Ground,Unknown,87.5,12.5,262,Grass Monkey Pokémon
+simisage,Simisage,512,5,1,75,70,20,0,0,0,Green,Upright,Unknown,generation-v,Medium,Ground,Unknown,87.5,12.5,262,Thorn Monkey Pokémon
+pansear,Pansear,513,5,1,190,70,20,0,0,0,Red,Upright,Unknown,generation-v,Medium,Ground,Unknown,87.5,12.5,263,High Temp Pokémon
+simisear,Simisear,514,5,1,75,70,20,0,0,0,Red,Upright,Unknown,generation-v,Medium,Ground,Unknown,87.5,12.5,263,Ember Pokémon
+panpour,Panpour,515,5,1,190,70,20,0,0,0,Blue,Upright,Unknown,generation-v,Medium,Ground,Unknown,87.5,12.5,264,Spray Pokémon
+simipour,Simipour,516,5,1,75,70,20,0,0,0,Blue,Upright,Unknown,generation-v,Medium,Ground,Unknown,87.5,12.5,264,Geyser Pokémon
+munna,Munna,517,5,4,190,70,10,0,0,0,Pink,Quadruped,Unknown,generation-v,Fast,Ground,Unknown,50.0,50.0,265,Dream Eater Pokémon
+musharna,Musharna,518,5,4,75,70,10,0,0,0,Pink,Humanoid,Unknown,generation-v,Fast,Ground,Unknown,50.0,50.0,265,Drowsing Pokémon
+pidove,Pidove,519,5,4,255,70,15,0,0,0,Gray,Wings,Unknown,generation-v,Medium Slow,Flying,Unknown,50.0,50.0,266,Tiny Pigeon Pokémon
+tranquill,Tranquill,520,5,4,120,70,15,0,0,0,Gray,Wings,Unknown,generation-v,Medium Slow,Flying,Unknown,50.0,50.0,266,Wild Pigeon Pokémon
+unfezant,Unfezant,521,5,4,45,70,15,0,0,0,Gray,Wings,Unknown,generation-v,Medium Slow,Flying,Unknown,50.0,50.0,266,Proud Pokémon
+blitzle,Blitzle,522,5,4,190,70,20,0,0,0,Black,Quadruped,Unknown,generation-v,Medium,Ground,Unknown,50.0,50.0,267,Electrified Pokémon
+zebstrika,Zebstrika,523,5,4,75,70,20,0,0,0,Black,Quadruped,Unknown,generation-v,Medium,Ground,Unknown,50.0,50.0,267,Thunderbolt Pokémon
+roggenrola,Roggenrola,524,5,4,255,70,15,0,0,0,Blue,Legs,Unknown,generation-v,Medium Slow,Mineral,Unknown,50.0,50.0,268,Mantle Pokémon
+boldore,Boldore,525,5,4,120,70,15,0,0,0,Blue,Tentacles,Unknown,generation-v,Medium Slow,Mineral,Unknown,50.0,50.0,268,Ore Pokémon
+gigalith,Gigalith,526,5,4,45,70,15,0,0,0,Blue,Tentacles,Unknown,generation-v,Medium Slow,Mineral,Unknown,50.0,50.0,268,Compressed Pokémon
+woobat,Woobat,527,5,4,190,70,15,0,0,0,Blue,Wings,Unknown,generation-v,Medium,Ground,Flying,50.0,50.0,269,Bat Pokémon
+swoobat,Swoobat,528,5,4,45,70,15,0,0,0,Blue,Wings,Unknown,generation-v,Medium,Ground,Flying,50.0,50.0,269,Courting Pokémon
+drilbur,Drilbur,529,5,4,120,70,20,0,0,0,Gray,Upright,Unknown,generation-v,Medium,Ground,Unknown,50.0,50.0,270,Mole Pokémon
+excadrill,Excadrill,530,5,4,60,70,20,0,0,0,Gray,Humanoid,Unknown,generation-v,Medium,Ground,Unknown,50.0,50.0,270,Subterrene Pokémon
+audino,Audino,531,5,4,255,70,20,0,0,0,Pink,Upright,Unknown,generation-v,Fast,Fairy,Unknown,50.0,50.0,271,Hearing Pokémon
+timburr,Timburr,532,5,2,180,70,20,0,0,0,Gray,Humanoid,Unknown,generation-v,Medium Slow,Humanshape,Unknown,75.0,25.0,272,Muscular Pokémon
+gurdurr,Gurdurr,533,5,2,90,70,20,0,0,0,Gray,Humanoid,Unknown,generation-v,Medium Slow,Humanshape,Unknown,75.0,25.0,272,Muscular Pokémon
+conkeldurr,Conkeldurr,534,5,2,45,70,20,0,0,0,Brown,Humanoid,Unknown,generation-v,Medium Slow,Humanshape,Unknown,75.0,25.0,272,Muscular Pokémon
+tympole,Tympole,535,5,4,255,70,20,0,0,0,Blue,Fish,Unknown,generation-v,Medium Slow,Water1,Unknown,50.0,50.0,273,Tadpole Pokémon
+palpitoad,Palpitoad,536,5,4,120,70,20,0,0,0,Blue,Upright,Unknown,generation-v,Medium Slow,Water1,Unknown,50.0,50.0,273,Vibration Pokémon
+seismitoad,Seismitoad,537,5,4,45,70,20,0,0,0,Blue,Humanoid,Unknown,generation-v,Medium Slow,Water1,Unknown,50.0,50.0,273,Vibration Pokémon
+throh,Throh,538,5,0,45,70,20,0,0,0,Red,Humanoid,Unknown,generation-v,Medium,Humanshape,Unknown,100.0,0.0,274,Judo Pokémon
+sawk,Sawk,539,5,0,45,70,20,0,0,0,Blue,Humanoid,Unknown,generation-v,Medium,Humanshape,Unknown,100.0,0.0,275,Karate Pokémon
+sewaddle,Sewaddle,540,5,4,255,70,15,0,0,0,Yellow,Armor,Unknown,generation-v,Medium Slow,Bug,Unknown,50.0,50.0,276,Sewing Pokémon
+swadloon,Swadloon,541,5,4,120,70,15,0,0,0,Green,Arms,Unknown,generation-v,Medium Slow,Bug,Unknown,50.0,50.0,276,Leaf-Wrapped Pokémon
+leavanny,Leavanny,542,5,4,45,70,15,0,0,0,Yellow,Humanoid,Unknown,generation-v,Medium Slow,Bug,Unknown,50.0,50.0,276,Nurturing Pokémon
+venipede,Venipede,543,5,4,255,70,15,0,0,0,Red,Armor,Unknown,generation-v,Medium Slow,Bug,Unknown,50.0,50.0,277,Centipede Pokémon
+whirlipede,Whirlipede,544,5,4,120,70,15,0,0,0,Gray,Ball,Unknown,generation-v,Medium Slow,Bug,Unknown,50.0,50.0,277,Curlipede Pokémon
+scolipede,Scolipede,545,5,4,45,70,20,0,0,0,Red,Armor,Unknown,generation-v,Medium Slow,Bug,Unknown,50.0,50.0,277,Megapede Pokémon
+cottonee,Cottonee,546,5,4,190,70,20,0,0,0,Green,Ball,Unknown,generation-v,Medium,Plant,Fairy,50.0,50.0,278,Cotton Puff Pokémon
+whimsicott,Whimsicott,547,5,4,75,70,20,0,0,0,Green,Humanoid,Unknown,generation-v,Medium,Plant,Fairy,50.0,50.0,278,Windveiled Pokémon
+petilil,Petilil,548,5,8,190,70,20,0,0,0,Green,Blob,Unknown,generation-v,Medium,Plant,Unknown,0.0,100.0,279,Bulb Pokémon
+lilligant,Lilligant,549,5,8,75,70,20,0,0,0,Green,Blob,Unknown,generation-v,Medium,Plant,Unknown,0.0,100.0,279,Flowering Pokémon
+basculin,Basculin,550,5,4,25,70,40,0,0,0,Green,Fish,Unknown,generation-v,Medium,Water2,Unknown,50.0,50.0,280,Hostile Pokémon
+sandile,Sandile,551,5,4,180,70,20,0,0,0,Brown,Quadruped,Unknown,generation-v,Medium Slow,Ground,Unknown,50.0,50.0,281,Desert Croc Pokémon
+krokorok,Krokorok,552,5,4,90,70,20,0,0,0,Brown,Quadruped,Unknown,generation-v,Medium Slow,Ground,Unknown,50.0,50.0,281,Desert Croc Pokémon
+krookodile,Krookodile,553,5,4,45,70,20,0,0,0,Red,Upright,Unknown,generation-v,Medium Slow,Ground,Unknown,50.0,50.0,281,Intimidation Pokémon
+darumaka,Darumaka,554,5,4,120,70,20,0,0,0,Red,Humanoid,Unknown,generation-v,Medium Slow,Ground,Unknown,50.0,50.0,282,Zen Charm Pokémon
+darmanitan,Darmanitan,555,5,4,60,70,20,0,0,0,Red,Quadruped,Unknown,generation-v,Medium Slow,Ground,Unknown,50.0,50.0,282,Blazing Pokémon
+maractus,Maractus,556,5,4,255,70,20,0,0,0,Green,Blob,Unknown,generation-v,Medium,Plant,Unknown,50.0,50.0,283,Cactus Pokémon
+dwebble,Dwebble,557,5,4,190,70,20,0,0,0,Red,Armor,Unknown,generation-v,Medium,Bug,Mineral,50.0,50.0,284,Rock Inn Pokémon
+crustle,Crustle,558,5,4,75,70,20,0,0,0,Red,Armor,Unknown,generation-v,Medium,Bug,Mineral,50.0,50.0,284,Stone Home Pokémon
+scraggy,Scraggy,559,5,4,180,35,15,0,0,0,Yellow,Upright,Unknown,generation-v,Medium,Ground,Dragon,50.0,50.0,285,Shedding Pokémon
+scrafty,Scrafty,560,5,4,90,70,15,0,0,0,Red,Upright,Unknown,generation-v,Medium,Ground,Dragon,50.0,50.0,285,Hoodlum Pokémon
+sigilyph,Sigilyph,561,5,4,45,70,20,0,0,0,Black,Wings,Unknown,generation-v,Medium,Flying,Unknown,50.0,50.0,286,Avianoid Pokémon
+yamask,Yamask,562,5,4,190,70,25,0,0,0,Black,Arms,Unknown,generation-v,Medium,Mineral,Indeterminate,50.0,50.0,287,Spirit Pokémon
+cofagrigus,Cofagrigus,563,5,4,90,70,25,0,0,0,Yellow,Blob,Unknown,generation-v,Medium,Mineral,Indeterminate,50.0,50.0,287,Coffin Pokémon
+tirtouga,Tirtouga,564,5,1,45,70,30,0,0,0,Blue,Quadruped,Unknown,generation-v,Medium,Water1,Water3,87.5,12.5,288,Prototurtle Pokémon
+carracosta,Carracosta,565,5,1,45,70,30,0,0,0,Blue,Upright,Unknown,generation-v,Medium,Water1,Water3,87.5,12.5,288,Prototurtle Pokémon
+archen,Archen,566,5,1,45,70,30,0,0,0,Yellow,Wings,Unknown,generation-v,Medium,Flying,Water3,87.5,12.5,289,First Bird Pokémon
+archeops,Archeops,567,5,1,45,70,30,0,0,0,Yellow,Wings,Unknown,generation-v,Medium,Flying,Water3,87.5,12.5,289,First Bird Pokémon
+trubbish,Trubbish,568,5,4,190,70,20,0,0,0,Green,Humanoid,Unknown,generation-v,Medium,Mineral,Unknown,50.0,50.0,290,Trash Bag Pokémon
+garbodor,Garbodor,569,5,4,60,70,20,0,0,0,Green,Humanoid,Unknown,generation-v,Medium,Mineral,Unknown,50.0,50.0,290,Trash Heap Pokémon
+zorua,Zorua,570,5,1,75,70,25,0,0,0,Gray,Quadruped,Unknown,generation-v,Medium Slow,Ground,Unknown,87.5,12.5,291,Tricky Fox Pokémon
+zoroark,Zoroark,571,5,1,45,70,20,0,0,0,Gray,Upright,Unknown,generation-v,Medium Slow,Ground,Unknown,87.5,12.5,291,Illusion Fox Pokémon
+minccino,Minccino,572,5,6,255,70,15,0,0,0,Gray,Quadruped,Unknown,generation-v,Fast,Ground,Unknown,25.0,75.0,292,Chinchilla Pokémon
+cinccino,Cinccino,573,5,6,60,70,15,0,0,0,Gray,Quadruped,Unknown,generation-v,Fast,Ground,Unknown,25.0,75.0,292,Scarf Pokémon
+gothita,Gothita,574,5,6,200,70,20,0,0,0,Purple,Humanoid,Unknown,generation-v,Medium Slow,Humanshape,Unknown,25.0,75.0,293,Fixation Pokémon
+gothorita,Gothorita,575,5,6,100,70,20,0,0,0,Purple,Humanoid,Unknown,generation-v,Medium Slow,Humanshape,Unknown,25.0,75.0,293,Manipulate Pokémon
+gothitelle,Gothitelle,576,5,6,50,70,20,0,0,0,Purple,Humanoid,Unknown,generation-v,Medium Slow,Humanshape,Unknown,25.0,75.0,293,Astral Body Pokémon
+solosis,Solosis,577,5,4,200,70,20,0,0,0,Green,Ball,Unknown,generation-v,Medium Slow,Indeterminate,Unknown,50.0,50.0,294,Cell Pokémon
+duosion,Duosion,578,5,4,100,70,20,0,0,0,Green,Ball,Unknown,generation-v,Medium Slow,Indeterminate,Unknown,50.0,50.0,294,Mitosis Pokémon
+reuniclus,Reuniclus,579,5,4,50,70,20,0,0,0,Green,Arms,Unknown,generation-v,Medium Slow,Indeterminate,Unknown,50.0,50.0,294,Multiplying Pokémon
+ducklett,Ducklett,580,5,4,190,70,20,0,0,0,Blue,Wings,Unknown,generation-v,Medium,Water1,Flying,50.0,50.0,295,Water Bird Pokémon
+swanna,Swanna,581,5,4,45,70,20,0,0,0,White,Wings,Unknown,generation-v,Medium,Water1,Flying,50.0,50.0,295,White Bird Pokémon
+vanillite,Vanillite,582,5,4,255,70,20,0,0,0,White,Blob,Unknown,generation-v,Slow,Mineral,Unknown,50.0,50.0,296,Fresh Snow Pokémon
+vanillish,Vanillish,583,5,4,120,70,20,0,0,0,White,Blob,Unknown,generation-v,Slow,Mineral,Unknown,50.0,50.0,296,Icy Snow Pokémon
+vanilluxe,Vanilluxe,584,5,4,45,70,20,0,0,0,White,Heads,Unknown,generation-v,Slow,Mineral,Unknown,50.0,50.0,296,Snowstorm Pokémon
+deerling,Deerling,585,5,4,190,70,20,0,0,0,Pink,Quadruped,Unknown,generation-v,Medium,Ground,Unknown,50.0,50.0,297,Season Pokémon
+sawsbuck,Sawsbuck,586,5,4,75,70,20,0,0,0,Brown,Quadruped,Unknown,generation-v,Medium,Ground,Unknown,50.0,50.0,297,Season Pokémon
+emolga,Emolga,587,5,4,200,70,20,0,0,0,White,Quadruped,Unknown,generation-v,Medium,Ground,Unknown,50.0,50.0,298,Sky Squirrel Pokémon
+karrablast,Karrablast,588,5,4,200,70,15,0,0,0,Blue,Humanoid,Unknown,generation-v,Medium,Bug,Unknown,50.0,50.0,299,Clamping Pokémon
+escavalier,Escavalier,589,5,4,75,70,15,0,0,0,Gray,Arms,Unknown,generation-v,Medium,Bug,Unknown,50.0,50.0,299,Cavalry Pokémon
+foongus,Foongus,590,5,4,190,70,20,0,0,0,White,Arms,Unknown,generation-v,Medium,Plant,Unknown,50.0,50.0,300,Mushroom Pokémon
+amoonguss,Amoonguss,591,5,4,75,70,20,0,0,0,White,Arms,Unknown,generation-v,Medium,Plant,Unknown,50.0,50.0,300,Mushroom Pokémon
+frillish,Frillish,592,5,4,190,70,20,0,0,0,White,Tentacles,Unknown,generation-v,Medium,Indeterminate,Unknown,50.0,50.0,301,Floating Pokémon
+jellicent,Jellicent,593,5,4,60,70,20,0,0,0,White,Tentacles,Unknown,generation-v,Medium,Indeterminate,Unknown,50.0,50.0,301,Floating Pokémon
+alomomola,Alomomola,594,5,4,75,70,40,0,0,0,Pink,Fish,Unknown,generation-v,Fast,Water1,Water2,50.0,50.0,302,Caring Pokémon
+joltik,Joltik,595,5,4,190,70,20,0,0,0,Yellow,Armor,Unknown,generation-v,Medium,Bug,Unknown,50.0,50.0,303,Attaching Pokémon
+galvantula,Galvantula,596,5,4,75,70,20,0,0,0,Yellow,Armor,Unknown,generation-v,Medium,Bug,Unknown,50.0,50.0,303,EleSpider Pokémon
+ferroseed,Ferroseed,597,5,4,255,70,20,0,0,0,Gray,Ball,Unknown,generation-v,Medium,Plant,Mineral,50.0,50.0,304,Thorn Seed Pokémon
+ferrothorn,Ferrothorn,598,5,4,90,70,20,0,0,0,Gray,Tentacles,Unknown,generation-v,Medium,Plant,Mineral,50.0,50.0,304,Thorn Pod Pokémon
+klink,Klink,599,5,-1,130,70,20,0,0,0,Gray,Heads,Unknown,generation-v,Medium Slow,Mineral,Unknown,,,305,Gear Pokémon
+klang,Klang,600,5,-1,60,70,20,0,0,0,Gray,Heads,Unknown,generation-v,Medium Slow,Mineral,Unknown,,,305,Gear Pokémon
+klinklang,Klinklang,601,5,-1,30,70,20,0,0,0,Gray,Heads,Unknown,generation-v,Medium Slow,Mineral,Unknown,,,305,Gear Pokémon
+tynamo,Tynamo,602,5,4,190,70,20,0,0,0,White,Fish,Unknown,generation-v,Slow,Indeterminate,Unknown,50.0,50.0,306,EleFish Pokémon
+eelektrik,Eelektrik,603,5,4,60,70,20,0,0,0,Blue,Fish,Unknown,generation-v,Slow,Indeterminate,Unknown,50.0,50.0,306,EleFish Pokémon
+eelektross,Eelektross,604,5,4,30,70,20,0,0,0,Blue,Fish,Unknown,generation-v,Slow,Indeterminate,Unknown,50.0,50.0,306,EleFish Pokémon
+elgyem,Elgyem,605,5,4,255,70,20,0,0,0,Blue,Upright,Unknown,generation-v,Medium,Humanshape,Unknown,50.0,50.0,307,Cerebral Pokémon
+beheeyem,Beheeyem,606,5,4,90,70,20,0,0,0,Brown,Humanoid,Unknown,generation-v,Medium,Humanshape,Unknown,50.0,50.0,307,Cerebral Pokémon
+litwick,Litwick,607,5,4,190,70,20,0,0,0,White,Blob,Unknown,generation-v,Medium Slow,Indeterminate,Unknown,50.0,50.0,308,Candle Pokémon
+lampent,Lampent,608,5,4,90,70,20,0,0,0,Black,Arms,Unknown,generation-v,Medium Slow,Indeterminate,Unknown,50.0,50.0,308,Lamp Pokémon
+chandelure,Chandelure,609,5,4,45,70,20,0,0,0,Black,Arms,Unknown,generation-v,Medium Slow,Indeterminate,Unknown,50.0,50.0,308,Luring Pokémon
+axew,Axew,610,5,4,75,35,40,0,0,0,Green,Upright,Unknown,generation-v,Slow,Monster,Dragon,50.0,50.0,309,Tusk Pokémon
+fraxure,Fraxure,611,5,4,60,35,40,0,0,0,Green,Upright,Unknown,generation-v,Slow,Monster,Dragon,50.0,50.0,309,Axe Jaw Pokémon
+haxorus,Haxorus,612,5,4,45,35,40,0,0,0,Yellow,Upright,Unknown,generation-v,Slow,Monster,Dragon,50.0,50.0,309,Axe Jaw Pokémon
+cubchoo,Cubchoo,613,5,4,120,70,20,0,0,0,White,Upright,Unknown,generation-v,Medium,Ground,Unknown,50.0,50.0,310,Chill Pokémon
+beartic,Beartic,614,5,4,60,70,20,0,0,0,White,Quadruped,Unknown,generation-v,Medium,Ground,Unknown,50.0,50.0,310,Freezing Pokémon
+cryogonal,Cryogonal,615,5,-1,25,70,25,0,0,0,Blue,Ball,Unknown,generation-v,Medium,Mineral,Unknown,,,311,Crystallizing Pokémon
+shelmet,Shelmet,616,5,4,200,70,15,0,0,0,Red,Ball,Unknown,generation-v,Medium,Bug,Unknown,50.0,50.0,312,Snail Pokémon
+accelgor,Accelgor,617,5,4,75,70,15,0,0,0,Red,Arms,Unknown,generation-v,Medium,Bug,Unknown,50.0,50.0,312,Shell Out Pokémon
+stunfisk,Stunfisk,618,5,4,75,70,20,0,0,0,Brown,Fish,Unknown,generation-v,Medium,Water1,Indeterminate,50.0,50.0,313,Trap Pokémon
+mienfoo,Mienfoo,619,5,4,180,70,25,0,0,0,Yellow,Upright,Unknown,generation-v,Medium Slow,Ground,Humanshape,50.0,50.0,314,Martial Arts Pokémon
+mienshao,Mienshao,620,5,4,45,70,25,0,0,0,Purple,Upright,Unknown,generation-v,Medium Slow,Ground,Humanshape,50.0,50.0,314,Martial Arts Pokémon
+druddigon,Druddigon,621,5,4,45,70,30,0,0,0,Red,Upright,Unknown,generation-v,Medium,Dragon,Monster,50.0,50.0,315,Cave Pokémon
+golett,Golett,622,5,-1,190,70,25,0,0,0,Green,Humanoid,Unknown,generation-v,Medium,Mineral,Unknown,,,316,Automaton Pokémon
+golurk,Golurk,623,5,-1,90,70,25,0,0,0,Green,Humanoid,Unknown,generation-v,Medium,Mineral,Unknown,,,316,Automaton Pokémon
+pawniard,Pawniard,624,5,4,120,35,20,0,0,0,Red,Humanoid,Unknown,generation-v,Medium,Humanshape,Unknown,50.0,50.0,317,Sharp Blade Pokémon
+bisharp,Bisharp,625,5,4,45,35,20,0,0,0,Red,Humanoid,Unknown,generation-v,Medium,Humanshape,Unknown,50.0,50.0,317,Sword Blade Pokémon
+bouffalant,Bouffalant,626,5,4,45,70,20,0,0,0,Brown,Quadruped,Unknown,generation-v,Medium,Ground,Unknown,50.0,50.0,318,Bash Buffalo Pokémon
+rufflet,Rufflet,627,5,0,190,70,20,0,0,0,White,Wings,Unknown,generation-v,Slow,Flying,Unknown,100.0,0.0,319,Eaglet Pokémon
+braviary,Braviary,628,5,0,60,70,20,0,0,0,Red,Wings,Unknown,generation-v,Slow,Flying,Unknown,100.0,0.0,319,Valiant Pokémon
+vullaby,Vullaby,629,5,8,190,35,20,0,0,0,Brown,Wings,Unknown,generation-v,Slow,Flying,Unknown,0.0,100.0,320,Diapered Pokémon
+mandibuzz,Mandibuzz,630,5,8,60,35,20,0,0,0,Brown,Wings,Unknown,generation-v,Slow,Flying,Unknown,0.0,100.0,320,Bone Vulture Pokémon
+heatmor,Heatmor,631,5,4,90,70,20,0,0,0,Red,Upright,Unknown,generation-v,Medium,Ground,Unknown,50.0,50.0,321,Anteater Pokémon
+durant,Durant,632,5,4,90,70,20,0,0,0,Gray,Armor,Unknown,generation-v,Medium,Bug,Unknown,50.0,50.0,322,Iron Ant Pokémon
+deino,Deino,633,5,4,45,35,40,0,0,0,Blue,Quadruped,Unknown,generation-v,Slow,Dragon,Unknown,50.0,50.0,323,Irate Pokémon
+zweilous,Zweilous,634,5,4,45,35,40,0,0,0,Blue,Quadruped,Unknown,generation-v,Slow,Dragon,Unknown,50.0,50.0,323,Hostile Pokémon
+hydreigon,Hydreigon,635,5,4,45,35,40,0,0,0,Blue,Upright,Unknown,generation-v,Slow,Dragon,Unknown,50.0,50.0,323,Brutal Pokémon
+larvesta,Larvesta,636,5,4,45,70,40,0,0,0,White,Armor,Unknown,generation-v,Slow,Bug,Unknown,50.0,50.0,324,Torch Pokémon
+volcarona,Volcarona,637,5,4,15,70,40,0,0,0,White,Bug Wings,Unknown,generation-v,Slow,Bug,Unknown,50.0,50.0,324,Sun Pokémon
+cobalion,Cobalion,638,5,-1,3,35,80,0,1,0,Blue,Quadruped,Unknown,generation-v,Slow,No Eggs,Unknown,,,325,Iron Will Pokémon
+terrakion,Terrakion,639,5,-1,3,35,80,0,1,0,Gray,Quadruped,Unknown,generation-v,Slow,No Eggs,Unknown,,,326,Cavern Pokémon
+virizion,Virizion,640,5,-1,3,35,80,0,1,0,Green,Quadruped,Unknown,generation-v,Slow,No Eggs,Unknown,,,327,Grassland Pokémon
+tornadus,Tornadus,641,5,0,3,90,120,0,1,0,Green,Arms,Unknown,generation-v,Slow,No Eggs,Unknown,100.0,0.0,328,Cyclone Pokémon
+thundurus,Thundurus,642,5,0,3,90,120,0,1,0,Blue,Arms,Unknown,generation-v,Slow,No Eggs,Unknown,100.0,0.0,329,Bolt Strike Pokémon
+reshiram,Reshiram,643,5,-1,3,0,120,0,1,0,White,Wings,Unknown,generation-v,Slow,No Eggs,Unknown,,,330,Vast White Pokémon
+zekrom,Zekrom,644,5,-1,3,0,120,0,1,0,Black,Upright,Unknown,generation-v,Slow,No Eggs,Unknown,,,331,Deep Black Pokémon
+landorus,Landorus,645,5,0,3,90,120,0,1,0,Brown,Arms,Unknown,generation-v,Slow,No Eggs,Unknown,100.0,0.0,332,Abundance Pokémon
+kyurem,Kyurem,646,5,-1,3,0,120,0,1,0,Gray,Upright,Unknown,generation-v,Slow,No Eggs,Unknown,,,333,Boundary Pokémon
+keldeo,Keldeo,647,5,-1,3,35,80,0,0,1,Yellow,Quadruped,Unknown,generation-v,Slow,No Eggs,Unknown,,,334,Colt Pokémon
+meloetta,Meloetta,648,5,-1,3,100,120,0,0,1,White,Humanoid,Unknown,generation-v,Slow,No Eggs,Unknown,,,335,Melody Pokémon
+genesect,Genesect,649,5,-1,3,0,120,0,0,1,Purple,Humanoid,Unknown,generation-v,Slow,No Eggs,Unknown,,,336,Paleozoic Pokémon
+chespin,Chespin,650,6,1,45,70,20,0,0,0,Green,Upright,Unknown,generation-vi,Medium Slow,Ground,Unknown,87.5,12.5,337,Spiny Nut Pokémon
+quilladin,Quilladin,651,6,1,45,70,20,0,0,0,Green,Upright,Unknown,generation-vi,Medium Slow,Ground,Unknown,87.5,12.5,337,Spiny Armor Pokémon
+chesnaught,Chesnaught,652,6,1,45,70,20,0,0,0,Green,Upright,Unknown,generation-vi,Medium Slow,Ground,Unknown,87.5,12.5,337,Spiny Armor Pokémon
+fennekin,Fennekin,653,6,1,45,70,20,0,0,0,Red,Quadruped,Unknown,generation-vi,Medium Slow,Ground,Unknown,87.5,12.5,338,Fox Pokémon
+braixen,Braixen,654,6,1,45,70,20,0,0,0,Red,Upright,Unknown,generation-vi,Medium Slow,Ground,Unknown,87.5,12.5,338,Fox Pokémon
+delphox,Delphox,655,6,1,45,70,20,0,0,0,Red,Upright,Unknown,generation-vi,Medium Slow,Ground,Unknown,87.5,12.5,338,Fox Pokémon
+froakie,Froakie,656,6,1,45,70,20,0,0,0,Blue,Quadruped,Unknown,generation-vi,Medium Slow,Water1,Unknown,87.5,12.5,339,Bubble Frog Pokémon
+frogadier,Frogadier,657,6,1,45,70,20,0,0,0,Blue,Humanoid,Unknown,generation-vi,Medium Slow,Water1,Unknown,87.5,12.5,339,Bubble Frog Pokémon
+greninja,Greninja,658,6,1,45,70,20,0,0,0,Blue,Humanoid,Unknown,generation-vi,Medium Slow,Water1,Unknown,87.5,12.5,339,Ninja Pokémon
+bunnelby,Bunnelby,659,6,4,255,70,15,0,0,0,Brown,Upright,Unknown,generation-vi,Medium,Ground,Unknown,50.0,50.0,340,Digging Pokémon
+diggersby,Diggersby,660,6,4,127,70,15,0,0,0,Brown,Upright,Unknown,generation-vi,Medium,Ground,Unknown,50.0,50.0,340,Digging Pokémon
+fletchling,Fletchling,661,6,4,255,70,15,0,0,0,Red,Wings,Unknown,generation-vi,Medium Slow,Flying,Unknown,50.0,50.0,341,Tiny Robin Pokémon
+fletchinder,Fletchinder,662,6,4,120,70,15,0,0,0,Red,Wings,Unknown,generation-vi,Medium Slow,Flying,Unknown,50.0,50.0,341,Ember Pokémon
+talonflame,Talonflame,663,6,4,45,70,15,0,0,0,Red,Wings,Unknown,generation-vi,Medium Slow,Flying,Unknown,50.0,50.0,341,Scorching Pokémon
+scatterbug,Scatterbug,664,6,4,255,70,15,0,0,0,Black,Armor,Unknown,generation-vi,Medium,Bug,Unknown,50.0,50.0,342,Scatterdust Pokémon
+spewpa,Spewpa,665,6,4,120,70,15,0,0,0,Black,Blob,Unknown,generation-vi,Medium,Bug,Unknown,50.0,50.0,342,Scatterdust Pokémon
+vivillon,Vivillon,666,6,4,45,70,15,0,0,0,White,Bug Wings,Unknown,generation-vi,Medium,Bug,Unknown,50.0,50.0,342,Scale Pokémon
+litleo,Litleo,667,6,7,220,70,20,0,0,0,Brown,Quadruped,Unknown,generation-vi,Medium Slow,Ground,Unknown,12.5,87.5,343,Lion Cub Pokémon
+pyroar,Pyroar,668,6,7,65,70,20,0,0,0,Brown,Quadruped,Unknown,generation-vi,Medium Slow,Ground,Unknown,12.5,87.5,343,Royal Pokémon
+flabebe,Flabébé,669,6,8,225,70,20,0,0,0,White,Arms,Unknown,generation-vi,Medium,Fairy,Unknown,0.0,100.0,344,Single Bloom Pokémon
+floette,Floette,670,6,8,120,70,20,0,0,0,White,Arms,Unknown,generation-vi,Medium,Fairy,Unknown,0.0,100.0,344,Single Bloom Pokémon
+florges,Florges,671,6,8,45,70,20,0,0,0,White,Arms,Unknown,generation-vi,Medium,Fairy,Unknown,0.0,100.0,344,Garden Pokémon
+skiddo,Skiddo,672,6,4,200,70,20,0,0,0,Brown,Quadruped,Unknown,generation-vi,Medium,Ground,Unknown,50.0,50.0,345,Mount Pokémon
+gogoat,Gogoat,673,6,4,45,70,20,0,0,0,Brown,Quadruped,Unknown,generation-vi,Medium,Ground,Unknown,50.0,50.0,345,Mount Pokémon
+pancham,Pancham,674,6,4,220,70,25,0,0,0,White,Upright,Unknown,generation-vi,Medium,Ground,Humanshape,50.0,50.0,346,Playful Pokémon
+pangoro,Pangoro,675,6,4,65,70,25,0,0,0,White,Humanoid,Unknown,generation-vi,Medium,Ground,Humanshape,50.0,50.0,346,Daunting Pokémon
+furfrou,Furfrou,676,6,4,160,70,20,0,0,0,White,Quadruped,Unknown,generation-vi,Medium,Ground,Unknown,50.0,50.0,347,Poodle Pokémon
+espurr,Espurr,677,6,4,190,70,20,0,0,0,Gray,Upright,Unknown,generation-vi,Medium,Ground,Unknown,50.0,50.0,348,Restraint Pokémon
+meowstic,Meowstic,678,6,4,75,70,20,0,0,0,Blue,Upright,Unknown,generation-vi,Medium,Ground,Unknown,50.0,50.0,348,Constraint Pokémon
+honedge,Honedge,679,6,4,180,70,20,0,0,0,Brown,Blob,Unknown,generation-vi,Medium,Mineral,Unknown,50.0,50.0,349,Sword Pokémon
+doublade,Doublade,680,6,4,90,70,20,0,0,0,Brown,Heads,Unknown,generation-vi,Medium,Mineral,Unknown,50.0,50.0,349,Sword Pokémon
+aegislash,Aegislash,681,6,4,45,70,20,0,0,0,Brown,Blob,Unknown,generation-vi,Medium,Mineral,Unknown,50.0,50.0,349,Royal Sword Pokémon
+spritzee,Spritzee,682,6,4,200,70,20,0,0,0,Pink,Arms,Unknown,generation-vi,Medium,Fairy,Unknown,50.0,50.0,350,Perfume Pokémon
+aromatisse,Aromatisse,683,6,4,140,70,20,0,0,0,Pink,Humanoid,Unknown,generation-vi,Medium,Fairy,Unknown,50.0,50.0,350,Fragrance Pokémon
+swirlix,Swirlix,684,6,4,200,70,20,0,0,0,White,Legs,Unknown,generation-vi,Medium,Fairy,Unknown,50.0,50.0,351,Cotton Candy Pokémon
+slurpuff,Slurpuff,685,6,4,140,70,20,0,0,0,White,Humanoid,Unknown,generation-vi,Medium,Fairy,Unknown,50.0,50.0,351,Meringue Pokémon
+inkay,Inkay,686,6,4,190,70,20,0,0,0,Blue,Tentacles,Unknown,generation-vi,Medium,Water1,Water2,50.0,50.0,352,Revolving Pokémon
+malamar,Malamar,687,6,4,80,70,20,0,0,0,Blue,Blob,Unknown,generation-vi,Medium,Water1,Water2,50.0,50.0,352,Overturning Pokémon
+binacle,Binacle,688,6,4,120,70,20,0,0,0,Brown,Heads,Unknown,generation-vi,Medium,Water3,Unknown,50.0,50.0,353,Two-Handed Pokémon
+barbaracle,Barbaracle,689,6,4,45,70,20,0,0,0,Brown,Heads,Unknown,generation-vi,Medium,Water3,Unknown,50.0,50.0,353,Collective Pokémon
+skrelp,Skrelp,690,6,4,225,70,20,0,0,0,Brown,Blob,Unknown,generation-vi,Medium,Water1,Dragon,50.0,50.0,354,Mock Kelp Pokémon
+dragalge,Dragalge,691,6,4,55,70,20,0,0,0,Brown,Blob,Unknown,generation-vi,Medium,Water1,Dragon,50.0,50.0,354,Mock Kelp Pokémon
+clauncher,Clauncher,692,6,4,225,70,15,0,0,0,Blue,Armor,Unknown,generation-vi,Slow,Water1,Water3,50.0,50.0,355,Water Gun Pokémon
+clawitzer,Clawitzer,693,6,4,55,70,15,0,0,0,Blue,Squiggle,Unknown,generation-vi,Slow,Water1,Water3,50.0,50.0,355,Howitzer Pokémon
+helioptile,Helioptile,694,6,4,190,70,20,0,0,0,Yellow,Upright,Unknown,generation-vi,Medium,Monster,Dragon,50.0,50.0,356,Generator Pokémon
+heliolisk,Heliolisk,695,6,4,75,70,20,0,0,0,Yellow,Upright,Unknown,generation-vi,Medium,Monster,Dragon,50.0,50.0,356,Generator Pokémon
+tyrunt,Tyrunt,696,6,1,45,70,30,0,0,0,Brown,Upright,Unknown,generation-vi,Medium,Monster,Dragon,87.5,12.5,357,Royal Heir Pokémon
+tyrantrum,Tyrantrum,697,6,1,45,70,30,0,0,0,Red,Upright,Unknown,generation-vi,Medium,Monster,Dragon,87.5,12.5,357,Despot Pokémon
+amaura,Amaura,698,6,1,45,70,30,0,0,0,Blue,Quadruped,Unknown,generation-vi,Medium,Monster,Unknown,87.5,12.5,358,Tundra Pokémon
+aurorus,Aurorus,699,6,1,45,70,30,0,0,0,Blue,Quadruped,Unknown,generation-vi,Medium,Monster,Unknown,87.5,12.5,358,Tundra Pokémon
+sylveon,Sylveon,700,6,1,45,70,35,0,0,0,Pink,Quadruped,Unknown,generation-vi,Medium,Ground,Unknown,87.5,12.5,67,Intertwining Pokémon
+hawlucha,Hawlucha,701,6,4,100,70,20,0,0,0,Green,Humanoid,Unknown,generation-vi,Medium,Flying,Humanshape,50.0,50.0,359,Wrestling Pokémon
+dedenne,Dedenne,702,6,4,180,70,20,0,0,0,Yellow,Upright,Unknown,generation-vi,Medium,Ground,Fairy,50.0,50.0,360,Antenna Pokémon
+carbink,Carbink,703,6,-1,60,70,25,0,0,0,Gray,Ball,Unknown,generation-vi,Slow,Fairy,Mineral,,,361,Jewel Pokémon
+goomy,Goomy,704,6,4,45,35,40,0,0,0,Purple,Squiggle,Unknown,generation-vi,Slow,Dragon,Unknown,50.0,50.0,362,Soft Tissue Pokémon
+sliggoo,Sliggoo,705,6,4,45,35,40,0,0,0,Purple,Squiggle,Unknown,generation-vi,Slow,Dragon,Unknown,50.0,50.0,362,Soft Tissue Pokémon
+goodra,Goodra,706,6,4,45,35,40,0,0,0,Purple,Upright,Unknown,generation-vi,Slow,Dragon,Unknown,50.0,50.0,362,Dragon Pokémon
+klefki,Klefki,707,6,4,75,70,20,0,0,0,Gray,Ball,Unknown,generation-vi,Fast,Mineral,Unknown,50.0,50.0,363,Key Ring Pokémon
+phantump,Phantump,708,6,4,120,70,20,0,0,0,Brown,Arms,Unknown,generation-vi,Medium,Plant,Indeterminate,50.0,50.0,364,Stump Pokémon
+trevenant,Trevenant,709,6,4,60,70,20,0,0,0,Brown,Tentacles,Unknown,generation-vi,Medium,Plant,Indeterminate,50.0,50.0,364,Elder Tree Pokémon
+pumpkaboo,Pumpkaboo,710,6,4,120,70,20,0,0,0,Brown,Ball,Unknown,generation-vi,Medium,Indeterminate,Unknown,50.0,50.0,365,Pumpkin Pokémon
+gourgeist,Gourgeist,711,6,4,60,70,20,0,0,0,Brown,Blob,Unknown,generation-vi,Medium,Indeterminate,Unknown,50.0,50.0,365,Pumpkin Pokémon
+bergmite,Bergmite,712,6,4,190,70,20,0,0,0,Blue,Quadruped,Unknown,generation-vi,Medium,Monster,Mineral,50.0,50.0,366,Ice Chunk Pokémon
+avalugg,Avalugg,713,6,4,55,70,20,0,0,0,Blue,Quadruped,Unknown,generation-vi,Medium,Monster,Mineral,50.0,50.0,366,Iceberg Pokémon
+noibat,Noibat,714,6,4,190,70,20,0,0,0,Purple,Wings,Unknown,generation-vi,Medium,Flying,Dragon,50.0,50.0,367,Sound Wave Pokémon
+noivern,Noivern,715,6,4,45,70,20,0,0,0,Purple,Wings,Unknown,generation-vi,Medium,Flying,Dragon,50.0,50.0,367,Sound Wave Pokémon
+xerneas,Xerneas,716,6,-1,45,0,120,0,1,0,Blue,Quadruped,Unknown,generation-vi,Slow,No Eggs,Unknown,,,368,Life Pokémon
+yveltal,Yveltal,717,6,-1,45,0,120,0,1,0,Red,Wings,Unknown,generation-vi,Slow,No Eggs,Unknown,,,369,Destruction Pokémon
+zygarde,Zygarde,718,6,-1,3,0,120,0,1,0,Green,Squiggle,Unknown,generation-vi,Slow,No Eggs,Unknown,,,370,Order Pokémon
+diancie,Diancie,719,6,-1,3,70,25,0,0,1,Pink,Arms,Unknown,generation-vi,Slow,No Eggs,Unknown,,,371,Jewel Pokémon
+hoopa,Hoopa,720,6,-1,3,100,120,0,0,1,Purple,Arms,Unknown,generation-vi,Slow,No Eggs,Unknown,,,372,Mischief Pokémon
+volcanion,Volcanion,721,6,-1,3,100,120,0,0,1,Brown,Quadruped,Unknown,generation-vi,Slow,No Eggs,Unknown,,,373,Steam Pokémon
+rowlet,Rowlet,722,7,1,45,70,15,0,0,0,Brown,Wings,Unknown,generation-vii,Medium Slow,Flying,Unknown,87.5,12.5,374,Grass Quill Pokémon
+dartrix,Dartrix,723,7,1,45,70,15,0,0,0,Brown,Wings,Unknown,generation-vii,Medium Slow,Flying,Unknown,87.5,12.5,374,Blade Quill Pokémon
+decidueye,Decidueye,724,7,1,45,70,15,0,0,0,Brown,Wings,Unknown,generation-vii,Medium Slow,Flying,Unknown,87.5,12.5,374,Arrow Quill Pokémon
+litten,Litten,725,7,1,45,70,15,0,0,0,Red,Quadruped,Unknown,generation-vii,Medium Slow,Ground,Unknown,87.5,12.5,375,Fire Cat Pokémon
+torracat,Torracat,726,7,1,45,70,15,0,0,0,Red,Quadruped,Unknown,generation-vii,Medium Slow,Ground,Unknown,87.5,12.5,375,Fire Cat Pokémon
+incineroar,Incineroar,727,7,1,45,70,15,0,0,0,Red,Upright,Unknown,generation-vii,Medium Slow,Ground,Unknown,87.5,12.5,375,Heel Pokémon
+popplio,Popplio,728,7,1,45,70,15,0,0,0,Blue,Fish,Unknown,generation-vii,Medium Slow,Water1,Ground,87.5,12.5,376,Sea Lion Pokémon
+brionne,Brionne,729,7,1,45,70,15,0,0,0,Blue,Fish,Unknown,generation-vii,Medium Slow,Water1,Ground,87.5,12.5,376,Pop Star Pokémon
+primarina,Primarina,730,7,1,45,70,15,0,0,0,Blue,Fish,Unknown,generation-vii,Medium Slow,Water1,Ground,87.5,12.5,376,Soloist Pokémon
+pikipek,Pikipek,731,7,4,255,70,15,0,0,0,Black,Wings,Unknown,generation-vii,Medium,Flying,Unknown,50.0,50.0,377,Woodpecker Pokémon
+trumbeak,Trumbeak,732,7,4,120,70,15,0,0,0,Black,Wings,Unknown,generation-vii,Medium,Flying,Unknown,50.0,50.0,377,Bugle Beak Pokémon
+toucannon,Toucannon,733,7,4,45,70,15,0,0,0,Black,Wings,Unknown,generation-vii,Medium,Flying,Unknown,50.0,50.0,377,Cannon Pokémon
+yungoos,Yungoos,734,7,4,255,70,15,0,0,0,Brown,Quadruped,Unknown,generation-vii,Medium,Ground,Unknown,50.0,50.0,378,Loitering Pokémon
+gumshoos,Gumshoos,735,7,4,127,70,15,0,0,0,Brown,Quadruped,Unknown,generation-vii,Medium,Ground,Unknown,50.0,50.0,378,Stakeout Pokémon
+grubbin,Grubbin,736,7,4,255,70,15,0,0,0,Gray,Armor,Unknown,generation-vii,Medium,Bug,Unknown,50.0,50.0,379,Larva Pokémon
+charjabug,Charjabug,737,7,4,120,70,15,0,0,0,Green,Squiggle,Unknown,generation-vii,Medium,Bug,Unknown,50.0,50.0,379,Battery Pokémon
+vikavolt,Vikavolt,738,7,4,45,70,15,0,0,0,Blue,Armor,Unknown,generation-vii,Medium,Bug,Unknown,50.0,50.0,379,Stag Beetle Pokémon
+crabrawler,Crabrawler,739,7,4,225,70,20,0,0,0,Purple,Armor,Unknown,generation-vii,Medium,Water3,Unknown,50.0,50.0,380,Boxing Pokémon
+crabominable,Crabominable,740,7,4,60,70,20,0,0,0,White,Armor,Unknown,generation-vii,Medium,Water3,Unknown,50.0,50.0,380,Woolly Crab Pokémon
+oricorio,Oricorio,741,7,6,45,70,20,0,0,0,Red,Wings,Unknown,generation-vii,Medium,Flying,Unknown,25.0,75.0,381,Dancing Pokémon
+cutiefly,Cutiefly,742,7,4,190,70,20,0,0,0,Yellow,Armor,Unknown,generation-vii,Medium,Bug,Fairy,50.0,50.0,382,Bee Fly Pokémon
+ribombee,Ribombee,743,7,4,75,70,20,0,0,0,Yellow,Bug Wings,Unknown,generation-vii,Medium,Bug,Fairy,50.0,50.0,382,Bee Fly Pokémon
+rockruff,Rockruff,744,7,4,190,70,15,0,0,0,Brown,Quadruped,Unknown,generation-vii,Medium,Ground,Unknown,50.0,50.0,383,Puppy Pokémon
+lycanroc,Lycanroc,745,7,4,90,70,15,0,0,0,Brown,Quadruped,Unknown,generation-vii,Medium,Ground,Unknown,50.0,50.0,383,Wolf Pokémon
+wishiwashi,Wishiwashi,746,7,4,60,70,15,0,0,0,Blue,Fish,Unknown,generation-vii,Fast,Water2,Unknown,50.0,50.0,384,Small Fry Pokémon
+mareanie,Mareanie,747,7,4,190,70,20,0,0,0,Blue,Blob,Unknown,generation-vii,Medium,Water1,Unknown,50.0,50.0,385,Brutal Star Pokémon
+toxapex,Toxapex,748,7,4,75,70,20,0,0,0,Blue,Tentacles,Unknown,generation-vii,Medium,Water1,Unknown,50.0,50.0,385,Brutal Star Pokémon
+mudbray,Mudbray,749,7,4,190,70,20,0,0,0,Brown,Quadruped,Unknown,generation-vii,Medium,Ground,Unknown,50.0,50.0,386,Donkey Pokémon
+mudsdale,Mudsdale,750,7,4,60,70,20,0,0,0,Brown,Quadruped,Unknown,generation-vii,Medium,Ground,Unknown,50.0,50.0,386,Draft Horse Pokémon
+dewpider,Dewpider,751,7,4,200,70,15,0,0,0,Green,Legs,Unknown,generation-vii,Medium,Water1,Bug,50.0,50.0,387,Water Bubble Pokémon
+araquanid,Araquanid,752,7,4,100,70,15,0,0,0,Green,Armor,Unknown,generation-vii,Medium,Water1,Bug,50.0,50.0,387,Water Bubble Pokémon
+fomantis,Fomantis,753,7,4,190,70,20,0,0,0,Pink,Upright,Unknown,generation-vii,Medium,Plant,Unknown,50.0,50.0,388,Sickle Grass Pokémon
+lurantis,Lurantis,754,7,4,75,70,20,0,0,0,Pink,Humanoid,Unknown,generation-vii,Medium,Plant,Unknown,50.0,50.0,388,Bloom Sickle Pokémon
+morelull,Morelull,755,7,4,190,70,20,0,0,0,Purple,Blob,Unknown,generation-vii,Medium,Plant,Unknown,50.0,50.0,389,Illuminating Pokémon
+shiinotic,Shiinotic,756,7,4,75,70,20,0,0,0,Purple,Humanoid,Unknown,generation-vii,Medium,Plant,Unknown,50.0,50.0,389,Illuminating Pokémon
+salandit,Salandit,757,7,1,120,70,20,0,0,0,Black,Quadruped,Unknown,generation-vii,Medium,Monster,Dragon,87.5,12.5,390,Toxic Lizard Pokémon
+salazzle,Salazzle,758,7,8,45,70,20,0,0,0,Black,Quadruped,Unknown,generation-vii,Medium,Monster,Dragon,0.0,100.0,390,Toxic Lizard Pokémon
+stufful,Stufful,759,7,4,140,70,15,0,0,0,Pink,Quadruped,Unknown,generation-vii,Medium,Ground,Unknown,50.0,50.0,391,Flailing Pokémon
+bewear,Bewear,760,7,4,70,70,15,0,0,0,Pink,Upright,Unknown,generation-vii,Medium,Ground,Unknown,50.0,50.0,391,Strong Arm Pokémon
+bounsweet,Bounsweet,761,7,8,235,70,20,0,0,0,Purple,Legs,Unknown,generation-vii,Medium Slow,Plant,Unknown,0.0,100.0,392,Fruit Pokémon
+steenee,Steenee,762,7,8,120,70,20,0,0,0,Purple,Humanoid,Unknown,generation-vii,Medium Slow,Plant,Unknown,0.0,100.0,392,Fruit Pokémon
+tsareena,Tsareena,763,7,8,45,70,20,0,0,0,Purple,Humanoid,Unknown,generation-vii,Medium Slow,Plant,Unknown,0.0,100.0,392,Fruit Pokémon
+comfey,Comfey,764,7,6,60,70,20,0,0,0,Green,Ball,Unknown,generation-vii,Fast,Plant,Unknown,25.0,75.0,393,Posy Picker Pokémon
+oranguru,Oranguru,765,7,4,45,70,20,0,0,0,White,Humanoid,Unknown,generation-vii,Slow,Ground,Unknown,50.0,50.0,394,Sage Pokémon
+passimian,Passimian,766,7,4,45,70,20,0,0,0,White,Upright,Unknown,generation-vii,Slow,Ground,Unknown,50.0,50.0,395,Teamwork Pokémon
+wimpod,Wimpod,767,7,4,90,70,20,0,0,0,Gray,Tentacles,Unknown,generation-vii,Medium,Bug,Water3,50.0,50.0,396,Turn Tail Pokémon
+golisopod,Golisopod,768,7,4,45,70,20,0,0,0,Gray,Humanoid,Unknown,generation-vii,Medium,Bug,Water3,50.0,50.0,396,Hard Scale Pokémon
+sandygast,Sandygast,769,7,4,140,70,15,0,0,0,Brown,Squiggle,Unknown,generation-vii,Medium,Indeterminate,Unknown,50.0,50.0,397,Sand Heap Pokémon
+palossand,Palossand,770,7,4,60,70,15,0,0,0,Brown,Squiggle,Unknown,generation-vii,Medium,Indeterminate,Unknown,50.0,50.0,397,Sand Castle Pokémon
+pyukumuku,Pyukumuku,771,7,4,60,70,15,0,0,0,Black,Squiggle,Unknown,generation-vii,Fast,Water1,Unknown,50.0,50.0,398,Sea Cucumber Pokémon
+type-null,Type: Null,772,7,-1,3,0,120,0,1,0,Gray,Quadruped,Unknown,generation-vii,Slow,No Eggs,Unknown,,,399,Synthetic Pokémon
+silvally,Silvally,773,7,-1,3,0,120,0,1,0,Gray,Quadruped,Unknown,generation-vii,Slow,No Eggs,Unknown,,,399,Synthetic Pokémon
+minior,Minior,774,7,-1,30,70,25,0,0,0,Brown,Ball,Unknown,generation-vii,Medium Slow,Mineral,Unknown,,,400,Meteor Pokémon
+komala,Komala,775,7,4,45,70,20,0,0,0,Blue,Humanoid,Unknown,generation-vii,Slow,Ground,Unknown,50.0,50.0,401,Drowsing Pokémon
+turtonator,Turtonator,776,7,4,70,70,20,0,0,0,Red,Upright,Unknown,generation-vii,Medium,Monster,Dragon,50.0,50.0,402,Blast Turtle Pokémon
+togedemaru,Togedemaru,777,7,4,180,70,10,0,0,0,Gray,Upright,Unknown,generation-vii,Medium,Ground,Fairy,50.0,50.0,403,Roly-Poly Pokémon
+mimikyu,Mimikyu,778,7,4,45,70,20,0,0,0,Yellow,Squiggle,Unknown,generation-vii,Medium,Indeterminate,Unknown,50.0,50.0,404,Disguise Pokémon
+bruxish,Bruxish,779,7,4,80,70,15,0,0,0,Pink,Fish,Unknown,generation-vii,Medium,Water2,Unknown,50.0,50.0,405,Gnash Teeth Pokémon
+drampa,Drampa,780,7,4,70,70,20,0,0,0,White,Squiggle,Unknown,generation-vii,Medium,Monster,Dragon,50.0,50.0,406,Placid Pokémon
+dhelmise,Dhelmise,781,7,-1,25,70,25,0,0,0,Green,Blob,Unknown,generation-vii,Medium,Mineral,Unknown,,,407,Sea Creeper Pokémon
+jangmo-o,Jangmo-o,782,7,4,45,70,40,0,0,0,Gray,Quadruped,Unknown,generation-vii,Slow,Dragon,Unknown,50.0,50.0,408,Scaly Pokémon
+hakamo-o,Hakamo-o,783,7,4,45,70,40,0,0,0,Gray,Upright,Unknown,generation-vii,Slow,Dragon,Unknown,50.0,50.0,408,Scaly Pokémon
+kommo-o,Kommo-o,784,7,4,45,70,40,0,0,0,Gray,Upright,Unknown,generation-vii,Slow,Dragon,Unknown,50.0,50.0,408,Scaly Pokémon
+tapu-koko,Tapu Koko,785,7,-1,3,70,15,0,1,0,Yellow,Arms,Unknown,generation-vii,Slow,No Eggs,Unknown,,,409,Land Spirit Pokémon
+tapu-lele,Tapu Lele,786,7,-1,3,70,15,0,1,0,Pink,Arms,Unknown,generation-vii,Slow,No Eggs,Unknown,,,410,Land Spirit Pokémon
+tapu-bulu,Tapu Bulu,787,7,-1,3,70,15,0,1,0,Red,Arms,Unknown,generation-vii,Slow,No Eggs,Unknown,,,411,Land Spirit Pokémon
+tapu-fini,Tapu Fini,788,7,-1,3,70,15,0,1,0,Purple,Arms,Unknown,generation-vii,Slow,No Eggs,Unknown,,,412,Land Spirit Pokémon
+cosmog,Cosmog,789,7,-1,45,0,120,0,1,0,Blue,Ball,Unknown,generation-vii,Slow,No Eggs,Unknown,,,413,Nebula Pokémon
+cosmoem,Cosmoem,790,7,-1,45,0,120,0,1,0,Blue,Ball,Unknown,generation-vii,Slow,No Eggs,Unknown,,,413,Protostar Pokémon
+solgaleo,Solgaleo,791,7,-1,45,0,120,0,1,0,White,Quadruped,Unknown,generation-vii,Slow,No Eggs,Unknown,,,413,Sunne Pokémon
+lunala,Lunala,792,7,-1,45,0,120,0,1,0,Purple,Wings,Unknown,generation-vii,Slow,No Eggs,Unknown,,,413,Moone Pokémon
+nihilego,Nihilego,793,7,-1,45,0,120,0,0,0,White,Tentacles,Unknown,generation-vii,Slow,No Eggs,Unknown,,,414,Parasite Pokémon
+buzzwole,Buzzwole,794,7,-1,45,0,120,0,0,0,Red,Tentacles,Unknown,generation-vii,Slow,No Eggs,Unknown,,,415,Swollen Pokémon
+pheromosa,Pheromosa,795,7,-1,45,0,120,0,0,0,White,Humanoid,Unknown,generation-vii,Slow,No Eggs,Unknown,,,416,Lissome Pokémon
+xurkitree,Xurkitree,796,7,-1,45,0,120,0,0,0,Black,Upright,Unknown,generation-vii,Slow,No Eggs,Unknown,,,417,Glowing Pokémon
+celesteela,Celesteela,797,7,-1,45,0,120,0,0,0,Green,Humanoid,Unknown,generation-vii,Slow,No Eggs,Unknown,,,418,Launch Pokémon
+kartana,Kartana,798,7,-1,45,0,120,0,0,0,White,Humanoid,Unknown,generation-vii,Slow,No Eggs,Unknown,,,419,Drawn Sword Pokémon
+guzzlord,Guzzlord,799,7,-1,45,0,120,0,0,0,Black,Upright,Unknown,generation-vii,Slow,No Eggs,Unknown,,,420,Junkivore Pokémon
+necrozma,Necrozma,800,7,-1,255,0,120,0,1,0,Black,Arms,Unknown,generation-vii,Slow,No Eggs,Unknown,,,421,Prism Pokémon
+magearna,Magearna,801,7,-1,3,0,120,0,0,1,Gray,Humanoid,Unknown,generation-vii,Slow,No Eggs,Unknown,,,422,Artificial Pokémon
+marshadow,Marshadow,802,7,-1,3,0,120,0,0,1,Gray,Humanoid,Unknown,generation-vii,Slow,No Eggs,Unknown,,,423,Gloomdweller Pokémon
+poipole,Poipole,803,7,-1,45,0,120,0,0,0,Purple,Upright,Unknown,generation-vii,Slow,No Eggs,Unknown,,,424,Poison Pin Pokémon
+naganadel,Naganadel,804,7,-1,45,0,120,0,0,0,Purple,Wings,Unknown,generation-vii,Slow,No Eggs,Unknown,,,424,Poison Pin Pokémon
+stakataka,Stakataka,805,7,-1,30,0,120,0,0,0,Gray,Quadruped,Unknown,generation-vii,Slow,No Eggs,Unknown,,,425,Rampart Pokémon
+blacephalon,Blacephalon,806,7,-1,30,0,120,0,0,0,White,Humanoid,Unknown,generation-vii,Slow,No Eggs,Unknown,,,426,Fireworks Pokémon
+zeraora,Zeraora,807,7,-1,3,0,120,0,0,1,Yellow,Humanoid,Unknown,generation-vii,Slow,No Eggs,Unknown,,,427,Thunderclap Pokémon
+meltan,Meltan,808,7,-1,3,0,120,0,0,1,Gray,Ball,Unknown,generation-vii,Slow,No Eggs,Unknown,,,428,Hex Nut Pokémon
+melmetal,Melmetal,809,7,-1,3,0,120,0,0,1,Gray,Humanoid,Unknown,generation-vii,Slow,No Eggs,Unknown,,,429,Hex Nut Pokémon
+grookey,Grookey,810,8,1,45,50,20,0,0,0,Green,Upright,Unknown,generation-viii,Medium Slow,Ground,Plant,87.5,12.5,430,Chimp Pokémon
+thwackey,Thwackey,811,8,1,45,50,20,0,0,0,Green,Upright,Unknown,generation-viii,Medium Slow,Ground,Plant,87.5,12.5,430,Beat Pokémon
+rillaboom,Rillaboom,812,8,1,45,50,20,0,0,0,Green,Humanoid,Unknown,generation-viii,Medium Slow,Ground,Plant,87.5,12.5,430,Drummer Pokémon
+scorbunny,Scorbunny,813,8,1,45,50,20,0,0,0,White,Upright,Unknown,generation-viii,Medium Slow,Ground,Humanshape,87.5,12.5,431,Rabbit Pokémon
+raboot,Raboot,814,8,1,45,50,20,0,0,0,Gray,Upright,Unknown,generation-viii,Medium Slow,Ground,Humanshape,87.5,12.5,431,Rabbit Pokémon
+cinderace,Cinderace,815,8,1,45,50,20,0,0,0,White,Upright,Unknown,generation-viii,Medium Slow,Ground,Humanshape,87.5,12.5,431,Striker Pokémon
+sobble,Sobble,816,8,1,45,50,20,0,0,0,Blue,Quadruped,Unknown,generation-viii,Medium Slow,Water1,Ground,87.5,12.5,432,Water Lizard Pokémon
+drizzile,Drizzile,817,8,1,45,50,20,0,0,0,Blue,Upright,Unknown,generation-viii,Medium Slow,Water1,Ground,87.5,12.5,432,Water Lizard Pokémon
+inteleon,Inteleon,818,8,1,45,50,20,0,0,0,Blue,Upright,Unknown,generation-viii,Medium Slow,Water1,Ground,87.5,12.5,432,Secret Agent Pokémon
+skwovet,Skwovet,819,8,4,255,50,20,0,0,0,Brown,Upright,Unknown,generation-viii,Medium,Ground,Unknown,50.0,50.0,433,Cheeky Pokémon
+greedent,Greedent,820,8,4,90,50,20,0,0,0,Brown,Upright,Unknown,generation-viii,Medium,Ground,Unknown,50.0,50.0,433,Greedy Pokémon
+rookidee,Rookidee,821,8,4,255,50,15,0,0,0,Blue,Wings,Unknown,generation-viii,Medium Slow,Flying,Unknown,50.0,50.0,434,Tiny Bird Pokémon
+corvisquire,Corvisquire,822,8,4,120,50,15,0,0,0,Blue,Wings,Unknown,generation-viii,Medium Slow,Flying,Unknown,50.0,50.0,434,Raven Pokémon
+corviknight,Corviknight,823,8,4,45,50,15,0,0,0,Purple,Wings,Unknown,generation-viii,Medium Slow,Flying,Unknown,50.0,50.0,434,Raven Pokémon
+blipbug,Blipbug,824,8,4,255,50,15,0,0,0,Blue,Armor,Unknown,generation-viii,Medium,Bug,Unknown,50.0,50.0,435,Larva Pokémon
+dottler,Dottler,825,8,4,120,50,15,0,0,0,Yellow,Armor,Unknown,generation-viii,Medium,Bug,Unknown,50.0,50.0,435,Radome Pokémon
+orbeetle,Orbeetle,826,8,4,45,50,15,0,0,0,Red,Wings,Unknown,generation-viii,Medium,Bug,Unknown,50.0,50.0,435,Seven Spot Pokémon
+nickit,Nickit,827,8,4,255,50,15,0,0,0,Brown,Quadruped,Unknown,generation-viii,Fast,Ground,Unknown,50.0,50.0,436,Fox Pokémon
+thievul,Thievul,828,8,4,127,50,15,0,0,0,Brown,Quadruped,Unknown,generation-viii,Fast,Ground,Unknown,50.0,50.0,436,Fox Pokémon
+gossifleur,Gossifleur,829,8,4,190,50,20,0,0,0,Green,Blob,Unknown,generation-viii,Medium,Plant,Unknown,50.0,50.0,437,Flowering Pokémon
+eldegoss,Eldegoss,830,8,4,75,50,20,0,0,0,Green,Blob,Unknown,generation-viii,Medium,Plant,Unknown,50.0,50.0,437,Cotton Bloom Pokémon
+wooloo,Wooloo,831,8,4,255,50,15,0,0,0,White,Quadruped,Unknown,generation-viii,Medium,Ground,Unknown,50.0,50.0,438,Sheep Pokémon
+dubwool,Dubwool,832,8,4,127,50,15,0,0,0,White,Quadruped,Unknown,generation-viii,Medium,Ground,Unknown,50.0,50.0,438,Sheep Pokémon
+chewtle,Chewtle,833,8,4,255,50,20,0,0,0,Green,Quadruped,Unknown,generation-viii,Medium,Monster,Water1,50.0,50.0,439,Snapping Pokémon
+drednaw,Drednaw,834,8,4,75,50,20,0,0,0,Green,Quadruped,Unknown,generation-viii,Medium,Monster,Water1,50.0,50.0,439,Bite Pokémon
+yamper,Yamper,835,8,4,255,50,20,0,0,0,Yellow,Quadruped,Unknown,generation-viii,Fast,Ground,Unknown,50.0,50.0,440,Puppy Pokémon
+boltund,Boltund,836,8,4,45,50,20,0,0,0,Yellow,Quadruped,Unknown,generation-viii,Fast,Ground,Unknown,50.0,50.0,440,Dog Pokémon
+rolycoly,Rolycoly,837,8,4,255,50,15,0,0,0,Black,Ball,Unknown,generation-viii,Medium Slow,Mineral,Unknown,50.0,50.0,441,Coal Pokémon
+carkol,Carkol,838,8,4,120,50,15,0,0,0,Black,Legs,Unknown,generation-viii,Medium Slow,Mineral,Unknown,50.0,50.0,441,Coal Pokémon
+coalossal,Coalossal,839,8,4,45,50,15,0,0,0,Black,Humanoid,Unknown,generation-viii,Medium Slow,Mineral,Unknown,50.0,50.0,441,Coal Pokémon
+applin,Applin,840,8,4,255,50,20,0,0,0,Green,Squiggle,Unknown,generation-viii,Slow Then Very femaleast,Plant,Dragon,50.0,50.0,442,Apple Core Pokémon
+flapple,Flapple,841,8,4,45,50,20,0,0,0,Green,Wings,Unknown,generation-viii,Slow Then Very femaleast,Plant,Dragon,50.0,50.0,442,Apple Wing Pokémon
+appletun,Appletun,842,8,4,45,50,20,0,0,0,Green,Quadruped,Unknown,generation-viii,Slow Then Very femaleast,Plant,Dragon,50.0,50.0,442,Apple Nectar Pokémon
+silicobra,Silicobra,843,8,4,255,50,20,0,0,0,Green,Squiggle,Unknown,generation-viii,Medium,Ground,Dragon,50.0,50.0,443,Sand Snake Pokémon
+sandaconda,Sandaconda,844,8,4,120,50,20,0,0,0,Green,Squiggle,Unknown,generation-viii,Medium,Ground,Dragon,50.0,50.0,443,Sand Snake Pokémon
+cramorant,Cramorant,845,8,4,45,50,20,0,0,0,Blue,Wings,Unknown,generation-viii,Medium,Water1,Flying,50.0,50.0,444,Gulp Pokémon
+arrokuda,Arrokuda,846,8,4,255,50,20,0,0,0,Brown,Fish,Unknown,generation-viii,Slow,Water2,Unknown,50.0,50.0,445,Rush Pokémon
+barraskewda,Barraskewda,847,8,4,60,50,20,0,0,0,Brown,Fish,Unknown,generation-viii,Slow,Water2,Unknown,50.0,50.0,445,Skewer Pokémon
+toxel,Toxel,848,8,4,75,50,25,1,0,0,Purple,Upright,Unknown,generation-viii,Medium Slow,No Eggs,Unknown,50.0,50.0,446,Baby Pokémon
+toxtricity,Toxtricity,849,8,4,45,50,25,0,0,0,Purple,Upright,Unknown,generation-viii,Medium Slow,Humanshape,Unknown,50.0,50.0,446,Punk Pokémon
+sizzlipede,Sizzlipede,850,8,4,190,50,20,0,0,0,Red,Tentacles,Unknown,generation-viii,Medium,Bug,Unknown,50.0,50.0,447,Radiator Pokémon
+centiskorch,Centiskorch,851,8,4,75,50,20,0,0,0,Red,Tentacles,Unknown,generation-viii,Medium,Bug,Unknown,50.0,50.0,447,Radiator Pokémon
+clobbopus,Clobbopus,852,8,4,180,50,25,0,0,0,Brown,Tentacles,Unknown,generation-viii,Medium Slow,Water1,Humanshape,50.0,50.0,448,Tantrum Pokémon
+grapploct,Grapploct,853,8,4,45,50,25,0,0,0,Blue,Tentacles,Unknown,generation-viii,Medium Slow,Water1,Humanshape,50.0,50.0,448,Jujitsu Pokémon
+sinistea,Sinistea,854,8,-1,120,50,20,0,0,0,Purple,Ball,Unknown,generation-viii,Medium,Mineral,Indeterminate,,,449,Black Tea Pokémon
+polteageist,Polteageist,855,8,-1,60,50,20,0,0,0,Purple,Ball,Unknown,generation-viii,Medium,Mineral,Indeterminate,,,449,Black Tea Pokémon
+hatenna,Hatenna,856,8,8,235,50,20,0,0,0,Pink,Legs,Unknown,generation-viii,Slow,Fairy,Unknown,0.0,100.0,450,Calm Pokémon
+hattrem,Hattrem,857,8,8,120,50,20,0,0,0,Pink,Humanoid,Unknown,generation-viii,Slow,Fairy,Unknown,0.0,100.0,450,Serene Pokémon
+hatterene,Hatterene,858,8,8,45,50,20,0,0,0,Pink,Blob,Unknown,generation-viii,Slow,Fairy,Unknown,0.0,100.0,450,Silent Pokémon
+impidimp,Impidimp,859,8,0,255,50,20,0,0,0,Pink,Humanoid,Unknown,generation-viii,Medium,Fairy,Humanshape,100.0,0.0,451,Wily Pokémon
+morgrem,Morgrem,860,8,0,120,50,20,0,0,0,Pink,Humanoid,Unknown,generation-viii,Medium,Fairy,Humanshape,100.0,0.0,451,Devious Pokémon
+grimmsnarl,Grimmsnarl,861,8,0,45,50,20,0,0,0,Purple,Humanoid,Unknown,generation-viii,Medium,Fairy,Humanshape,100.0,0.0,451,Bulk Up Pokémon
+obstagoon,Obstagoon,862,8,4,45,50,15,0,0,0,Gray,Upright,Unknown,generation-viii,Medium,Ground,Unknown,50.0,50.0,134,Blocking Pokémon
+perrserker,Perrserker,863,8,4,90,50,20,0,0,0,Brown,Upright,Unknown,generation-viii,Medium,Ground,Unknown,50.0,50.0,22,Viking Pokémon
+cursola,Cursola,864,8,6,30,50,20,0,0,0,White,Arms,Unknown,generation-viii,Fast,Water1,Water3,25.0,75.0,113,Coral Pokémon
+sirfetchd,Sirfetch’d,865,8,4,45,50,20,0,0,0,White,Wings,Unknown,generation-viii,Medium,Flying,Ground,50.0,50.0,35,Wild Duck Pokémon
+mr-rime,Mr. Rime,866,8,4,45,50,25,0,0,0,Purple,Humanoid,Unknown,generation-viii,Medium,Humanshape,Unknown,50.0,50.0,57,Comedian Pokémon
+runerigus,Runerigus,867,8,4,90,50,25,0,0,0,Gray,Blob,Unknown,generation-viii,Medium,Mineral,Indeterminate,50.0,50.0,287,Grudge Pokémon
+milcery,Milcery,868,8,8,200,50,20,0,0,0,White,Ball,Unknown,generation-viii,Medium,Fairy,Indeterminate,0.0,100.0,452,Cream Pokémon
+alcremie,Alcremie,869,8,8,100,50,20,0,0,0,White,Blob,Unknown,generation-viii,Medium,Fairy,Indeterminate,0.0,100.0,452,Cream Pokémon
+falinks,Falinks,870,8,-1,45,50,25,0,0,0,Yellow,Heads,Unknown,generation-viii,Medium,Fairy,Mineral,,,453,Formation Pokémon
+pincurchin,Pincurchin,871,8,4,75,50,20,0,0,0,Purple,Tentacles,Unknown,generation-viii,Medium,Water1,Indeterminate,50.0,50.0,454,Sea Urchin Pokémon
+snom,Snom,872,8,4,190,50,20,0,0,0,White,Squiggle,Unknown,generation-viii,Medium,Bug,Unknown,50.0,50.0,455,Worm Pokémon
+frosmoth,Frosmoth,873,8,4,75,50,20,0,0,0,White,Bug Wings,Unknown,generation-viii,Medium,Bug,Unknown,50.0,50.0,455,Frost Moth Pokémon
+stonjourner,Stonjourner,874,8,4,60,50,25,0,0,0,Gray,Legs,Unknown,generation-viii,Slow,Mineral,Unknown,50.0,50.0,456,Big Rock Pokémon
+eiscue,Eiscue,875,8,4,60,50,25,0,0,0,Blue,Upright,Unknown,generation-viii,Slow,Water1,Ground,50.0,50.0,457,Penguin Pokémon
+indeedee,Indeedee,876,8,4,30,140,40,0,0,0,Purple,Upright,Unknown,generation-viii,Fast,Fairy,Unknown,50.0,50.0,458,Emotion Pokémon
+morpeko,Morpeko,877,8,4,180,50,10,0,0,0,Yellow,Humanoid,Unknown,generation-viii,Medium,Ground,Fairy,50.0,50.0,459,Two-Sided Pokémon
+cufant,Cufant,878,8,4,190,50,25,0,0,0,Yellow,Quadruped,Unknown,generation-viii,Medium,Ground,Mineral,50.0,50.0,460,Copperderm Pokémon
+copperajah,Copperajah,879,8,4,90,50,25,0,0,0,Green,Quadruped,Unknown,generation-viii,Medium,Ground,Mineral,50.0,50.0,460,Copperderm Pokémon
+dracozolt,Dracozolt,880,8,-1,45,50,35,0,0,0,Green,Upright,Unknown,generation-viii,Slow,No Eggs,Unknown,,,461,Fossil Pokémon
+arctozolt,Arctozolt,881,8,-1,45,50,35,0,0,0,Blue,Upright,Unknown,generation-viii,Slow,No Eggs,Unknown,,,462,Fossil Pokémon
+dracovish,Dracovish,882,8,-1,45,50,35,0,0,0,Green,Legs,Unknown,generation-viii,Slow,No Eggs,Unknown,,,463,Fossil Pokémon
+arctovish,Arctovish,883,8,-1,45,50,35,0,0,0,Blue,Fish,Unknown,generation-viii,Slow,No Eggs,Unknown,,,464,Fossil Pokémon
+duraludon,Duraludon,884,8,4,45,50,30,0,0,0,White,Upright,Unknown,generation-viii,Medium,Mineral,Dragon,50.0,50.0,465,Alloy Pokémon
+dreepy,Dreepy,885,8,4,45,50,40,0,0,0,Green,Squiggle,Unknown,generation-viii,Slow,Indeterminate,Dragon,50.0,50.0,466,Lingering Pokémon
+drakloak,Drakloak,886,8,4,45,50,40,0,0,0,Green,Arms,Unknown,generation-viii,Slow,Indeterminate,Dragon,50.0,50.0,466,Caretaker Pokémon
+dragapult,Dragapult,887,8,4,45,50,40,0,0,0,Green,Upright,Unknown,generation-viii,Slow,Indeterminate,Dragon,50.0,50.0,466,Stealth Pokémon
+zacian,Zacian,888,8,-1,10,0,120,0,1,0,Blue,Quadruped,Unknown,generation-viii,Slow,No Eggs,Unknown,,,467,Warrior Pokémon
+zamazenta,Zamazenta,889,8,-1,10,0,120,0,1,0,Red,Quadruped,Unknown,generation-viii,Slow,No Eggs,Unknown,,,468,Warrior Pokémon
+eternatus,Eternatus,890,8,-1,255,0,120,0,1,0,Purple,Wings,Unknown,generation-viii,Slow,No Eggs,Unknown,,,469,Gigantic Pokémon
+kubfu,Kubfu,891,8,1,3,50,120,0,1,0,Gray,Upright,Unknown,generation-viii,Slow,No Eggs,Unknown,87.5,12.5,470,Wushu Pokémon
+urshifu,Urshifu,892,8,1,3,50,120,0,1,0,Gray,Humanoid,Unknown,generation-viii,Slow,No Eggs,Unknown,87.5,12.5,470,Wushu Pokémon
+zarude,Zarude,893,8,-1,3,0,120,0,0,1,Green,Upright,Unknown,generation-viii,Slow,No Eggs,Unknown,,,471,Rogue Monkey Pokémon
+regieleki,Regieleki,894,8,-1,3,35,120,0,1,0,Yellow,Humanoid,Unknown,generation-viii,Slow,No Eggs,Unknown,,,472,Electron Pokémon
+regidrago,Regidrago,895,8,-1,3,35,120,0,1,0,Green,Humanoid,Unknown,generation-viii,Slow,No Eggs,Unknown,,,473,Dragon Orb Pokémon
+glastrier,Glastrier,896,8,-1,3,35,120,0,1,0,White,Quadruped,Unknown,generation-viii,Slow,No Eggs,Unknown,,,474,Wild Horse Pokémon
+spectrier,Spectrier,897,8,-1,3,35,120,0,1,0,Black,Quadruped,Unknown,generation-viii,Slow,No Eggs,Unknown,,,475,Swift Horse Pokémon
+calyrex,Calyrex,898,8,-1,3,100,120,0,1,0,Green,Humanoid,Unknown,generation-viii,Slow,No Eggs,Unknown,,,476,King Pokémon
+wyrdeer,Wyrdeer,899,8,4,135,50,20,0,0,0,Gray,Quadruped,Unknown,generation-viii,Slow,Ground,Unknown,50.0,50.0,120,Big Horn Pokémon
+kleavor,Kleavor,900,8,4,115,50,20,0,0,0,Brown,Bug Wings,Unknown,generation-viii,Medium,Bug,Unknown,50.0,50.0,58,Axe Pokémon
+ursaluna,Ursaluna,901,8,4,75,50,20,0,0,0,Brown,Quadruped,Unknown,generation-viii,Medium,Ground,Unknown,50.0,50.0,110,Peat Pokémon
+basculegion,Basculegion,902,8,4,135,50,20,0,0,0,Green,Fish,Unknown,generation-viii,Medium,Water2,Unknown,50.0,50.0,280,Big Fish Pokémon
+sneasler,Sneasler,903,8,4,135,50,20,0,0,0,Gray,Upright,Unknown,generation-viii,Medium Slow,Ground,Unknown,50.0,50.0,109,Free Climb Pokémon
+overqwil,Overqwil,904,8,4,135,50,20,0,0,0,Black,Fish,Unknown,generation-viii,Medium,Water2,Unknown,50.0,50.0,106,Pin Cluster Pokémon
+enamorus,Enamorus,905,8,8,3,50,20,0,1,0,Pink,Arms,Unknown,generation-viii,Slow,No Eggs,Unknown,0.0,100.0,477,Love-Hate Pokémon
+sprigatito,Sprigatito,906,9,1,45,50,20,0,0,0,Green,Quadruped,Unknown,generation-ix,Medium Slow,Ground,Plant,87.5,12.5,478,Grass Cat Pokémon
+floragato,Floragato,907,9,1,45,50,20,0,0,0,Green,Upright,Unknown,generation-ix,Medium Slow,Ground,Plant,87.5,12.5,478,Grass Cat Pokémon
+meowscarada,Meowscarada,908,9,1,45,50,20,0,0,0,Green,Upright,Unknown,generation-ix,Medium Slow,Ground,Plant,87.5,12.5,478,Magician Pokémon
+fuecoco,Fuecoco,909,9,1,45,50,20,0,0,0,Red,Upright,Unknown,generation-ix,Medium Slow,Ground,Unknown,87.5,12.5,479,Fire Croc Pokémon
+crocalor,Crocalor,910,9,1,45,50,20,0,0,0,Red,Upright,Unknown,generation-ix,Medium Slow,Ground,Unknown,87.5,12.5,479,Fire Croc Pokémon
+skeledirge,Skeledirge,911,9,1,45,50,20,0,0,0,Red,Quadruped,Unknown,generation-ix,Medium Slow,Ground,Unknown,87.5,12.5,479,Singer Pokémon
+quaxly,Quaxly,912,9,1,45,50,20,0,0,0,White,Upright,Unknown,generation-ix,Medium Slow,Flying,Water1,87.5,12.5,480,Duckling Pokémon
+quaxwell,Quaxwell,913,9,1,45,50,20,0,0,0,Blue,Upright,Unknown,generation-ix,Medium Slow,Flying,Water1,87.5,12.5,480,Practicing Pokémon
+quaquaval,Quaquaval,914,9,1,45,50,20,0,0,0,Blue,Upright,Unknown,generation-ix,Medium Slow,Flying,Water1,87.5,12.5,480,Dancer Pokémon
+lechonk,Lechonk,915,9,4,255,50,15,0,0,0,Gray,Quadruped,Unknown,generation-ix,Medium,Ground,Unknown,50.0,50.0,481,Hog Pokémon
+oinkologne,Oinkologne,916,9,0,100,50,15,0,0,0,Gray,Quadruped,Unknown,generation-ix,Medium,Ground,Unknown,100.0,0.0,481,Hog Pokémon
+tarountula,Tarountula,917,9,4,255,50,15,0,0,0,White,Armor,Unknown,generation-ix,Slow Then Very femaleast,Bug,Unknown,50.0,50.0,482,String Ball Pokémon
+spidops,Spidops,918,9,4,120,50,15,0,0,0,Green,Armor,Unknown,generation-ix,Slow Then Very femaleast,Bug,Unknown,50.0,50.0,482,Trap Pokémon
+nymble,Nymble,919,9,4,190,20,20,0,0,0,Gray,Armor,Unknown,generation-ix,Medium,Bug,Unknown,50.0,50.0,483,Grasshopper Pokémon
+lokix,Lokix,920,9,4,30,0,20,0,0,0,Gray,Humanoid,Unknown,generation-ix,Medium,Bug,Unknown,50.0,50.0,483,Grasshopper Pokémon
+pawmi,Pawmi,921,9,4,190,50,15,0,0,0,Yellow,Quadruped,Unknown,generation-ix,Medium,Ground,Unknown,50.0,50.0,484,Mouse Pokémon
+pawmo,Pawmo,922,9,4,80,50,15,0,0,0,Yellow,Upright,Unknown,generation-ix,Medium,Ground,Unknown,50.0,50.0,484,Mouse Pokémon
+pawmot,Pawmot,923,9,4,45,50,15,0,0,0,Yellow,Upright,Unknown,generation-ix,Medium,Ground,Unknown,50.0,50.0,484,Hands-On Pokémon
+tandemaus,Tandemaus,924,9,-1,150,50,10,0,0,0,White,Heads,Unknown,generation-ix,Fast,Ground,Fairy,,,485,Couple Pokémon
+maushold,Maushold,925,9,-1,75,50,10,0,0,0,White,Heads,Unknown,generation-ix,Fast,Ground,Fairy,,,485,Family Pokémon
+fidough,Fidough,926,9,4,190,50,20,0,0,0,Yellow,Quadruped,Unknown,generation-ix,Medium Slow,Ground,Mineral,50.0,50.0,486,Puppy Pokémon
+dachsbun,Dachsbun,927,9,4,90,50,20,0,0,0,Brown,Quadruped,Unknown,generation-ix,Medium Slow,Ground,Mineral,50.0,50.0,486,Dog Pokémon
+smoliv,Smoliv,928,9,4,255,50,20,0,0,0,Green,Legs,Unknown,generation-ix,Medium Slow,Plant,Unknown,50.0,50.0,487,Olive Pokémon
+dolliv,Dolliv,929,9,4,120,50,20,0,0,0,Green,Humanoid,Unknown,generation-ix,Medium Slow,Plant,Unknown,50.0,50.0,487,Olive Pokémon
+arboliva,Arboliva,930,9,4,45,50,20,0,0,0,Green,Humanoid,Unknown,generation-ix,Medium Slow,Plant,Unknown,50.0,50.0,487,Olive Pokémon
+squawkabilly,Squawkabilly,931,9,4,190,50,15,0,0,0,Green,Wings,Unknown,generation-ix,Slow Then Very femaleast,Flying,Unknown,50.0,50.0,488,Parrot Pokémon
+nacli,Nacli,932,9,4,255,50,20,0,0,0,Brown,Ball,Unknown,generation-ix,Medium Slow,Mineral,Unknown,50.0,50.0,489,Rock Salt Pokémon
+naclstack,Naclstack,933,9,4,120,50,20,0,0,0,Brown,Quadruped,Unknown,generation-ix,Medium Slow,Mineral,Unknown,50.0,50.0,489,Rock Salt Pokémon
+garganacl,Garganacl,934,9,4,45,50,20,0,0,0,Brown,Humanoid,Unknown,generation-ix,Medium Slow,Mineral,Unknown,50.0,50.0,489,Rock Salt Pokémon
+charcadet,Charcadet,935,9,4,90,50,35,0,0,0,Red,Humanoid,Unknown,generation-ix,Slow,Humanshape,Unknown,50.0,50.0,490,Fire Child Pokémon
+armarouge,Armarouge,936,9,4,25,20,35,0,0,0,Red,Humanoid,Unknown,generation-ix,Slow,Humanshape,Unknown,50.0,50.0,490,Fire Warrior Pokémon
+ceruledge,Ceruledge,937,9,4,25,20,35,0,0,0,Blue,Humanoid,Unknown,generation-ix,Slow,Humanshape,Unknown,50.0,50.0,490,Fire Blades Pokémon
+tadbulb,Tadbulb,938,9,4,190,50,20,0,0,0,Yellow,Ball,Unknown,generation-ix,Medium,Water1,Unknown,50.0,50.0,491,EleTadpole Pokémon
+bellibolt,Bellibolt,939,9,4,50,50,20,0,0,0,Green,Humanoid,Unknown,generation-ix,Medium,Water1,Unknown,50.0,50.0,491,EleFrog Pokémon
+wattrel,Wattrel,940,9,4,180,50,20,0,0,0,Black,Wings,Unknown,generation-ix,Medium Slow,Water1,Flying,50.0,50.0,492,Storm Petrel Pokémon
+kilowattrel,Kilowattrel,941,9,4,90,50,20,0,0,0,Yellow,Wings,Unknown,generation-ix,Medium Slow,Water1,Flying,50.0,50.0,492,Frigatebird Pokémon
+maschiff,Maschiff,942,9,4,150,50,20,0,0,0,Brown,Quadruped,Unknown,generation-ix,Medium Slow,Ground,Unknown,50.0,50.0,493,Rascal Pokémon
+mabosstiff,Mabosstiff,943,9,4,75,50,20,0,0,0,Gray,Quadruped,Unknown,generation-ix,Medium Slow,Ground,Unknown,50.0,50.0,493,Boss Pokémon
+shroodle,Shroodle,944,9,4,190,50,20,0,0,0,Gray,Quadruped,Unknown,generation-ix,Medium Slow,Ground,Unknown,50.0,50.0,494,Toxic Mouse Pokémon
+grafaiai,Grafaiai,945,9,4,90,50,20,0,0,0,Gray,Upright,Unknown,generation-ix,Medium Slow,Ground,Unknown,50.0,50.0,494,Toxic Monkey Pokémon
+bramblin,Bramblin,946,9,4,190,50,20,0,0,0,Brown,Ball,Unknown,generation-ix,Medium,Plant,Unknown,50.0,50.0,495,Tumbleweed Pokémon
+brambleghast,Brambleghast,947,9,4,45,50,20,0,0,0,Brown,Ball,Unknown,generation-ix,Medium,Plant,Unknown,50.0,50.0,495,Tumbleweed Pokémon
+toedscool,Toedscool,948,9,4,190,50,20,0,0,0,Yellow,Legs,Unknown,generation-ix,Medium Slow,Plant,Unknown,50.0,50.0,496,Woodear Pokémon
+toedscruel,Toedscruel,949,9,4,90,50,20,0,0,0,Black,Tentacles,Unknown,generation-ix,Medium Slow,Plant,Unknown,50.0,50.0,496,Woodear Pokémon
+klawf,Klawf,950,9,4,120,50,35,0,0,0,Red,Armor,Unknown,generation-ix,Medium,Water3,Unknown,50.0,50.0,497,Ambush Pokémon
+capsakid,Capsakid,951,9,4,190,50,20,0,0,0,Green,Upright,Unknown,generation-ix,Medium,Plant,Unknown,50.0,50.0,498,Spicy Pepper Pokémon
+scovillain,Scovillain,952,9,4,75,50,20,0,0,0,Green,Upright,Unknown,generation-ix,Medium,Plant,Unknown,50.0,50.0,498,Spicy Pepper Pokémon
+rellor,Rellor,953,9,4,190,50,20,0,0,0,Brown,Armor,Unknown,generation-ix,Fast,Bug,Unknown,50.0,50.0,499,Rolling Pokémon
+rabsca,Rabsca,954,9,4,45,50,20,0,0,0,Green,Armor,Unknown,generation-ix,Fast,Bug,Unknown,50.0,50.0,499,Rolling Pokémon
+flittle,Flittle,955,9,4,120,50,20,0,0,0,Yellow,Legs,Unknown,generation-ix,Medium Slow,Flying,Unknown,50.0,50.0,500,Frill Pokémon
+espathra,Espathra,956,9,4,60,50,20,0,0,0,Yellow,Upright,Unknown,generation-ix,Medium Slow,Flying,Unknown,50.0,50.0,500,Ostrich Pokémon
+tinkatink,Tinkatink,957,9,8,190,50,20,0,0,0,Pink,Humanoid,Unknown,generation-ix,Medium Slow,Fairy,Unknown,0.0,100.0,501,Metalsmith Pokémon
+tinkatuff,Tinkatuff,958,9,8,90,50,20,0,0,0,Pink,Humanoid,Unknown,generation-ix,Medium Slow,Fairy,Unknown,0.0,100.0,501,Hammer Pokémon
+tinkaton,Tinkaton,959,9,8,45,50,20,0,0,0,Pink,Humanoid,Unknown,generation-ix,Medium Slow,Fairy,Unknown,0.0,100.0,501,Hammer Pokémon
+wiglett,Wiglett,960,9,4,255,50,20,0,0,0,White,Blob,Unknown,generation-ix,Medium,Water3,Unknown,50.0,50.0,502,Garden Eel Pokémon
+wugtrio,Wugtrio,961,9,4,50,50,20,0,0,0,Red,Blob,Unknown,generation-ix,Medium,Water3,Unknown,50.0,50.0,502,Garden Eel Pokémon
+bombirdier,Bombirdier,962,9,4,25,50,35,0,0,0,White,Wings,Unknown,generation-ix,Slow,Flying,Unknown,50.0,50.0,503,Item Drop Pokémon
+finizen,Finizen,963,9,4,200,50,40,0,0,0,Blue,Fish,Unknown,generation-ix,Slow,Ground,Water2,50.0,50.0,504,Dolphin Pokémon
+palafin,Palafin,964,9,4,45,50,40,0,0,0,Blue,Fish,Unknown,generation-ix,Slow,Ground,Water2,50.0,50.0,504,Dolphin Pokémon
+varoom,Varoom,965,9,4,190,50,20,0,0,0,Gray,Legs,Unknown,generation-ix,Medium,Mineral,Unknown,50.0,50.0,505,Single-Cyl Pokémon
+revavroom,Revavroom,966,9,4,75,50,20,0,0,0,Gray,Legs,Unknown,generation-ix,Medium,Mineral,Unknown,50.0,50.0,505,Multi-Cyl Pokémon
+cyclizar,Cyclizar,967,9,4,190,50,30,0,0,0,Green,Quadruped,Unknown,generation-ix,Medium Slow,Ground,Unknown,50.0,50.0,506,Mount Pokémon
+orthworm,Orthworm,968,9,4,25,50,35,0,0,0,Pink,Squiggle,Unknown,generation-ix,Slow,Ground,Unknown,50.0,50.0,507,Earthworm Pokémon
+glimmet,Glimmet,969,9,4,70,50,30,0,0,0,Blue,Ball,Unknown,generation-ix,Medium Slow,Mineral,Unknown,50.0,50.0,508,Ore Pokémon
+glimmora,Glimmora,970,9,4,25,50,30,0,0,0,Blue,Ball,Unknown,generation-ix,Medium Slow,Mineral,Unknown,50.0,50.0,508,Ore Pokémon
+greavard,Greavard,971,9,4,120,50,20,0,0,0,White,Quadruped,Unknown,generation-ix,Medium Slow,Ground,Unknown,50.0,50.0,509,Ghost Dog Pokémon
+houndstone,Houndstone,972,9,4,60,50,20,0,0,0,White,Quadruped,Unknown,generation-ix,Medium Slow,Ground,Unknown,50.0,50.0,509,Ghost Dog Pokémon
+flamigo,Flamigo,973,9,4,100,50,20,0,0,0,Pink,Wings,Unknown,generation-ix,Medium Slow,Flying,Unknown,50.0,50.0,510,Synchronize Pokémon
+cetoddle,Cetoddle,974,9,4,150,50,25,0,0,0,White,Upright,Unknown,generation-ix,Medium Slow,Ground,Unknown,50.0,50.0,511,Terra Whale Pokémon
+cetitan,Cetitan,975,9,4,50,50,25,0,0,0,White,Upright,Unknown,generation-ix,Medium Slow,Ground,Unknown,50.0,50.0,511,Terra Whale Pokémon
+veluza,Veluza,976,9,4,100,50,20,0,0,0,Gray,Fish,Unknown,generation-ix,Fast,Water2,Unknown,50.0,50.0,512,Jettison Pokémon
+dondozo,Dondozo,977,9,4,25,50,40,0,0,0,Blue,Fish,Unknown,generation-ix,Slow,Water2,Unknown,50.0,50.0,513,Big Catfish Pokémon
+tatsugiri,Tatsugiri,978,9,4,100,50,35,0,0,0,Pink,Fish,Unknown,generation-ix,Medium Slow,Water2,Unknown,50.0,50.0,514,Mimicry Pokémon
+annihilape,Annihilape,979,9,4,45,50,20,0,0,0,Gray,Humanoid,Unknown,generation-ix,Medium,Ground,Unknown,50.0,50.0,24,Rage Monkey Pokémon
+clodsire,Clodsire,980,9,4,90,50,20,0,0,0,Brown,Quadruped,Unknown,generation-ix,Medium,Water1,Ground,50.0,50.0,96,Spiny Fish Pokémon
+farigiraf,Farigiraf,981,9,4,45,50,20,0,0,0,Brown,Quadruped,Unknown,generation-ix,Medium,Ground,Unknown,50.0,50.0,101,Long Neck Pokémon
+dudunsparce,Dudunsparce,982,9,4,45,50,20,0,0,0,Yellow,Squiggle,Unknown,generation-ix,Medium,Ground,Unknown,50.0,50.0,103,Land Snake Pokémon
+kingambit,Kingambit,983,9,4,25,50,20,0,0,0,Black,Humanoid,Unknown,generation-ix,Medium,Humanshape,Unknown,50.0,50.0,317,Big Blade Pokémon
+great-tusk,Great Tusk,984,9,-1,30,0,50,0,0,0,Purple,Quadruped,Unknown,generation-ix,Slow,No Eggs,Unknown,,,515,Paradox Pokémon
+scream-tail,Scream Tail,985,9,-1,50,0,50,0,0,0,Pink,Upright,Unknown,generation-ix,Slow,No Eggs,Unknown,,,516,Paradox Pokémon
+brute-bonnet,Brute Bonnet,986,9,-1,50,0,50,0,0,0,Gray,Quadruped,Unknown,generation-ix,Slow,No Eggs,Unknown,,,517,Paradox Pokémon
+flutter-mane,Flutter Mane,987,9,-1,30,0,50,0,0,0,Gray,Wings,Unknown,generation-ix,Slow,No Eggs,Unknown,,,518,Paradox Pokémon
+slither-wing,Slither Wing,988,9,-1,30,0,50,0,0,0,Red,Quadruped,Unknown,generation-ix,Slow,No Eggs,Unknown,,,519,Paradox Pokémon
+sandy-shocks,Sandy Shocks,989,9,-1,30,0,50,0,0,0,Gray,Quadruped,Unknown,generation-ix,Slow,No Eggs,Unknown,,,520,Paradox Pokémon
+iron-treads,Iron Treads,990,9,-1,30,0,50,0,0,0,Gray,Quadruped,Unknown,generation-ix,Slow,No Eggs,Unknown,,,521,Paradox Pokémon
+iron-bundle,Iron Bundle,991,9,-1,50,0,50,0,0,0,Red,Upright,Unknown,generation-ix,Slow,No Eggs,Unknown,,,522,Paradox Pokémon
+iron-hands,Iron Hands,992,9,-1,50,0,50,0,0,0,Gray,Humanoid,Unknown,generation-ix,Slow,No Eggs,Unknown,,,523,Paradox Pokémon
+iron-jugulis,Iron Jugulis,993,9,-1,30,0,50,0,0,0,Blue,Upright,Unknown,generation-ix,Slow,No Eggs,Unknown,,,524,Paradox Pokémon
+iron-moth,Iron Moth,994,9,-1,30,0,50,0,0,0,Yellow,Bug Wings,Unknown,generation-ix,Slow,No Eggs,Unknown,,,525,Paradox Pokémon
+iron-thorns,Iron Thorns,995,9,-1,30,0,50,0,0,0,Green,Upright,Unknown,generation-ix,Slow,No Eggs,Unknown,,,526,Paradox Pokémon
+frigibax,Frigibax,996,9,4,45,50,40,0,0,0,Gray,Upright,Unknown,generation-ix,Slow,Dragon,Mineral,50.0,50.0,527,Ice Fin Pokémon
+arctibax,Arctibax,997,9,4,25,50,40,0,0,0,Gray,Upright,Unknown,generation-ix,Slow,Dragon,Mineral,50.0,50.0,527,Ice Fin Pokémon
+baxcalibur,Baxcalibur,998,9,4,10,50,40,0,0,0,Gray,Upright,Unknown,generation-ix,Slow,Dragon,Mineral,50.0,50.0,527,Ice Dragon Pokémon
+gimmighoul,Gimmighoul,999,9,-1,45,50,50,0,0,0,Brown,Blob,Unknown,generation-ix,Slow,No Eggs,Unknown,,,528,Coin Chest Pokémon
+gholdengo,Gholdengo,1000,9,-1,45,50,50,0,0,0,Yellow,Humanoid,Unknown,generation-ix,Slow,No Eggs,Unknown,,,528,Coin Entity Pokémon
+wo-chien,Wo-Chien,1001,9,-1,6,0,50,0,1,0,Brown,Squiggle,Unknown,generation-ix,Slow,No Eggs,Unknown,,,529,Ruinous Pokémon
+chien-pao,Chien-Pao,1002,9,-1,6,0,50,0,1,0,White,Quadruped,Unknown,generation-ix,Slow,No Eggs,Unknown,,,530,Ruinous Pokémon
+ting-lu,Ting-Lu,1003,9,-1,6,0,50,0,1,0,Brown,Quadruped,Unknown,generation-ix,Slow,No Eggs,Unknown,,,531,Ruinous Pokémon
+chi-yu,Chi-Yu,1004,9,-1,6,0,50,0,1,0,Red,Fish,Unknown,generation-ix,Slow,No Eggs,Unknown,,,532,Ruinous Pokémon
+roaring-moon,Roaring Moon,1005,9,-1,10,0,50,0,0,0,Green,Quadruped,Unknown,generation-ix,Slow,No Eggs,Unknown,,,533,Paradox Pokémon
+iron-valiant,Iron Valiant,1006,9,-1,10,0,50,0,0,0,White,Humanoid,Unknown,generation-ix,Slow,No Eggs,Unknown,,,534,Paradox Pokémon
+koraidon,Koraidon,1007,9,-1,3,0,50,0,1,0,Red,Upright,Unknown,generation-ix,Slow,No Eggs,Unknown,,,535,Paradox Pokémon
+miraidon,Miraidon,1008,9,-1,3,0,50,0,1,0,Blue,Quadruped,Unknown,generation-ix,Slow,No Eggs,Unknown,,,536,Paradox Pokémon
+walking-wake,Walking Wake,1009,9,-1,5,0,50,0,0,0,Blue,Upright,Unknown,generation-ix,Slow,No Eggs,Unknown,,,537,Paradox Pokémon
+iron-leaves,Iron Leaves,1010,9,-1,5,0,50,0,0,0,Green,Quadruped,Unknown,generation-ix,Slow,No Eggs,Unknown,,,538,Paradox Pokémon
+dipplin,Dipplin,1011,9,4,45,50,20,0,0,0,Green,Heads,Unknown,generation-ix,Slow,Plant,Dragon,50.0,50.0,442,Candy Apple Pokémon
+poltchageist,Poltchageist,1012,9,-1,120,50,50,0,0,0,Green,Ball,Unknown,generation-ix,Slow,Mineral,Indeterminate,,,539,Matcha Pokémon
+sinistcha,Sinistcha,1013,9,-1,60,50,50,0,0,0,Green,Ball,Unknown,generation-ix,Slow,Mineral,Indeterminate,,,539,Matcha Pokémon
+okidogi,Okidogi,1014,9,0,3,0,50,0,1,0,Black,Upright,Unknown,generation-ix,Slow,No Eggs,Unknown,100.0,0.0,540,Retainer Pokémon
+munkidori,Munkidori,1015,9,0,3,0,50,0,1,0,Black,Humanoid,Unknown,generation-ix,Slow,No Eggs,Unknown,100.0,0.0,541,Retainer Pokémon
+fezandipiti,Fezandipiti,1016,9,0,3,0,50,0,1,0,Black,Wings,Unknown,generation-ix,Slow,No Eggs,Unknown,100.0,0.0,542,Retainer Pokémon
+ogerpon,Ogerpon,1017,9,8,5,50,50,0,1,0,Green,Humanoid,Unknown,generation-ix,Slow,No Eggs,Unknown,0.0,100.0,543,Mask Pokémon
+archaludon,Archaludon,1018,9,4,10,50,30,0,0,0,White,Upright,Unknown,generation-ix,Medium,Mineral,Dragon,50.0,50.0,465,Alloy Pokémon
+hydrapple,Hydrapple,1019,9,4,10,50,20,0,0,0,Green,Heads,Unknown,generation-ix,Slow Then Very femaleast,Plant,Dragon,50.0,50.0,442,Apple Hydra Pokémon
+gouging-fire,Gouging Fire,1020,9,-1,10,0,50,0,0,0,Brown,Quadruped,Unknown,generation-ix,Slow,No Eggs,Unknown,,,544,Paradox Pokémon
+raging-bolt,Raging Bolt,1021,9,-1,10,0,50,0,0,0,Yellow,Quadruped,Unknown,generation-ix,Slow,No Eggs,Unknown,,,545,Paradox Pokémon
+iron-boulder,Iron Boulder,1022,9,-1,10,0,50,0,0,0,Gray,Quadruped,Unknown,generation-ix,Slow,No Eggs,Unknown,,,547,Paradox Pokémon
+iron-crown,Iron Crown,1023,9,-1,10,0,50,0,0,0,Blue,Quadruped,Unknown,generation-ix,Slow,No Eggs,Unknown,,,546,Paradox Pokémon
+terapagos,Terapagos,1024,9,-1,255,50,5,0,1,0,Blue,Quadruped,Unknown,generation-ix,Slow,No Eggs,Unknown,,,548,Tera Pokémon
+pecharunt,Pecharunt,1025,9,-1,3,0,20,0,0,1,Purple,Ball,Unknown,generation-ix,Slow,No Eggs,Unknown,,,549,Subjugation Pokémon

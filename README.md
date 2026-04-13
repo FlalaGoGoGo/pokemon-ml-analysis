@@ -1,35 +1,79 @@
-# Pokemon ML Rebuild
+# Pokemon ML Analysis
 
-This repository contains:
+This repository now uses a canonical hybrid dataset for type prediction:
 
-- `Pokemon_Project_Rebuild_Streamlit.ipynb`: the rebuilt analysis notebook
-- `pokemon_project.py`: shared data, training, evaluation, and inference code
-- `streamlit_app.py`: the Streamlit app
-- `build_deploy_bundle.py`: creates a prebuilt deploy artifact for Streamlit Cloud
+- `PokeAPI` is the structured backbone.
+- official `pokemon.com` references are attached as URLs and validation metadata.
+- legacy Kaggle CSVs are kept only for historical comparison and the old battle demo workflow.
 
-## Local Run
+## Main Files
 
-Install dependencies:
+- `canonical_pokemon.py`: canonical data sync, normalized tables, media manifest, validation report, image embedding cache
+- `pokemon_project.py`: training, evaluation, benchmarking, and inference wrappers
+- `streamlit_app.py`: Streamlit demo
+- `sync_canonical_data.py`: one-click canonical data sync
+- `build_analysis_notebook.py`: regenerates the analysis notebook
+- `build_deploy_bundle.py`: creates the prebuilt Streamlit deploy artifact
+
+## Install
+
+For app usage and notebook viewing:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the notebook:
+For full canonical rebuild plus image experiment:
+
+```bash
+pip install -r requirements.txt
+pip install -r requirements-analysis.txt
+```
+
+## Rebuild Canonical Data
+
+```bash
+python sync_canonical_data.py
+```
+
+This writes canonical tables under:
+
+- `artifacts/canonical/pokemon.csv`
+- `artifacts/canonical/pokemon_species.csv`
+- `artifacts/canonical/pokemon_forms.csv`
+- `artifacts/canonical/pokemon_types.csv`
+- `artifacts/canonical/pokemon_abilities.csv`
+- `artifacts/canonical/pokemon_moves.csv`
+- `artifacts/canonical/pokemon_flavor_texts.csv`
+- `artifacts/canonical/pokemon_evolution_edges.csv`
+- `artifacts/canonical/pokemon_media_manifest.csv`
+- `artifacts/canonical/pokemon_text_corpus.csv`
+- `artifacts/canonical/official_validation_report.csv`
+- `artifacts/canonical/pokemon_master.csv`
+
+Raw API caches are stored in `artifacts/canonical/raw_cache/` and are intentionally ignored by git.
+
+## Rebuild Notebook
+
+Generate the notebook shell:
+
+```bash
+python build_analysis_notebook.py
+```
+
+Execute it:
+
+```bash
+jupyter nbconvert --execute --inplace Pokemon_Project_Rebuild_Streamlit.ipynb
+```
+
+Or open it interactively:
 
 ```bash
 jupyter lab Pokemon_Project_Rebuild_Streamlit.ipynb
 ```
 
-Run the app:
-
-```bash
-streamlit run streamlit_app.py
-```
-
-## Prepare Streamlit Cloud Deployment
-
-Create the deploy artifact before pushing to GitHub:
+## Build Streamlit Deploy Artifact
 
 ```bash
 python build_deploy_bundle.py
@@ -39,28 +83,34 @@ This writes:
 
 - `artifacts/streamlit_cloud_bundle.joblib`
 
-The Streamlit app prefers this artifact so Community Cloud can start quickly without retraining models on boot.
+The Streamlit app prefers this deploy artifact so Community Cloud can start quickly without retraining on boot.
 
-## One-Click Streamlit Cloud Deployment
+## Run the App Locally
 
-1. Push this folder to a GitHub repository.
-2. Make sure these files are committed:
-   - `streamlit_app.py`
-   - `requirements.txt`
-   - `pokemon_project.py`
-   - `artifacts/streamlit_cloud_bundle.joblib`
-   - `.streamlit/config.toml`
-3. Open [Streamlit Community Cloud](https://share.streamlit.io/).
-4. Choose `New app`.
-5. Select the repository, branch, and set the main file path to:
-
-```text
-streamlit_app.py
+```bash
+streamlit run streamlit_app.py
 ```
 
-6. Deploy. Streamlit Cloud will build the environment and expose a public `*.streamlit.app` URL.
+## Streamlit Cloud
+
+Commit these files before deploying:
+
+- `streamlit_app.py`
+- `pokemon_project.py`
+- `canonical_pokemon.py`
+- `requirements.txt`
+- `artifacts/streamlit_cloud_bundle.joblib`
+- `artifacts/canonical/*.csv`
+- `.streamlit/config.toml`
+
+Use:
+
+- Repo: `FlalaGoGoGo/pokemon-ml-analysis`
+- Branch: `main`
+- Main file: `streamlit_app.py`
 
 ## Notes
 
-- If the deploy artifact is missing, the app can still fall back to training locally, but startup will be much slower.
-- The notebook keeps the full training workflow; the Cloud deployment uses a deploy-optimized battle model artifact to keep repository size and boot time reasonable.
+- `pokemon.com` page content is bot-protected, so official references are recorded conservatively as URLs plus validation metadata rather than full mirrored page text.
+- The deploy model may differ from the experimental multimodal notebook model if the lighter structured/text model is within the configured selection margin.
+- Formal reporting should come from evolution-group OOF, not from whole-dataset deployment predictions.

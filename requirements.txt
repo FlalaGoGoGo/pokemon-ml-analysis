@@ -6,3 +6,4 @@ requests
 streamlit
 nbformat
 jupyter
+pillow

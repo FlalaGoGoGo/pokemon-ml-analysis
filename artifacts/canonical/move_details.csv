@@ -1,0 +1,834 @@
+move_name,move_display_name,move_type,damage_class,power,accuracy,pp
+absorb,Absorb,Grass,special,20.0,100.0,25
+accelerock,Accelerock,Rock,physical,40.0,100.0,20
+acid,Acid,Poison,special,40.0,100.0,30
+acid-armor,Acid Armor,Poison,status,,,20
+acid-spray,Acid Spray,Poison,special,40.0,100.0,20
+acrobatics,Acrobatics,Flying,physical,55.0,100.0,15
+acupressure,Acupressure,Normal,status,,,30
+aerial-ace,Aerial Ace,Flying,physical,60.0,,20
+aeroblast,Aeroblast,Flying,special,100.0,95.0,5
+after-you,After You,Normal,status,,,15
+agility,Agility,Psychic,status,,,30
+air-cutter,Air Cutter,Flying,special,60.0,95.0,25
+air-slash,Air Slash,Flying,special,75.0,95.0,15
+alluring-voice,Alluring Voice,Fairy,special,80.0,100.0,10
+ally-switch,Ally Switch,Psychic,status,,,15
+amnesia,Amnesia,Psychic,status,,,20
+anchor-shot,Anchor Shot,Steel,physical,80.0,100.0,20
+ancient-power,Ancient Power,Rock,special,60.0,100.0,5
+apple-acid,Apple Acid,Grass,special,80.0,100.0,10
+aqua-cutter,Aqua Cutter,Water,physical,70.0,100.0,20
+aqua-jet,Aqua Jet,Water,physical,40.0,100.0,20
+aqua-ring,Aqua Ring,Water,status,,,20
+aqua-step,Aqua Step,Water,physical,80.0,100.0,10
+aqua-tail,Aqua Tail,Water,physical,90.0,90.0,10
+arm-thrust,Arm Thrust,Fighting,physical,15.0,100.0,20
+armor-cannon,Armor Cannon,Fire,special,120.0,100.0,5
+aromatherapy,Aromatherapy,Grass,status,,,5
+aromatic-mist,Aromatic Mist,Fairy,status,,,20
+assist,Assist,Normal,status,,,20
+assurance,Assurance,Dark,physical,60.0,100.0,10
+astonish,Astonish,Ghost,physical,30.0,100.0,15
+astral-barrage,Astral Barrage,Ghost,special,120.0,100.0,5
+attack-order,Attack Order,Bug,physical,90.0,100.0,15
+attract,Attract,Normal,status,,100.0,15
+aura-sphere,Aura Sphere,Fighting,special,80.0,,20
+aura-wheel,Aura Wheel,Electric,physical,110.0,100.0,10
+aurora-beam,Aurora Beam,Ice,special,65.0,100.0,20
+aurora-veil,Aurora Veil,Ice,status,,,20
+autotomize,Autotomize,Steel,status,,,15
+avalanche,Avalanche,Ice,physical,60.0,100.0,10
+axe-kick,Axe Kick,Fighting,physical,120.0,90.0,10
+baby-doll-eyes,Baby-Doll Eyes,Fairy,status,,100.0,30
+baddy-bad,Baddy Bad,Dark,special,80.0,95.0,15
+baneful-bunker,Baneful Bunker,Poison,status,,,10
+barb-barrage,Barb Barrage,Poison,physical,60.0,100.0,10
+barrage,Barrage,Normal,physical,15.0,85.0,20
+barrier,Barrier,Psychic,status,,,20
+baton-pass,Baton Pass,Normal,status,,,40
+beak-blast,Beak Blast,Flying,physical,100.0,100.0,15
+beat-up,Beat Up,Dark,physical,,100.0,10
+belch,Belch,Poison,special,120.0,90.0,10
+belly-drum,Belly Drum,Normal,status,,,10
+bestow,Bestow,Normal,status,,,15
+bide,Bide,Normal,physical,,,10
+bind,Bind,Normal,physical,15.0,85.0,20
+bite,Bite,Dark,physical,60.0,100.0,25
+bitter-blade,Bitter Blade,Fire,physical,90.0,100.0,10
+bitter-malice,Bitter Malice,Ghost,special,75.0,100.0,10
+blast-burn,Blast Burn,Fire,special,150.0,90.0,5
+blaze-kick,Blaze Kick,Fire,physical,85.0,90.0,10
+bleakwind-storm,Bleakwind Storm,Flying,special,100.0,80.0,10
+blizzard,Blizzard,Ice,special,110.0,70.0,5
+block,Block,Normal,status,,,5
+blood-moon,Blood Moon,Normal,special,140.0,100.0,5
+blue-flare,Blue Flare,Fire,special,130.0,85.0,5
+body-press,Body Press,Fighting,physical,80.0,100.0,10
+body-slam,Body Slam,Normal,physical,85.0,100.0,15
+bolt-beak,Bolt Beak,Electric,physical,85.0,100.0,10
+bolt-strike,Bolt Strike,Electric,physical,130.0,85.0,5
+bone-club,Bone Club,Ground,physical,65.0,85.0,20
+bone-rush,Bone Rush,Ground,physical,25.0,90.0,10
+bonemerang,Bonemerang,Ground,physical,50.0,90.0,10
+boomburst,Boomburst,Normal,special,140.0,100.0,10
+bounce,Bounce,Flying,physical,85.0,85.0,5
+bouncy-bubble,Bouncy Bubble,Water,special,60.0,100.0,20
+branch-poke,Branch Poke,Grass,physical,40.0,100.0,40
+brave-bird,Brave Bird,Flying,physical,120.0,100.0,15
+breaking-swipe,Breaking Swipe,Dragon,physical,60.0,100.0,15
+brick-break,Brick Break,Fighting,physical,75.0,100.0,15
+brine,Brine,Water,special,65.0,100.0,10
+brutal-swing,Brutal Swing,Dark,physical,60.0,100.0,20
+bubble,Bubble,Water,special,40.0,100.0,30
+bubble-beam,Bubble Beam,Water,special,65.0,100.0,20
+bug-bite,Bug Bite,Bug,physical,60.0,100.0,20
+bug-buzz,Bug Buzz,Bug,special,90.0,100.0,10
+bulk-up,Bulk Up,Fighting,status,,,20
+bulldoze,Bulldoze,Ground,physical,60.0,100.0,20
+bullet-punch,Bullet Punch,Steel,physical,40.0,100.0,30
+bullet-seed,Bullet Seed,Grass,physical,25.0,100.0,30
+burn-up,Burn Up,Fire,special,130.0,100.0,5
+burning-bulwark,Burning Bulwark,Fire,status,0.0,0.0,10
+burning-jealousy,Burning Jealousy,Fire,special,70.0,100.0,5
+buzzy-buzz,Buzzy Buzz,Electric,special,60.0,100.0,20
+calm-mind,Calm Mind,Psychic,status,,,20
+camouflage,Camouflage,Normal,status,,,20
+captivate,Captivate,Normal,status,,100.0,20
+ceaseless-edge,Ceaseless Edge,Dark,physical,65.0,90.0,15
+charge,Charge,Electric,status,,,20
+charge-beam,Charge Beam,Electric,special,50.0,90.0,10
+charm,Charm,Fairy,status,,100.0,20
+chatter,Chatter,Flying,special,65.0,100.0,20
+chilling-water,Chilling Water,Water,special,50.0,100.0,20
+chilly-reception,Chilly Reception,Ice,status,0.0,,10
+chip-away,Chip Away,Normal,physical,70.0,100.0,20
+chloroblast,Chloroblast,Grass,special,150.0,95.0,5
+circle-throw,Circle Throw,Fighting,physical,60.0,90.0,10
+clamp,Clamp,Water,physical,35.0,85.0,15
+clanging-scales,Clanging Scales,Dragon,special,110.0,100.0,5
+clangorous-soul,Clangorous Soul,Dragon,status,,100.0,5
+clear-smog,Clear Smog,Poison,special,50.0,,15
+close-combat,Close Combat,Fighting,physical,120.0,100.0,5
+coaching,Coaching,Fighting,status,,,10
+coil,Coil,Poison,status,,,20
+collision-course,Collision Course,Fighting,physical,100.0,100.0,5
+comet-punch,Comet Punch,Normal,physical,18.0,85.0,15
+comeuppance,Comeuppance,Dark,physical,1.0,100.0,10
+confide,Confide,Normal,status,,,20
+confuse-ray,Confuse Ray,Ghost,status,,100.0,10
+confusion,Confusion,Psychic,special,50.0,100.0,25
+constrict,Constrict,Normal,physical,10.0,100.0,35
+conversion,Conversion,Normal,status,,,30
+conversion-2,Conversion 2,Normal,status,,,30
+copycat,Copycat,Normal,status,,,20
+core-enforcer,Core Enforcer,Dragon,special,100.0,100.0,10
+corrosive-gas,Corrosive Gas,Poison,status,,100.0,40
+cosmic-power,Cosmic Power,Psychic,status,,,20
+cotton-guard,Cotton Guard,Grass,status,,,10
+cotton-spore,Cotton Spore,Grass,status,,100.0,40
+counter,Counter,Fighting,physical,,100.0,20
+court-change,Court Change,Normal,status,,100.0,10
+covet,Covet,Normal,physical,60.0,100.0,25
+crabhammer,Crabhammer,Water,physical,100.0,90.0,10
+crafty-shield,Crafty Shield,Fairy,status,,,10
+cross-chop,Cross Chop,Fighting,physical,100.0,80.0,5
+cross-poison,Cross Poison,Poison,physical,70.0,100.0,20
+crunch,Crunch,Dark,physical,80.0,100.0,15
+crush-claw,Crush Claw,Normal,physical,75.0,95.0,10
+crush-grip,Crush Grip,Normal,physical,,100.0,5
+curse,Curse,Ghost,status,,,10
+cut,Cut,Normal,physical,50.0,95.0,30
+dark-pulse,Dark Pulse,Dark,special,80.0,100.0,15
+dark-void,Dark Void,Dark,status,,50.0,10
+darkest-lariat,Darkest Lariat,Dark,physical,85.0,100.0,10
+dazzling-gleam,Dazzling Gleam,Fairy,special,80.0,100.0,10
+decorate,Decorate,Fairy,status,,,15
+defend-order,Defend Order,Bug,status,,,10
+defense-curl,Defense Curl,Normal,status,,,40
+defog,Defog,Flying,status,,,15
+destiny-bond,Destiny Bond,Ghost,status,,,5
+detect,Detect,Fighting,status,,,5
+diamond-storm,Diamond Storm,Rock,physical,100.0,95.0,5
+dig,Dig,Ground,physical,80.0,100.0,10
+dire-claw,Dire Claw,Poison,physical,80.0,100.0,15
+disable,Disable,Normal,status,,100.0,20
+disarming-voice,Disarming Voice,Fairy,special,40.0,,15
+discharge,Discharge,Electric,special,80.0,100.0,15
+dive,Dive,Water,physical,80.0,100.0,10
+dizzy-punch,Dizzy Punch,Normal,physical,70.0,100.0,10
+doodle,Doodle,Normal,status,0.0,100.0,10
+doom-desire,Doom Desire,Steel,special,140.0,100.0,5
+double-edge,Double-Edge,Normal,physical,120.0,100.0,15
+double-hit,Double Hit,Normal,physical,35.0,90.0,10
+double-iron-bash,Double Iron Bash,Steel,physical,60.0,100.0,5
+double-kick,Double Kick,Fighting,physical,30.0,100.0,30
+double-shock,Double Shock,Electric,physical,120.0,100.0,5
+double-slap,Double Slap,Normal,physical,15.0,85.0,10
+double-team,Double Team,Normal,status,,,15
+draco-meteor,Draco Meteor,Dragon,special,130.0,90.0,5
+dragon-ascent,Dragon Ascent,Flying,physical,120.0,100.0,5
+dragon-breath,Dragon Breath,Dragon,special,60.0,100.0,20
+dragon-cheer,Dragon Cheer,Dragon,status,0.0,0.0,15
+dragon-claw,Dragon Claw,Dragon,physical,80.0,100.0,15
+dragon-dance,Dragon Dance,Dragon,status,,,20
+dragon-darts,Dragon Darts,Dragon,physical,50.0,100.0,10
+dragon-energy,Dragon Energy,Dragon,special,150.0,100.0,5
+dragon-hammer,Dragon Hammer,Dragon,physical,90.0,100.0,15
+dragon-pulse,Dragon Pulse,Dragon,special,85.0,100.0,10
+dragon-rage,Dragon Rage,Dragon,special,,100.0,10
+dragon-rush,Dragon Rush,Dragon,physical,100.0,75.0,10
+dragon-tail,Dragon Tail,Dragon,physical,60.0,90.0,10
+drain-punch,Drain Punch,Fighting,physical,75.0,100.0,10
+draining-kiss,Draining Kiss,Fairy,special,50.0,100.0,10
+dream-eater,Dream Eater,Psychic,special,100.0,100.0,15
+drill-peck,Drill Peck,Flying,physical,80.0,100.0,20
+drill-run,Drill Run,Ground,physical,80.0,95.0,10
+drum-beating,Drum Beating,Grass,physical,80.0,100.0,10
+dual-chop,Dual Chop,Dragon,physical,40.0,90.0,15
+dual-wingbeat,Dual Wingbeat,Flying,physical,40.0,90.0,10
+dynamax-cannon,Dynamax Cannon,Dragon,special,100.0,100.0,5
+dynamic-punch,Dynamic Punch,Fighting,physical,100.0,50.0,5
+earth-power,Earth Power,Ground,special,90.0,100.0,10
+earthquake,Earthquake,Ground,physical,100.0,100.0,10
+echoed-voice,Echoed Voice,Normal,special,40.0,100.0,15
+eerie-impulse,Eerie Impulse,Electric,status,,100.0,15
+eerie-spell,Eerie Spell,Psychic,special,80.0,100.0,5
+egg-bomb,Egg Bomb,Normal,physical,100.0,75.0,10
+electric-terrain,Electric Terrain,Electric,status,,,10
+electrify,Electrify,Electric,status,,,20
+electro-ball,Electro Ball,Electric,special,,100.0,10
+electro-drift,Electro Drift,Electric,special,100.0,100.0,5
+electro-shot,Electro Shot,Electric,special,130.0,100.0,10
+electroweb,Electroweb,Electric,special,55.0,95.0,15
+embargo,Embargo,Dark,status,,100.0,15
+ember,Ember,Fire,special,40.0,100.0,25
+encore,Encore,Normal,status,,100.0,5
+endeavor,Endeavor,Normal,physical,,100.0,5
+endure,Endure,Normal,status,,,10
+energy-ball,Energy Ball,Grass,special,90.0,100.0,10
+entrainment,Entrainment,Normal,status,,100.0,15
+eruption,Eruption,Fire,special,150.0,100.0,5
+esper-wing,Esper Wing,Psychic,special,80.0,100.0,10
+eternabeam,Eternabeam,Dragon,special,160.0,90.0,5
+expanding-force,Expanding Force,Psychic,special,80.0,100.0,10
+explosion,Explosion,Normal,physical,250.0,100.0,5
+extrasensory,Extrasensory,Psychic,special,80.0,100.0,20
+extreme-speed,Extreme Speed,Normal,physical,80.0,100.0,5
+facade,Facade,Normal,physical,70.0,100.0,20
+fairy-lock,Fairy Lock,Fairy,status,,,10
+fairy-wind,Fairy Wind,Fairy,special,40.0,100.0,30
+fake-out,Fake Out,Normal,physical,40.0,100.0,10
+fake-tears,Fake Tears,Dark,status,,100.0,20
+false-surrender,False Surrender,Dark,physical,80.0,,10
+false-swipe,False Swipe,Normal,physical,40.0,100.0,40
+feather-dance,Feather Dance,Flying,status,,100.0,15
+feint,Feint,Normal,physical,30.0,100.0,10
+feint-attack,Feint Attack,Dark,physical,60.0,,20
+fell-stinger,Fell Stinger,Bug,physical,50.0,100.0,25
+fickle-beam,Fickle Beam,Dragon,special,80.0,100.0,5
+fiery-dance,Fiery Dance,Fire,special,80.0,100.0,10
+fiery-wrath,Fiery Wrath,Dark,special,90.0,100.0,10
+fillet-away,Fillet Away,Normal,status,0.0,,10
+final-gambit,Final Gambit,Fighting,special,,100.0,5
+fire-blast,Fire Blast,Fire,special,110.0,85.0,5
+fire-fang,Fire Fang,Fire,physical,65.0,95.0,15
+fire-lash,Fire Lash,Fire,physical,80.0,100.0,15
+fire-pledge,Fire Pledge,Fire,special,80.0,100.0,10
+fire-punch,Fire Punch,Fire,physical,75.0,100.0,15
+fire-spin,Fire Spin,Fire,special,35.0,85.0,15
+first-impression,First Impression,Bug,physical,90.0,100.0,10
+fishious-rend,Fishious Rend,Water,physical,85.0,100.0,10
+fissure,Fissure,Ground,physical,,30.0,5
+flail,Flail,Normal,physical,,100.0,15
+flame-burst,Flame Burst,Fire,special,70.0,100.0,15
+flame-charge,Flame Charge,Fire,physical,50.0,100.0,20
+flame-wheel,Flame Wheel,Fire,physical,60.0,100.0,25
+flamethrower,Flamethrower,Fire,special,90.0,100.0,15
+flare-blitz,Flare Blitz,Fire,physical,120.0,100.0,15
+flash,Flash,Normal,status,,100.0,20
+flash-cannon,Flash Cannon,Steel,special,80.0,100.0,10
+flatter,Flatter,Dark,status,,100.0,15
+fleur-cannon,Fleur Cannon,Fairy,special,130.0,90.0,5
+fling,Fling,Dark,physical,,100.0,10
+flip-turn,Flip Turn,Water,physical,60.0,100.0,20
+floaty-fall,Floaty Fall,Flying,physical,90.0,95.0,15
+floral-healing,Floral Healing,Fairy,status,,,10
+flower-shield,Flower Shield,Fairy,status,,,10
+flower-trick,Flower Trick,Grass,physical,70.0,,10
+fly,Fly,Flying,physical,90.0,95.0,15
+flying-press,Flying Press,Fighting,physical,100.0,95.0,10
+focus-blast,Focus Blast,Fighting,special,120.0,70.0,5
+focus-energy,Focus Energy,Normal,status,,,30
+focus-punch,Focus Punch,Fighting,physical,150.0,100.0,20
+follow-me,Follow Me,Normal,status,,,20
+force-palm,Force Palm,Fighting,physical,60.0,100.0,10
+foresight,Foresight,Normal,status,,,40
+forests-curse,Forest’s Curse,Grass,status,,100.0,20
+foul-play,Foul Play,Dark,physical,95.0,100.0,15
+freeze-dry,Freeze-Dry,Ice,special,70.0,100.0,20
+freeze-shock,Freeze Shock,Ice,physical,140.0,90.0,5
+freezing-glare,Freezing Glare,Psychic,special,90.0,100.0,10
+freezy-frost,Freezy Frost,Ice,special,100.0,90.0,10
+frenzy-plant,Frenzy Plant,Grass,special,150.0,90.0,5
+frost-breath,Frost Breath,Ice,special,60.0,90.0,10
+frustration,Frustration,Normal,physical,,100.0,20
+fury-attack,Fury Attack,Normal,physical,15.0,85.0,20
+fury-cutter,Fury Cutter,Bug,physical,40.0,95.0,20
+fury-swipes,Fury Swipes,Normal,physical,18.0,80.0,15
+fusion-bolt,Fusion Bolt,Electric,physical,100.0,100.0,5
+fusion-flare,Fusion Flare,Fire,special,100.0,100.0,5
+future-sight,Future Sight,Psychic,special,120.0,100.0,10
+gastro-acid,Gastro Acid,Poison,status,,100.0,10
+gear-grind,Gear Grind,Steel,physical,50.0,85.0,15
+gear-up,Gear Up,Steel,status,,,20
+geomancy,Geomancy,Fairy,status,,,10
+giga-drain,Giga Drain,Grass,special,75.0,100.0,10
+giga-impact,Giga Impact,Normal,physical,150.0,90.0,5
+gigaton-hammer,Gigaton Hammer,Steel,physical,160.0,100.0,5
+glacial-lance,Glacial Lance,Ice,physical,120.0,100.0,5
+glaciate,Glaciate,Ice,special,65.0,95.0,10
+glaive-rush,Glaive Rush,Dragon,physical,120.0,100.0,5
+glare,Glare,Normal,status,,100.0,30
+glitzy-glow,Glitzy Glow,Psychic,special,80.0,95.0,15
+grass-knot,Grass Knot,Grass,special,,100.0,20
+grass-pledge,Grass Pledge,Grass,special,80.0,100.0,10
+grass-whistle,Grass Whistle,Grass,status,,55.0,15
+grassy-glide,Grassy Glide,Grass,physical,55.0,100.0,20
+grassy-terrain,Grassy Terrain,Grass,status,,,10
+grav-apple,Grav Apple,Grass,physical,80.0,100.0,10
+gravity,Gravity,Psychic,status,,,5
+growl,Growl,Normal,status,,100.0,40
+growth,Growth,Normal,status,,,20
+grudge,Grudge,Ghost,status,,,5
+guard-split,Guard Split,Psychic,status,,,10
+guard-swap,Guard Swap,Psychic,status,,,10
+guillotine,Guillotine,Normal,physical,,30.0,5
+gunk-shot,Gunk Shot,Poison,physical,120.0,80.0,5
+gust,Gust,Flying,special,40.0,100.0,35
+gyro-ball,Gyro Ball,Steel,physical,,100.0,5
+hail,Hail,Ice,status,,,10
+hammer-arm,Hammer Arm,Fighting,physical,100.0,90.0,10
+hard-press,Hard Press,Steel,physical,0.0,100.0,10
+harden,Harden,Normal,status,,,30
+haze,Haze,Ice,status,,,30
+head-charge,Head Charge,Normal,physical,120.0,100.0,15
+head-smash,Head Smash,Rock,physical,150.0,80.0,5
+headbutt,Headbutt,Normal,physical,70.0,100.0,15
+headlong-rush,Headlong Rush,Ground,physical,120.0,100.0,5
+heal-bell,Heal Bell,Normal,status,,,5
+heal-block,Heal Block,Psychic,status,,100.0,15
+heal-order,Heal Order,Bug,status,,,10
+heal-pulse,Heal Pulse,Psychic,status,,,10
+healing-wish,Healing Wish,Psychic,status,,,10
+heart-stamp,Heart Stamp,Psychic,physical,60.0,100.0,25
+heart-swap,Heart Swap,Psychic,status,,,10
+heat-crash,Heat Crash,Fire,physical,,100.0,10
+heat-wave,Heat Wave,Fire,special,95.0,90.0,10
+heavy-slam,Heavy Slam,Steel,physical,,100.0,10
+helping-hand,Helping Hand,Normal,status,,,20
+hex,Hex,Ghost,special,65.0,100.0,10
+hidden-power,Hidden Power,Normal,special,60.0,100.0,15
+high-horsepower,High Horsepower,Ground,physical,95.0,95.0,10
+high-jump-kick,High Jump Kick,Fighting,physical,130.0,90.0,10
+hone-claws,Hone Claws,Dark,status,,,15
+horn-attack,Horn Attack,Normal,physical,65.0,100.0,25
+horn-drill,Horn Drill,Normal,physical,,30.0,5
+horn-leech,Horn Leech,Grass,physical,75.0,100.0,10
+howl,Howl,Normal,status,,,40
+hurricane,Hurricane,Flying,special,110.0,70.0,10
+hydro-cannon,Hydro Cannon,Water,special,150.0,90.0,5
+hydro-pump,Hydro Pump,Water,special,110.0,80.0,5
+hydro-steam,Hydro Steam,Water,special,80.0,100.0,15
+hyper-beam,Hyper Beam,Normal,special,150.0,90.0,5
+hyper-drill,Hyper Drill,Normal,physical,100.0,100.0,5
+hyper-fang,Hyper Fang,Normal,physical,80.0,90.0,15
+hyper-voice,Hyper Voice,Normal,special,90.0,100.0,10
+hyperspace-fury,Hyperspace Fury,Dark,physical,100.0,,5
+hyperspace-hole,Hyperspace Hole,Psychic,special,80.0,,5
+hypnosis,Hypnosis,Psychic,status,,60.0,20
+ice-ball,Ice Ball,Ice,physical,30.0,90.0,20
+ice-beam,Ice Beam,Ice,special,90.0,100.0,10
+ice-burn,Ice Burn,Ice,special,140.0,90.0,5
+ice-fang,Ice Fang,Ice,physical,65.0,95.0,15
+ice-hammer,Ice Hammer,Ice,physical,100.0,90.0,10
+ice-punch,Ice Punch,Ice,physical,75.0,100.0,15
+ice-shard,Ice Shard,Ice,physical,40.0,100.0,30
+ice-spinner,Ice Spinner,Ice,physical,80.0,100.0,15
+icicle-crash,Icicle Crash,Ice,physical,85.0,90.0,10
+icicle-spear,Icicle Spear,Ice,physical,25.0,100.0,30
+icy-wind,Icy Wind,Ice,special,55.0,95.0,15
+imprison,Imprison,Psychic,status,,,10
+incinerate,Incinerate,Fire,special,60.0,100.0,15
+infernal-parade,Infernal Parade,Ghost,special,60.0,100.0,15
+inferno,Inferno,Fire,special,100.0,50.0,5
+infestation,Infestation,Bug,special,20.0,100.0,20
+ingrain,Ingrain,Grass,status,,,20
+instruct,Instruct,Psychic,status,,,15
+ion-deluge,Ion Deluge,Electric,status,,,25
+iron-defense,Iron Defense,Steel,status,,,15
+iron-head,Iron Head,Steel,physical,80.0,100.0,15
+iron-tail,Iron Tail,Steel,physical,100.0,75.0,15
+ivy-cudgel,Ivy Cudgel,Grass,physical,100.0,100.0,10
+jaw-lock,Jaw Lock,Dark,physical,80.0,100.0,10
+jet-punch,Jet Punch,Water,physical,60.0,100.0,15
+judgment,Judgment,Normal,special,100.0,100.0,10
+jump-kick,Jump Kick,Fighting,physical,100.0,95.0,10
+jungle-healing,Jungle Healing,Grass,status,,,10
+karate-chop,Karate Chop,Fighting,physical,50.0,100.0,25
+kinesis,Kinesis,Psychic,status,,80.0,15
+kings-shield,King’s Shield,Steel,status,,,10
+knock-off,Knock Off,Dark,physical,65.0,100.0,20
+kowtow-cleave,Kowtow Cleave,Dark,physical,85.0,,10
+lands-wrath,Land’s Wrath,Ground,physical,90.0,100.0,10
+laser-focus,Laser Focus,Normal,status,,,30
+lash-out,Lash Out,Dark,physical,75.0,100.0,5
+last-resort,Last Resort,Normal,physical,140.0,100.0,5
+last-respects,Last Respects,Ghost,physical,50.0,100.0,10
+lava-plume,Lava Plume,Fire,special,80.0,100.0,15
+leaf-blade,Leaf Blade,Grass,physical,90.0,100.0,15
+leaf-storm,Leaf Storm,Grass,special,130.0,90.0,5
+leaf-tornado,Leaf Tornado,Grass,special,65.0,90.0,10
+leafage,Leafage,Grass,physical,40.0,100.0,40
+leech-life,Leech Life,Bug,physical,80.0,100.0,10
+leech-seed,Leech Seed,Grass,status,,90.0,10
+leer,Leer,Normal,status,,100.0,30
+lick,Lick,Ghost,physical,30.0,100.0,30
+life-dew,Life Dew,Water,status,,,10
+light-of-ruin,Light of Ruin,Fairy,special,140.0,90.0,5
+light-screen,Light Screen,Psychic,status,,,30
+liquidation,Liquidation,Water,physical,85.0,100.0,10
+lock-on,Lock-On,Normal,status,,,5
+lovely-kiss,Lovely Kiss,Normal,status,,75.0,10
+low-kick,Low Kick,Fighting,physical,,100.0,20
+low-sweep,Low Sweep,Fighting,physical,65.0,100.0,20
+lucky-chant,Lucky Chant,Normal,status,,,30
+lumina-crash,Lumina Crash,Psychic,special,80.0,100.0,10
+lunar-blessing,Lunar Blessing,Psychic,status,0.0,,5
+lunar-dance,Lunar Dance,Psychic,status,,,10
+lunge,Lunge,Bug,physical,80.0,100.0,15
+luster-purge,Luster Purge,Psychic,special,95.0,100.0,5
+mach-punch,Mach Punch,Fighting,physical,40.0,100.0,30
+magic-coat,Magic Coat,Psychic,status,,,15
+magic-powder,Magic Powder,Psychic,status,,100.0,20
+magic-room,Magic Room,Psychic,status,,,10
+magical-leaf,Magical Leaf,Grass,special,60.0,,20
+magma-storm,Magma Storm,Fire,special,100.0,75.0,5
+magnet-bomb,Magnet Bomb,Steel,physical,60.0,,20
+magnet-rise,Magnet Rise,Electric,status,,,10
+magnetic-flux,Magnetic Flux,Electric,status,,,20
+magnitude,Magnitude,Ground,physical,,100.0,30
+make-it-rain,Make It Rain,Steel,special,120.0,100.0,5
+malignant-chain,Malignant Chain,Poison,special,100.0,100.0,5
+mat-block,Mat Block,Fighting,status,,,10
+matcha-gotcha,Matcha Gotcha,Grass,special,80.0,90.0,15
+me-first,Me First,Normal,status,,,20
+mean-look,Mean Look,Normal,status,,,5
+meditate,Meditate,Psychic,status,,,40
+mega-drain,Mega Drain,Grass,special,40.0,100.0,15
+mega-kick,Mega Kick,Normal,physical,120.0,75.0,5
+mega-punch,Mega Punch,Normal,physical,80.0,85.0,20
+megahorn,Megahorn,Bug,physical,120.0,85.0,10
+memento,Memento,Dark,status,,100.0,10
+metal-burst,Metal Burst,Steel,physical,,100.0,10
+metal-claw,Metal Claw,Steel,physical,50.0,95.0,35
+metal-sound,Metal Sound,Steel,status,,85.0,40
+meteor-assault,Meteor Assault,Fighting,physical,150.0,100.0,5
+meteor-beam,Meteor Beam,Rock,special,120.0,90.0,10
+meteor-mash,Meteor Mash,Steel,physical,90.0,90.0,10
+metronome,Metronome,Normal,status,,,10
+mighty-cleave,Mighty Cleave,Rock,physical,95.0,100.0,5
+milk-drink,Milk Drink,Normal,status,,,5
+mimic,Mimic,Normal,status,,,10
+mind-blown,Mind Blown,Fire,special,150.0,100.0,5
+mind-reader,Mind Reader,Normal,status,,,5
+minimize,Minimize,Normal,status,,,10
+miracle-eye,Miracle Eye,Psychic,status,,,40
+mirror-coat,Mirror Coat,Psychic,special,,100.0,20
+mirror-move,Mirror Move,Flying,status,,,20
+mirror-shot,Mirror Shot,Steel,special,65.0,85.0,10
+mist,Mist,Ice,status,,,30
+mist-ball,Mist Ball,Psychic,special,95.0,100.0,5
+misty-explosion,Misty Explosion,Fairy,special,100.0,100.0,5
+misty-terrain,Misty Terrain,Fairy,status,,,10
+moonblast,Moonblast,Fairy,special,95.0,100.0,15
+moongeist-beam,Moongeist Beam,Ghost,special,100.0,100.0,5
+moonlight,Moonlight,Fairy,status,,,5
+morning-sun,Morning Sun,Normal,status,,,5
+mortal-spin,Mortal Spin,Poison,physical,30.0,100.0,15
+mountain-gale,Mountain Gale,Ice,physical,100.0,85.0,10
+mud-bomb,Mud Bomb,Ground,special,65.0,85.0,10
+mud-shot,Mud Shot,Ground,special,55.0,95.0,15
+mud-slap,Mud-Slap,Ground,special,20.0,100.0,10
+mud-sport,Mud Sport,Ground,status,,,15
+muddy-water,Muddy Water,Water,special,90.0,85.0,10
+multi-attack,Multi-Attack,Normal,physical,120.0,100.0,10
+mystical-fire,Mystical Fire,Fire,special,75.0,100.0,10
+mystical-power,Mystical Power,Psychic,special,70.0,90.0,10
+nasty-plot,Nasty Plot,Dark,status,,,20
+natural-gift,Natural Gift,Normal,physical,,100.0,15
+nature-power,Nature Power,Normal,status,,,20
+natures-madness,Nature’s Madness,Fairy,special,,90.0,10
+needle-arm,Needle Arm,Grass,physical,60.0,100.0,15
+night-daze,Night Daze,Dark,special,85.0,95.0,10
+night-shade,Night Shade,Ghost,special,,100.0,15
+night-slash,Night Slash,Dark,physical,70.0,100.0,15
+nightmare,Nightmare,Ghost,status,,100.0,15
+no-retreat,No Retreat,Fighting,status,,,5
+noble-roar,Noble Roar,Normal,status,,100.0,30
+nuzzle,Nuzzle,Electric,physical,20.0,100.0,20
+oblivion-wing,Oblivion Wing,Flying,special,80.0,100.0,10
+obstruct,Obstruct,Dark,status,,100.0,10
+octazooka,Octazooka,Water,special,65.0,85.0,10
+octolock,Octolock,Fighting,status,,100.0,15
+odor-sleuth,Odor Sleuth,Normal,status,,,40
+ominous-wind,Ominous Wind,Ghost,special,60.0,100.0,5
+order-up,Order Up,Dragon,physical,80.0,100.0,10
+origin-pulse,Origin Pulse,Water,special,110.0,85.0,10
+outrage,Outrage,Dragon,physical,120.0,100.0,10
+overdrive,Overdrive,Electric,special,80.0,100.0,10
+overheat,Overheat,Fire,special,130.0,90.0,5
+pain-split,Pain Split,Normal,status,,,20
+parabolic-charge,Parabolic Charge,Electric,special,65.0,100.0,20
+parting-shot,Parting Shot,Dark,status,,100.0,20
+pay-day,Pay Day,Normal,physical,40.0,100.0,20
+payback,Payback,Dark,physical,50.0,100.0,10
+peck,Peck,Flying,physical,35.0,100.0,35
+perish-song,Perish Song,Normal,status,,,5
+petal-blizzard,Petal Blizzard,Grass,physical,90.0,100.0,15
+petal-dance,Petal Dance,Grass,special,120.0,100.0,10
+phantom-force,Phantom Force,Ghost,physical,90.0,100.0,10
+photon-geyser,Photon Geyser,Psychic,special,100.0,100.0,5
+pin-missile,Pin Missile,Bug,physical,25.0,95.0,20
+plasma-fists,Plasma Fists,Electric,physical,100.0,100.0,15
+play-nice,Play Nice,Normal,status,,,20
+play-rough,Play Rough,Fairy,physical,90.0,90.0,10
+pluck,Pluck,Flying,physical,60.0,100.0,20
+poison-fang,Poison Fang,Poison,physical,50.0,100.0,15
+poison-gas,Poison Gas,Poison,status,,90.0,40
+poison-jab,Poison Jab,Poison,physical,80.0,100.0,20
+poison-powder,Poison Powder,Poison,status,,75.0,35
+poison-sting,Poison Sting,Poison,physical,15.0,100.0,35
+poison-tail,Poison Tail,Poison,physical,50.0,100.0,25
+pollen-puff,Pollen Puff,Bug,special,90.0,100.0,15
+poltergeist,Poltergeist,Ghost,physical,110.0,90.0,5
+population-bomb,Population Bomb,Normal,physical,20.0,90.0,10
+pounce,Pounce,Bug,physical,50.0,100.0,20
+pound,Pound,Normal,physical,40.0,100.0,35
+powder,Powder,Bug,status,,100.0,20
+powder-snow,Powder Snow,Ice,special,40.0,100.0,25
+power-gem,Power Gem,Rock,special,80.0,100.0,20
+power-shift,Power Shift,Normal,status,0.0,,10
+power-split,Power Split,Psychic,status,,,10
+power-swap,Power Swap,Psychic,status,,,10
+power-trick,Power Trick,Psychic,status,,,10
+power-trip,Power Trip,Dark,physical,20.0,100.0,10
+power-up-punch,Power-Up Punch,Fighting,physical,40.0,100.0,20
+power-whip,Power Whip,Grass,physical,120.0,85.0,10
+precipice-blades,Precipice Blades,Ground,physical,120.0,85.0,10
+present,Present,Normal,physical,,90.0,15
+prismatic-laser,Prismatic Laser,Psychic,special,160.0,100.0,10
+protect,Protect,Normal,status,,,10
+psybeam,Psybeam,Psychic,special,65.0,100.0,20
+psyblade,Psyblade,Psychic,physical,80.0,100.0,15
+psych-up,Psych Up,Normal,status,,,10
+psychic,Psychic,Psychic,special,90.0,100.0,10
+psychic-fangs,Psychic Fangs,Psychic,physical,85.0,100.0,10
+psychic-noise,Psychic Noise,Psychic,special,75.0,100.0,10
+psychic-terrain,Psychic Terrain,Psychic,status,,,10
+psycho-boost,Psycho Boost,Psychic,special,140.0,90.0,5
+psycho-cut,Psycho Cut,Psychic,physical,70.0,100.0,20
+psycho-shift,Psycho Shift,Psychic,status,,100.0,10
+psyshield-bash,Psyshield Bash,Psychic,physical,70.0,90.0,10
+psyshock,Psyshock,Psychic,special,80.0,100.0,10
+psystrike,Psystrike,Psychic,special,100.0,100.0,10
+psywave,Psywave,Psychic,special,,100.0,15
+punishment,Punishment,Dark,physical,,100.0,5
+purify,Purify,Poison,status,,,20
+pursuit,Pursuit,Dark,physical,40.0,100.0,20
+pyro-ball,Pyro Ball,Fire,physical,120.0,90.0,5
+quash,Quash,Dark,status,,100.0,15
+quick-attack,Quick Attack,Normal,physical,40.0,100.0,30
+quick-guard,Quick Guard,Fighting,status,,,15
+quiver-dance,Quiver Dance,Bug,status,,,20
+rage,Rage,Normal,physical,20.0,100.0,20
+rage-fist,Rage Fist,Ghost,physical,50.0,100.0,10
+rage-powder,Rage Powder,Bug,status,,,20
+raging-bull,Raging Bull,Normal,physical,90.0,100.0,10
+raging-fury,Raging Fury,Fire,physical,120.0,100.0,10
+rain-dance,Rain Dance,Water,status,,,5
+rapid-spin,Rapid Spin,Normal,physical,50.0,100.0,40
+razor-leaf,Razor Leaf,Grass,physical,55.0,95.0,25
+razor-shell,Razor Shell,Water,physical,75.0,95.0,10
+razor-wind,Razor Wind,Normal,special,80.0,100.0,10
+recover,Recover,Normal,status,,,5
+recycle,Recycle,Normal,status,,,10
+reflect,Reflect,Psychic,status,,,20
+reflect-type,Reflect Type,Normal,status,,,15
+refresh,Refresh,Normal,status,,,20
+relic-song,Relic Song,Normal,special,75.0,100.0,10
+rest,Rest,Psychic,status,,,5
+retaliate,Retaliate,Normal,physical,70.0,100.0,5
+return,Return,Normal,physical,,100.0,20
+revelation-dance,Revelation Dance,Normal,special,90.0,100.0,15
+revenge,Revenge,Fighting,physical,60.0,100.0,10
+reversal,Reversal,Fighting,physical,,100.0,15
+revival-blessing,Revival Blessing,Normal,status,0.0,,1
+rising-voltage,Rising Voltage,Electric,special,70.0,100.0,20
+roar,Roar,Normal,status,,,20
+roar-of-time,Roar of Time,Dragon,special,150.0,90.0,5
+rock-blast,Rock Blast,Rock,physical,25.0,90.0,10
+rock-climb,Rock Climb,Normal,physical,90.0,85.0,20
+rock-polish,Rock Polish,Rock,status,,,20
+rock-slide,Rock Slide,Rock,physical,75.0,90.0,10
+rock-smash,Rock Smash,Fighting,physical,40.0,100.0,15
+rock-throw,Rock Throw,Rock,physical,50.0,90.0,15
+rock-tomb,Rock Tomb,Rock,physical,60.0,95.0,15
+rock-wrecker,Rock Wrecker,Rock,physical,150.0,90.0,5
+role-play,Role Play,Psychic,status,,,10
+rolling-kick,Rolling Kick,Fighting,physical,60.0,85.0,15
+rollout,Rollout,Rock,physical,30.0,90.0,20
+roost,Roost,Flying,status,,,5
+rototiller,Rototiller,Ground,status,,,10
+round,Round,Normal,special,60.0,100.0,15
+ruination,Ruination,Dark,special,1.0,90.0,10
+sacred-fire,Sacred Fire,Fire,physical,100.0,95.0,5
+sacred-sword,Sacred Sword,Fighting,physical,90.0,100.0,15
+safeguard,Safeguard,Normal,status,,,25
+salt-cure,Salt Cure,Rock,physical,40.0,100.0,15
+sand-attack,Sand Attack,Ground,status,,100.0,15
+sand-tomb,Sand Tomb,Ground,physical,35.0,85.0,15
+sandsear-storm,Sandsear Storm,Ground,special,100.0,80.0,10
+sandstorm,Sandstorm,Rock,status,,,10
+sappy-seed,Sappy Seed,Grass,physical,100.0,90.0,10
+scald,Scald,Water,special,80.0,100.0,15
+scale-shot,Scale Shot,Dragon,physical,25.0,90.0,20
+scary-face,Scary Face,Normal,status,,100.0,10
+scorching-sands,Scorching Sands,Ground,special,70.0,100.0,10
+scratch,Scratch,Normal,physical,40.0,100.0,35
+screech,Screech,Normal,status,,85.0,40
+searing-shot,Searing Shot,Fire,special,100.0,100.0,5
+secret-power,Secret Power,Normal,physical,70.0,100.0,20
+secret-sword,Secret Sword,Fighting,special,85.0,100.0,10
+seed-bomb,Seed Bomb,Grass,physical,80.0,100.0,15
+seed-flare,Seed Flare,Grass,special,120.0,85.0,5
+seismic-toss,Seismic Toss,Fighting,physical,,100.0,20
+self-destruct,Self-Destruct,Normal,physical,200.0,100.0,5
+shadow-ball,Shadow Ball,Ghost,special,80.0,100.0,15
+shadow-bone,Shadow Bone,Ghost,physical,85.0,100.0,10
+shadow-claw,Shadow Claw,Ghost,physical,70.0,100.0,15
+shadow-force,Shadow Force,Ghost,physical,120.0,100.0,5
+shadow-punch,Shadow Punch,Ghost,physical,60.0,,20
+shadow-sneak,Shadow Sneak,Ghost,physical,40.0,100.0,30
+sharpen,Sharpen,Normal,status,,,30
+shed-tail,Shed Tail,Normal,status,0.0,,10
+sheer-cold,Sheer Cold,Ice,special,,30.0,5
+shell-side-arm,Shell Side Arm,Poison,special,90.0,100.0,10
+shell-smash,Shell Smash,Normal,status,,,15
+shell-trap,Shell Trap,Fire,special,150.0,100.0,5
+shelter,Shelter,Steel,status,0.0,,10
+shift-gear,Shift Gear,Steel,status,,,10
+shock-wave,Shock Wave,Electric,special,60.0,,20
+shore-up,Shore Up,Ground,status,,,5
+signal-beam,Signal Beam,Bug,special,75.0,100.0,15
+silk-trap,Silk Trap,Bug,status,0.0,,10
+silver-wind,Silver Wind,Bug,special,60.0,100.0,5
+simple-beam,Simple Beam,Normal,status,,100.0,15
+sing,Sing,Normal,status,,55.0,15
+sizzly-slide,Sizzly Slide,Fire,physical,60.0,100.0,20
+sketch,Sketch,Normal,status,,,1
+skill-swap,Skill Swap,Psychic,status,,,10
+skitter-smack,Skitter Smack,Bug,physical,70.0,90.0,10
+skull-bash,Skull Bash,Normal,physical,130.0,100.0,10
+sky-attack,Sky Attack,Flying,physical,140.0,90.0,5
+sky-drop,Sky Drop,Flying,physical,60.0,100.0,10
+sky-uppercut,Sky Uppercut,Fighting,physical,85.0,90.0,15
+slack-off,Slack Off,Normal,status,,,5
+slam,Slam,Normal,physical,80.0,75.0,20
+slash,Slash,Normal,physical,70.0,100.0,20
+sleep-powder,Sleep Powder,Grass,status,,75.0,15
+sleep-talk,Sleep Talk,Normal,status,,,10
+sludge,Sludge,Poison,special,65.0,100.0,20
+sludge-bomb,Sludge Bomb,Poison,special,90.0,100.0,10
+sludge-wave,Sludge Wave,Poison,special,95.0,100.0,10
+smack-down,Smack Down,Rock,physical,50.0,100.0,15
+smart-strike,Smart Strike,Steel,physical,70.0,,10
+smelling-salts,Smelling Salts,Normal,physical,70.0,100.0,10
+smog,Smog,Poison,special,30.0,70.0,20
+smokescreen,Smokescreen,Normal,status,,100.0,20
+snap-trap,Snap Trap,Grass,physical,35.0,100.0,15
+snarl,Snarl,Dark,special,55.0,95.0,15
+snatch,Snatch,Dark,status,,,10
+snipe-shot,Snipe Shot,Water,special,80.0,100.0,15
+snore,Snore,Normal,special,50.0,100.0,15
+snowscape,Snowscape,Ice,status,0.0,,10
+soak,Soak,Water,status,,100.0,20
+soft-boiled,Soft-Boiled,Normal,status,,,5
+solar-beam,Solar Beam,Grass,special,120.0,100.0,10
+solar-blade,Solar Blade,Grass,physical,125.0,100.0,10
+sonic-boom,Sonic Boom,Normal,special,,90.0,20
+spacial-rend,Spacial Rend,Dragon,special,100.0,95.0,5
+spark,Spark,Electric,physical,65.0,100.0,20
+sparkling-aria,Sparkling Aria,Water,special,90.0,100.0,10
+sparkly-swirl,Sparkly Swirl,Fairy,special,120.0,85.0,5
+spectral-thief,Spectral Thief,Ghost,physical,90.0,100.0,10
+speed-swap,Speed Swap,Psychic,status,,,10
+spicy-extract,Spicy Extract,Grass,status,0.0,,15
+spider-web,Spider Web,Bug,status,,,10
+spike-cannon,Spike Cannon,Normal,physical,20.0,100.0,15
+spikes,Spikes,Ground,status,,,20
+spiky-shield,Spiky Shield,Grass,status,,,10
+spin-out,Spin Out,Steel,physical,100.0,100.0,5
+spirit-break,Spirit Break,Fairy,physical,75.0,100.0,15
+spirit-shackle,Spirit Shackle,Ghost,physical,80.0,100.0,10
+spit-up,Spit Up,Normal,special,,100.0,10
+spite,Spite,Ghost,status,,100.0,10
+splash,Splash,Normal,status,,,40
+splishy-splash,Splishy Splash,Water,special,90.0,100.0,15
+spore,Spore,Grass,status,,100.0,15
+spotlight,Spotlight,Normal,status,,,15
+springtide-storm,Springtide Storm,Fairy,special,100.0,80.0,5
+stealth-rock,Stealth Rock,Rock,status,,,20
+steam-eruption,Steam Eruption,Water,special,110.0,95.0,5
+steamroller,Steamroller,Bug,physical,65.0,100.0,20
+steel-beam,Steel Beam,Steel,special,140.0,95.0,5
+steel-roller,Steel Roller,Steel,physical,130.0,100.0,5
+steel-wing,Steel Wing,Steel,physical,70.0,90.0,25
+sticky-web,Sticky Web,Bug,status,,,20
+stockpile,Stockpile,Normal,status,,,20
+stomp,Stomp,Normal,physical,65.0,100.0,20
+stomping-tantrum,Stomping Tantrum,Ground,physical,75.0,100.0,10
+stone-axe,Stone Axe,Rock,physical,65.0,90.0,15
+stone-edge,Stone Edge,Rock,physical,100.0,80.0,5
+stored-power,Stored Power,Psychic,special,20.0,100.0,10
+storm-throw,Storm Throw,Fighting,physical,60.0,100.0,10
+strange-steam,Strange Steam,Fairy,special,90.0,95.0,10
+strength,Strength,Normal,physical,80.0,100.0,15
+strength-sap,Strength Sap,Grass,status,,100.0,10
+string-shot,String Shot,Bug,status,,95.0,40
+struggle-bug,Struggle Bug,Bug,special,50.0,100.0,20
+stuff-cheeks,Stuff Cheeks,Normal,status,,,10
+stun-spore,Stun Spore,Grass,status,,75.0,30
+submission,Submission,Fighting,physical,80.0,80.0,20
+substitute,Substitute,Normal,status,,,10
+sucker-punch,Sucker Punch,Dark,physical,70.0,100.0,5
+sunny-day,Sunny Day,Fire,status,,,5
+sunsteel-strike,Sunsteel Strike,Steel,physical,100.0,100.0,5
+super-fang,Super Fang,Normal,physical,,90.0,10
+supercell-slam,Supercell Slam,Electric,physical,100.0,95.0,15
+superpower,Superpower,Fighting,physical,120.0,100.0,5
+supersonic,Supersonic,Normal,status,,55.0,20
+surf,Surf,Water,special,90.0,100.0,15
+surging-strikes,Surging Strikes,Water,physical,25.0,100.0,5
+swagger,Swagger,Normal,status,,85.0,15
+swallow,Swallow,Normal,status,,,10
+sweet-kiss,Sweet Kiss,Fairy,status,,75.0,10
+sweet-scent,Sweet Scent,Normal,status,,100.0,20
+swift,Swift,Normal,special,60.0,,20
+switcheroo,Switcheroo,Dark,status,,100.0,10
+swords-dance,Swords Dance,Normal,status,,,20
+synchronoise,Synchronoise,Psychic,special,120.0,100.0,10
+synthesis,Synthesis,Grass,status,,,5
+syrup-bomb,Syrup Bomb,Grass,special,60.0,85.0,10
+tachyon-cutter,Tachyon Cutter,Steel,special,50.0,0.0,10
+tackle,Tackle,Normal,physical,40.0,100.0,35
+tail-glow,Tail Glow,Bug,status,,,20
+tail-slap,Tail Slap,Normal,physical,25.0,85.0,10
+tail-whip,Tail Whip,Normal,status,,100.0,30
+tailwind,Tailwind,Flying,status,,,15
+take-down,Take Down,Normal,physical,90.0,85.0,20
+take-heart,Take Heart,Psychic,status,0.0,,10
+tar-shot,Tar Shot,Rock,status,,100.0,15
+taunt,Taunt,Dark,status,,100.0,20
+tearful-look,Tearful Look,Normal,status,,,20
+teatime,Teatime,Normal,status,,,10
+techno-blast,Techno Blast,Normal,special,120.0,100.0,5
+teeter-dance,Teeter Dance,Normal,status,,100.0,20
+telekinesis,Telekinesis,Psychic,status,,,15
+teleport,Teleport,Psychic,status,,,20
+temper-flare,Temper Flare,Fire,physical,75.0,100.0,10
+tera-blast,Tera Blast,Normal,special,80.0,100.0,10
+tera-starstorm,Tera Starstorm,Normal,special,120.0,100.0,5
+terrain-pulse,Terrain Pulse,Normal,special,50.0,100.0,10
+thief,Thief,Dark,physical,60.0,100.0,25
+thousand-arrows,Thousand Arrows,Ground,physical,90.0,100.0,10
+thousand-waves,Thousand Waves,Ground,physical,90.0,100.0,10
+thrash,Thrash,Normal,physical,120.0,100.0,10
+throat-chop,Throat Chop,Dark,physical,80.0,100.0,15
+thunder,Thunder,Electric,special,110.0,70.0,10
+thunder-cage,Thunder Cage,Electric,special,80.0,90.0,15
+thunder-fang,Thunder Fang,Electric,physical,65.0,95.0,15
+thunder-punch,Thunder Punch,Electric,physical,75.0,100.0,15
+thunder-shock,Thunder Shock,Electric,special,40.0,100.0,30
+thunder-wave,Thunder Wave,Electric,status,,90.0,20
+thunderbolt,Thunderbolt,Electric,special,90.0,100.0,15
+thunderclap,Thunderclap,Electric,special,70.0,100.0,5
+thunderous-kick,Thunderous Kick,Fighting,physical,90.0,100.0,10
+tickle,Tickle,Normal,status,,100.0,20
+tidy-up,Tidy Up,Normal,status,0.0,,10
+topsy-turvy,Topsy-Turvy,Dark,status,,,20
+torch-song,Torch Song,Fire,special,80.0,100.0,10
+torment,Torment,Dark,status,,100.0,15
+toxic,Toxic,Poison,status,,90.0,10
+toxic-spikes,Toxic Spikes,Poison,status,,,20
+toxic-thread,Toxic Thread,Poison,status,,100.0,20
+trailblaze,Trailblaze,Grass,physical,50.0,100.0,20
+transform,Transform,Normal,status,,,10
+tri-attack,Tri Attack,Normal,special,80.0,100.0,10
+trick,Trick,Psychic,status,,100.0,10
+trick-or-treat,Trick-or-Treat,Ghost,status,,100.0,20
+trick-room,Trick Room,Psychic,status,,,5
+triple-arrows,Triple Arrows,Fighting,physical,90.0,100.0,10
+triple-axel,Triple Axel,Ice,physical,20.0,90.0,10
+triple-dive,Triple Dive,Water,physical,30.0,95.0,10
+triple-kick,Triple Kick,Fighting,physical,10.0,90.0,10
+trop-kick,Trop Kick,Grass,physical,70.0,100.0,15
+trump-card,Trump Card,Normal,special,,,5
+twin-beam,Twin Beam,Psychic,special,40.0,100.0,10
+twineedle,Twineedle,Bug,physical,25.0,100.0,20
+twister,Twister,Dragon,special,40.0,100.0,20
+u-turn,U-turn,Bug,physical,70.0,100.0,20
+upper-hand,Upper Hand,Fighting,physical,65.0,100.0,15
+uproar,Uproar,Normal,special,90.0,100.0,10
+v-create,V-create,Fire,physical,180.0,95.0,5
+vacuum-wave,Vacuum Wave,Fighting,special,40.0,100.0,30
+venom-drench,Venom Drench,Poison,status,,100.0,20
+venoshock,Venoshock,Poison,special,65.0,100.0,10
+vice-grip,Vise Grip,Normal,physical,55.0,100.0,30
+victory-dance,Victory Dance,Fighting,status,0.0,,10
+vine-whip,Vine Whip,Grass,physical,45.0,100.0,25
+vital-throw,Vital Throw,Fighting,physical,70.0,,10
+volt-switch,Volt Switch,Electric,special,70.0,100.0,20
+volt-tackle,Volt Tackle,Electric,physical,120.0,100.0,15
+wake-up-slap,Wake-Up Slap,Fighting,physical,70.0,100.0,10
+water-gun,Water Gun,Water,special,40.0,100.0,25
+water-pledge,Water Pledge,Water,special,80.0,100.0,10
+water-pulse,Water Pulse,Water,special,60.0,100.0,20
+water-shuriken,Water Shuriken,Water,special,15.0,100.0,20
+water-sport,Water Sport,Water,status,,,15
+water-spout,Water Spout,Water,special,150.0,100.0,5
+waterfall,Waterfall,Water,physical,80.0,100.0,15
+wave-crash,Wave Crash,Water,physical,120.0,100.0,10
+weather-ball,Weather Ball,Normal,special,50.0,100.0,10
+whirlpool,Whirlpool,Water,special,35.0,85.0,15
+whirlwind,Whirlwind,Normal,status,,,20
+wicked-blow,Wicked Blow,Dark,physical,75.0,100.0,5
+wide-guard,Wide Guard,Rock,status,,,10
+wild-charge,Wild Charge,Electric,physical,90.0,100.0,15
+wildbolt-storm,Wildbolt Storm,Electric,special,100.0,80.0,10
+will-o-wisp,Will-O-Wisp,Fire,status,,85.0,15
+wing-attack,Wing Attack,Flying,physical,60.0,100.0,35
+wish,Wish,Normal,status,,,10
+withdraw,Withdraw,Water,status,,,40
+wonder-room,Wonder Room,Psychic,status,,,10
+wood-hammer,Wood Hammer,Grass,physical,120.0,100.0,15
+work-up,Work Up,Normal,status,,,30
+worry-seed,Worry Seed,Grass,status,,100.0,10
+wrap,Wrap,Normal,physical,15.0,90.0,20
+wring-out,Wring Out,Normal,special,,100.0,5
+x-scissor,X-Scissor,Bug,physical,80.0,100.0,15
+yawn,Yawn,Normal,status,,,10
+zap-cannon,Zap Cannon,Electric,special,120.0,50.0,5
+zen-headbutt,Zen Headbutt,Psychic,physical,80.0,90.0,15
+zing-zap,Zing Zap,Electric,physical,80.0,100.0,10
+zippy-zap,Zippy Zap,Electric,physical,80.0,100.0,10

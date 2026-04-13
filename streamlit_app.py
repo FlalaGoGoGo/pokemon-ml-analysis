@@ -37,13 +37,13 @@ def load_bundle() -> dict:
     return get_deploy_bundle(DEPLOY_BUNDLE_PATH)
 
 
-def _pokemon_options(master_df: pd.DataFrame) -> list[str]:
-    ordered = master_df.sort_values(["dexnum_int", "name"]).copy()
-    return [f"{int(row.dexnum_int):03d} - {row.name}" for row in ordered.itertuples()]
+def _pokemon_options(master_df: pd.DataFrame, label_column: str, key_column: str) -> list[str]:
+    ordered = master_df.sort_values(["dexnum_int", label_column]).copy()
+    return [f"{int(getattr(row, 'dexnum_int')):04d} - {getattr(row, label_column)} [{getattr(row, key_column)}]" for row in ordered.itertuples()]
 
 
-def _name_from_option(option: str) -> str:
-    return option.split(" - ", 1)[1].strip()
+def _key_from_option(option: str) -> str:
+    return option.rsplit("[", 1)[1].rstrip("]").strip()
 
 
 def _ascii_text(value: object) -> str:
@@ -153,7 +153,7 @@ def _render_type_oof_summary_card(bundle: dict) -> str:
         </div>
         """
 
-    grouped_df = summary_df[summary_df["split_mode"] == "grouped"].copy()
+    grouped_df = summary_df[summary_df["split_mode"] == "evolution_group"].copy()
     if grouped_df.empty:
         grouped_df = summary_df.copy()
     row = grouped_df.iloc[0]
@@ -165,7 +165,7 @@ def _render_type_oof_summary_card(bundle: dict) -> str:
     return f"""
     <div class="pixel-panel oof-panel">
       <div class="panel-kicker">BENCHMARK SNAPSHOT</div>
-      <div class="panel-title">GROUPED OOF TYPE SUMMARY</div>
+      <div class="panel-title">EVOLUTION-GROUP OOF TYPE SUMMARY</div>
       {_render_stat_strip([
           ("TOTAL", str(total)),
           ("ALL CORRECT", str(all_correct_n)),
@@ -189,7 +189,7 @@ def _render_type_oof_summary_card(bundle: dict) -> str:
           <div class="meter-row-value" style="background:#D94A3A;color:#FFF7E3;">{float(row['zero_type_correct_pct']):.1%}</div>
         </div>
       </div>
-      <div class="note-card">This card uses grouped OOF evaluation, so each Pokemon is predicted by a model that did not train on that Pokemon.</div>
+      <div class="note-card">This card uses evolution-group OOF evaluation, so each Pokemon is predicted by a model that did not train on its evolution family.</div>
     </div>
     """
 
@@ -241,12 +241,13 @@ def _render_app_shell(bundle: dict, page_label: str) -> None:
             <div class="screen-line">BATTLE MODEL :: {escape(_ascii_text(bundle['battle_bundle']['final_model_name']).upper())}</div>
             <div class="screen-line">TYPE EXACT MATCH :: {type_exact_match:.3f}</div>
             <div class="screen-line">BATTLE ROC AUC :: {battle_roc_auc:.3f}</div>
+            <div class="screen-line">DATA SOURCE :: CANONICAL HYBRID</div>
           </div>
         </div>
       </div>
       <div class="launch-strip">
         <span class="launch-chip chip-deploy">CURRENT APP :: DEPLOYMENT MODE</span>
-        <span class="launch-chip chip-benchmark">BENCHMARK MODE :: HELD-OUT SPLIT + OOF STATS</span>
+        <span class="launch-chip chip-benchmark">BENCHMARK MODE :: SPECIES SPLIT + EVOLUTION OOF</span>
         <span class="launch-chip">PIXEL UI ACTIVE</span>
       </div>
     </div>
@@ -261,7 +262,7 @@ def _render_mode_menu(page_label: str) -> None:
       <div class="panel-title">PRESS START AND CHOOSE YOUR GAME SCREEN</div>
       <div class="mode-copy">Current selection :: {escape(page_label.upper())}</div>
       <div class="mode-legend">
-        <span class="legend-badge benchmark">BENCHMARK MODE = NOTEBOOK SCORES FROM HELD-OUT OR OOF EVALUATION</span>
+        <span class="legend-badge benchmark">BENCHMARK MODE = NOTEBOOK SCORES FROM SPECIES SPLIT OR EVOLUTION OOF</span>
         <span class="legend-badge deployment">DEPLOYMENT MODE = LIVE APP PREDICTION FROM THE DEPLOYED MODEL</span>
       </div>
     </div>
@@ -1133,11 +1134,12 @@ def render_sidebar(bundle: dict) -> None:
           <div class="panel-kicker">TRAINER CONSOLE</div>
           <div class="console-title">POKEMON ML ANALYSIS</div>
           <div class="console-copy">
-            Retro device styling wrapped around the same local prediction bundle.
+            Retro device styling wrapped around a canonical hybrid Pokemon dataset.
           </div>
           <div class="note-card">Bundle source :: {escape(str(bundle.get('bundle_source', 'unknown')).upper())}</div>
           <div class="note-card">Type model :: {escape(bundle['type_bundle']['final_model_name'])}</div>
           <div class="note-card">Battle model :: {escape(bundle['battle_bundle']['final_model_name'])}</div>
+          <div class="note-card">Data source :: CANONICAL HYBRID</div>
         </div>
         """,
         container=st.sidebar,
@@ -1184,13 +1186,14 @@ def _render_type_overview_card(row: pd.Series, result: dict) -> str:
       <div class="panel-title">TRUE TYPE FROM DATASET</div>
       <div>{_render_type_badges([result['true_primary'], result['true_secondary']])}</div>
       {_render_stat_strip([
-          ("DEX", f"#{int(row['dexnum_int']):03d}"),
-          ("SPECIES", str(row['species']).upper()),
+          ("DEX", f"#{int(row['dexnum_int']):04d}"),
+          ("SPECIES", str(row.get('species_display_name', row.get('display_name', 'UNKNOWN'))).upper()),
           ("GEN", f"{int(row['generation'])}"),
           ("BST", f"{int(row['total'])}"),
       ])}
       <div class="note-card">ABILITY :: {escape(ability_text.upper())}</div>
       <div class="note-card">SCAN CLASS :: {"DUAL-TYPE" if result['true_secondary'] != 'None' else "SINGLE-TYPE"}</div>
+      <div class="note-card">VALIDATION :: {escape(str(result.get('validation_status', 'UNKNOWN')).upper())}</div>
     </div>
     """
 
@@ -1206,19 +1209,44 @@ def _render_type_prediction_card(result: dict) -> str:
       {_render_stat_strip([
           ("MODEL", result["model_name"].replace("ClassifierChain ", "").upper()),
           ("TOP CONF", f"{top_probability:.1%}"),
-          ("STATE", confidence_state),
+          ("MODE", result.get("feature_mode", "structured").replace("_", "+").upper()),
       ])}
       <div class="note-card">PREDICTED SECONDARY :: {escape(result['predicted_secondary'].upper())}</div>
+      <div class="note-card">STATE :: {confidence_state}</div>
     </div>
     """
 
 
+def _render_provenance_card(result: dict) -> str:
+    provenance = result.get("provenance", {})
+    return f"""
+    <div class="pixel-panel">
+      <div class="panel-kicker">DATA SOURCE</div>
+      <div class="panel-title">CANONICAL HYBRID RECORD</div>
+      {_render_stat_strip([
+          ("SOURCE", "POKEAPI + OFFICIAL REFS"),
+          ("SLUG", result.get("canonical_slug", "unknown").upper()),
+          ("VALID", provenance.get("validation_status", "unknown").upper()),
+      ])}
+      <div class="note-card">POKEDEX URL :: {escape(provenance.get("official_pokedex_url", ""))}</div>
+      <div class="note-card">ARTWORK URL :: {escape(provenance.get("official_artwork_url", ""))}</div>
+    </div>
+    """
+
+
+def _render_evidence_panels(result: dict) -> str:
+    panels = result.get("evidence_panels", {})
+    if not panels:
+        return _render_commentary_lines(result.get("explanation", []), "WHY THE MODEL THINKS SO", tone="type")
+    return "".join(_render_commentary_lines(lines, title, tone="type") for title, lines in panels.items())
+
+
 def render_type_page(bundle: dict) -> None:
-    master_df = bundle["master_df"]
-    options = _pokemon_options(master_df)
+    master_df = bundle["type_master_df"]
+    options = _pokemon_options(master_df, "display_name", "canonical_slug")
     selection = st.selectbox("Choose a Pokemon to scan", options, index=5)
-    result = predict_types(_name_from_option(selection), bundle).payload
-    row = master_df[master_df["name"] == result["name"]].iloc[0]
+    result = predict_types(_key_from_option(selection), bundle).payload
+    row = master_df[master_df["canonical_slug"] == result["canonical_slug"]].iloc[0]
 
     hero_html = f"""
     <div class="app-shell page-hero">
@@ -1229,8 +1257,8 @@ def render_type_page(bundle: dict) -> None:
         <div class="hero-data">
           <div class="hero-status">POKEDEX SCAN MODE :: ACTIVE</div>
           <div class="panel-kicker">GROUND TRUTH VS MODEL PREDICTION</div>
-          <h2>DEX #{int(result['dexnum_int']):03d} :: {escape(result['name'].upper())}</h2>
-          <p>Reading stat signature, species tag, growth profile, and ability fingerprint.</p>
+          <h2>DEX #{int(result['dexnum_int']):04d} :: {escape(result['name'].upper())}</h2>
+          <p>Reading stat signature, species tag, growth profile, text corpus, and provenance record.</p>
           {_render_stat_strip([
               ("TRUE PRIMARY", result["true_primary"].upper()),
               ("TRUE SECONDARY", result["true_secondary"].upper()),
@@ -1253,7 +1281,11 @@ def render_type_page(bundle: dict) -> None:
     with right_col:
         _mount_html(_render_type_prediction_card(result))
 
-    _mount_html(_render_commentary_lines(result["explanation"], "PROFESSOR NOTES", tone="type"))
+    third_left, third_right = st.columns([1, 1])
+    with third_left:
+        _mount_html(_render_provenance_card(result))
+    with third_right:
+        _mount_html(_render_evidence_panels(result))
 
 
 def _render_battle_header(result: dict) -> str:
@@ -1368,8 +1400,8 @@ def _render_feature_snapshot(df: pd.DataFrame) -> str:
 
 
 def render_battle_page(bundle: dict) -> None:
-    master_df = bundle["master_df"]
-    options = _pokemon_options(master_df)
+    master_df = bundle["battle_master_df"]
+    options = _pokemon_options(master_df, "name", "name")
 
     col_a, col_b = st.columns(2)
     with col_a:
@@ -1377,7 +1409,7 @@ def render_battle_page(bundle: dict) -> None:
     with col_b:
         option_b = st.selectbox("Choose Pokemon B", options, index=8)
 
-    result = predict_battle(_name_from_option(option_a), _name_from_option(option_b), bundle).payload
+    result = predict_battle(_key_from_option(option_a), _key_from_option(option_b), bundle).payload
     _mount_html(_render_battle_header(result))
     _mount_html(_render_battle_probability_panel(result))
     _mount_html(_render_feature_snapshot(result["feature_snapshot"]))

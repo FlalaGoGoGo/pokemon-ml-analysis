@@ -1,0 +1,311 @@
+ability_name,ability_display_name,generation,short_effect_en
+adaptability,Adaptability,generation-iv,Increases the same-type attack bonus from 1.5× to 2×.
+aerilate,Aerilate,generation-vi,Turns the bearer's normal moves into flying moves and strengthens them to 1.3× their power.
+aftermath,Aftermath,generation-iv,Damages the attacker for 1/4 its max HP when knocked out by a contact move.
+air-lock,Air Lock,generation-iii,"Negates all effects of weather, but does not prevent the weather itself."
+analytic,Analytic,generation-v,Strengthens moves to 1.3× their power when moving last.
+anger-point,Anger Point,generation-iv,Raises Attack to the maximum of six stages upon receiving a critical hit.
+anger-shell,Anger Shell,generation-ix,"When the Pokémon's HP drops below half, Anger Shell lowers its Defense and Special Defense but its Attack, Special Attack and Speed are raised."
+anticipation,Anticipation,generation-iv,"Notifies all trainers upon entering battle if an opponent has a super-effective move, self destruct, explosion, or a one-hit KO move."
+arena-trap,Arena Trap,generation-iii,Prevents opponents from fleeing or switching out. Eluded by flying-types and Pokémon in the air.
+armor-tail,Armor Tail,generation-ix,"Prevents the opponent from using any moves that have priority, such as Quick Attack."
+aroma-veil,Aroma Veil,generation-vi,Protects allies against moves that affect their mental state.
+as-one-glastrier,As One,generation-viii,
+as-one-spectrier,As One,generation-viii,
+aura-break,Aura Break,generation-vi,Makes dark aura and fairy aura weaken moves of their respective types.
+bad-dreams,Bad Dreams,generation-iv,Damages sleeping opponents for 1/8 their max HP after each turn.
+ball-fetch,Ball Fetch,generation-viii,"If the Pokémon is not holding an item, it will fetch the Poké Ball from the first failed throw of the battle."
+battery,Battery,generation-vii,Ally Pokémon's moves have their power increased to 1.3×.
+battle-armor,Battle Armor,generation-iii,Protects against critical hits.
+battle-bond,Battle Bond,generation-vii,Transforms this Pokémon into Ash-Greninja after fainting an opponent. Water Shuriken's power is 20 and always hits three times.
+beads-of-ruin,Beads of Ruin,generation-ix,Lowers Special Defense of all Pokémon except itself.
+beast-boost,Beast Boost,generation-vii,Raises this Pokémon's highest stat by one stage when it faints another Pokémon.
+berserk,Berserk,generation-vii,Raises this Pokémon's Special Attack by one stage every time its HP drops below half.
+big-pecks,Big Pecks,generation-v,Protects against Defense drops.
+blaze,Blaze,generation-iii,Strengthens fire moves to inflict 1.5× damage at 1/3 max HP or less.
+bulletproof,Bulletproof,generation-vi,"Protects against bullet, ball, and bomb-based moves."
+cheek-pouch,Cheek Pouch,generation-vi,"Restores HP upon eating a Berry, in addition to the Berry's effect."
+chilling-neigh,Chilling Neigh,generation-viii,Boosts Attack after knocking out a Pokémon.
+chlorophyll,Chlorophyll,generation-iii,Doubles Speed during strong sunlight.
+clear-body,Clear Body,generation-iii,Prevents stats from being lowered by other Pokémon.
+cloud-nine,Cloud Nine,generation-iii,"Negates all effects of weather, but does not prevent the weather itself."
+color-change,Color Change,generation-iii,Changes type to match when hit by a damaging move.
+comatose,Comatose,generation-vii,This Pokémon always acts as though it were Asleep.
+commander,Commander,generation-ix,Goes inside the mouth of an ally Dondozo if one is on the field.
+competitive,Competitive,generation-vi,Raises Special Attack by two stages upon having any stat lowered.
+compound-eyes,Compound Eyes,generation-iii,Increases moves' accuracy to 1.3×.
+contrary,Contrary,generation-v,Inverts stat changes.
+corrosion,Corrosion,generation-vii,This Pokémon can inflict poison on Poison and Steel Pokémon.
+costar,Costar,generation-ix,Copies ally's stat changes on entering battle.
+cotton-down,Cotton Down,generation-viii,When Ignores moves and abilities that draw in moves.
+cud-chew,Cud Chew,generation-ix,Causes the Pokémon to reuse an already consumed Berry at the end of the next turn.
+curious-medicine,Curious Medicine,generation-viii,Resets all stat changes upon entering battlefield.
+cursed-body,Cursed Body,generation-v,Has a 30% chance of Disabling any move that hits the Pokémon.
+cute-charm,Cute Charm,generation-iii,Has a 30% chance of infatuating attacking Pokémon on contact.
+damp,Damp,generation-iii,"Prevents self destruct, explosion, and aftermath from working while the Pokémon is in battle."
+dancer,Dancer,generation-vii,"Whenever another Pokémon uses a dance move, this Pokémon will use the same move immediately afterwards."
+dark-aura,Dark Aura,generation-vi,Strengthens dark moves to 1.33× their power for all friendly and opposing Pokémon.
+dauntless-shield,Dauntless Shield,generation-viii,Boosts Defense in battle.
+dazzling,Dazzling,generation-vii,Opposing Pokémon cannot use priority attacks.
+defeatist,Defeatist,generation-v,Halves Attack and Special Attack at 50% max HP or less.
+defiant,Defiant,generation-v,Raises Attack two stages upon having any stat lowered.
+delta-stream,Delta Stream,generation-vi,"Creates a mysterious air current, which cannot be replaced and causes moves to never be super effective against Flying Pokémon."
+desolate-land,Desolate Land,generation-vi,"Creates extremely harsh sunlight, which has all the properties of Sunny Day, cannot be replaced, and causes damaging Water moves to fail."
+disguise,Disguise,generation-vii,Prevents the first instance of battle damage.
+download,Download,generation-iv,Raises the attack stat corresponding to the opponents' weaker defense one stage upon entering battle.
+dragonize,Dragonize,generation-ix,The Pokémon's Normal-type moves become Dragon-type moves and their power is boosted by 20%.
+dragons-maw,Dragon’s Maw,generation-viii,Powers up Dragon-type moves.
+drizzle,Drizzle,generation-iii,Summons rain that lasts indefinitely upon entering battle.
+drought,Drought,generation-iii,Summons strong sunlight that lasts indefinitely upon entering battle.
+dry-skin,Dry Skin,generation-iv,"Causes 1/8 max HP in damage each turn during strong sunlight, but heals for 1/8 max HP during rain. Increases damage from fire moves to 1.25×, but absorbs water moves, healing for 1/4 max HP."
+early-bird,Early Bird,generation-iii,Makes sleep pass twice as quickly.
+earth-eater,Earth Eater,generation-ix,Restores HP when hit by a Ground-type move.
+effect-spore,Effect Spore,generation-iii,"Has a 30% chance of inflcting either paralysis, poison, or sleep on attacking Pokémon on contact."
+electric-surge,Electric Surge,generation-vii,"When this Pokémon enters battle, it changes the terrain to Electric Terrain."
+electromorphosis,Electromorphosis,generation-ix,"When hit by an attack, the power of the next Electric-type move it uses is doubled."
+emergency-exit,Emergency Exit,generation-vii,This Pokémon automatically switches out when its HP drops below half.
+fairy-aura,Fairy Aura,generation-vi,Strengthens fairy moves to 1.33× their power for all friendly and opposing Pokémon.
+filter,Filter,generation-iv,Decreases damage taken from super-effective moves by 1/4.
+flame-body,Flame Body,generation-iii,Has a 30% chance of burning attacking Pokémon on contact.
+flare-boost,Flare Boost,generation-v,Increases Special Attack to 1.5× when burned.
+flash-fire,Flash Fire,generation-iii,"Protects against fire moves. Once one has been blocked, the Pokémon's own Fire moves inflict 1.5× damage until it leaves battle."
+flower-gift,Flower Gift,generation-iv,Increases friendly Pokémon's Attack and Special Defense to 1.5× during strong sunlight.
+flower-veil,Flower Veil,generation-vi,Protects friendly grass Pokémon from having their stats lowered by other Pokémon.
+fluffy,Fluffy,generation-vii,Damage from contact moves is halved. Damage from Fire moves is doubled.
+forecast,Forecast,generation-iii,Changes castform's type and form to match the weather.
+forewarn,Forewarn,generation-iv,Reveals the opponents' strongest move upon entering battle.
+friend-guard,Friend Guard,generation-v,Decreases all direct damage taken by friendly Pokémon to 0.75×.
+frisk,Frisk,generation-iv,Reveals an opponent's held item upon entering battle.
+full-metal-body,Full Metal Body,generation-vii,Other Pokémon cannot lower this Pokémon's stats.
+fur-coat,Fur Coat,generation-vi,Halves damage from physical attacks.
+gale-wings,Gale Wings,generation-vi,Raises flying moves' priority by one stage.
+galvanize,Galvanize,generation-vii,This Pokémon's Normal moves are Electric and have their power increased to 1.2×.
+gluttony,Gluttony,generation-iv,Makes the Pokémon eat any held Berry triggered by low HP below 1/2 its max HP.
+good-as-gold,Good as Gold,generation-ix,Gives immunity to status moves.
+gooey,Gooey,generation-vi,Lowers attacking Pokémon's Speed by one stage on contact.
+gorilla-tactics,Gorilla Tactics,generation-viii,Boosts the Pokémon's Attack stat but only allows the use of the first selected move.
+grass-pelt,Grass Pelt,generation-vi,Boosts Defense while grassy terrain is in effect.
+grassy-surge,Grassy Surge,generation-vii,"When this Pokémon enters battle, it changes the terrain to Grassy Terrain."
+grim-neigh,Grim Neigh,generation-viii,Boosts Special Attack after knocking out a Pokémon.
+guard-dog,Guard Dog,generation-ix,"Boosts Attack if intimidated, and prevents being forced to switch out."
+gulp-missile,Gulp Missile,generation-viii,"If a Cramorant with Gulp Missile uses Surf or Dive, it catches prey and changes its form depending on its remaining HP."
+guts,Guts,generation-iii,Increases Attack to 1.5× with a major status ailment.
+hadron-engine,Hadron Engine,generation-ix,"Creates an Electric Terrain when entering battle, and boosts Special Attack while active."
+harvest,Harvest,generation-v,Has a 50% chance of restoring a used Berry after each turn if the Pokémon has held no items in the meantime.
+healer,Healer,generation-v,Has a 30% chance of curing each adjacent ally of any major status ailment after each turn.
+heatproof,Heatproof,generation-iv,Halves damage from fire moves and burns.
+heavy-metal,Heavy Metal,generation-v,Doubles the Pokémon's weight.
+honey-gather,Honey Gather,generation-iv,The Pokémon may pick up honey after battle.
+hospitality,Hospitality,generation-ix,"When a Pokémon with Hospitality enters a battle, it restores HP for an ally by 25%."
+huge-power,Huge Power,generation-iii,Doubles Attack in battle.
+hunger-switch,Hunger Switch,generation-viii,"Causes Morpeko to change its form each turn, alternating between Full Belly Mode and Hangry Mode"
+hustle,Hustle,generation-iii,"Strengthens physical moves to inflict 1.5× damage, but decreases their accuracy to 0.8×."
+hydration,Hydration,generation-iv,Cures any major status ailment after each turn during rain.
+hyper-cutter,Hyper Cutter,generation-iii,Prevents Attack from being lowered by other Pokémon.
+ice-body,Ice Body,generation-iv,Heals for 1/16 max HP after each turn during hail. Protects against hail damage.
+ice-face,Ice Face,generation-viii,"The Pokémon’s ice head can take a physical attack as a substitute, but the attack also changes the Pokémon’s appearance. The ice will be restored when it snows."
+ice-scales,Ice Scales,generation-viii,Halves damage from Special moves.
+illuminate,Illuminate,generation-iii,Doubles the wild encounter rate.
+illusion,Illusion,generation-v,Takes the appearance of the last conscious party Pokémon upon being sent out until hit by a damaging move.
+immunity,Immunity,generation-iii,Prevents poison.
+imposter,Imposter,generation-v,Transforms upon entering battle.
+infiltrator,Infiltrator,generation-v,"Bypasses light screen, reflect, and safeguard."
+innards-out,Innards Out,generation-vii,"When this Pokémon faints from an opponent's move, that opponent takes damage equal to the HP this Pokémon had remaining."
+inner-focus,Inner Focus,generation-iii,Prevents flinching.
+insomnia,Insomnia,generation-iii,Prevents sleep.
+intimidate,Intimidate,generation-iii,Lowers opponents' Attack one stage upon entering battle.
+intrepid-sword,Intrepid Sword,generation-viii,Boosts Attack in battle.
+iron-barbs,Iron Barbs,generation-v,Damages attacking Pokémon for 1/8 their max HP on contact.
+iron-fist,Iron Fist,generation-iv,Strengthens punch-based moves to 1.2× their power.
+justified,Justified,generation-v,Raises Attack one stage upon taking damage from a dark move.
+keen-eye,Keen Eye,generation-iii,Prevents accuracy from being lowered.
+klutz,Klutz,generation-iv,Prevents the Pokémon from using its held item in battle.
+leaf-guard,Leaf Guard,generation-iv,Protects against major status ailments during strong sunlight.
+levitate,Levitate,generation-iii,Evades ground moves.
+libero,Libero,generation-viii,Libero changes the Pokémon's type to that of its previously used attack.
+light-metal,Light Metal,generation-v,Halves the Pokémon's weight.
+lightning-rod,Lightning Rod,generation-iii,"Redirects single-target electric moves to this Pokémon where possible. Absorbs Electric moves, raising Special Attack one stage."
+limber,Limber,generation-iii,Prevents paralysis.
+lingering-aroma,Lingering Aroma,generation-ix,Contact changes the attacker's Ability to Lingering Aroma.
+liquid-ooze,Liquid Ooze,generation-iii,Damages opponents using leeching moves for as much as they would heal.
+liquid-voice,Liquid Voice,generation-vii,Sound-based moves become Water-type.
+long-reach,Long Reach,generation-vii,This Pokémon's moves do not make contact.
+magic-bounce,Magic Bounce,generation-v,Reflects most non-damaging moves back at their user.
+magic-guard,Magic Guard,generation-iv,Protects against damage not directly caused by a move.
+magician,Magician,generation-vi,Steals the target's held item when the bearer uses a damaging move.
+magma-armor,Magma Armor,generation-iii,Prevents freezing.
+magnet-pull,Magnet Pull,generation-iii,Prevents steel opponents from fleeing or switching out.
+marvel-scale,Marvel Scale,generation-iii,Increases Defense to 1.5× with a major status ailment.
+mega-launcher,Mega Launcher,generation-vi,Strengthens aura and pulse moves to 1.5× their power.
+mega-sol,Mega Sol,generation-ix,The Pokémon can use its moves as if the weather were harsh sunlight.
+merciless,Merciless,generation-vii,This Pokémon's moves critical hit against poisoned targets.
+mimicry,Mimicry,generation-viii,Changes type depending on the terrain.
+minds-eye,Mind’s Eye,generation-ix,"The Pokémon ignores changes to opponents' evasiveness, its accuracy can't be lowered, and it can hit Ghost types with Normal- and Fighting-type moves."
+minus,Minus,generation-iii,Increases Special Attack to 1.5× when a friendly Pokémon has plus or minus.
+mirror-armor,Mirror Armor,generation-viii,Reflects any stat-lowering effects.
+misty-surge,Misty Surge,generation-vii,"When this Pokémon enters battle, it changes the terrain to Misty Terrain."
+mold-breaker,Mold Breaker,generation-iv,Bypasses targets' abilities if they could hinder or prevent a move.
+moody,Moody,generation-v,Raises a random stat two stages and lowers another one stage after each turn.
+motor-drive,Motor Drive,generation-iv,"Absorbs electric moves, raising Speed one stage."
+moxie,Moxie,generation-v,Raises Attack one stage upon KOing a Pokémon.
+multiscale,Multiscale,generation-v,Halves damage taken from full HP.
+multitype,Multitype,generation-iv,Changes arceus's type and form to match its held Plate.
+mummy,Mummy,generation-v,Changes attacking Pokémon's abilities to Mummy on contact.
+mycelium-might,Mycelium Might,generation-ix,"Status moves go last, but are not affected by the opponent's ability."
+natural-cure,Natural Cure,generation-iii,Cures any major status ailment upon switching out.
+neuroforce,Neuroforce,generation-vii,Increases super-effective damage dealt to 1.25×.
+neutralizing-gas,Neutralizing Gas,generation-viii,Neutralizes abilities of all Pokémon in battle.
+no-guard,No Guard,generation-iv,Ensures all moves used by and against the Pokémon hit.
+normalize,Normalize,generation-iv,Makes the Pokémon's moves all act normal-type.
+oblivious,Oblivious,generation-iii,Prevents infatuation and protects against captivate.
+opportunist,Opportunist,generation-ix,Copies stat boosts by the opponent.
+orichalcum-pulse,Orichalcum Pulse,generation-ix,"Turns the sunlight harsh when entering battle, and boosts Attack while active."
+overcoat,Overcoat,generation-v,Protects against damage from weather.
+overgrow,Overgrow,generation-iii,Strengthens grass moves to inflict 1.5× damage at 1/3 max HP or less.
+own-tempo,Own Tempo,generation-iii,Prevents confusion.
+parental-bond,Parental Bond,generation-vi,Lets the bearer hit twice with damaging moves. The second hit has half power.
+pastel-veil,Pastel Veil,generation-viii,Prevents the Pokémon and its allies from being poisoned.
+perish-body,Perish Body,generation-viii,"When hit by a move that makes direct contact, the Pokémon and the attacker will faint after three turns unless they switch out of battle."
+pickpocket,Pickpocket,generation-v,Steals attacking Pokémon's held items on contact.
+pickup,Pickup,generation-iii,Picks up other Pokémon's used and Flung held items. May also pick up an item after battle.
+piercing-drill,Piercing Drill,generation-ix,"When the Pokémon uses contact moves, it can hit even targets that are protecting themselves."
+pixilate,Pixilate,generation-vi,Turns the bearer's normal moves into fairy moves and strengthens them to 1.3× their power.
+plus,Plus,generation-iii,Increases Special Attack to 1.5× when a friendly Pokémon has plus or minus.
+poison-heal,Poison Heal,generation-iv,Heals for 1/8 max HP after each turn when poisoned in place of damage.
+poison-point,Poison Point,generation-iii,Has a 30% chance of poisoning attacking Pokémon on contact.
+poison-puppeteer,Poison Puppeteer,generation-ix,Pokémon poisoned by Pecharunt's moves will also become confused.
+poison-touch,Poison Touch,generation-v,Has a 30% chance of poisoning target Pokémon upon contact.
+power-construct,Power Construct,generation-vii,Transforms 10% or 50% Zygarde into Complete Forme when its HP is below 50%.
+power-of-alchemy,Power of Alchemy,generation-vii,"When an ally faints, this Pokémon gains its Ability."
+power-spot,Power Spot,generation-viii,Just being next to the Pokémon powers up moves.
+prankster,Prankster,generation-v,Raises non-damaging moves' priority by one stage.
+pressure,Pressure,generation-iii,Increases the PP cost of moves targetting the Pokémon by one.
+primordial-sea,Primordial Sea,generation-vi,"Creates heavy rain, which has all the properties of Rain Dance, cannot be replaced, and causes damaging Fire moves to fail."
+prism-armor,Prism Armor,generation-vii,Reduces super-effective damage to 0.75×.
+propeller-tail,Propeller Tail,generation-viii,Ignores moves and abilities that draw in moves.
+protean,Protean,generation-vi,Changes the bearer's type to match each move it uses.
+protosynthesis,Protosynthesis,generation-ix,"Raises highest stat in harsh sunlight, or if holding Booster Energy."
+psychic-surge,Psychic Surge,generation-vii,"When this Pokémon enters battle, it changes the terrain to Psychic Terrain."
+punk-rock,Punk Rock,generation-viii,Boosts sound-based moves and halves damage from the same moves.
+pure-power,Pure Power,generation-iii,Doubles Attack in battle.
+purifying-salt,Purifying Salt,generation-ix,Protects from status conditions and halves damage from Ghost-type moves.
+quark-drive,Quark Drive,generation-ix,"Raises highest stat on Electric Terrain, or if holding Booster Energy."
+queenly-majesty,Queenly Majesty,generation-vii,Opposing Pokémon cannot use priority attacks.
+quick-draw,Quick Draw,generation-viii,Enables the Pokémon to move first occasionally.
+quick-feet,Quick Feet,generation-iv,Increases Speed to 1.5× with a major status ailment.
+rain-dish,Rain Dish,generation-iii,Heals for 1/16 max HP after each turn during rain.
+rattled,Rattled,generation-v,"Raises Speed one stage upon being hit by a dark, ghost, or bug move."
+receiver,Receiver,generation-vii,"When an ally faints, this Pokémon gains its Ability."
+reckless,Reckless,generation-iv,Strengthens recoil moves to 1.2× their power.
+refrigerate,Refrigerate,generation-vi,Turns the bearer's normal moves into ice moves and strengthens them to 1.3× their power.
+regenerator,Regenerator,generation-v,Heals for 1/3 max HP upon switching out.
+ripen,Ripen,generation-viii,Doubles the effect of berries.
+rivalry,Rivalry,generation-iv,"Increases damage inflicted to 1.25× against Pokémon of the same gender, but decreases damage to 0.75× against the opposite gender."
+rks-system,RKS System,generation-vii,Changes this Pokémon's type to match its held Memory.
+rock-head,Rock Head,generation-iii,Protects against recoil damage.
+rocky-payload,Rocky Payload,generation-ix,Powers up Rock-type moves.
+rough-skin,Rough Skin,generation-iii,Damages attacking Pokémon for 1/8 their max HP on contact.
+run-away,Run Away,generation-iii,Ensures success fleeing from wild battles.
+sand-force,Sand Force,generation-v,"Strengthens rock, ground, and steel moves to 1.3× their power during a sandstorm. Protects against sandstorm damage."
+sand-rush,Sand Rush,generation-v,Doubles Speed during a sandstorm. Protects against sandstorm damage.
+sand-spit,Sand Spit,generation-viii,Creates a sandstorm when hit by an attack.
+sand-stream,Sand Stream,generation-iii,Summons a sandstorm that lasts indefinitely upon entering battle.
+sand-veil,Sand Veil,generation-iii,Increases evasion to 1.25× during a sandstorm. Protects against sandstorm damage.
+sap-sipper,Sap Sipper,generation-v,"Absorbs grass moves, raising Attack one stage."
+schooling,Schooling,generation-vii,Wishiwashi becomes Schooling Form when its HP is 25% or higher.
+scrappy,Scrappy,generation-iv,Lets the Pokémon's normal and fighting moves hit ghost Pokémon.
+screen-cleaner,Screen Cleaner,generation-viii,"Nullifies effects of Light Screen, Reflect, and Aurora Veil."
+seed-sower,Seed Sower,generation-ix,Turns the ground into Grassy Terrain when the Pokémon is hit by an attack.
+serene-grace,Serene Grace,generation-iii,Doubles the chance of moves' extra effects occurring.
+shadow-shield,Shadow Shield,generation-vii,"When this Pokémon has full HP, regular damage from moves is halved."
+shadow-tag,Shadow Tag,generation-iii,Prevents opponents from fleeing or switching out.
+sharpness,Sharpness,generation-ix,Powers up slicing moves.
+shed-skin,Shed Skin,generation-iii,Has a 33% chance of curing any major status ailment after each turn.
+sheer-force,Sheer Force,generation-v,"Strengthens moves with extra effects to 1.3× their power, but prevents their extra effects."
+shell-armor,Shell Armor,generation-iii,Protects against critical hits.
+shield-dust,Shield Dust,generation-iii,Protects against incoming moves' extra effects.
+shields-down,Shields Down,generation-vii,Transforms this Minior between Core Form and Meteor Form. Prevents major status ailments and drowsiness while in Meteor Form.
+simple,Simple,generation-iv,Doubles the Pokémon's stat modifiers. These doubled modifiers are still capped at -6 or 6 stages.
+skill-link,Skill Link,generation-iv,Extends two-to-five-hit moves and triple kick to their full length every time.
+slow-start,Slow Start,generation-iv,Halves Attack and Speed for five turns upon entering battle.
+slush-rush,Slush Rush,generation-vii,"During Hail, this Pokémon has double Speed."
+sniper,Sniper,generation-iv,Strengthens critical hits to inflict 3× damage rather than 2×.
+snow-cloak,Snow Cloak,generation-iv,Increases evasion to 1.25× during hail. Protects against hail damage.
+snow-warning,Snow Warning,generation-iv,Summons hail that lasts indefinitely upon entering battle.
+solar-power,Solar Power,generation-iv,Increases Special Attack to 1.5× but costs 1/8 max HP after each turn during strong sunlight.
+solid-rock,Solid Rock,generation-iv,Decreases damage taken from super-effective moves by 1/4.
+soul-heart,Soul-Heart,generation-vii,This Pokémon's Special Attack rises by one stage every time any Pokémon faints.
+soundproof,Soundproof,generation-iii,Protects against sound-based moves.
+speed-boost,Speed Boost,generation-iii,Raises Speed one stage after each turn.
+spicy-spray,Spicy Spray,generation-ix,"When the Pokémon takes damage from a move, it burns the attacker."
+stakeout,Stakeout,generation-vii,This Pokémon's moves have double power against Pokémon that switched in this turn.
+stall,Stall,generation-iv,Makes the Pokémon move last within its move's priority bracket.
+stalwart,Stalwart,generation-viii,Ignores moves and abilities that draw in moves.
+stamina,Stamina,generation-vii,Raises this Pokémon's Defense by one stage when it takes damage from a move.
+stance-change,Stance Change,generation-vi,"Changes aegislash to Blade Forme before using a damaging move, or Shield Forme before using kings shield."
+static,Static,generation-iii,Has a 30% chance of paralyzing attacking Pokémon on contact.
+steadfast,Steadfast,generation-iv,Raises Speed one stage upon flinching.
+steam-engine,Steam Engine,generation-viii,Boosts the Speed stat drastically when the Pokémon is hit by a Fire- or Water-type move.
+steelworker,Steelworker,generation-vii,This Pokémon's Steel moves have 1.5× power.
+steely-spirit,Steely Spirit,generation-viii,Powers up ally Pokémon's Steel-type moves.
+stench,Stench,generation-iii,Has a 10% chance of making target Pokémon flinch with each hit.
+sticky-hold,Sticky Hold,generation-iii,Prevents a held item from being removed by other Pokémon.
+storm-drain,Storm Drain,generation-iv,"Redirects single-target water moves to this Pokémon where possible. Absorbs Water moves, raising Special Attack one stage."
+strong-jaw,Strong Jaw,generation-vi,Strengthens biting moves to 1.5× their power.
+sturdy,Sturdy,generation-iii,"Prevents being KOed from full HP, leaving 1 HP instead. Protects against the one-hit KO moves regardless of HP."
+suction-cups,Suction Cups,generation-iii,Prevents being forced out of battle by other Pokémon's moves.
+super-luck,Super Luck,generation-iv,Raises moves' critical hit rates one stage.
+supersweet-syrup,Supersweet Syrup,generation-ix,"Once per battle, when a Pokémon with Supersweet Syrup enters the battle, it lowers the evasion stat of all adjacent opponents by one stage."
+supreme-overlord,Supreme Overlord,generation-ix,Attack and Special Attack are boosted for each party Pokémon that has been defeated.
+surge-surfer,Surge Surfer,generation-vii,Doubles this Pokémon's Speed on Electric Terrain.
+swarm,Swarm,generation-iii,Strengthens bug moves to inflict 1.5× damage at 1/3 max HP or less.
+sweet-veil,Sweet Veil,generation-vi,Prevents friendly Pokémon from sleeping.
+swift-swim,Swift Swim,generation-iii,Doubles Speed during rain.
+sword-of-ruin,Sword of Ruin,generation-ix,Lowers Defense of all Pokémon except itself.
+symbiosis,Symbiosis,generation-vi,Passes the bearer's held item to an ally when the ally uses up its item.
+synchronize,Synchronize,generation-iii,"Copies burns, paralysis, and poison received onto the Pokémon that inflicted them."
+tablets-of-ruin,Tablets of Ruin,generation-ix,Lowers Attack of all Pokémon except itself.
+tangled-feet,Tangled Feet,generation-iv,Doubles evasion when confused.
+tangling-hair,Tangling Hair,generation-vii,"When this Pokémon takes regular damage from a contact move, the attacking Pokémon's Speed lowers by one stage."
+technician,Technician,generation-iv,Strengthens moves of 60 base power or less to 1.5× their power.
+telepathy,Telepathy,generation-v,Protects against friendly Pokémon's damaging moves.
+tera-shell,Tera Shell,generation-ix,All damage-dealing moves that hit the Pokémon when its HP is full will not be very effective.
+tera-shift,Tera Shift,generation-ix,"When Terapagos enters the battle, it turns into its Terastal Form until the end of the battle."
+teraform-zero,Teraform Zero,generation-ix,"As soon as Terapagos assumes its Stellar Form, it will immediately neutralize weather and terrain effects."
+teravolt,Teravolt,generation-v,Bypasses targets' abilities if they could hinder or prevent moves.
+thermal-exchange,Thermal Exchange,generation-ix,Raises Attack when hit by a Fire-type move. Cannot be burned.
+thick-fat,Thick Fat,generation-iii,Halves damage from fire and ice moves.
+tinted-lens,Tinted Lens,generation-iv,Doubles damage inflicted with not-very-effective moves.
+torrent,Torrent,generation-iii,Strengthens water moves to inflict 1.5× damage at 1/3 max HP or less.
+tough-claws,Tough Claws,generation-vi,Strengthens moves that make contact to 1.33× their power.
+toxic-boost,Toxic Boost,generation-v,Increases Attack to 1.5× when poisoned.
+toxic-chain,Toxic Chain,generation-ix,May cause bad poisoning when the Pokémon hits an opponent with a move.
+toxic-debris,Toxic Debris,generation-ix,Scatters poison spikes at the feet of the opposing team when the Pokémon takes damage from physical moves.
+trace,Trace,generation-iii,Copies an opponent's ability upon entering battle.
+transistor,Transistor,generation-viii,Powers up Electric-type moves.
+triage,Triage,generation-vii,This Pokémon's healing moves have their priority increased by 3.
+truant,Truant,generation-iii,Skips every second turn.
+turboblaze,Turboblaze,generation-v,Bypasses targets' abilities if they could hinder or prevent moves.
+unaware,Unaware,generation-iv,Ignores other Pokémon's stat modifiers for damage and accuracy calculation.
+unburden,Unburden,generation-iv,Doubles Speed upon using or losing a held item.
+unnerve,Unnerve,generation-v,Prevents opposing Pokémon from eating held Berries.
+unseen-fist,Unseen Fist,generation-viii,Contact moves can strike through Protect/Detect.
+vessel-of-ruin,Vessel of Ruin,generation-ix,Lowers Special Attack of all Pokémon except itself.
+victory-star,Victory Star,generation-v,Increases moves' accuracy to 1.1× for friendly Pokémon.
+vital-spirit,Vital Spirit,generation-iii,Prevents sleep.
+volt-absorb,Volt Absorb,generation-iii,"Absorbs electric moves, healing for 1/4 max HP."
+wandering-spirit,Wandering Spirit,generation-viii,Swaps abilities with opponents on contact.
+water-absorb,Water Absorb,generation-iii,"Absorbs water moves, healing for 1/4 max HP."
+water-bubble,Water Bubble,generation-vii,"Halves damage from Fire moves, doubles damage of Water moves, and prevents burns."
+water-compaction,Water Compaction,generation-vii,Raises this Pokémon's Defense by two stages when it's hit by a Water move.
+water-veil,Water Veil,generation-iii,Prevents burns.
+weak-armor,Weak Armor,generation-v,Raises Speed and lowers Defense by one stage each upon being hit by a physical move.
+well-baked-body,Well-Baked Body,generation-ix,"Immune to Fire-type moves, and Defense is sharply boosted."
+white-smoke,White Smoke,generation-iii,Prevents stats from being lowered by other Pokémon.
+wimp-out,Wimp Out,generation-vii,This Pokémon automatically switches out when its HP drops below half.
+wind-power,Wind Power,generation-ix,"When hit by a wind move, the power of the next Electric-type move it uses is doubled."
+wind-rider,Wind Rider,generation-ix,"Gives immunity to wind moves, and causes the Pokémon's Attack to increase by one stage when hit by one."
+wonder-guard,Wonder Guard,generation-iii,Protects against damaging moves that are not super effective.
+wonder-skin,Wonder Skin,generation-v,Lowers incoming non-damaging moves' base accuracy to exactly 50%.
+zen-mode,Zen Mode,generation-v,"Changes darmanitan's form after each turn depending on its HP: Zen Mode below 50% max HP, and Standard Mode otherwise."
+zero-to-hero,Zero to Hero,generation-ix,Transforms into its Hero Form when switching out.

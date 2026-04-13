@@ -3,3 +3,5 @@ __pycache__/
 .ipynb_checkpoints/
 .streamlit/secrets.toml
 archive/
+artifacts/canonical/raw_cache/
+artifacts/canonical_image_embeddings.joblib

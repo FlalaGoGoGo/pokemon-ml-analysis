@@ -1,0 +1,2927 @@
+canonical_slug,pokemon_id,slot,ability_name,ability_display_name,is_hidden
+bulbasaur,1,1,overgrow,Overgrow,0
+bulbasaur,1,3,chlorophyll,Chlorophyll,1
+ivysaur,2,1,overgrow,Overgrow,0
+ivysaur,2,3,chlorophyll,Chlorophyll,1
+venusaur,3,1,overgrow,Overgrow,0
+venusaur,3,3,chlorophyll,Chlorophyll,1
+charmander,4,1,blaze,Blaze,0
+charmander,4,3,solar-power,Solar Power,1
+charmeleon,5,1,blaze,Blaze,0
+charmeleon,5,3,solar-power,Solar Power,1
+charizard,6,1,blaze,Blaze,0
+charizard,6,3,solar-power,Solar Power,1
+squirtle,7,1,torrent,Torrent,0
+squirtle,7,3,rain-dish,Rain Dish,1
+wartortle,8,1,torrent,Torrent,0
+wartortle,8,3,rain-dish,Rain Dish,1
+blastoise,9,1,torrent,Torrent,0
+blastoise,9,3,rain-dish,Rain Dish,1
+caterpie,10,1,shield-dust,Shield Dust,0
+caterpie,10,3,run-away,Run Away,1
+metapod,11,1,shed-skin,Shed Skin,0
+butterfree,12,1,compound-eyes,Compound Eyes,0
+butterfree,12,3,tinted-lens,Tinted Lens,1
+weedle,13,1,shield-dust,Shield Dust,0
+weedle,13,3,run-away,Run Away,1
+kakuna,14,1,shed-skin,Shed Skin,0
+beedrill,15,1,swarm,Swarm,0
+beedrill,15,3,sniper,Sniper,1
+pidgey,16,1,keen-eye,Keen Eye,0
+pidgey,16,2,tangled-feet,Tangled femaleeet,0
+pidgey,16,3,big-pecks,Big Pecks,1
+pidgeotto,17,1,keen-eye,Keen Eye,0
+pidgeotto,17,2,tangled-feet,Tangled femaleeet,0
+pidgeotto,17,3,big-pecks,Big Pecks,1
+pidgeot,18,1,keen-eye,Keen Eye,0
+pidgeot,18,2,tangled-feet,Tangled femaleeet,0
+pidgeot,18,3,big-pecks,Big Pecks,1
+rattata,19,1,run-away,Run Away,0
+rattata,19,2,guts,Guts,0
+rattata,19,3,hustle,Hustle,1
+raticate,20,1,run-away,Run Away,0
+raticate,20,2,guts,Guts,0
+raticate,20,3,hustle,Hustle,1
+spearow,21,1,keen-eye,Keen Eye,0
+spearow,21,3,sniper,Sniper,1
+fearow,22,1,keen-eye,Keen Eye,0
+fearow,22,3,sniper,Sniper,1
+ekans,23,1,intimidate,Intimidate,0
+ekans,23,2,shed-skin,Shed Skin,0
+ekans,23,3,unnerve,Unnerve,1
+arbok,24,1,intimidate,Intimidate,0
+arbok,24,2,shed-skin,Shed Skin,0
+arbok,24,3,unnerve,Unnerve,1
+pikachu,25,1,static,Static,0
+pikachu,25,3,lightning-rod,Lightning Rod,1
+raichu,26,1,static,Static,0
+raichu,26,3,lightning-rod,Lightning Rod,1
+sandshrew,27,1,sand-veil,Sand Veil,0
+sandshrew,27,3,sand-rush,Sand Rush,1
+sandslash,28,1,sand-veil,Sand Veil,0
+sandslash,28,3,sand-rush,Sand Rush,1
+nidoran-f,29,1,poison-point,Poison Point,0
+nidoran-f,29,2,rivalry,Rivalry,0
+nidoran-f,29,3,hustle,Hustle,1
+nidorina,30,1,poison-point,Poison Point,0
+nidorina,30,2,rivalry,Rivalry,0
+nidorina,30,3,hustle,Hustle,1
+nidoqueen,31,1,poison-point,Poison Point,0
+nidoqueen,31,2,rivalry,Rivalry,0
+nidoqueen,31,3,sheer-force,Sheer femaleorce,1
+nidoran-m,32,1,poison-point,Poison Point,0
+nidoran-m,32,2,rivalry,Rivalry,0
+nidoran-m,32,3,hustle,Hustle,1
+nidorino,33,1,poison-point,Poison Point,0
+nidorino,33,2,rivalry,Rivalry,0
+nidorino,33,3,hustle,Hustle,1
+nidoking,34,1,poison-point,Poison Point,0
+nidoking,34,2,rivalry,Rivalry,0
+nidoking,34,3,sheer-force,Sheer femaleorce,1
+clefairy,35,1,cute-charm,Cute Charm,0
+clefairy,35,2,magic-guard,Magic Guard,0
+clefairy,35,3,friend-guard,Friend Guard,1
+clefable,36,1,cute-charm,Cute Charm,0
+clefable,36,2,magic-guard,Magic Guard,0
+clefable,36,3,unaware,Unaware,1
+vulpix,37,1,flash-fire,Flash femaleire,0
+vulpix,37,3,drought,Drought,1
+ninetales,38,1,flash-fire,Flash femaleire,0
+ninetales,38,3,drought,Drought,1
+jigglypuff,39,1,cute-charm,Cute Charm,0
+jigglypuff,39,2,competitive,Competitive,0
+jigglypuff,39,3,friend-guard,Friend Guard,1
+wigglytuff,40,1,cute-charm,Cute Charm,0
+wigglytuff,40,2,competitive,Competitive,0
+wigglytuff,40,3,frisk,Frisk,1
+zubat,41,1,inner-focus,Inner femaleocus,0
+zubat,41,3,infiltrator,Infiltrator,1
+golbat,42,1,inner-focus,Inner femaleocus,0
+golbat,42,3,infiltrator,Infiltrator,1
+oddish,43,1,chlorophyll,Chlorophyll,0
+oddish,43,3,run-away,Run Away,1
+gloom,44,1,chlorophyll,Chlorophyll,0
+gloom,44,3,stench,Stench,1
+vileplume,45,1,chlorophyll,Chlorophyll,0
+vileplume,45,3,effect-spore,Effect Spore,1
+paras,46,1,effect-spore,Effect Spore,0
+paras,46,2,dry-skin,Dry Skin,0
+paras,46,3,damp,Damp,1
+parasect,47,1,effect-spore,Effect Spore,0
+parasect,47,2,dry-skin,Dry Skin,0
+parasect,47,3,damp,Damp,1
+venonat,48,1,compound-eyes,Compound Eyes,0
+venonat,48,2,tinted-lens,Tinted Lens,0
+venonat,48,3,run-away,Run Away,1
+venomoth,49,1,shield-dust,Shield Dust,0
+venomoth,49,2,tinted-lens,Tinted Lens,0
+venomoth,49,3,wonder-skin,Wonder Skin,1
+diglett,50,1,sand-veil,Sand Veil,0
+diglett,50,2,arena-trap,Arena Trap,0
+diglett,50,3,sand-force,Sand femaleorce,1
+dugtrio,51,1,sand-veil,Sand Veil,0
+dugtrio,51,2,arena-trap,Arena Trap,0
+dugtrio,51,3,sand-force,Sand femaleorce,1
+meowth,52,1,pickup,Pickup,0
+meowth,52,2,technician,Technician,0
+meowth,52,3,unnerve,Unnerve,1
+persian,53,1,limber,Limber,0
+persian,53,2,technician,Technician,0
+persian,53,3,unnerve,Unnerve,1
+psyduck,54,1,damp,Damp,0
+psyduck,54,2,cloud-nine,Cloud Nine,0
+psyduck,54,3,swift-swim,Swift Swim,1
+golduck,55,1,damp,Damp,0
+golduck,55,2,cloud-nine,Cloud Nine,0
+golduck,55,3,swift-swim,Swift Swim,1
+mankey,56,1,vital-spirit,Vital Spirit,0
+mankey,56,2,anger-point,Anger Point,0
+mankey,56,3,defiant,Defiant,1
+primeape,57,1,vital-spirit,Vital Spirit,0
+primeape,57,2,anger-point,Anger Point,0
+primeape,57,3,defiant,Defiant,1
+growlithe,58,1,intimidate,Intimidate,0
+growlithe,58,2,flash-fire,Flash femaleire,0
+growlithe,58,3,justified,Justified,1
+arcanine,59,1,intimidate,Intimidate,0
+arcanine,59,2,flash-fire,Flash femaleire,0
+arcanine,59,3,justified,Justified,1
+poliwag,60,1,water-absorb,Water Absorb,0
+poliwag,60,2,damp,Damp,0
+poliwag,60,3,swift-swim,Swift Swim,1
+poliwhirl,61,1,water-absorb,Water Absorb,0
+poliwhirl,61,2,damp,Damp,0
+poliwhirl,61,3,swift-swim,Swift Swim,1
+poliwrath,62,1,water-absorb,Water Absorb,0
+poliwrath,62,2,damp,Damp,0
+poliwrath,62,3,swift-swim,Swift Swim,1
+abra,63,1,synchronize,Synchronize,0
+abra,63,2,inner-focus,Inner femaleocus,0
+abra,63,3,magic-guard,Magic Guard,1
+kadabra,64,1,synchronize,Synchronize,0
+kadabra,64,2,inner-focus,Inner femaleocus,0
+kadabra,64,3,magic-guard,Magic Guard,1
+alakazam,65,1,synchronize,Synchronize,0
+alakazam,65,2,inner-focus,Inner femaleocus,0
+alakazam,65,3,magic-guard,Magic Guard,1
+machop,66,1,guts,Guts,0
+machop,66,2,no-guard,No Guard,0
+machop,66,3,steadfast,Steadfast,1
+machoke,67,1,guts,Guts,0
+machoke,67,2,no-guard,No Guard,0
+machoke,67,3,steadfast,Steadfast,1
+machamp,68,1,guts,Guts,0
+machamp,68,2,no-guard,No Guard,0
+machamp,68,3,steadfast,Steadfast,1
+bellsprout,69,1,chlorophyll,Chlorophyll,0
+bellsprout,69,3,gluttony,Gluttony,1
+weepinbell,70,1,chlorophyll,Chlorophyll,0
+weepinbell,70,3,gluttony,Gluttony,1
+victreebel,71,1,chlorophyll,Chlorophyll,0
+victreebel,71,3,gluttony,Gluttony,1
+tentacool,72,1,clear-body,Clear Body,0
+tentacool,72,2,liquid-ooze,Liquid Ooze,0
+tentacool,72,3,rain-dish,Rain Dish,1
+tentacruel,73,1,clear-body,Clear Body,0
+tentacruel,73,2,liquid-ooze,Liquid Ooze,0
+tentacruel,73,3,rain-dish,Rain Dish,1
+geodude,74,1,rock-head,Rock Head,0
+geodude,74,2,sturdy,Sturdy,0
+geodude,74,3,sand-veil,Sand Veil,1
+graveler,75,1,rock-head,Rock Head,0
+graveler,75,2,sturdy,Sturdy,0
+graveler,75,3,sand-veil,Sand Veil,1
+golem,76,1,rock-head,Rock Head,0
+golem,76,2,sturdy,Sturdy,0
+golem,76,3,sand-veil,Sand Veil,1
+ponyta,77,1,run-away,Run Away,0
+ponyta,77,2,flash-fire,Flash femaleire,0
+ponyta,77,3,flame-body,Flame Body,1
+rapidash,78,1,run-away,Run Away,0
+rapidash,78,2,flash-fire,Flash femaleire,0
+rapidash,78,3,flame-body,Flame Body,1
+slowpoke,79,1,oblivious,Oblivious,0
+slowpoke,79,2,own-tempo,Own Tempo,0
+slowpoke,79,3,regenerator,Regenerator,1
+slowbro,80,1,oblivious,Oblivious,0
+slowbro,80,2,own-tempo,Own Tempo,0
+slowbro,80,3,regenerator,Regenerator,1
+magnemite,81,1,magnet-pull,Magnet Pull,0
+magnemite,81,2,sturdy,Sturdy,0
+magnemite,81,3,analytic,Analytic,1
+magneton,82,1,magnet-pull,Magnet Pull,0
+magneton,82,2,sturdy,Sturdy,0
+magneton,82,3,analytic,Analytic,1
+farfetchd,83,1,keen-eye,Keen Eye,0
+farfetchd,83,2,inner-focus,Inner femaleocus,0
+farfetchd,83,3,defiant,Defiant,1
+doduo,84,1,run-away,Run Away,0
+doduo,84,2,early-bird,Early Bird,0
+doduo,84,3,tangled-feet,Tangled femaleeet,1
+dodrio,85,1,run-away,Run Away,0
+dodrio,85,2,early-bird,Early Bird,0
+dodrio,85,3,tangled-feet,Tangled femaleeet,1
+seel,86,1,thick-fat,Thick femaleat,0
+seel,86,2,hydration,Hydration,0
+seel,86,3,ice-body,Ice Body,1
+dewgong,87,1,thick-fat,Thick femaleat,0
+dewgong,87,2,hydration,Hydration,0
+dewgong,87,3,ice-body,Ice Body,1
+grimer,88,1,stench,Stench,0
+grimer,88,2,sticky-hold,Sticky Hold,0
+grimer,88,3,poison-touch,Poison Touch,1
+muk,89,1,stench,Stench,0
+muk,89,2,sticky-hold,Sticky Hold,0
+muk,89,3,poison-touch,Poison Touch,1
+shellder,90,1,shell-armor,Shell Armor,0
+shellder,90,2,skill-link,Skill Link,0
+shellder,90,3,overcoat,Overcoat,1
+cloyster,91,1,shell-armor,Shell Armor,0
+cloyster,91,2,skill-link,Skill Link,0
+cloyster,91,3,overcoat,Overcoat,1
+gastly,92,1,levitate,Levitate,0
+haunter,93,1,levitate,Levitate,0
+gengar,94,1,cursed-body,Cursed Body,0
+onix,95,1,rock-head,Rock Head,0
+onix,95,2,sturdy,Sturdy,0
+onix,95,3,weak-armor,Weak Armor,1
+drowzee,96,1,insomnia,Insomnia,0
+drowzee,96,2,forewarn,Forewarn,0
+drowzee,96,3,inner-focus,Inner femaleocus,1
+hypno,97,1,insomnia,Insomnia,0
+hypno,97,2,forewarn,Forewarn,0
+hypno,97,3,inner-focus,Inner femaleocus,1
+krabby,98,1,hyper-cutter,Hyper Cutter,0
+krabby,98,2,shell-armor,Shell Armor,0
+krabby,98,3,sheer-force,Sheer femaleorce,1
+kingler,99,1,hyper-cutter,Hyper Cutter,0
+kingler,99,2,shell-armor,Shell Armor,0
+kingler,99,3,sheer-force,Sheer femaleorce,1
+voltorb,100,1,soundproof,Soundproof,0
+voltorb,100,2,static,Static,0
+voltorb,100,3,aftermath,Aftermath,1
+electrode,101,1,soundproof,Soundproof,0
+electrode,101,2,static,Static,0
+electrode,101,3,aftermath,Aftermath,1
+exeggcute,102,1,chlorophyll,Chlorophyll,0
+exeggcute,102,3,harvest,Harvest,1
+exeggutor,103,1,chlorophyll,Chlorophyll,0
+exeggutor,103,3,harvest,Harvest,1
+cubone,104,1,rock-head,Rock Head,0
+cubone,104,2,lightning-rod,Lightning Rod,0
+cubone,104,3,battle-armor,Battle Armor,1
+marowak,105,1,rock-head,Rock Head,0
+marowak,105,2,lightning-rod,Lightning Rod,0
+marowak,105,3,battle-armor,Battle Armor,1
+hitmonlee,106,1,limber,Limber,0
+hitmonlee,106,2,reckless,Reckless,0
+hitmonlee,106,3,unburden,Unburden,1
+hitmonchan,107,1,keen-eye,Keen Eye,0
+hitmonchan,107,2,iron-fist,Iron femaleist,0
+hitmonchan,107,3,inner-focus,Inner femaleocus,1
+lickitung,108,1,own-tempo,Own Tempo,0
+lickitung,108,2,oblivious,Oblivious,0
+lickitung,108,3,cloud-nine,Cloud Nine,1
+koffing,109,1,levitate,Levitate,0
+koffing,109,2,neutralizing-gas,Neutralizing Gas,0
+koffing,109,3,stench,Stench,1
+weezing,110,1,levitate,Levitate,0
+weezing,110,2,neutralizing-gas,Neutralizing Gas,0
+weezing,110,3,stench,Stench,1
+rhyhorn,111,1,lightning-rod,Lightning Rod,0
+rhyhorn,111,2,rock-head,Rock Head,0
+rhyhorn,111,3,reckless,Reckless,1
+rhydon,112,1,lightning-rod,Lightning Rod,0
+rhydon,112,2,rock-head,Rock Head,0
+rhydon,112,3,reckless,Reckless,1
+chansey,113,1,natural-cure,Natural Cure,0
+chansey,113,2,serene-grace,Serene Grace,0
+chansey,113,3,healer,Healer,1
+tangela,114,1,chlorophyll,Chlorophyll,0
+tangela,114,2,leaf-guard,Leaf Guard,0
+tangela,114,3,regenerator,Regenerator,1
+kangaskhan,115,1,early-bird,Early Bird,0
+kangaskhan,115,2,scrappy,Scrappy,0
+kangaskhan,115,3,inner-focus,Inner femaleocus,1
+horsea,116,1,swift-swim,Swift Swim,0
+horsea,116,2,sniper,Sniper,0
+horsea,116,3,damp,Damp,1
+seadra,117,1,poison-point,Poison Point,0
+seadra,117,2,sniper,Sniper,0
+seadra,117,3,damp,Damp,1
+goldeen,118,1,swift-swim,Swift Swim,0
+goldeen,118,2,water-veil,Water Veil,0
+goldeen,118,3,lightning-rod,Lightning Rod,1
+seaking,119,1,swift-swim,Swift Swim,0
+seaking,119,2,water-veil,Water Veil,0
+seaking,119,3,lightning-rod,Lightning Rod,1
+staryu,120,1,illuminate,Illuminate,0
+staryu,120,2,natural-cure,Natural Cure,0
+staryu,120,3,analytic,Analytic,1
+starmie,121,1,illuminate,Illuminate,0
+starmie,121,2,natural-cure,Natural Cure,0
+starmie,121,3,analytic,Analytic,1
+mr-mime,122,1,soundproof,Soundproof,0
+mr-mime,122,2,filter,Filter,0
+mr-mime,122,3,technician,Technician,1
+scyther,123,1,swarm,Swarm,0
+scyther,123,2,technician,Technician,0
+scyther,123,3,steadfast,Steadfast,1
+jynx,124,1,oblivious,Oblivious,0
+jynx,124,2,forewarn,Forewarn,0
+jynx,124,3,dry-skin,Dry Skin,1
+electabuzz,125,1,static,Static,0
+electabuzz,125,3,vital-spirit,Vital Spirit,1
+magmar,126,1,flame-body,Flame Body,0
+magmar,126,3,vital-spirit,Vital Spirit,1
+pinsir,127,1,hyper-cutter,Hyper Cutter,0
+pinsir,127,2,mold-breaker,Mold Breaker,0
+pinsir,127,3,moxie,Moxie,1
+tauros,128,1,intimidate,Intimidate,0
+tauros,128,2,anger-point,Anger Point,0
+tauros,128,3,sheer-force,Sheer femaleorce,1
+magikarp,129,1,swift-swim,Swift Swim,0
+magikarp,129,3,rattled,Rattled,1
+gyarados,130,1,intimidate,Intimidate,0
+gyarados,130,3,moxie,Moxie,1
+lapras,131,1,water-absorb,Water Absorb,0
+lapras,131,2,shell-armor,Shell Armor,0
+lapras,131,3,hydration,Hydration,1
+ditto,132,1,limber,Limber,0
+ditto,132,3,imposter,Imposter,1
+eevee,133,1,run-away,Run Away,0
+eevee,133,2,adaptability,Adaptability,0
+eevee,133,3,anticipation,Anticipation,1
+vaporeon,134,1,water-absorb,Water Absorb,0
+vaporeon,134,3,hydration,Hydration,1
+jolteon,135,1,volt-absorb,Volt Absorb,0
+jolteon,135,3,quick-feet,Quick femaleeet,1
+flareon,136,1,flash-fire,Flash femaleire,0
+flareon,136,3,guts,Guts,1
+porygon,137,1,trace,Trace,0
+porygon,137,2,download,Download,0
+porygon,137,3,analytic,Analytic,1
+omanyte,138,1,swift-swim,Swift Swim,0
+omanyte,138,2,shell-armor,Shell Armor,0
+omanyte,138,3,weak-armor,Weak Armor,1
+omastar,139,1,swift-swim,Swift Swim,0
+omastar,139,2,shell-armor,Shell Armor,0
+omastar,139,3,weak-armor,Weak Armor,1
+kabuto,140,1,swift-swim,Swift Swim,0
+kabuto,140,2,battle-armor,Battle Armor,0
+kabuto,140,3,weak-armor,Weak Armor,1
+kabutops,141,1,swift-swim,Swift Swim,0
+kabutops,141,2,battle-armor,Battle Armor,0
+kabutops,141,3,weak-armor,Weak Armor,1
+aerodactyl,142,1,rock-head,Rock Head,0
+aerodactyl,142,2,pressure,Pressure,0
+aerodactyl,142,3,unnerve,Unnerve,1
+snorlax,143,1,immunity,Immunity,0
+snorlax,143,2,thick-fat,Thick femaleat,0
+snorlax,143,3,gluttony,Gluttony,1
+articuno,144,1,pressure,Pressure,0
+articuno,144,3,snow-cloak,Snow Cloak,1
+zapdos,145,1,pressure,Pressure,0
+zapdos,145,3,static,Static,1
+moltres,146,1,pressure,Pressure,0
+moltres,146,3,flame-body,Flame Body,1
+dratini,147,1,shed-skin,Shed Skin,0
+dratini,147,3,marvel-scale,Marvel Scale,1
+dragonair,148,1,shed-skin,Shed Skin,0
+dragonair,148,3,marvel-scale,Marvel Scale,1
+dragonite,149,1,inner-focus,Inner femaleocus,0
+dragonite,149,3,multiscale,Multiscale,1
+mewtwo,150,1,pressure,Pressure,0
+mewtwo,150,3,unnerve,Unnerve,1
+mew,151,1,synchronize,Synchronize,0
+chikorita,152,1,overgrow,Overgrow,0
+chikorita,152,3,leaf-guard,Leaf Guard,1
+bayleef,153,1,overgrow,Overgrow,0
+bayleef,153,3,leaf-guard,Leaf Guard,1
+meganium,154,1,overgrow,Overgrow,0
+meganium,154,3,leaf-guard,Leaf Guard,1
+cyndaquil,155,1,blaze,Blaze,0
+cyndaquil,155,3,flash-fire,Flash femaleire,1
+quilava,156,1,blaze,Blaze,0
+quilava,156,3,flash-fire,Flash femaleire,1
+typhlosion,157,1,blaze,Blaze,0
+typhlosion,157,3,flash-fire,Flash femaleire,1
+totodile,158,1,torrent,Torrent,0
+totodile,158,3,sheer-force,Sheer femaleorce,1
+croconaw,159,1,torrent,Torrent,0
+croconaw,159,3,sheer-force,Sheer femaleorce,1
+feraligatr,160,1,torrent,Torrent,0
+feraligatr,160,3,sheer-force,Sheer femaleorce,1
+sentret,161,1,run-away,Run Away,0
+sentret,161,2,keen-eye,Keen Eye,0
+sentret,161,3,frisk,Frisk,1
+furret,162,1,run-away,Run Away,0
+furret,162,2,keen-eye,Keen Eye,0
+furret,162,3,frisk,Frisk,1
+hoothoot,163,1,insomnia,Insomnia,0
+hoothoot,163,2,keen-eye,Keen Eye,0
+hoothoot,163,3,tinted-lens,Tinted Lens,1
+noctowl,164,1,insomnia,Insomnia,0
+noctowl,164,2,keen-eye,Keen Eye,0
+noctowl,164,3,tinted-lens,Tinted Lens,1
+ledyba,165,1,swarm,Swarm,0
+ledyba,165,2,early-bird,Early Bird,0
+ledyba,165,3,rattled,Rattled,1
+ledian,166,1,swarm,Swarm,0
+ledian,166,2,early-bird,Early Bird,0
+ledian,166,3,iron-fist,Iron femaleist,1
+spinarak,167,1,swarm,Swarm,0
+spinarak,167,2,insomnia,Insomnia,0
+spinarak,167,3,sniper,Sniper,1
+ariados,168,1,swarm,Swarm,0
+ariados,168,2,insomnia,Insomnia,0
+ariados,168,3,sniper,Sniper,1
+crobat,169,1,inner-focus,Inner femaleocus,0
+crobat,169,3,infiltrator,Infiltrator,1
+chinchou,170,1,volt-absorb,Volt Absorb,0
+chinchou,170,2,illuminate,Illuminate,0
+chinchou,170,3,water-absorb,Water Absorb,1
+lanturn,171,1,volt-absorb,Volt Absorb,0
+lanturn,171,2,illuminate,Illuminate,0
+lanturn,171,3,water-absorb,Water Absorb,1
+pichu,172,1,static,Static,0
+pichu,172,3,lightning-rod,Lightning Rod,1
+cleffa,173,1,cute-charm,Cute Charm,0
+cleffa,173,2,magic-guard,Magic Guard,0
+cleffa,173,3,friend-guard,Friend Guard,1
+igglybuff,174,1,cute-charm,Cute Charm,0
+igglybuff,174,2,competitive,Competitive,0
+igglybuff,174,3,friend-guard,Friend Guard,1
+togepi,175,1,hustle,Hustle,0
+togepi,175,2,serene-grace,Serene Grace,0
+togepi,175,3,super-luck,Super Luck,1
+togetic,176,1,hustle,Hustle,0
+togetic,176,2,serene-grace,Serene Grace,0
+togetic,176,3,super-luck,Super Luck,1
+natu,177,1,synchronize,Synchronize,0
+natu,177,2,early-bird,Early Bird,0
+natu,177,3,magic-bounce,Magic Bounce,1
+xatu,178,1,synchronize,Synchronize,0
+xatu,178,2,early-bird,Early Bird,0
+xatu,178,3,magic-bounce,Magic Bounce,1
+mareep,179,1,static,Static,0
+mareep,179,3,plus,Plus,1
+flaaffy,180,1,static,Static,0
+flaaffy,180,3,plus,Plus,1
+ampharos,181,1,static,Static,0
+ampharos,181,3,plus,Plus,1
+bellossom,182,1,chlorophyll,Chlorophyll,0
+bellossom,182,3,healer,Healer,1
+marill,183,1,thick-fat,Thick femaleat,0
+marill,183,2,huge-power,Huge Power,0
+marill,183,3,sap-sipper,Sap Sipper,1
+azumarill,184,1,thick-fat,Thick femaleat,0
+azumarill,184,2,huge-power,Huge Power,0
+azumarill,184,3,sap-sipper,Sap Sipper,1
+sudowoodo,185,1,sturdy,Sturdy,0
+sudowoodo,185,2,rock-head,Rock Head,0
+sudowoodo,185,3,rattled,Rattled,1
+politoed,186,1,water-absorb,Water Absorb,0
+politoed,186,2,damp,Damp,0
+politoed,186,3,drizzle,Drizzle,1
+hoppip,187,1,chlorophyll,Chlorophyll,0
+hoppip,187,2,leaf-guard,Leaf Guard,0
+hoppip,187,3,infiltrator,Infiltrator,1
+skiploom,188,1,chlorophyll,Chlorophyll,0
+skiploom,188,2,leaf-guard,Leaf Guard,0
+skiploom,188,3,infiltrator,Infiltrator,1
+jumpluff,189,1,chlorophyll,Chlorophyll,0
+jumpluff,189,2,leaf-guard,Leaf Guard,0
+jumpluff,189,3,infiltrator,Infiltrator,1
+aipom,190,1,run-away,Run Away,0
+aipom,190,2,pickup,Pickup,0
+aipom,190,3,skill-link,Skill Link,1
+sunkern,191,1,chlorophyll,Chlorophyll,0
+sunkern,191,2,solar-power,Solar Power,0
+sunkern,191,3,early-bird,Early Bird,1
+sunflora,192,1,chlorophyll,Chlorophyll,0
+sunflora,192,2,solar-power,Solar Power,0
+sunflora,192,3,early-bird,Early Bird,1
+yanma,193,1,speed-boost,Speed Boost,0
+yanma,193,2,compound-eyes,Compound Eyes,0
+yanma,193,3,frisk,Frisk,1
+wooper,194,1,damp,Damp,0
+wooper,194,2,water-absorb,Water Absorb,0
+wooper,194,3,unaware,Unaware,1
+quagsire,195,1,damp,Damp,0
+quagsire,195,2,water-absorb,Water Absorb,0
+quagsire,195,3,unaware,Unaware,1
+espeon,196,1,synchronize,Synchronize,0
+espeon,196,3,magic-bounce,Magic Bounce,1
+umbreon,197,1,synchronize,Synchronize,0
+umbreon,197,3,inner-focus,Inner femaleocus,1
+murkrow,198,1,insomnia,Insomnia,0
+murkrow,198,2,super-luck,Super Luck,0
+murkrow,198,3,prankster,Prankster,1
+slowking,199,1,oblivious,Oblivious,0
+slowking,199,2,own-tempo,Own Tempo,0
+slowking,199,3,regenerator,Regenerator,1
+misdreavus,200,1,levitate,Levitate,0
+unown,201,1,levitate,Levitate,0
+wobbuffet,202,1,shadow-tag,Shadow Tag,0
+wobbuffet,202,3,telepathy,Telepathy,1
+girafarig,203,1,inner-focus,Inner femaleocus,0
+girafarig,203,2,early-bird,Early Bird,0
+girafarig,203,3,sap-sipper,Sap Sipper,1
+pineco,204,1,sturdy,Sturdy,0
+pineco,204,3,overcoat,Overcoat,1
+forretress,205,1,sturdy,Sturdy,0
+forretress,205,3,overcoat,Overcoat,1
+dunsparce,206,1,serene-grace,Serene Grace,0
+dunsparce,206,2,run-away,Run Away,0
+dunsparce,206,3,rattled,Rattled,1
+gligar,207,1,hyper-cutter,Hyper Cutter,0
+gligar,207,2,sand-veil,Sand Veil,0
+gligar,207,3,immunity,Immunity,1
+steelix,208,1,rock-head,Rock Head,0
+steelix,208,2,sturdy,Sturdy,0
+steelix,208,3,sheer-force,Sheer femaleorce,1
+snubbull,209,1,intimidate,Intimidate,0
+snubbull,209,2,run-away,Run Away,0
+snubbull,209,3,rattled,Rattled,1
+granbull,210,1,intimidate,Intimidate,0
+granbull,210,2,quick-feet,Quick femaleeet,0
+granbull,210,3,rattled,Rattled,1
+qwilfish,211,1,poison-point,Poison Point,0
+qwilfish,211,2,swift-swim,Swift Swim,0
+qwilfish,211,3,intimidate,Intimidate,1
+scizor,212,1,swarm,Swarm,0
+scizor,212,2,technician,Technician,0
+scizor,212,3,light-metal,Light maleetal,1
+shuckle,213,1,sturdy,Sturdy,0
+shuckle,213,2,gluttony,Gluttony,0
+shuckle,213,3,contrary,Contrary,1
+heracross,214,1,swarm,Swarm,0
+heracross,214,2,guts,Guts,0
+heracross,214,3,moxie,Moxie,1
+sneasel,215,1,inner-focus,Inner femaleocus,0
+sneasel,215,2,keen-eye,Keen Eye,0
+sneasel,215,3,pickpocket,Pickpocket,1
+teddiursa,216,1,pickup,Pickup,0
+teddiursa,216,2,quick-feet,Quick femaleeet,0
+teddiursa,216,3,honey-gather,Honey Gather,1
+ursaring,217,1,guts,Guts,0
+ursaring,217,2,quick-feet,Quick femaleeet,0
+ursaring,217,3,unnerve,Unnerve,1
+slugma,218,1,magma-armor,Magma Armor,0
+slugma,218,2,flame-body,Flame Body,0
+slugma,218,3,weak-armor,Weak Armor,1
+magcargo,219,1,magma-armor,Magma Armor,0
+magcargo,219,2,flame-body,Flame Body,0
+magcargo,219,3,weak-armor,Weak Armor,1
+swinub,220,1,oblivious,Oblivious,0
+swinub,220,2,snow-cloak,Snow Cloak,0
+swinub,220,3,thick-fat,Thick femaleat,1
+piloswine,221,1,oblivious,Oblivious,0
+piloswine,221,2,snow-cloak,Snow Cloak,0
+piloswine,221,3,thick-fat,Thick femaleat,1
+corsola,222,1,hustle,Hustle,0
+corsola,222,2,natural-cure,Natural Cure,0
+corsola,222,3,regenerator,Regenerator,1
+remoraid,223,1,hustle,Hustle,0
+remoraid,223,2,sniper,Sniper,0
+remoraid,223,3,moody,Moody,1
+octillery,224,1,suction-cups,Suction Cups,0
+octillery,224,2,sniper,Sniper,0
+octillery,224,3,moody,Moody,1
+delibird,225,1,vital-spirit,Vital Spirit,0
+delibird,225,2,hustle,Hustle,0
+delibird,225,3,insomnia,Insomnia,1
+mantine,226,1,swift-swim,Swift Swim,0
+mantine,226,2,water-absorb,Water Absorb,0
+mantine,226,3,water-veil,Water Veil,1
+skarmory,227,1,keen-eye,Keen Eye,0
+skarmory,227,2,sturdy,Sturdy,0
+skarmory,227,3,weak-armor,Weak Armor,1
+houndour,228,1,early-bird,Early Bird,0
+houndour,228,2,flash-fire,Flash femaleire,0
+houndour,228,3,unnerve,Unnerve,1
+houndoom,229,1,early-bird,Early Bird,0
+houndoom,229,2,flash-fire,Flash femaleire,0
+houndoom,229,3,unnerve,Unnerve,1
+kingdra,230,1,swift-swim,Swift Swim,0
+kingdra,230,2,sniper,Sniper,0
+kingdra,230,3,damp,Damp,1
+phanpy,231,1,pickup,Pickup,0
+phanpy,231,3,sand-veil,Sand Veil,1
+donphan,232,1,sturdy,Sturdy,0
+donphan,232,3,sand-veil,Sand Veil,1
+porygon2,233,1,trace,Trace,0
+porygon2,233,2,download,Download,0
+porygon2,233,3,analytic,Analytic,1
+stantler,234,1,intimidate,Intimidate,0
+stantler,234,2,frisk,Frisk,0
+stantler,234,3,sap-sipper,Sap Sipper,1
+smeargle,235,1,own-tempo,Own Tempo,0
+smeargle,235,2,technician,Technician,0
+smeargle,235,3,moody,Moody,1
+tyrogue,236,1,guts,Guts,0
+tyrogue,236,2,steadfast,Steadfast,0
+tyrogue,236,3,vital-spirit,Vital Spirit,1
+hitmontop,237,1,intimidate,Intimidate,0
+hitmontop,237,2,technician,Technician,0
+hitmontop,237,3,steadfast,Steadfast,1
+smoochum,238,1,oblivious,Oblivious,0
+smoochum,238,2,forewarn,Forewarn,0
+smoochum,238,3,hydration,Hydration,1
+elekid,239,1,static,Static,0
+elekid,239,3,vital-spirit,Vital Spirit,1
+magby,240,1,flame-body,Flame Body,0
+magby,240,3,vital-spirit,Vital Spirit,1
+miltank,241,1,thick-fat,Thick femaleat,0
+miltank,241,2,scrappy,Scrappy,0
+miltank,241,3,sap-sipper,Sap Sipper,1
+blissey,242,1,natural-cure,Natural Cure,0
+blissey,242,2,serene-grace,Serene Grace,0
+blissey,242,3,healer,Healer,1
+raikou,243,1,pressure,Pressure,0
+raikou,243,3,inner-focus,Inner femaleocus,1
+entei,244,1,pressure,Pressure,0
+entei,244,3,inner-focus,Inner femaleocus,1
+suicune,245,1,pressure,Pressure,0
+suicune,245,3,inner-focus,Inner femaleocus,1
+larvitar,246,1,guts,Guts,0
+larvitar,246,3,sand-veil,Sand Veil,1
+pupitar,247,1,shed-skin,Shed Skin,0
+tyranitar,248,1,sand-stream,Sand Stream,0
+tyranitar,248,3,unnerve,Unnerve,1
+lugia,249,1,pressure,Pressure,0
+lugia,249,3,multiscale,Multiscale,1
+ho-oh,250,1,pressure,Pressure,0
+ho-oh,250,3,regenerator,Regenerator,1
+celebi,251,1,natural-cure,Natural Cure,0
+treecko,252,1,overgrow,Overgrow,0
+treecko,252,3,unburden,Unburden,1
+grovyle,253,1,overgrow,Overgrow,0
+grovyle,253,3,unburden,Unburden,1
+sceptile,254,1,overgrow,Overgrow,0
+sceptile,254,3,unburden,Unburden,1
+torchic,255,1,blaze,Blaze,0
+torchic,255,3,speed-boost,Speed Boost,1
+combusken,256,1,blaze,Blaze,0
+combusken,256,3,speed-boost,Speed Boost,1
+blaziken,257,1,blaze,Blaze,0
+blaziken,257,3,speed-boost,Speed Boost,1
+mudkip,258,1,torrent,Torrent,0
+mudkip,258,3,damp,Damp,1
+marshtomp,259,1,torrent,Torrent,0
+marshtomp,259,3,damp,Damp,1
+swampert,260,1,torrent,Torrent,0
+swampert,260,3,damp,Damp,1
+poochyena,261,1,run-away,Run Away,0
+poochyena,261,2,quick-feet,Quick femaleeet,0
+poochyena,261,3,rattled,Rattled,1
+mightyena,262,1,intimidate,Intimidate,0
+mightyena,262,2,quick-feet,Quick femaleeet,0
+mightyena,262,3,moxie,Moxie,1
+zigzagoon,263,1,pickup,Pickup,0
+zigzagoon,263,2,gluttony,Gluttony,0
+zigzagoon,263,3,quick-feet,Quick femaleeet,1
+linoone,264,1,pickup,Pickup,0
+linoone,264,2,gluttony,Gluttony,0
+linoone,264,3,quick-feet,Quick femaleeet,1
+wurmple,265,1,shield-dust,Shield Dust,0
+wurmple,265,3,run-away,Run Away,1
+silcoon,266,1,shed-skin,Shed Skin,0
+beautifly,267,1,swarm,Swarm,0
+beautifly,267,3,rivalry,Rivalry,1
+cascoon,268,1,shed-skin,Shed Skin,0
+dustox,269,1,shield-dust,Shield Dust,0
+dustox,269,3,compound-eyes,Compound Eyes,1
+lotad,270,1,swift-swim,Swift Swim,0
+lotad,270,2,rain-dish,Rain Dish,0
+lotad,270,3,own-tempo,Own Tempo,1
+lombre,271,1,swift-swim,Swift Swim,0
+lombre,271,2,rain-dish,Rain Dish,0
+lombre,271,3,own-tempo,Own Tempo,1
+ludicolo,272,1,swift-swim,Swift Swim,0
+ludicolo,272,2,rain-dish,Rain Dish,0
+ludicolo,272,3,own-tempo,Own Tempo,1
+seedot,273,1,chlorophyll,Chlorophyll,0
+seedot,273,2,early-bird,Early Bird,0
+seedot,273,3,pickpocket,Pickpocket,1
+nuzleaf,274,1,chlorophyll,Chlorophyll,0
+nuzleaf,274,2,early-bird,Early Bird,0
+nuzleaf,274,3,pickpocket,Pickpocket,1
+shiftry,275,1,chlorophyll,Chlorophyll,0
+shiftry,275,2,wind-rider,Wind Rider,0
+shiftry,275,3,pickpocket,Pickpocket,1
+taillow,276,1,guts,Guts,0
+taillow,276,3,scrappy,Scrappy,1
+swellow,277,1,guts,Guts,0
+swellow,277,3,scrappy,Scrappy,1
+wingull,278,1,keen-eye,Keen Eye,0
+wingull,278,2,hydration,Hydration,0
+wingull,278,3,rain-dish,Rain Dish,1
+pelipper,279,1,keen-eye,Keen Eye,0
+pelipper,279,2,drizzle,Drizzle,0
+pelipper,279,3,rain-dish,Rain Dish,1
+ralts,280,1,synchronize,Synchronize,0
+ralts,280,2,trace,Trace,0
+ralts,280,3,telepathy,Telepathy,1
+kirlia,281,1,synchronize,Synchronize,0
+kirlia,281,2,trace,Trace,0
+kirlia,281,3,telepathy,Telepathy,1
+gardevoir,282,1,synchronize,Synchronize,0
+gardevoir,282,2,trace,Trace,0
+gardevoir,282,3,telepathy,Telepathy,1
+surskit,283,1,swift-swim,Swift Swim,0
+surskit,283,3,rain-dish,Rain Dish,1
+masquerain,284,1,intimidate,Intimidate,0
+masquerain,284,3,unnerve,Unnerve,1
+shroomish,285,1,effect-spore,Effect Spore,0
+shroomish,285,2,poison-heal,Poison Heal,0
+shroomish,285,3,quick-feet,Quick femaleeet,1
+breloom,286,1,effect-spore,Effect Spore,0
+breloom,286,2,poison-heal,Poison Heal,0
+breloom,286,3,technician,Technician,1
+slakoth,287,1,truant,Truant,0
+vigoroth,288,1,vital-spirit,Vital Spirit,0
+slaking,289,1,truant,Truant,0
+nincada,290,1,compound-eyes,Compound Eyes,0
+nincada,290,3,run-away,Run Away,1
+ninjask,291,1,speed-boost,Speed Boost,0
+ninjask,291,3,infiltrator,Infiltrator,1
+shedinja,292,1,wonder-guard,Wonder Guard,0
+whismur,293,1,soundproof,Soundproof,0
+whismur,293,3,rattled,Rattled,1
+loudred,294,1,soundproof,Soundproof,0
+loudred,294,3,scrappy,Scrappy,1
+exploud,295,1,soundproof,Soundproof,0
+exploud,295,3,scrappy,Scrappy,1
+makuhita,296,1,thick-fat,Thick femaleat,0
+makuhita,296,2,guts,Guts,0
+makuhita,296,3,sheer-force,Sheer femaleorce,1
+hariyama,297,1,thick-fat,Thick femaleat,0
+hariyama,297,2,guts,Guts,0
+hariyama,297,3,sheer-force,Sheer femaleorce,1
+azurill,298,1,thick-fat,Thick femaleat,0
+azurill,298,2,huge-power,Huge Power,0
+azurill,298,3,sap-sipper,Sap Sipper,1
+nosepass,299,1,sturdy,Sturdy,0
+nosepass,299,2,magnet-pull,Magnet Pull,0
+nosepass,299,3,sand-force,Sand femaleorce,1
+skitty,300,1,cute-charm,Cute Charm,0
+skitty,300,2,normalize,Normalize,0
+skitty,300,3,wonder-skin,Wonder Skin,1
+delcatty,301,1,cute-charm,Cute Charm,0
+delcatty,301,2,normalize,Normalize,0
+delcatty,301,3,wonder-skin,Wonder Skin,1
+sableye,302,1,keen-eye,Keen Eye,0
+sableye,302,2,stall,Stall,0
+sableye,302,3,prankster,Prankster,1
+mawile,303,1,hyper-cutter,Hyper Cutter,0
+mawile,303,2,intimidate,Intimidate,0
+mawile,303,3,sheer-force,Sheer femaleorce,1
+aron,304,1,sturdy,Sturdy,0
+aron,304,2,rock-head,Rock Head,0
+aron,304,3,heavy-metal,Heavy maleetal,1
+lairon,305,1,sturdy,Sturdy,0
+lairon,305,2,rock-head,Rock Head,0
+lairon,305,3,heavy-metal,Heavy maleetal,1
+aggron,306,1,sturdy,Sturdy,0
+aggron,306,2,rock-head,Rock Head,0
+aggron,306,3,heavy-metal,Heavy maleetal,1
+meditite,307,1,pure-power,Pure Power,0
+meditite,307,3,telepathy,Telepathy,1
+medicham,308,1,pure-power,Pure Power,0
+medicham,308,3,telepathy,Telepathy,1
+electrike,309,1,static,Static,0
+electrike,309,2,lightning-rod,Lightning Rod,0
+electrike,309,3,minus,Minus,1
+manectric,310,1,static,Static,0
+manectric,310,2,lightning-rod,Lightning Rod,0
+manectric,310,3,minus,Minus,1
+plusle,311,1,plus,Plus,0
+plusle,311,3,lightning-rod,Lightning Rod,1
+minun,312,1,minus,Minus,0
+minun,312,3,volt-absorb,Volt Absorb,1
+volbeat,313,1,illuminate,Illuminate,0
+volbeat,313,2,swarm,Swarm,0
+volbeat,313,3,prankster,Prankster,1
+illumise,314,1,oblivious,Oblivious,0
+illumise,314,2,tinted-lens,Tinted Lens,0
+illumise,314,3,prankster,Prankster,1
+roselia,315,1,natural-cure,Natural Cure,0
+roselia,315,2,poison-point,Poison Point,0
+roselia,315,3,leaf-guard,Leaf Guard,1
+gulpin,316,1,liquid-ooze,Liquid Ooze,0
+gulpin,316,2,sticky-hold,Sticky Hold,0
+gulpin,316,3,gluttony,Gluttony,1
+swalot,317,1,liquid-ooze,Liquid Ooze,0
+swalot,317,2,sticky-hold,Sticky Hold,0
+swalot,317,3,gluttony,Gluttony,1
+carvanha,318,1,rough-skin,Rough Skin,0
+carvanha,318,3,speed-boost,Speed Boost,1
+sharpedo,319,1,rough-skin,Rough Skin,0
+sharpedo,319,3,speed-boost,Speed Boost,1
+wailmer,320,1,water-veil,Water Veil,0
+wailmer,320,2,oblivious,Oblivious,0
+wailmer,320,3,pressure,Pressure,1
+wailord,321,1,water-veil,Water Veil,0
+wailord,321,2,oblivious,Oblivious,0
+wailord,321,3,pressure,Pressure,1
+numel,322,1,oblivious,Oblivious,0
+numel,322,2,simple,Simple,0
+numel,322,3,own-tempo,Own Tempo,1
+camerupt,323,1,magma-armor,Magma Armor,0
+camerupt,323,2,solid-rock,Solid Rock,0
+camerupt,323,3,anger-point,Anger Point,1
+torkoal,324,1,white-smoke,White Smoke,0
+torkoal,324,2,drought,Drought,0
+torkoal,324,3,shell-armor,Shell Armor,1
+spoink,325,1,thick-fat,Thick femaleat,0
+spoink,325,2,own-tempo,Own Tempo,0
+spoink,325,3,gluttony,Gluttony,1
+grumpig,326,1,thick-fat,Thick femaleat,0
+grumpig,326,2,own-tempo,Own Tempo,0
+grumpig,326,3,gluttony,Gluttony,1
+spinda,327,1,own-tempo,Own Tempo,0
+spinda,327,2,tangled-feet,Tangled femaleeet,0
+spinda,327,3,contrary,Contrary,1
+trapinch,328,1,hyper-cutter,Hyper Cutter,0
+trapinch,328,2,arena-trap,Arena Trap,0
+trapinch,328,3,sheer-force,Sheer femaleorce,1
+vibrava,329,1,levitate,Levitate,0
+flygon,330,1,levitate,Levitate,0
+cacnea,331,1,sand-veil,Sand Veil,0
+cacnea,331,3,water-absorb,Water Absorb,1
+cacturne,332,1,sand-veil,Sand Veil,0
+cacturne,332,3,water-absorb,Water Absorb,1
+swablu,333,1,natural-cure,Natural Cure,0
+swablu,333,3,cloud-nine,Cloud Nine,1
+altaria,334,1,natural-cure,Natural Cure,0
+altaria,334,3,cloud-nine,Cloud Nine,1
+zangoose,335,1,immunity,Immunity,0
+zangoose,335,3,toxic-boost,Toxic Boost,1
+seviper,336,1,shed-skin,Shed Skin,0
+seviper,336,3,infiltrator,Infiltrator,1
+lunatone,337,1,levitate,Levitate,0
+solrock,338,1,levitate,Levitate,0
+barboach,339,1,oblivious,Oblivious,0
+barboach,339,2,anticipation,Anticipation,0
+barboach,339,3,hydration,Hydration,1
+whiscash,340,1,oblivious,Oblivious,0
+whiscash,340,2,anticipation,Anticipation,0
+whiscash,340,3,hydration,Hydration,1
+corphish,341,1,hyper-cutter,Hyper Cutter,0
+corphish,341,2,shell-armor,Shell Armor,0
+corphish,341,3,adaptability,Adaptability,1
+crawdaunt,342,1,hyper-cutter,Hyper Cutter,0
+crawdaunt,342,2,shell-armor,Shell Armor,0
+crawdaunt,342,3,adaptability,Adaptability,1
+baltoy,343,1,levitate,Levitate,0
+claydol,344,1,levitate,Levitate,0
+lileep,345,1,suction-cups,Suction Cups,0
+lileep,345,3,storm-drain,Storm Drain,1
+cradily,346,1,suction-cups,Suction Cups,0
+cradily,346,3,storm-drain,Storm Drain,1
+anorith,347,1,battle-armor,Battle Armor,0
+anorith,347,3,swift-swim,Swift Swim,1
+armaldo,348,1,battle-armor,Battle Armor,0
+armaldo,348,3,swift-swim,Swift Swim,1
+feebas,349,1,swift-swim,Swift Swim,0
+feebas,349,2,oblivious,Oblivious,0
+feebas,349,3,adaptability,Adaptability,1
+milotic,350,1,marvel-scale,Marvel Scale,0
+milotic,350,2,competitive,Competitive,0
+milotic,350,3,cute-charm,Cute Charm,1
+castform,351,1,forecast,Forecast,0
+kecleon,352,1,color-change,Color Change,0
+kecleon,352,3,protean,Protean,1
+shuppet,353,1,insomnia,Insomnia,0
+shuppet,353,2,frisk,Frisk,0
+shuppet,353,3,cursed-body,Cursed Body,1
+banette,354,1,insomnia,Insomnia,0
+banette,354,2,frisk,Frisk,0
+banette,354,3,cursed-body,Cursed Body,1
+duskull,355,1,levitate,Levitate,0
+duskull,355,3,frisk,Frisk,1
+dusclops,356,1,pressure,Pressure,0
+dusclops,356,3,frisk,Frisk,1
+tropius,357,1,chlorophyll,Chlorophyll,0
+tropius,357,2,solar-power,Solar Power,0
+tropius,357,3,harvest,Harvest,1
+chimecho,358,1,levitate,Levitate,0
+absol,359,1,pressure,Pressure,0
+absol,359,2,super-luck,Super Luck,0
+absol,359,3,justified,Justified,1
+wynaut,360,1,shadow-tag,Shadow Tag,0
+wynaut,360,3,telepathy,Telepathy,1
+snorunt,361,1,inner-focus,Inner femaleocus,0
+snorunt,361,2,ice-body,Ice Body,0
+snorunt,361,3,moody,Moody,1
+glalie,362,1,inner-focus,Inner femaleocus,0
+glalie,362,2,ice-body,Ice Body,0
+glalie,362,3,moody,Moody,1
+spheal,363,1,thick-fat,Thick femaleat,0
+spheal,363,2,ice-body,Ice Body,0
+spheal,363,3,oblivious,Oblivious,1
+sealeo,364,1,thick-fat,Thick femaleat,0
+sealeo,364,2,ice-body,Ice Body,0
+sealeo,364,3,oblivious,Oblivious,1
+walrein,365,1,thick-fat,Thick femaleat,0
+walrein,365,2,ice-body,Ice Body,0
+walrein,365,3,oblivious,Oblivious,1
+clamperl,366,1,shell-armor,Shell Armor,0
+clamperl,366,3,rattled,Rattled,1
+huntail,367,1,swift-swim,Swift Swim,0
+huntail,367,3,water-veil,Water Veil,1
+gorebyss,368,1,swift-swim,Swift Swim,0
+gorebyss,368,3,hydration,Hydration,1
+relicanth,369,1,swift-swim,Swift Swim,0
+relicanth,369,2,rock-head,Rock Head,0
+relicanth,369,3,sturdy,Sturdy,1
+luvdisc,370,1,swift-swim,Swift Swim,0
+luvdisc,370,3,hydration,Hydration,1
+bagon,371,1,rock-head,Rock Head,0
+bagon,371,3,sheer-force,Sheer femaleorce,1
+shelgon,372,1,rock-head,Rock Head,0
+shelgon,372,3,overcoat,Overcoat,1
+salamence,373,1,intimidate,Intimidate,0
+salamence,373,3,moxie,Moxie,1
+beldum,374,1,clear-body,Clear Body,0
+beldum,374,3,light-metal,Light maleetal,1
+metang,375,1,clear-body,Clear Body,0
+metang,375,3,light-metal,Light maleetal,1
+metagross,376,1,clear-body,Clear Body,0
+metagross,376,3,light-metal,Light maleetal,1
+regirock,377,1,clear-body,Clear Body,0
+regirock,377,3,sturdy,Sturdy,1
+regice,378,1,clear-body,Clear Body,0
+regice,378,3,ice-body,Ice Body,1
+registeel,379,1,clear-body,Clear Body,0
+registeel,379,3,light-metal,Light maleetal,1
+latias,380,1,levitate,Levitate,0
+latios,381,1,levitate,Levitate,0
+kyogre,382,1,drizzle,Drizzle,0
+groudon,383,1,drought,Drought,0
+rayquaza,384,1,air-lock,Air Lock,0
+jirachi,385,1,serene-grace,Serene Grace,0
+deoxys-normal,386,1,pressure,Pressure,0
+turtwig,387,1,overgrow,Overgrow,0
+turtwig,387,3,shell-armor,Shell Armor,1
+grotle,388,1,overgrow,Overgrow,0
+grotle,388,3,shell-armor,Shell Armor,1
+torterra,389,1,overgrow,Overgrow,0
+torterra,389,3,shell-armor,Shell Armor,1
+chimchar,390,1,blaze,Blaze,0
+chimchar,390,3,iron-fist,Iron femaleist,1
+monferno,391,1,blaze,Blaze,0
+monferno,391,3,iron-fist,Iron femaleist,1
+infernape,392,1,blaze,Blaze,0
+infernape,392,3,iron-fist,Iron femaleist,1
+piplup,393,1,torrent,Torrent,0
+piplup,393,3,competitive,Competitive,1
+prinplup,394,1,torrent,Torrent,0
+prinplup,394,3,competitive,Competitive,1
+empoleon,395,1,torrent,Torrent,0
+empoleon,395,3,competitive,Competitive,1
+starly,396,1,keen-eye,Keen Eye,0
+starly,396,3,reckless,Reckless,1
+staravia,397,1,intimidate,Intimidate,0
+staravia,397,3,reckless,Reckless,1
+staraptor,398,1,intimidate,Intimidate,0
+staraptor,398,3,reckless,Reckless,1
+bidoof,399,1,simple,Simple,0
+bidoof,399,2,unaware,Unaware,0
+bidoof,399,3,moody,Moody,1
+bibarel,400,1,simple,Simple,0
+bibarel,400,2,unaware,Unaware,0
+bibarel,400,3,moody,Moody,1
+kricketot,401,1,shed-skin,Shed Skin,0
+kricketot,401,3,run-away,Run Away,1
+kricketune,402,1,swarm,Swarm,0
+kricketune,402,3,technician,Technician,1
+shinx,403,1,rivalry,Rivalry,0
+shinx,403,2,intimidate,Intimidate,0
+shinx,403,3,guts,Guts,1
+luxio,404,1,rivalry,Rivalry,0
+luxio,404,2,intimidate,Intimidate,0
+luxio,404,3,guts,Guts,1
+luxray,405,1,rivalry,Rivalry,0
+luxray,405,2,intimidate,Intimidate,0
+luxray,405,3,guts,Guts,1
+budew,406,1,natural-cure,Natural Cure,0
+budew,406,2,poison-point,Poison Point,0
+budew,406,3,leaf-guard,Leaf Guard,1
+roserade,407,1,natural-cure,Natural Cure,0
+roserade,407,2,poison-point,Poison Point,0
+roserade,407,3,technician,Technician,1
+cranidos,408,1,mold-breaker,Mold Breaker,0
+cranidos,408,3,sheer-force,Sheer femaleorce,1
+rampardos,409,1,mold-breaker,Mold Breaker,0
+rampardos,409,3,sheer-force,Sheer femaleorce,1
+shieldon,410,1,sturdy,Sturdy,0
+shieldon,410,3,soundproof,Soundproof,1
+bastiodon,411,1,sturdy,Sturdy,0
+bastiodon,411,3,soundproof,Soundproof,1
+burmy,412,1,shed-skin,Shed Skin,0
+burmy,412,3,overcoat,Overcoat,1
+wormadam-plant,413,1,anticipation,Anticipation,0
+wormadam-plant,413,3,overcoat,Overcoat,1
+mothim,414,1,swarm,Swarm,0
+mothim,414,3,tinted-lens,Tinted Lens,1
+combee,415,1,honey-gather,Honey Gather,0
+combee,415,3,hustle,Hustle,1
+vespiquen,416,1,pressure,Pressure,0
+vespiquen,416,3,unnerve,Unnerve,1
+pachirisu,417,1,run-away,Run Away,0
+pachirisu,417,2,pickup,Pickup,0
+pachirisu,417,3,volt-absorb,Volt Absorb,1
+buizel,418,1,swift-swim,Swift Swim,0
+buizel,418,3,water-veil,Water Veil,1
+floatzel,419,1,swift-swim,Swift Swim,0
+floatzel,419,3,water-veil,Water Veil,1
+cherubi,420,1,chlorophyll,Chlorophyll,0
+cherrim,421,1,flower-gift,Flower Gift,0
+shellos,422,1,sticky-hold,Sticky Hold,0
+shellos,422,2,storm-drain,Storm Drain,0
+shellos,422,3,sand-force,Sand femaleorce,1
+gastrodon,423,1,sticky-hold,Sticky Hold,0
+gastrodon,423,2,storm-drain,Storm Drain,0
+gastrodon,423,3,sand-force,Sand femaleorce,1
+ambipom,424,1,technician,Technician,0
+ambipom,424,2,pickup,Pickup,0
+ambipom,424,3,skill-link,Skill Link,1
+drifloon,425,1,aftermath,Aftermath,0
+drifloon,425,2,unburden,Unburden,0
+drifloon,425,3,flare-boost,Flare Boost,1
+drifblim,426,1,aftermath,Aftermath,0
+drifblim,426,2,unburden,Unburden,0
+drifblim,426,3,flare-boost,Flare Boost,1
+buneary,427,1,run-away,Run Away,0
+buneary,427,2,klutz,Klutz,0
+buneary,427,3,limber,Limber,1
+lopunny,428,1,cute-charm,Cute Charm,0
+lopunny,428,2,klutz,Klutz,0
+lopunny,428,3,limber,Limber,1
+mismagius,429,1,levitate,Levitate,0
+honchkrow,430,1,insomnia,Insomnia,0
+honchkrow,430,2,super-luck,Super Luck,0
+honchkrow,430,3,moxie,Moxie,1
+glameow,431,1,limber,Limber,0
+glameow,431,2,own-tempo,Own Tempo,0
+glameow,431,3,keen-eye,Keen Eye,1
+purugly,432,1,thick-fat,Thick femaleat,0
+purugly,432,2,own-tempo,Own Tempo,0
+purugly,432,3,defiant,Defiant,1
+chingling,433,1,levitate,Levitate,0
+stunky,434,1,stench,Stench,0
+stunky,434,2,aftermath,Aftermath,0
+stunky,434,3,keen-eye,Keen Eye,1
+skuntank,435,1,stench,Stench,0
+skuntank,435,2,aftermath,Aftermath,0
+skuntank,435,3,keen-eye,Keen Eye,1
+bronzor,436,1,levitate,Levitate,0
+bronzor,436,2,heatproof,Heatproof,0
+bronzor,436,3,heavy-metal,Heavy maleetal,1
+bronzong,437,1,levitate,Levitate,0
+bronzong,437,2,heatproof,Heatproof,0
+bronzong,437,3,heavy-metal,Heavy maleetal,1
+bonsly,438,1,sturdy,Sturdy,0
+bonsly,438,2,rock-head,Rock Head,0
+bonsly,438,3,rattled,Rattled,1
+mime-jr,439,1,soundproof,Soundproof,0
+mime-jr,439,2,filter,Filter,0
+mime-jr,439,3,technician,Technician,1
+happiny,440,1,natural-cure,Natural Cure,0
+happiny,440,2,serene-grace,Serene Grace,0
+happiny,440,3,friend-guard,Friend Guard,1
+chatot,441,1,keen-eye,Keen Eye,0
+chatot,441,2,tangled-feet,Tangled femaleeet,0
+chatot,441,3,big-pecks,Big Pecks,1
+spiritomb,442,1,pressure,Pressure,0
+spiritomb,442,3,infiltrator,Infiltrator,1
+gible,443,1,sand-veil,Sand Veil,0
+gible,443,3,rough-skin,Rough Skin,1
+gabite,444,1,sand-veil,Sand Veil,0
+gabite,444,3,rough-skin,Rough Skin,1
+garchomp,445,1,sand-veil,Sand Veil,0
+garchomp,445,3,rough-skin,Rough Skin,1
+munchlax,446,1,pickup,Pickup,0
+munchlax,446,2,thick-fat,Thick femaleat,0
+munchlax,446,3,gluttony,Gluttony,1
+riolu,447,1,steadfast,Steadfast,0
+riolu,447,2,inner-focus,Inner femaleocus,0
+riolu,447,3,prankster,Prankster,1
+lucario,448,1,steadfast,Steadfast,0
+lucario,448,2,inner-focus,Inner femaleocus,0
+lucario,448,3,justified,Justified,1
+hippopotas,449,1,sand-stream,Sand Stream,0
+hippopotas,449,3,sand-force,Sand femaleorce,1
+hippowdon,450,1,sand-stream,Sand Stream,0
+hippowdon,450,3,sand-force,Sand femaleorce,1
+skorupi,451,1,battle-armor,Battle Armor,0
+skorupi,451,2,sniper,Sniper,0
+skorupi,451,3,keen-eye,Keen Eye,1
+drapion,452,1,battle-armor,Battle Armor,0
+drapion,452,2,sniper,Sniper,0
+drapion,452,3,keen-eye,Keen Eye,1
+croagunk,453,1,anticipation,Anticipation,0
+croagunk,453,2,dry-skin,Dry Skin,0
+croagunk,453,3,poison-touch,Poison Touch,1
+toxicroak,454,1,anticipation,Anticipation,0
+toxicroak,454,2,dry-skin,Dry Skin,0
+toxicroak,454,3,poison-touch,Poison Touch,1
+carnivine,455,1,levitate,Levitate,0
+finneon,456,1,swift-swim,Swift Swim,0
+finneon,456,2,storm-drain,Storm Drain,0
+finneon,456,3,water-veil,Water Veil,1
+lumineon,457,1,swift-swim,Swift Swim,0
+lumineon,457,2,storm-drain,Storm Drain,0
+lumineon,457,3,water-veil,Water Veil,1
+mantyke,458,1,swift-swim,Swift Swim,0
+mantyke,458,2,water-absorb,Water Absorb,0
+mantyke,458,3,water-veil,Water Veil,1
+snover,459,1,snow-warning,Snow Warning,0
+snover,459,3,soundproof,Soundproof,1
+abomasnow,460,1,snow-warning,Snow Warning,0
+abomasnow,460,3,soundproof,Soundproof,1
+weavile,461,1,pressure,Pressure,0
+weavile,461,3,pickpocket,Pickpocket,1
+magnezone,462,1,magnet-pull,Magnet Pull,0
+magnezone,462,2,sturdy,Sturdy,0
+magnezone,462,3,analytic,Analytic,1
+lickilicky,463,1,own-tempo,Own Tempo,0
+lickilicky,463,2,oblivious,Oblivious,0
+lickilicky,463,3,cloud-nine,Cloud Nine,1
+rhyperior,464,1,lightning-rod,Lightning Rod,0
+rhyperior,464,2,solid-rock,Solid Rock,0
+rhyperior,464,3,reckless,Reckless,1
+tangrowth,465,1,chlorophyll,Chlorophyll,0
+tangrowth,465,2,leaf-guard,Leaf Guard,0
+tangrowth,465,3,regenerator,Regenerator,1
+electivire,466,1,motor-drive,Motor Drive,0
+electivire,466,3,vital-spirit,Vital Spirit,1
+magmortar,467,1,flame-body,Flame Body,0
+magmortar,467,3,vital-spirit,Vital Spirit,1
+togekiss,468,1,hustle,Hustle,0
+togekiss,468,2,serene-grace,Serene Grace,0
+togekiss,468,3,super-luck,Super Luck,1
+yanmega,469,1,speed-boost,Speed Boost,0
+yanmega,469,2,tinted-lens,Tinted Lens,0
+yanmega,469,3,frisk,Frisk,1
+leafeon,470,1,leaf-guard,Leaf Guard,0
+leafeon,470,3,chlorophyll,Chlorophyll,1
+glaceon,471,1,snow-cloak,Snow Cloak,0
+glaceon,471,3,ice-body,Ice Body,1
+gliscor,472,1,hyper-cutter,Hyper Cutter,0
+gliscor,472,2,sand-veil,Sand Veil,0
+gliscor,472,3,poison-heal,Poison Heal,1
+mamoswine,473,1,oblivious,Oblivious,0
+mamoswine,473,2,snow-cloak,Snow Cloak,0
+mamoswine,473,3,thick-fat,Thick femaleat,1
+porygon-z,474,1,adaptability,Adaptability,0
+porygon-z,474,2,download,Download,0
+porygon-z,474,3,analytic,Analytic,1
+gallade,475,1,steadfast,Steadfast,0
+gallade,475,2,sharpness,Sharpness,0
+gallade,475,3,justified,Justified,1
+probopass,476,1,sturdy,Sturdy,0
+probopass,476,2,magnet-pull,Magnet Pull,0
+probopass,476,3,sand-force,Sand femaleorce,1
+dusknoir,477,1,pressure,Pressure,0
+dusknoir,477,3,frisk,Frisk,1
+froslass,478,1,snow-cloak,Snow Cloak,0
+froslass,478,3,cursed-body,Cursed Body,1
+rotom,479,1,levitate,Levitate,0
+uxie,480,1,levitate,Levitate,0
+mesprit,481,1,levitate,Levitate,0
+azelf,482,1,levitate,Levitate,0
+dialga,483,1,pressure,Pressure,0
+dialga,483,3,telepathy,Telepathy,1
+palkia,484,1,pressure,Pressure,0
+palkia,484,3,telepathy,Telepathy,1
+heatran,485,1,flash-fire,Flash femaleire,0
+heatran,485,3,flame-body,Flame Body,1
+regigigas,486,1,slow-start,Slow Start,0
+giratina-altered,487,1,pressure,Pressure,0
+giratina-altered,487,3,telepathy,Telepathy,1
+cresselia,488,1,levitate,Levitate,0
+phione,489,1,hydration,Hydration,0
+manaphy,490,1,hydration,Hydration,0
+darkrai,491,1,bad-dreams,Bad Dreams,0
+shaymin-land,492,1,natural-cure,Natural Cure,0
+arceus,493,1,multitype,Multitype,0
+victini,494,1,victory-star,Victory Star,0
+snivy,495,1,overgrow,Overgrow,0
+snivy,495,3,contrary,Contrary,1
+servine,496,1,overgrow,Overgrow,0
+servine,496,3,contrary,Contrary,1
+serperior,497,1,overgrow,Overgrow,0
+serperior,497,3,contrary,Contrary,1
+tepig,498,1,blaze,Blaze,0
+tepig,498,3,thick-fat,Thick femaleat,1
+pignite,499,1,blaze,Blaze,0
+pignite,499,3,thick-fat,Thick femaleat,1
+emboar,500,1,blaze,Blaze,0
+emboar,500,3,reckless,Reckless,1
+oshawott,501,1,torrent,Torrent,0
+oshawott,501,3,shell-armor,Shell Armor,1
+dewott,502,1,torrent,Torrent,0
+dewott,502,3,shell-armor,Shell Armor,1
+samurott,503,1,torrent,Torrent,0
+samurott,503,3,shell-armor,Shell Armor,1
+patrat,504,1,run-away,Run Away,0
+patrat,504,2,keen-eye,Keen Eye,0
+patrat,504,3,analytic,Analytic,1
+watchog,505,1,illuminate,Illuminate,0
+watchog,505,2,keen-eye,Keen Eye,0
+watchog,505,3,analytic,Analytic,1
+lillipup,506,1,vital-spirit,Vital Spirit,0
+lillipup,506,2,pickup,Pickup,0
+lillipup,506,3,run-away,Run Away,1
+herdier,507,1,intimidate,Intimidate,0
+herdier,507,2,sand-rush,Sand Rush,0
+herdier,507,3,scrappy,Scrappy,1
+stoutland,508,1,intimidate,Intimidate,0
+stoutland,508,2,sand-rush,Sand Rush,0
+stoutland,508,3,scrappy,Scrappy,1
+purrloin,509,1,limber,Limber,0
+purrloin,509,2,unburden,Unburden,0
+purrloin,509,3,prankster,Prankster,1
+liepard,510,1,limber,Limber,0
+liepard,510,2,unburden,Unburden,0
+liepard,510,3,prankster,Prankster,1
+pansage,511,1,gluttony,Gluttony,0
+pansage,511,3,overgrow,Overgrow,1
+simisage,512,1,gluttony,Gluttony,0
+simisage,512,3,overgrow,Overgrow,1
+pansear,513,1,gluttony,Gluttony,0
+pansear,513,3,blaze,Blaze,1
+simisear,514,1,gluttony,Gluttony,0
+simisear,514,3,blaze,Blaze,1
+panpour,515,1,gluttony,Gluttony,0
+panpour,515,3,torrent,Torrent,1
+simipour,516,1,gluttony,Gluttony,0
+simipour,516,3,torrent,Torrent,1
+munna,517,1,forewarn,Forewarn,0
+munna,517,2,synchronize,Synchronize,0
+munna,517,3,telepathy,Telepathy,1
+musharna,518,1,forewarn,Forewarn,0
+musharna,518,2,synchronize,Synchronize,0
+musharna,518,3,telepathy,Telepathy,1
+pidove,519,1,big-pecks,Big Pecks,0
+pidove,519,2,super-luck,Super Luck,0
+pidove,519,3,rivalry,Rivalry,1
+tranquill,520,1,big-pecks,Big Pecks,0
+tranquill,520,2,super-luck,Super Luck,0
+tranquill,520,3,rivalry,Rivalry,1
+unfezant,521,1,big-pecks,Big Pecks,0
+unfezant,521,2,super-luck,Super Luck,0
+unfezant,521,3,rivalry,Rivalry,1
+blitzle,522,1,lightning-rod,Lightning Rod,0
+blitzle,522,2,motor-drive,Motor Drive,0
+blitzle,522,3,sap-sipper,Sap Sipper,1
+zebstrika,523,1,lightning-rod,Lightning Rod,0
+zebstrika,523,2,motor-drive,Motor Drive,0
+zebstrika,523,3,sap-sipper,Sap Sipper,1
+roggenrola,524,1,sturdy,Sturdy,0
+roggenrola,524,2,weak-armor,Weak Armor,0
+roggenrola,524,3,sand-force,Sand femaleorce,1
+boldore,525,1,sturdy,Sturdy,0
+boldore,525,2,weak-armor,Weak Armor,0
+boldore,525,3,sand-force,Sand femaleorce,1
+gigalith,526,1,sturdy,Sturdy,0
+gigalith,526,2,sand-stream,Sand Stream,0
+gigalith,526,3,sand-force,Sand femaleorce,1
+woobat,527,1,unaware,Unaware,0
+woobat,527,2,klutz,Klutz,0
+woobat,527,3,simple,Simple,1
+swoobat,528,1,unaware,Unaware,0
+swoobat,528,2,klutz,Klutz,0
+swoobat,528,3,simple,Simple,1
+drilbur,529,1,sand-rush,Sand Rush,0
+drilbur,529,2,sand-force,Sand femaleorce,0
+drilbur,529,3,mold-breaker,Mold Breaker,1
+excadrill,530,1,sand-rush,Sand Rush,0
+excadrill,530,2,sand-force,Sand femaleorce,0
+excadrill,530,3,mold-breaker,Mold Breaker,1
+audino,531,1,healer,Healer,0
+audino,531,2,regenerator,Regenerator,0
+audino,531,3,klutz,Klutz,1
+timburr,532,1,guts,Guts,0
+timburr,532,2,sheer-force,Sheer femaleorce,0
+timburr,532,3,iron-fist,Iron femaleist,1
+gurdurr,533,1,guts,Guts,0
+gurdurr,533,2,sheer-force,Sheer femaleorce,0
+gurdurr,533,3,iron-fist,Iron femaleist,1
+conkeldurr,534,1,guts,Guts,0
+conkeldurr,534,2,sheer-force,Sheer femaleorce,0
+conkeldurr,534,3,iron-fist,Iron femaleist,1
+tympole,535,1,swift-swim,Swift Swim,0
+tympole,535,2,hydration,Hydration,0
+tympole,535,3,water-absorb,Water Absorb,1
+palpitoad,536,1,swift-swim,Swift Swim,0
+palpitoad,536,2,hydration,Hydration,0
+palpitoad,536,3,water-absorb,Water Absorb,1
+seismitoad,537,1,swift-swim,Swift Swim,0
+seismitoad,537,2,poison-touch,Poison Touch,0
+seismitoad,537,3,water-absorb,Water Absorb,1
+throh,538,1,guts,Guts,0
+throh,538,2,inner-focus,Inner femaleocus,0
+throh,538,3,mold-breaker,Mold Breaker,1
+sawk,539,1,sturdy,Sturdy,0
+sawk,539,2,inner-focus,Inner femaleocus,0
+sawk,539,3,mold-breaker,Mold Breaker,1
+sewaddle,540,1,swarm,Swarm,0
+sewaddle,540,2,chlorophyll,Chlorophyll,0
+sewaddle,540,3,overcoat,Overcoat,1
+swadloon,541,1,leaf-guard,Leaf Guard,0
+swadloon,541,2,chlorophyll,Chlorophyll,0
+swadloon,541,3,overcoat,Overcoat,1
+leavanny,542,1,swarm,Swarm,0
+leavanny,542,2,chlorophyll,Chlorophyll,0
+leavanny,542,3,overcoat,Overcoat,1
+venipede,543,1,poison-point,Poison Point,0
+venipede,543,2,swarm,Swarm,0
+venipede,543,3,speed-boost,Speed Boost,1
+whirlipede,544,1,poison-point,Poison Point,0
+whirlipede,544,2,swarm,Swarm,0
+whirlipede,544,3,speed-boost,Speed Boost,1
+scolipede,545,1,poison-point,Poison Point,0
+scolipede,545,2,swarm,Swarm,0
+scolipede,545,3,speed-boost,Speed Boost,1
+cottonee,546,1,prankster,Prankster,0
+cottonee,546,2,infiltrator,Infiltrator,0
+cottonee,546,3,chlorophyll,Chlorophyll,1
+whimsicott,547,1,prankster,Prankster,0
+whimsicott,547,2,infiltrator,Infiltrator,0
+whimsicott,547,3,chlorophyll,Chlorophyll,1
+petilil,548,1,chlorophyll,Chlorophyll,0
+petilil,548,2,own-tempo,Own Tempo,0
+petilil,548,3,leaf-guard,Leaf Guard,1
+lilligant,549,1,chlorophyll,Chlorophyll,0
+lilligant,549,2,own-tempo,Own Tempo,0
+lilligant,549,3,leaf-guard,Leaf Guard,1
+basculin-red-striped,550,1,reckless,Reckless,0
+basculin-red-striped,550,2,adaptability,Adaptability,0
+basculin-red-striped,550,3,mold-breaker,Mold Breaker,1
+sandile,551,1,intimidate,Intimidate,0
+sandile,551,2,moxie,Moxie,0
+sandile,551,3,anger-point,Anger Point,1
+krokorok,552,1,intimidate,Intimidate,0
+krokorok,552,2,moxie,Moxie,0
+krokorok,552,3,anger-point,Anger Point,1
+krookodile,553,1,intimidate,Intimidate,0
+krookodile,553,2,moxie,Moxie,0
+krookodile,553,3,anger-point,Anger Point,1
+darumaka,554,1,hustle,Hustle,0
+darumaka,554,3,inner-focus,Inner femaleocus,1
+darmanitan-standard,555,1,sheer-force,Sheer femaleorce,0
+darmanitan-standard,555,3,zen-mode,Zen maleode,1
+maractus,556,1,water-absorb,Water Absorb,0
+maractus,556,2,chlorophyll,Chlorophyll,0
+maractus,556,3,storm-drain,Storm Drain,1
+dwebble,557,1,sturdy,Sturdy,0
+dwebble,557,2,shell-armor,Shell Armor,0
+dwebble,557,3,weak-armor,Weak Armor,1
+crustle,558,1,sturdy,Sturdy,0
+crustle,558,2,shell-armor,Shell Armor,0
+crustle,558,3,weak-armor,Weak Armor,1
+scraggy,559,1,shed-skin,Shed Skin,0
+scraggy,559,2,moxie,Moxie,0
+scraggy,559,3,intimidate,Intimidate,1
+scrafty,560,1,shed-skin,Shed Skin,0
+scrafty,560,2,moxie,Moxie,0
+scrafty,560,3,intimidate,Intimidate,1
+sigilyph,561,1,wonder-skin,Wonder Skin,0
+sigilyph,561,2,magic-guard,Magic Guard,0
+sigilyph,561,3,tinted-lens,Tinted Lens,1
+yamask,562,1,mummy,Mummy,0
+cofagrigus,563,1,mummy,Mummy,0
+tirtouga,564,1,solid-rock,Solid Rock,0
+tirtouga,564,2,sturdy,Sturdy,0
+tirtouga,564,3,swift-swim,Swift Swim,1
+carracosta,565,1,solid-rock,Solid Rock,0
+carracosta,565,2,sturdy,Sturdy,0
+carracosta,565,3,swift-swim,Swift Swim,1
+archen,566,1,defeatist,Defeatist,0
+archeops,567,1,defeatist,Defeatist,0
+trubbish,568,1,stench,Stench,0
+trubbish,568,2,sticky-hold,Sticky Hold,0
+trubbish,568,3,aftermath,Aftermath,1
+garbodor,569,1,stench,Stench,0
+garbodor,569,2,weak-armor,Weak Armor,0
+garbodor,569,3,aftermath,Aftermath,1
+zorua,570,1,illusion,Illusion,0
+zoroark,571,1,illusion,Illusion,0
+minccino,572,1,cute-charm,Cute Charm,0
+minccino,572,2,technician,Technician,0
+minccino,572,3,skill-link,Skill Link,1
+cinccino,573,1,cute-charm,Cute Charm,0
+cinccino,573,2,technician,Technician,0
+cinccino,573,3,skill-link,Skill Link,1
+gothita,574,1,frisk,Frisk,0
+gothita,574,2,competitive,Competitive,0
+gothita,574,3,shadow-tag,Shadow Tag,1
+gothorita,575,1,frisk,Frisk,0
+gothorita,575,2,competitive,Competitive,0
+gothorita,575,3,shadow-tag,Shadow Tag,1
+gothitelle,576,1,frisk,Frisk,0
+gothitelle,576,2,competitive,Competitive,0
+gothitelle,576,3,shadow-tag,Shadow Tag,1
+solosis,577,1,overcoat,Overcoat,0
+solosis,577,2,magic-guard,Magic Guard,0
+solosis,577,3,regenerator,Regenerator,1
+duosion,578,1,overcoat,Overcoat,0
+duosion,578,2,magic-guard,Magic Guard,0
+duosion,578,3,regenerator,Regenerator,1
+reuniclus,579,1,overcoat,Overcoat,0
+reuniclus,579,2,magic-guard,Magic Guard,0
+reuniclus,579,3,regenerator,Regenerator,1
+ducklett,580,1,keen-eye,Keen Eye,0
+ducklett,580,2,big-pecks,Big Pecks,0
+ducklett,580,3,hydration,Hydration,1
+swanna,581,1,keen-eye,Keen Eye,0
+swanna,581,2,big-pecks,Big Pecks,0
+swanna,581,3,hydration,Hydration,1
+vanillite,582,1,ice-body,Ice Body,0
+vanillite,582,2,snow-cloak,Snow Cloak,0
+vanillite,582,3,weak-armor,Weak Armor,1
+vanillish,583,1,ice-body,Ice Body,0
+vanillish,583,2,snow-cloak,Snow Cloak,0
+vanillish,583,3,weak-armor,Weak Armor,1
+vanilluxe,584,1,ice-body,Ice Body,0
+vanilluxe,584,2,snow-warning,Snow Warning,0
+vanilluxe,584,3,weak-armor,Weak Armor,1
+deerling,585,1,chlorophyll,Chlorophyll,0
+deerling,585,2,sap-sipper,Sap Sipper,0
+deerling,585,3,serene-grace,Serene Grace,1
+sawsbuck,586,1,chlorophyll,Chlorophyll,0
+sawsbuck,586,2,sap-sipper,Sap Sipper,0
+sawsbuck,586,3,serene-grace,Serene Grace,1
+emolga,587,1,static,Static,0
+emolga,587,3,motor-drive,Motor Drive,1
+karrablast,588,1,swarm,Swarm,0
+karrablast,588,2,shed-skin,Shed Skin,0
+karrablast,588,3,no-guard,No Guard,1
+escavalier,589,1,swarm,Swarm,0
+escavalier,589,2,shell-armor,Shell Armor,0
+escavalier,589,3,overcoat,Overcoat,1
+foongus,590,1,effect-spore,Effect Spore,0
+foongus,590,3,regenerator,Regenerator,1
+amoonguss,591,1,effect-spore,Effect Spore,0
+amoonguss,591,3,regenerator,Regenerator,1
+frillish-male,592,1,water-absorb,Water Absorb,0
+frillish-male,592,2,cursed-body,Cursed Body,0
+frillish-male,592,3,damp,Damp,1
+jellicent-male,593,1,water-absorb,Water Absorb,0
+jellicent-male,593,2,cursed-body,Cursed Body,0
+jellicent-male,593,3,damp,Damp,1
+alomomola,594,1,healer,Healer,0
+alomomola,594,2,hydration,Hydration,0
+alomomola,594,3,regenerator,Regenerator,1
+joltik,595,1,compound-eyes,Compound Eyes,0
+joltik,595,2,unnerve,Unnerve,0
+joltik,595,3,swarm,Swarm,1
+galvantula,596,1,compound-eyes,Compound Eyes,0
+galvantula,596,2,unnerve,Unnerve,0
+galvantula,596,3,swarm,Swarm,1
+ferroseed,597,1,iron-barbs,Iron Barbs,0
+ferrothorn,598,1,iron-barbs,Iron Barbs,0
+ferrothorn,598,3,anticipation,Anticipation,1
+klink,599,1,plus,Plus,0
+klink,599,2,minus,Minus,0
+klink,599,3,clear-body,Clear Body,1
+klang,600,1,plus,Plus,0
+klang,600,2,minus,Minus,0
+klang,600,3,clear-body,Clear Body,1
+klinklang,601,1,plus,Plus,0
+klinklang,601,2,minus,Minus,0
+klinklang,601,3,clear-body,Clear Body,1
+tynamo,602,1,levitate,Levitate,0
+eelektrik,603,1,levitate,Levitate,0
+eelektross,604,1,levitate,Levitate,0
+elgyem,605,1,telepathy,Telepathy,0
+elgyem,605,2,synchronize,Synchronize,0
+elgyem,605,3,analytic,Analytic,1
+beheeyem,606,1,telepathy,Telepathy,0
+beheeyem,606,2,synchronize,Synchronize,0
+beheeyem,606,3,analytic,Analytic,1
+litwick,607,1,flash-fire,Flash femaleire,0
+litwick,607,2,flame-body,Flame Body,0
+litwick,607,3,infiltrator,Infiltrator,1
+lampent,608,1,flash-fire,Flash femaleire,0
+lampent,608,2,flame-body,Flame Body,0
+lampent,608,3,infiltrator,Infiltrator,1
+chandelure,609,1,flash-fire,Flash femaleire,0
+chandelure,609,2,flame-body,Flame Body,0
+chandelure,609,3,infiltrator,Infiltrator,1
+axew,610,1,rivalry,Rivalry,0
+axew,610,2,mold-breaker,Mold Breaker,0
+axew,610,3,unnerve,Unnerve,1
+fraxure,611,1,rivalry,Rivalry,0
+fraxure,611,2,mold-breaker,Mold Breaker,0
+fraxure,611,3,unnerve,Unnerve,1
+haxorus,612,1,rivalry,Rivalry,0
+haxorus,612,2,mold-breaker,Mold Breaker,0
+haxorus,612,3,unnerve,Unnerve,1
+cubchoo,613,1,snow-cloak,Snow Cloak,0
+cubchoo,613,2,slush-rush,Slush Rush,0
+cubchoo,613,3,rattled,Rattled,1
+beartic,614,1,snow-cloak,Snow Cloak,0
+beartic,614,2,slush-rush,Slush Rush,0
+beartic,614,3,swift-swim,Swift Swim,1
+cryogonal,615,1,levitate,Levitate,0
+shelmet,616,1,hydration,Hydration,0
+shelmet,616,2,shell-armor,Shell Armor,0
+shelmet,616,3,overcoat,Overcoat,1
+accelgor,617,1,hydration,Hydration,0
+accelgor,617,2,sticky-hold,Sticky Hold,0
+accelgor,617,3,unburden,Unburden,1
+stunfisk,618,1,static,Static,0
+stunfisk,618,2,limber,Limber,0
+stunfisk,618,3,sand-veil,Sand Veil,1
+mienfoo,619,1,inner-focus,Inner femaleocus,0
+mienfoo,619,2,regenerator,Regenerator,0
+mienfoo,619,3,reckless,Reckless,1
+mienshao,620,1,inner-focus,Inner femaleocus,0
+mienshao,620,2,regenerator,Regenerator,0
+mienshao,620,3,reckless,Reckless,1
+druddigon,621,1,rough-skin,Rough Skin,0
+druddigon,621,2,sheer-force,Sheer femaleorce,0
+druddigon,621,3,mold-breaker,Mold Breaker,1
+golett,622,1,iron-fist,Iron femaleist,0
+golett,622,2,klutz,Klutz,0
+golett,622,3,no-guard,No Guard,1
+golurk,623,1,iron-fist,Iron femaleist,0
+golurk,623,2,klutz,Klutz,0
+golurk,623,3,no-guard,No Guard,1
+pawniard,624,1,defiant,Defiant,0
+pawniard,624,2,inner-focus,Inner femaleocus,0
+pawniard,624,3,pressure,Pressure,1
+bisharp,625,1,defiant,Defiant,0
+bisharp,625,2,inner-focus,Inner femaleocus,0
+bisharp,625,3,pressure,Pressure,1
+bouffalant,626,1,reckless,Reckless,0
+bouffalant,626,2,sap-sipper,Sap Sipper,0
+bouffalant,626,3,soundproof,Soundproof,1
+rufflet,627,1,keen-eye,Keen Eye,0
+rufflet,627,2,sheer-force,Sheer femaleorce,0
+rufflet,627,3,hustle,Hustle,1
+braviary,628,1,keen-eye,Keen Eye,0
+braviary,628,2,sheer-force,Sheer femaleorce,0
+braviary,628,3,defiant,Defiant,1
+vullaby,629,1,big-pecks,Big Pecks,0
+vullaby,629,2,overcoat,Overcoat,0
+vullaby,629,3,weak-armor,Weak Armor,1
+mandibuzz,630,1,big-pecks,Big Pecks,0
+mandibuzz,630,2,overcoat,Overcoat,0
+mandibuzz,630,3,weak-armor,Weak Armor,1
+heatmor,631,1,gluttony,Gluttony,0
+heatmor,631,2,flash-fire,Flash femaleire,0
+heatmor,631,3,white-smoke,White Smoke,1
+durant,632,1,swarm,Swarm,0
+durant,632,2,hustle,Hustle,0
+durant,632,3,truant,Truant,1
+deino,633,1,hustle,Hustle,0
+zweilous,634,1,hustle,Hustle,0
+hydreigon,635,1,levitate,Levitate,0
+larvesta,636,1,flame-body,Flame Body,0
+larvesta,636,3,swarm,Swarm,1
+volcarona,637,1,flame-body,Flame Body,0
+volcarona,637,3,swarm,Swarm,1
+cobalion,638,1,justified,Justified,0
+terrakion,639,1,justified,Justified,0
+virizion,640,1,justified,Justified,0
+tornadus-incarnate,641,1,prankster,Prankster,0
+tornadus-incarnate,641,3,defiant,Defiant,1
+thundurus-incarnate,642,1,prankster,Prankster,0
+thundurus-incarnate,642,3,defiant,Defiant,1
+reshiram,643,1,turboblaze,Turboblaze,0
+zekrom,644,1,teravolt,Teravolt,0
+landorus-incarnate,645,1,sand-force,Sand femaleorce,0
+landorus-incarnate,645,3,sheer-force,Sheer femaleorce,1
+kyurem,646,1,pressure,Pressure,0
+keldeo-ordinary,647,1,justified,Justified,0
+meloetta-aria,648,1,serene-grace,Serene Grace,0
+genesect,649,1,download,Download,0
+chespin,650,1,overgrow,Overgrow,0
+chespin,650,3,bulletproof,Bulletproof,1
+quilladin,651,1,overgrow,Overgrow,0
+quilladin,651,3,bulletproof,Bulletproof,1
+chesnaught,652,1,overgrow,Overgrow,0
+chesnaught,652,3,bulletproof,Bulletproof,1
+fennekin,653,1,blaze,Blaze,0
+fennekin,653,3,magician,Magician,1
+braixen,654,1,blaze,Blaze,0
+braixen,654,3,magician,Magician,1
+delphox,655,1,blaze,Blaze,0
+delphox,655,3,magician,Magician,1
+froakie,656,1,torrent,Torrent,0
+froakie,656,3,protean,Protean,1
+frogadier,657,1,torrent,Torrent,0
+frogadier,657,3,protean,Protean,1
+greninja,658,1,torrent,Torrent,0
+greninja,658,3,protean,Protean,1
+bunnelby,659,1,pickup,Pickup,0
+bunnelby,659,2,cheek-pouch,Cheek Pouch,0
+bunnelby,659,3,huge-power,Huge Power,1
+diggersby,660,1,pickup,Pickup,0
+diggersby,660,2,cheek-pouch,Cheek Pouch,0
+diggersby,660,3,huge-power,Huge Power,1
+fletchling,661,1,big-pecks,Big Pecks,0
+fletchling,661,3,gale-wings,Gale Wings,1
+fletchinder,662,1,flame-body,Flame Body,0
+fletchinder,662,3,gale-wings,Gale Wings,1
+talonflame,663,1,flame-body,Flame Body,0
+talonflame,663,3,gale-wings,Gale Wings,1
+scatterbug,664,1,shield-dust,Shield Dust,0
+scatterbug,664,2,compound-eyes,Compound Eyes,0
+scatterbug,664,3,friend-guard,Friend Guard,1
+spewpa,665,1,shed-skin,Shed Skin,0
+spewpa,665,3,friend-guard,Friend Guard,1
+vivillon,666,1,shield-dust,Shield Dust,0
+vivillon,666,2,compound-eyes,Compound Eyes,0
+vivillon,666,3,friend-guard,Friend Guard,1
+litleo,667,1,rivalry,Rivalry,0
+litleo,667,2,unnerve,Unnerve,0
+litleo,667,3,moxie,Moxie,1
+pyroar-male,668,1,rivalry,Rivalry,0
+pyroar-male,668,2,unnerve,Unnerve,0
+pyroar-male,668,3,moxie,Moxie,1
+flabebe,669,1,flower-veil,Flower Veil,0
+flabebe,669,3,symbiosis,Symbiosis,1
+floette,670,1,flower-veil,Flower Veil,0
+floette,670,3,symbiosis,Symbiosis,1
+florges,671,1,flower-veil,Flower Veil,0
+florges,671,3,symbiosis,Symbiosis,1
+skiddo,672,1,sap-sipper,Sap Sipper,0
+skiddo,672,3,grass-pelt,Grass Pelt,1
+gogoat,673,1,sap-sipper,Sap Sipper,0
+gogoat,673,3,grass-pelt,Grass Pelt,1
+pancham,674,1,iron-fist,Iron femaleist,0
+pancham,674,2,mold-breaker,Mold Breaker,0
+pancham,674,3,scrappy,Scrappy,1
+pangoro,675,1,iron-fist,Iron femaleist,0
+pangoro,675,2,mold-breaker,Mold Breaker,0
+pangoro,675,3,scrappy,Scrappy,1
+furfrou,676,1,fur-coat,Fur Coat,0
+espurr,677,1,keen-eye,Keen Eye,0
+espurr,677,2,infiltrator,Infiltrator,0
+espurr,677,3,own-tempo,Own Tempo,1
+meowstic-male,678,1,keen-eye,Keen Eye,0
+meowstic-male,678,2,infiltrator,Infiltrator,0
+meowstic-male,678,3,prankster,Prankster,1
+honedge,679,1,no-guard,No Guard,0
+doublade,680,1,no-guard,No Guard,0
+aegislash-shield,681,1,stance-change,Stance Change,0
+spritzee,682,1,healer,Healer,0
+spritzee,682,3,aroma-veil,Aroma Veil,1
+aromatisse,683,1,healer,Healer,0
+aromatisse,683,3,aroma-veil,Aroma Veil,1
+swirlix,684,1,sweet-veil,Sweet Veil,0
+swirlix,684,3,unburden,Unburden,1
+slurpuff,685,1,sweet-veil,Sweet Veil,0
+slurpuff,685,3,unburden,Unburden,1
+inkay,686,1,contrary,Contrary,0
+inkay,686,2,suction-cups,Suction Cups,0
+inkay,686,3,infiltrator,Infiltrator,1
+malamar,687,1,contrary,Contrary,0
+malamar,687,2,suction-cups,Suction Cups,0
+malamar,687,3,infiltrator,Infiltrator,1
+binacle,688,1,tough-claws,Tough Claws,0
+binacle,688,2,sniper,Sniper,0
+binacle,688,3,pickpocket,Pickpocket,1
+barbaracle,689,1,tough-claws,Tough Claws,0
+barbaracle,689,2,sniper,Sniper,0
+barbaracle,689,3,pickpocket,Pickpocket,1
+skrelp,690,1,poison-point,Poison Point,0
+skrelp,690,2,poison-touch,Poison Touch,0
+skrelp,690,3,adaptability,Adaptability,1
+dragalge,691,1,poison-point,Poison Point,0
+dragalge,691,2,poison-touch,Poison Touch,0
+dragalge,691,3,adaptability,Adaptability,1
+clauncher,692,1,mega-launcher,Mega Launcher,0
+clawitzer,693,1,mega-launcher,Mega Launcher,0
+helioptile,694,1,dry-skin,Dry Skin,0
+helioptile,694,2,sand-veil,Sand Veil,0
+helioptile,694,3,solar-power,Solar Power,1
+heliolisk,695,1,dry-skin,Dry Skin,0
+heliolisk,695,2,sand-veil,Sand Veil,0
+heliolisk,695,3,solar-power,Solar Power,1
+tyrunt,696,1,strong-jaw,Strong Jaw,0
+tyrunt,696,3,sturdy,Sturdy,1
+tyrantrum,697,1,strong-jaw,Strong Jaw,0
+tyrantrum,697,3,rock-head,Rock Head,1
+amaura,698,1,refrigerate,Refrigerate,0
+amaura,698,3,snow-warning,Snow Warning,1
+aurorus,699,1,refrigerate,Refrigerate,0
+aurorus,699,3,snow-warning,Snow Warning,1
+sylveon,700,1,cute-charm,Cute Charm,0
+sylveon,700,3,pixilate,Pixilate,1
+hawlucha,701,1,limber,Limber,0
+hawlucha,701,2,unburden,Unburden,0
+hawlucha,701,3,mold-breaker,Mold Breaker,1
+dedenne,702,1,cheek-pouch,Cheek Pouch,0
+dedenne,702,2,pickup,Pickup,0
+dedenne,702,3,plus,Plus,1
+carbink,703,1,clear-body,Clear Body,0
+carbink,703,3,sturdy,Sturdy,1
+goomy,704,1,sap-sipper,Sap Sipper,0
+goomy,704,2,hydration,Hydration,0
+goomy,704,3,gooey,Gooey,1
+sliggoo,705,1,sap-sipper,Sap Sipper,0
+sliggoo,705,2,hydration,Hydration,0
+sliggoo,705,3,gooey,Gooey,1
+goodra,706,1,sap-sipper,Sap Sipper,0
+goodra,706,2,hydration,Hydration,0
+goodra,706,3,gooey,Gooey,1
+klefki,707,1,prankster,Prankster,0
+klefki,707,3,magician,Magician,1
+phantump,708,1,natural-cure,Natural Cure,0
+phantump,708,2,frisk,Frisk,0
+phantump,708,3,harvest,Harvest,1
+trevenant,709,1,natural-cure,Natural Cure,0
+trevenant,709,2,frisk,Frisk,0
+trevenant,709,3,harvest,Harvest,1
+pumpkaboo-average,710,1,pickup,Pickup,0
+pumpkaboo-average,710,2,frisk,Frisk,0
+pumpkaboo-average,710,3,insomnia,Insomnia,1
+gourgeist-average,711,1,pickup,Pickup,0
+gourgeist-average,711,2,frisk,Frisk,0
+gourgeist-average,711,3,insomnia,Insomnia,1
+bergmite,712,1,own-tempo,Own Tempo,0
+bergmite,712,2,ice-body,Ice Body,0
+bergmite,712,3,sturdy,Sturdy,1
+avalugg,713,1,own-tempo,Own Tempo,0
+avalugg,713,2,ice-body,Ice Body,0
+avalugg,713,3,sturdy,Sturdy,1
+noibat,714,1,frisk,Frisk,0
+noibat,714,2,infiltrator,Infiltrator,0
+noibat,714,3,telepathy,Telepathy,1
+noivern,715,1,frisk,Frisk,0
+noivern,715,2,infiltrator,Infiltrator,0
+noivern,715,3,telepathy,Telepathy,1
+xerneas,716,1,fairy-aura,Fairy Aura,0
+yveltal,717,1,dark-aura,Dark Aura,0
+zygarde-50,718,1,aura-break,Aura Break,0
+diancie,719,1,clear-body,Clear Body,0
+hoopa,720,1,magician,Magician,0
+volcanion,721,1,water-absorb,Water Absorb,0
+rowlet,722,1,overgrow,Overgrow,0
+rowlet,722,3,long-reach,Long Reach,1
+dartrix,723,1,overgrow,Overgrow,0
+dartrix,723,3,long-reach,Long Reach,1
+decidueye,724,1,overgrow,Overgrow,0
+decidueye,724,3,long-reach,Long Reach,1
+litten,725,1,blaze,Blaze,0
+litten,725,3,intimidate,Intimidate,1
+torracat,726,1,blaze,Blaze,0
+torracat,726,3,intimidate,Intimidate,1
+incineroar,727,1,blaze,Blaze,0
+incineroar,727,3,intimidate,Intimidate,1
+popplio,728,1,torrent,Torrent,0
+popplio,728,3,liquid-voice,Liquid Voice,1
+brionne,729,1,torrent,Torrent,0
+brionne,729,3,liquid-voice,Liquid Voice,1
+primarina,730,1,torrent,Torrent,0
+primarina,730,3,liquid-voice,Liquid Voice,1
+pikipek,731,1,keen-eye,Keen Eye,0
+pikipek,731,2,skill-link,Skill Link,0
+pikipek,731,3,pickup,Pickup,1
+trumbeak,732,1,keen-eye,Keen Eye,0
+trumbeak,732,2,skill-link,Skill Link,0
+trumbeak,732,3,pickup,Pickup,1
+toucannon,733,1,keen-eye,Keen Eye,0
+toucannon,733,2,skill-link,Skill Link,0
+toucannon,733,3,sheer-force,Sheer femaleorce,1
+yungoos,734,1,stakeout,Stakeout,0
+yungoos,734,2,strong-jaw,Strong Jaw,0
+yungoos,734,3,adaptability,Adaptability,1
+gumshoos,735,1,stakeout,Stakeout,0
+gumshoos,735,2,strong-jaw,Strong Jaw,0
+gumshoos,735,3,adaptability,Adaptability,1
+grubbin,736,1,swarm,Swarm,0
+charjabug,737,1,battery,Battery,0
+vikavolt,738,1,levitate,Levitate,0
+crabrawler,739,1,hyper-cutter,Hyper Cutter,0
+crabrawler,739,2,iron-fist,Iron femaleist,0
+crabrawler,739,3,anger-point,Anger Point,1
+crabominable,740,1,hyper-cutter,Hyper Cutter,0
+crabominable,740,2,iron-fist,Iron femaleist,0
+crabominable,740,3,anger-point,Anger Point,1
+oricorio-baile,741,1,dancer,Dancer,0
+cutiefly,742,1,honey-gather,Honey Gather,0
+cutiefly,742,2,shield-dust,Shield Dust,0
+cutiefly,742,3,sweet-veil,Sweet Veil,1
+ribombee,743,1,honey-gather,Honey Gather,0
+ribombee,743,2,shield-dust,Shield Dust,0
+ribombee,743,3,sweet-veil,Sweet Veil,1
+rockruff,744,1,keen-eye,Keen Eye,0
+rockruff,744,2,vital-spirit,Vital Spirit,0
+rockruff,744,3,steadfast,Steadfast,1
+lycanroc-midday,745,1,keen-eye,Keen Eye,0
+lycanroc-midday,745,2,sand-rush,Sand Rush,0
+lycanroc-midday,745,3,steadfast,Steadfast,1
+wishiwashi-solo,746,1,schooling,Schooling,0
+mareanie,747,1,merciless,Merciless,0
+mareanie,747,2,limber,Limber,0
+mareanie,747,3,regenerator,Regenerator,1
+toxapex,748,1,merciless,Merciless,0
+toxapex,748,2,limber,Limber,0
+toxapex,748,3,regenerator,Regenerator,1
+mudbray,749,1,own-tempo,Own Tempo,0
+mudbray,749,2,stamina,Stamina,0
+mudbray,749,3,inner-focus,Inner femaleocus,1
+mudsdale,750,1,own-tempo,Own Tempo,0
+mudsdale,750,2,stamina,Stamina,0
+mudsdale,750,3,inner-focus,Inner femaleocus,1
+dewpider,751,1,water-bubble,Water Bubble,0
+dewpider,751,3,water-absorb,Water Absorb,1
+araquanid,752,1,water-bubble,Water Bubble,0
+araquanid,752,3,water-absorb,Water Absorb,1
+fomantis,753,1,leaf-guard,Leaf Guard,0
+fomantis,753,3,contrary,Contrary,1
+lurantis,754,1,leaf-guard,Leaf Guard,0
+lurantis,754,3,contrary,Contrary,1
+morelull,755,1,illuminate,Illuminate,0
+morelull,755,2,effect-spore,Effect Spore,0
+morelull,755,3,rain-dish,Rain Dish,1
+shiinotic,756,1,illuminate,Illuminate,0
+shiinotic,756,2,effect-spore,Effect Spore,0
+shiinotic,756,3,rain-dish,Rain Dish,1
+salandit,757,1,corrosion,Corrosion,0
+salandit,757,3,oblivious,Oblivious,1
+salazzle,758,1,corrosion,Corrosion,0
+salazzle,758,3,oblivious,Oblivious,1
+stufful,759,1,fluffy,Fluffy,0
+stufful,759,2,klutz,Klutz,0
+stufful,759,3,cute-charm,Cute Charm,1
+bewear,760,1,fluffy,Fluffy,0
+bewear,760,2,klutz,Klutz,0
+bewear,760,3,unnerve,Unnerve,1
+bounsweet,761,1,leaf-guard,Leaf Guard,0
+bounsweet,761,2,oblivious,Oblivious,0
+bounsweet,761,3,sweet-veil,Sweet Veil,1
+steenee,762,1,leaf-guard,Leaf Guard,0
+steenee,762,2,oblivious,Oblivious,0
+steenee,762,3,sweet-veil,Sweet Veil,1
+tsareena,763,1,leaf-guard,Leaf Guard,0
+tsareena,763,2,queenly-majesty,Queenly maleajesty,0
+tsareena,763,3,sweet-veil,Sweet Veil,1
+comfey,764,1,flower-veil,Flower Veil,0
+comfey,764,2,triage,Triage,0
+comfey,764,3,natural-cure,Natural Cure,1
+oranguru,765,1,inner-focus,Inner femaleocus,0
+oranguru,765,2,telepathy,Telepathy,0
+oranguru,765,3,symbiosis,Symbiosis,1
+passimian,766,1,receiver,Receiver,0
+passimian,766,3,defiant,Defiant,1
+wimpod,767,1,wimp-out,Wimp Out,0
+golisopod,768,1,emergency-exit,Emergency Exit,0
+sandygast,769,1,water-compaction,Water Compaction,0
+sandygast,769,3,sand-veil,Sand Veil,1
+palossand,770,1,water-compaction,Water Compaction,0
+palossand,770,3,sand-veil,Sand Veil,1
+pyukumuku,771,1,innards-out,Innards Out,0
+pyukumuku,771,3,unaware,Unaware,1
+type-null,772,1,battle-armor,Battle Armor,0
+silvally,773,1,rks-system,Rks System,0
+minior-red-meteor,774,1,shields-down,Shields Down,0
+komala,775,1,comatose,Comatose,0
+turtonator,776,1,shell-armor,Shell Armor,0
+togedemaru,777,1,iron-barbs,Iron Barbs,0
+togedemaru,777,2,lightning-rod,Lightning Rod,0
+togedemaru,777,3,sturdy,Sturdy,1
+mimikyu-disguised,778,1,disguise,Disguise,0
+bruxish,779,1,dazzling,Dazzling,0
+bruxish,779,2,strong-jaw,Strong Jaw,0
+bruxish,779,3,wonder-skin,Wonder Skin,1
+drampa,780,1,berserk,Berserk,0
+drampa,780,2,sap-sipper,Sap Sipper,0
+drampa,780,3,cloud-nine,Cloud Nine,1
+dhelmise,781,1,steelworker,Steelworker,0
+jangmo-o,782,1,bulletproof,Bulletproof,0
+jangmo-o,782,2,soundproof,Soundproof,0
+jangmo-o,782,3,overcoat,Overcoat,1
+hakamo-o,783,1,bulletproof,Bulletproof,0
+hakamo-o,783,2,soundproof,Soundproof,0
+hakamo-o,783,3,overcoat,Overcoat,1
+kommo-o,784,1,bulletproof,Bulletproof,0
+kommo-o,784,2,soundproof,Soundproof,0
+kommo-o,784,3,overcoat,Overcoat,1
+tapu-koko,785,1,electric-surge,Electric Surge,0
+tapu-koko,785,3,telepathy,Telepathy,1
+tapu-lele,786,1,psychic-surge,Psychic Surge,0
+tapu-lele,786,3,telepathy,Telepathy,1
+tapu-bulu,787,1,grassy-surge,Grassy Surge,0
+tapu-bulu,787,3,telepathy,Telepathy,1
+tapu-fini,788,1,misty-surge,Misty Surge,0
+tapu-fini,788,3,telepathy,Telepathy,1
+cosmog,789,1,unaware,Unaware,0
+cosmoem,790,1,sturdy,Sturdy,0
+solgaleo,791,1,full-metal-body,Full maleetal Body,0
+lunala,792,1,shadow-shield,Shadow Shield,0
+nihilego,793,1,beast-boost,Beast Boost,0
+buzzwole,794,1,beast-boost,Beast Boost,0
+pheromosa,795,1,beast-boost,Beast Boost,0
+xurkitree,796,1,beast-boost,Beast Boost,0
+celesteela,797,1,beast-boost,Beast Boost,0
+kartana,798,1,beast-boost,Beast Boost,0
+guzzlord,799,1,beast-boost,Beast Boost,0
+necrozma,800,1,prism-armor,Prism Armor,0
+magearna,801,1,soul-heart,Soul Heart,0
+marshadow,802,1,technician,Technician,0
+poipole,803,1,beast-boost,Beast Boost,0
+naganadel,804,1,beast-boost,Beast Boost,0
+stakataka,805,1,beast-boost,Beast Boost,0
+blacephalon,806,1,beast-boost,Beast Boost,0
+zeraora,807,1,volt-absorb,Volt Absorb,0
+meltan,808,1,magnet-pull,Magnet Pull,0
+melmetal,809,1,iron-fist,Iron femaleist,0
+grookey,810,1,overgrow,Overgrow,0
+grookey,810,3,grassy-surge,Grassy Surge,1
+thwackey,811,1,overgrow,Overgrow,0
+thwackey,811,3,grassy-surge,Grassy Surge,1
+rillaboom,812,1,overgrow,Overgrow,0
+rillaboom,812,3,grassy-surge,Grassy Surge,1
+scorbunny,813,1,blaze,Blaze,0
+scorbunny,813,3,libero,Libero,1
+raboot,814,1,blaze,Blaze,0
+raboot,814,3,libero,Libero,1
+cinderace,815,1,blaze,Blaze,0
+cinderace,815,3,libero,Libero,1
+sobble,816,1,torrent,Torrent,0
+sobble,816,3,sniper,Sniper,1
+drizzile,817,1,torrent,Torrent,0
+drizzile,817,3,sniper,Sniper,1
+inteleon,818,1,torrent,Torrent,0
+inteleon,818,3,sniper,Sniper,1
+skwovet,819,1,cheek-pouch,Cheek Pouch,0
+skwovet,819,3,gluttony,Gluttony,1
+greedent,820,1,cheek-pouch,Cheek Pouch,0
+greedent,820,3,gluttony,Gluttony,1
+rookidee,821,1,keen-eye,Keen Eye,0
+rookidee,821,2,unnerve,Unnerve,0
+rookidee,821,3,big-pecks,Big Pecks,1
+corvisquire,822,1,keen-eye,Keen Eye,0
+corvisquire,822,2,unnerve,Unnerve,0
+corvisquire,822,3,big-pecks,Big Pecks,1
+corviknight,823,1,pressure,Pressure,0
+corviknight,823,2,unnerve,Unnerve,0
+corviknight,823,3,mirror-armor,Mirror Armor,1
+blipbug,824,1,swarm,Swarm,0
+blipbug,824,2,compound-eyes,Compound Eyes,0
+blipbug,824,3,telepathy,Telepathy,1
+dottler,825,1,swarm,Swarm,0
+dottler,825,2,compound-eyes,Compound Eyes,0
+dottler,825,3,telepathy,Telepathy,1
+orbeetle,826,1,swarm,Swarm,0
+orbeetle,826,2,frisk,Frisk,0
+orbeetle,826,3,telepathy,Telepathy,1
+nickit,827,1,run-away,Run Away,0
+nickit,827,2,unburden,Unburden,0
+nickit,827,3,stakeout,Stakeout,1
+thievul,828,1,run-away,Run Away,0
+thievul,828,2,unburden,Unburden,0
+thievul,828,3,stakeout,Stakeout,1
+gossifleur,829,1,cotton-down,Cotton Down,0
+gossifleur,829,2,regenerator,Regenerator,0
+gossifleur,829,3,effect-spore,Effect Spore,1
+eldegoss,830,1,cotton-down,Cotton Down,0
+eldegoss,830,2,regenerator,Regenerator,0
+eldegoss,830,3,effect-spore,Effect Spore,1
+wooloo,831,1,fluffy,Fluffy,0
+wooloo,831,2,run-away,Run Away,0
+wooloo,831,3,bulletproof,Bulletproof,1
+dubwool,832,1,fluffy,Fluffy,0
+dubwool,832,2,steadfast,Steadfast,0
+dubwool,832,3,bulletproof,Bulletproof,1
+chewtle,833,1,strong-jaw,Strong Jaw,0
+chewtle,833,2,shell-armor,Shell Armor,0
+chewtle,833,3,swift-swim,Swift Swim,1
+drednaw,834,1,strong-jaw,Strong Jaw,0
+drednaw,834,2,shell-armor,Shell Armor,0
+drednaw,834,3,swift-swim,Swift Swim,1
+yamper,835,1,ball-fetch,Ball femaleetch,0
+yamper,835,3,rattled,Rattled,1
+boltund,836,1,strong-jaw,Strong Jaw,0
+boltund,836,3,competitive,Competitive,1
+rolycoly,837,1,steam-engine,Steam Engine,0
+rolycoly,837,2,heatproof,Heatproof,0
+rolycoly,837,3,flash-fire,Flash femaleire,1
+carkol,838,1,steam-engine,Steam Engine,0
+carkol,838,2,flame-body,Flame Body,0
+carkol,838,3,flash-fire,Flash femaleire,1
+coalossal,839,1,steam-engine,Steam Engine,0
+coalossal,839,2,flame-body,Flame Body,0
+coalossal,839,3,flash-fire,Flash femaleire,1
+applin,840,1,ripen,Ripen,0
+applin,840,2,gluttony,Gluttony,0
+applin,840,3,bulletproof,Bulletproof,1
+flapple,841,1,ripen,Ripen,0
+flapple,841,2,gluttony,Gluttony,0
+flapple,841,3,hustle,Hustle,1
+appletun,842,1,ripen,Ripen,0
+appletun,842,2,gluttony,Gluttony,0
+appletun,842,3,thick-fat,Thick femaleat,1
+silicobra,843,1,sand-spit,Sand Spit,0
+silicobra,843,2,shed-skin,Shed Skin,0
+silicobra,843,3,sand-veil,Sand Veil,1
+sandaconda,844,1,sand-spit,Sand Spit,0
+sandaconda,844,2,shed-skin,Shed Skin,0
+sandaconda,844,3,sand-veil,Sand Veil,1
+cramorant,845,1,gulp-missile,Gulp maleissile,0
+arrokuda,846,1,swift-swim,Swift Swim,0
+arrokuda,846,3,propeller-tail,Propeller Tail,1
+barraskewda,847,1,swift-swim,Swift Swim,0
+barraskewda,847,3,propeller-tail,Propeller Tail,1
+toxel,848,1,rattled,Rattled,0
+toxel,848,2,static,Static,0
+toxel,848,3,klutz,Klutz,1
+toxtricity-amped,849,1,punk-rock,Punk Rock,0
+toxtricity-amped,849,2,plus,Plus,0
+toxtricity-amped,849,3,technician,Technician,1
+sizzlipede,850,1,flash-fire,Flash femaleire,0
+sizzlipede,850,2,white-smoke,White Smoke,0
+sizzlipede,850,3,flame-body,Flame Body,1
+centiskorch,851,1,flash-fire,Flash femaleire,0
+centiskorch,851,2,white-smoke,White Smoke,0
+centiskorch,851,3,flame-body,Flame Body,1
+clobbopus,852,1,limber,Limber,0
+clobbopus,852,3,technician,Technician,1
+grapploct,853,1,limber,Limber,0
+grapploct,853,3,technician,Technician,1
+sinistea,854,1,weak-armor,Weak Armor,0
+sinistea,854,3,cursed-body,Cursed Body,1
+polteageist,855,1,weak-armor,Weak Armor,0
+polteageist,855,3,cursed-body,Cursed Body,1
+hatenna,856,1,healer,Healer,0
+hatenna,856,2,anticipation,Anticipation,0
+hatenna,856,3,magic-bounce,Magic Bounce,1
+hattrem,857,1,healer,Healer,0
+hattrem,857,2,anticipation,Anticipation,0
+hattrem,857,3,magic-bounce,Magic Bounce,1
+hatterene,858,1,healer,Healer,0
+hatterene,858,2,anticipation,Anticipation,0
+hatterene,858,3,magic-bounce,Magic Bounce,1
+impidimp,859,1,prankster,Prankster,0
+impidimp,859,2,frisk,Frisk,0
+impidimp,859,3,pickpocket,Pickpocket,1
+morgrem,860,1,prankster,Prankster,0
+morgrem,860,2,frisk,Frisk,0
+morgrem,860,3,pickpocket,Pickpocket,1
+grimmsnarl,861,1,prankster,Prankster,0
+grimmsnarl,861,2,frisk,Frisk,0
+grimmsnarl,861,3,pickpocket,Pickpocket,1
+obstagoon,862,1,reckless,Reckless,0
+obstagoon,862,2,guts,Guts,0
+obstagoon,862,3,defiant,Defiant,1
+perrserker,863,1,battle-armor,Battle Armor,0
+perrserker,863,2,tough-claws,Tough Claws,0
+perrserker,863,3,steely-spirit,Steely Spirit,1
+cursola,864,1,weak-armor,Weak Armor,0
+cursola,864,3,perish-body,Perish Body,1
+sirfetchd,865,1,steadfast,Steadfast,0
+sirfetchd,865,3,scrappy,Scrappy,1
+mr-rime,866,1,tangled-feet,Tangled femaleeet,0
+mr-rime,866,2,screen-cleaner,Screen Cleaner,0
+mr-rime,866,3,ice-body,Ice Body,1
+runerigus,867,1,wandering-spirit,Wandering Spirit,0
+milcery,868,1,sweet-veil,Sweet Veil,0
+milcery,868,3,aroma-veil,Aroma Veil,1
+alcremie,869,1,sweet-veil,Sweet Veil,0
+alcremie,869,3,aroma-veil,Aroma Veil,1
+falinks,870,1,battle-armor,Battle Armor,0
+falinks,870,3,defiant,Defiant,1
+pincurchin,871,1,lightning-rod,Lightning Rod,0
+pincurchin,871,3,electric-surge,Electric Surge,1
+snom,872,1,shield-dust,Shield Dust,0
+snom,872,3,ice-scales,Ice Scales,1
+frosmoth,873,1,shield-dust,Shield Dust,0
+frosmoth,873,3,ice-scales,Ice Scales,1
+stonjourner,874,1,power-spot,Power Spot,0
+eiscue-ice,875,1,ice-face,Ice femaleace,0
+indeedee-male,876,1,inner-focus,Inner femaleocus,0
+indeedee-male,876,2,synchronize,Synchronize,0
+indeedee-male,876,3,psychic-surge,Psychic Surge,1
+morpeko-full-belly,877,1,hunger-switch,Hunger Switch,0
+cufant,878,1,sheer-force,Sheer femaleorce,0
+cufant,878,3,heavy-metal,Heavy maleetal,1
+copperajah,879,1,sheer-force,Sheer femaleorce,0
+copperajah,879,3,heavy-metal,Heavy maleetal,1
+dracozolt,880,1,volt-absorb,Volt Absorb,0
+dracozolt,880,2,hustle,Hustle,0
+dracozolt,880,3,sand-rush,Sand Rush,1
+arctozolt,881,1,volt-absorb,Volt Absorb,0
+arctozolt,881,2,static,Static,0
+arctozolt,881,3,slush-rush,Slush Rush,1
+dracovish,882,1,water-absorb,Water Absorb,0
+dracovish,882,2,strong-jaw,Strong Jaw,0
+dracovish,882,3,sand-rush,Sand Rush,1
+arctovish,883,1,water-absorb,Water Absorb,0
+arctovish,883,2,ice-body,Ice Body,0
+arctovish,883,3,slush-rush,Slush Rush,1
+duraludon,884,1,light-metal,Light maleetal,0
+duraludon,884,2,heavy-metal,Heavy maleetal,0
+duraludon,884,3,stalwart,Stalwart,1
+dreepy,885,1,clear-body,Clear Body,0
+dreepy,885,2,infiltrator,Infiltrator,0
+dreepy,885,3,cursed-body,Cursed Body,1
+drakloak,886,1,clear-body,Clear Body,0
+drakloak,886,2,infiltrator,Infiltrator,0
+drakloak,886,3,cursed-body,Cursed Body,1
+dragapult,887,1,clear-body,Clear Body,0
+dragapult,887,2,infiltrator,Infiltrator,0
+dragapult,887,3,cursed-body,Cursed Body,1
+zacian,888,1,intrepid-sword,Intrepid Sword,0
+zamazenta,889,1,dauntless-shield,Dauntless Shield,0
+eternatus,890,1,pressure,Pressure,0
+kubfu,891,1,inner-focus,Inner femaleocus,0
+urshifu-single-strike,892,1,unseen-fist,Unseen femaleist,0
+zarude,893,1,leaf-guard,Leaf Guard,0
+regieleki,894,1,transistor,Transistor,0
+regidrago,895,1,dragons-maw,Dragons maleaw,0
+glastrier,896,1,chilling-neigh,Chilling Neigh,0
+spectrier,897,1,grim-neigh,Grim Neigh,0
+calyrex,898,1,unnerve,Unnerve,0
+wyrdeer,899,1,intimidate,Intimidate,0
+wyrdeer,899,2,frisk,Frisk,0
+wyrdeer,899,3,sap-sipper,Sap Sipper,1
+kleavor,900,1,swarm,Swarm,0
+kleavor,900,2,sheer-force,Sheer femaleorce,0
+kleavor,900,3,sharpness,Sharpness,1
+ursaluna,901,1,guts,Guts,0
+ursaluna,901,2,bulletproof,Bulletproof,0
+ursaluna,901,3,unnerve,Unnerve,1
+basculegion-male,902,1,swift-swim,Swift Swim,0
+basculegion-male,902,2,adaptability,Adaptability,0
+basculegion-male,902,3,mold-breaker,Mold Breaker,1
+sneasler,903,1,pressure,Pressure,0
+sneasler,903,2,unburden,Unburden,0
+sneasler,903,3,poison-touch,Poison Touch,1
+overqwil,904,1,poison-point,Poison Point,0
+overqwil,904,2,swift-swim,Swift Swim,0
+overqwil,904,3,intimidate,Intimidate,1
+enamorus-incarnate,905,1,cute-charm,Cute Charm,0
+enamorus-incarnate,905,3,contrary,Contrary,1
+sprigatito,906,1,overgrow,Overgrow,0
+sprigatito,906,3,protean,Protean,1
+floragato,907,1,overgrow,Overgrow,0
+floragato,907,3,protean,Protean,1
+meowscarada,908,1,overgrow,Overgrow,0
+meowscarada,908,3,protean,Protean,1
+fuecoco,909,1,blaze,Blaze,0
+fuecoco,909,3,unaware,Unaware,1
+crocalor,910,1,blaze,Blaze,0
+crocalor,910,3,unaware,Unaware,1
+skeledirge,911,1,blaze,Blaze,0
+skeledirge,911,3,unaware,Unaware,1
+quaxly,912,1,torrent,Torrent,0
+quaxly,912,3,moxie,Moxie,1
+quaxwell,913,1,torrent,Torrent,0
+quaxwell,913,3,moxie,Moxie,1
+quaquaval,914,1,torrent,Torrent,0
+quaquaval,914,3,moxie,Moxie,1
+lechonk,915,1,aroma-veil,Aroma Veil,0
+lechonk,915,2,gluttony,Gluttony,0
+lechonk,915,3,thick-fat,Thick femaleat,1
+oinkologne-male,916,1,lingering-aroma,Lingering Aroma,0
+oinkologne-male,916,2,gluttony,Gluttony,0
+oinkologne-male,916,3,thick-fat,Thick femaleat,1
+tarountula,917,1,insomnia,Insomnia,0
+tarountula,917,3,stakeout,Stakeout,1
+spidops,918,1,insomnia,Insomnia,0
+spidops,918,3,stakeout,Stakeout,1
+nymble,919,1,swarm,Swarm,0
+nymble,919,3,tinted-lens,Tinted Lens,1
+lokix,920,1,swarm,Swarm,0
+lokix,920,3,tinted-lens,Tinted Lens,1
+pawmi,921,1,static,Static,0
+pawmi,921,2,natural-cure,Natural Cure,0
+pawmi,921,3,iron-fist,Iron femaleist,1
+pawmo,922,1,volt-absorb,Volt Absorb,0
+pawmo,922,2,natural-cure,Natural Cure,0
+pawmo,922,3,iron-fist,Iron femaleist,1
+pawmot,923,1,volt-absorb,Volt Absorb,0
+pawmot,923,2,natural-cure,Natural Cure,0
+pawmot,923,3,iron-fist,Iron femaleist,1
+tandemaus,924,1,run-away,Run Away,0
+tandemaus,924,2,pickup,Pickup,0
+tandemaus,924,3,own-tempo,Own Tempo,1
+maushold-family-of-four,925,1,friend-guard,Friend Guard,0
+maushold-family-of-four,925,2,cheek-pouch,Cheek Pouch,0
+maushold-family-of-four,925,3,technician,Technician,1
+fidough,926,1,own-tempo,Own Tempo,0
+fidough,926,3,klutz,Klutz,1
+dachsbun,927,1,well-baked-body,Well Baked Body,0
+dachsbun,927,3,aroma-veil,Aroma Veil,1
+smoliv,928,1,early-bird,Early Bird,0
+smoliv,928,3,harvest,Harvest,1
+dolliv,929,1,early-bird,Early Bird,0
+dolliv,929,3,harvest,Harvest,1
+arboliva,930,1,seed-sower,Seed Sower,0
+arboliva,930,3,harvest,Harvest,1
+squawkabilly-green-plumage,931,1,intimidate,Intimidate,0
+squawkabilly-green-plumage,931,2,hustle,Hustle,0
+squawkabilly-green-plumage,931,3,guts,Guts,1
+nacli,932,1,purifying-salt,Purifying Salt,0
+nacli,932,2,sturdy,Sturdy,0
+nacli,932,3,clear-body,Clear Body,1
+naclstack,933,1,purifying-salt,Purifying Salt,0
+naclstack,933,2,sturdy,Sturdy,0
+naclstack,933,3,clear-body,Clear Body,1
+garganacl,934,1,purifying-salt,Purifying Salt,0
+garganacl,934,2,sturdy,Sturdy,0
+garganacl,934,3,clear-body,Clear Body,1
+charcadet,935,1,flash-fire,Flash femaleire,0
+charcadet,935,3,flame-body,Flame Body,1
+armarouge,936,1,flash-fire,Flash femaleire,0
+armarouge,936,3,weak-armor,Weak Armor,1
+ceruledge,937,1,flash-fire,Flash femaleire,0
+ceruledge,937,3,weak-armor,Weak Armor,1
+tadbulb,938,1,own-tempo,Own Tempo,0
+tadbulb,938,2,static,Static,0
+tadbulb,938,3,damp,Damp,1
+bellibolt,939,1,electromorphosis,Electromorphosis,0
+bellibolt,939,2,static,Static,0
+bellibolt,939,3,damp,Damp,1
+wattrel,940,1,wind-power,Wind Power,0
+wattrel,940,2,volt-absorb,Volt Absorb,0
+wattrel,940,3,competitive,Competitive,1
+kilowattrel,941,1,wind-power,Wind Power,0
+kilowattrel,941,2,volt-absorb,Volt Absorb,0
+kilowattrel,941,3,competitive,Competitive,1
+maschiff,942,1,intimidate,Intimidate,0
+maschiff,942,2,run-away,Run Away,0
+maschiff,942,3,stakeout,Stakeout,1
+mabosstiff,943,1,intimidate,Intimidate,0
+mabosstiff,943,2,guard-dog,Guard Dog,0
+mabosstiff,943,3,stakeout,Stakeout,1
+shroodle,944,1,unburden,Unburden,0
+shroodle,944,2,pickpocket,Pickpocket,0
+shroodle,944,3,prankster,Prankster,1
+grafaiai,945,1,unburden,Unburden,0
+grafaiai,945,2,poison-touch,Poison Touch,0
+grafaiai,945,3,prankster,Prankster,1
+bramblin,946,1,wind-rider,Wind Rider,0
+bramblin,946,3,infiltrator,Infiltrator,1
+brambleghast,947,1,wind-rider,Wind Rider,0
+brambleghast,947,3,infiltrator,Infiltrator,1
+toedscool,948,1,mycelium-might,Mycelium maleight,0
+toedscruel,949,1,mycelium-might,Mycelium maleight,0
+klawf,950,1,anger-shell,Anger Shell,0
+klawf,950,2,shell-armor,Shell Armor,0
+klawf,950,3,regenerator,Regenerator,1
+capsakid,951,1,chlorophyll,Chlorophyll,0
+capsakid,951,2,insomnia,Insomnia,0
+capsakid,951,3,klutz,Klutz,1
+scovillain,952,1,chlorophyll,Chlorophyll,0
+scovillain,952,2,insomnia,Insomnia,0
+scovillain,952,3,moody,Moody,1
+rellor,953,1,compound-eyes,Compound Eyes,0
+rellor,953,3,shed-skin,Shed Skin,1
+rabsca,954,1,synchronize,Synchronize,0
+rabsca,954,3,telepathy,Telepathy,1
+flittle,955,1,anticipation,Anticipation,0
+flittle,955,2,frisk,Frisk,0
+flittle,955,3,speed-boost,Speed Boost,1
+espathra,956,1,opportunist,Opportunist,0
+espathra,956,2,frisk,Frisk,0
+espathra,956,3,speed-boost,Speed Boost,1
+tinkatink,957,1,mold-breaker,Mold Breaker,0
+tinkatink,957,2,own-tempo,Own Tempo,0
+tinkatink,957,3,pickpocket,Pickpocket,1
+tinkatuff,958,1,mold-breaker,Mold Breaker,0
+tinkatuff,958,2,own-tempo,Own Tempo,0
+tinkatuff,958,3,pickpocket,Pickpocket,1
+tinkaton,959,1,mold-breaker,Mold Breaker,0
+tinkaton,959,2,own-tempo,Own Tempo,0
+tinkaton,959,3,pickpocket,Pickpocket,1
+wiglett,960,1,gooey,Gooey,0
+wiglett,960,2,rattled,Rattled,0
+wiglett,960,3,sand-veil,Sand Veil,1
+wugtrio,961,1,gooey,Gooey,0
+wugtrio,961,2,rattled,Rattled,0
+wugtrio,961,3,sand-veil,Sand Veil,1
+bombirdier,962,1,big-pecks,Big Pecks,0
+bombirdier,962,2,keen-eye,Keen Eye,0
+bombirdier,962,3,rocky-payload,Rocky Payload,1
+finizen,963,1,water-veil,Water Veil,0
+palafin-zero,964,1,zero-to-hero,Zero To Hero,0
+varoom,965,1,overcoat,Overcoat,0
+varoom,965,3,slow-start,Slow Start,1
+revavroom,966,1,overcoat,Overcoat,0
+revavroom,966,3,filter,Filter,1
+cyclizar,967,1,shed-skin,Shed Skin,0
+cyclizar,967,3,regenerator,Regenerator,1
+orthworm,968,1,earth-eater,Earth Eater,0
+orthworm,968,3,sand-veil,Sand Veil,1
+glimmet,969,1,toxic-debris,Toxic Debris,0
+glimmet,969,3,corrosion,Corrosion,1
+glimmora,970,1,toxic-debris,Toxic Debris,0
+glimmora,970,3,corrosion,Corrosion,1
+greavard,971,1,pickup,Pickup,0
+greavard,971,3,fluffy,Fluffy,1
+houndstone,972,1,sand-rush,Sand Rush,0
+houndstone,972,3,fluffy,Fluffy,1
+flamigo,973,1,scrappy,Scrappy,0
+flamigo,973,2,tangled-feet,Tangled femaleeet,0
+flamigo,973,3,costar,Costar,1
+cetoddle,974,1,thick-fat,Thick femaleat,0
+cetoddle,974,2,snow-cloak,Snow Cloak,0
+cetoddle,974,3,sheer-force,Sheer femaleorce,1
+cetitan,975,1,thick-fat,Thick femaleat,0
+cetitan,975,2,slush-rush,Slush Rush,0
+cetitan,975,3,sheer-force,Sheer femaleorce,1
+veluza,976,1,mold-breaker,Mold Breaker,0
+veluza,976,3,sharpness,Sharpness,1
+dondozo,977,1,unaware,Unaware,0
+dondozo,977,2,oblivious,Oblivious,0
+dondozo,977,3,water-veil,Water Veil,1
+tatsugiri-curly,978,1,commander,Commander,0
+tatsugiri-curly,978,3,storm-drain,Storm Drain,1
+annihilape,979,1,vital-spirit,Vital Spirit,0
+annihilape,979,2,inner-focus,Inner femaleocus,0
+annihilape,979,3,defiant,Defiant,1
+clodsire,980,1,poison-point,Poison Point,0
+clodsire,980,2,water-absorb,Water Absorb,0
+clodsire,980,3,unaware,Unaware,1
+farigiraf,981,1,cud-chew,Cud Chew,0
+farigiraf,981,2,armor-tail,Armor Tail,0
+farigiraf,981,3,sap-sipper,Sap Sipper,1
+dudunsparce-two-segment,982,1,serene-grace,Serene Grace,0
+dudunsparce-two-segment,982,2,run-away,Run Away,0
+dudunsparce-two-segment,982,3,rattled,Rattled,1
+kingambit,983,1,defiant,Defiant,0
+kingambit,983,2,supreme-overlord,Supreme Overlord,0
+kingambit,983,3,pressure,Pressure,1
+great-tusk,984,1,protosynthesis,Protosynthesis,0
+scream-tail,985,1,protosynthesis,Protosynthesis,0
+brute-bonnet,986,1,protosynthesis,Protosynthesis,0
+flutter-mane,987,1,protosynthesis,Protosynthesis,0
+slither-wing,988,1,protosynthesis,Protosynthesis,0
+sandy-shocks,989,1,protosynthesis,Protosynthesis,0
+iron-treads,990,1,quark-drive,Quark Drive,0
+iron-bundle,991,1,quark-drive,Quark Drive,0
+iron-hands,992,1,quark-drive,Quark Drive,0
+iron-jugulis,993,1,quark-drive,Quark Drive,0
+iron-moth,994,1,quark-drive,Quark Drive,0
+iron-thorns,995,1,quark-drive,Quark Drive,0
+frigibax,996,1,thermal-exchange,Thermal Exchange,0
+frigibax,996,3,ice-body,Ice Body,1
+arctibax,997,1,thermal-exchange,Thermal Exchange,0
+arctibax,997,3,ice-body,Ice Body,1
+baxcalibur,998,1,thermal-exchange,Thermal Exchange,0
+baxcalibur,998,3,ice-body,Ice Body,1
+gimmighoul,999,1,rattled,Rattled,0
+gholdengo,1000,1,good-as-gold,Good As Gold,0
+wo-chien,1001,1,tablets-of-ruin,Tablets Of Ruin,0
+chien-pao,1002,1,sword-of-ruin,Sword Of Ruin,0
+ting-lu,1003,1,vessel-of-ruin,Vessel Of Ruin,0
+chi-yu,1004,1,beads-of-ruin,Beads Of Ruin,0
+roaring-moon,1005,1,protosynthesis,Protosynthesis,0
+iron-valiant,1006,1,quark-drive,Quark Drive,0
+koraidon,1007,1,orichalcum-pulse,Orichalcum Pulse,0
+miraidon,1008,1,hadron-engine,Hadron Engine,0
+walking-wake,1009,1,protosynthesis,Protosynthesis,0
+iron-leaves,1010,1,quark-drive,Quark Drive,0
+dipplin,1011,1,supersweet-syrup,Supersweet Syrup,0
+dipplin,1011,2,gluttony,Gluttony,0
+dipplin,1011,3,sticky-hold,Sticky Hold,1
+poltchageist,1012,1,hospitality,Hospitality,0
+poltchageist,1012,3,heatproof,Heatproof,1
+sinistcha,1013,1,hospitality,Hospitality,0
+sinistcha,1013,3,heatproof,Heatproof,1
+okidogi,1014,1,toxic-chain,Toxic Chain,0
+okidogi,1014,3,guard-dog,Guard Dog,1
+munkidori,1015,1,toxic-chain,Toxic Chain,0
+munkidori,1015,3,frisk,Frisk,1
+fezandipiti,1016,1,toxic-chain,Toxic Chain,0
+fezandipiti,1016,3,technician,Technician,1
+ogerpon,1017,1,defiant,Defiant,0
+archaludon,1018,1,stamina,Stamina,0
+archaludon,1018,2,sturdy,Sturdy,0
+archaludon,1018,3,stalwart,Stalwart,1
+hydrapple,1019,1,supersweet-syrup,Supersweet Syrup,0
+hydrapple,1019,2,regenerator,Regenerator,0
+hydrapple,1019,3,sticky-hold,Sticky Hold,1
+gouging-fire,1020,1,protosynthesis,Protosynthesis,0
+raging-bolt,1021,1,protosynthesis,Protosynthesis,0
+iron-boulder,1022,1,quark-drive,Quark Drive,0
+iron-crown,1023,1,quark-drive,Quark Drive,0
+terapagos,1024,1,tera-shift,Tera Shift,0
+pecharunt,1025,1,poison-puppeteer,Poison Puppeteer,0
+deoxys-attack,10001,1,pressure,Pressure,0
+deoxys-defense,10002,1,pressure,Pressure,0
+deoxys-speed,10003,1,pressure,Pressure,0
+wormadam-sandy,10004,1,anticipation,Anticipation,0
+wormadam-sandy,10004,3,overcoat,Overcoat,1
+wormadam-trash,10005,1,anticipation,Anticipation,0
+wormadam-trash,10005,3,overcoat,Overcoat,1
+shaymin-sky,10006,1,serene-grace,Serene Grace,0
+giratina-origin,10007,1,levitate,Levitate,0
+rotom-heat,10008,1,levitate,Levitate,0
+rotom-wash,10009,1,levitate,Levitate,0
+rotom-frost,10010,1,levitate,Levitate,0
+rotom-fan,10011,1,levitate,Levitate,0
+rotom-mow,10012,1,levitate,Levitate,0
+castform-sunny,10013,1,forecast,Forecast,0
+castform-rainy,10014,1,forecast,Forecast,0
+castform-snowy,10015,1,forecast,Forecast,0
+basculin-blue-striped,10016,1,rock-head,Rock Head,0
+basculin-blue-striped,10016,2,adaptability,Adaptability,0
+basculin-blue-striped,10016,3,mold-breaker,Mold Breaker,1
+darmanitan-zen,10017,1,sheer-force,Sheer femaleorce,0
+darmanitan-zen,10017,3,zen-mode,Zen maleode,1
+meloetta-pirouette,10018,1,serene-grace,Serene Grace,0
+tornadus-therian,10019,1,regenerator,Regenerator,0
+thundurus-therian,10020,1,volt-absorb,Volt Absorb,0
+landorus-therian,10021,1,intimidate,Intimidate,0
+kyurem-black,10022,1,teravolt,Teravolt,0
+kyurem-white,10023,1,turboblaze,Turboblaze,0
+keldeo-resolute,10024,1,justified,Justified,0
+meowstic-female,10025,1,keen-eye,Keen Eye,0
+meowstic-female,10025,2,infiltrator,Infiltrator,0
+meowstic-female,10025,3,competitive,Competitive,1
+aegislash-blade,10026,1,stance-change,Stance Change,0
+pumpkaboo-small,10027,1,pickup,Pickup,0
+pumpkaboo-small,10027,2,frisk,Frisk,0
+pumpkaboo-small,10027,3,insomnia,Insomnia,1
+pumpkaboo-large,10028,1,pickup,Pickup,0
+pumpkaboo-large,10028,2,frisk,Frisk,0
+pumpkaboo-large,10028,3,insomnia,Insomnia,1
+pumpkaboo-super,10029,1,pickup,Pickup,0
+pumpkaboo-super,10029,2,frisk,Frisk,0
+pumpkaboo-super,10029,3,insomnia,Insomnia,1
+gourgeist-small,10030,1,pickup,Pickup,0
+gourgeist-small,10030,2,frisk,Frisk,0
+gourgeist-small,10030,3,insomnia,Insomnia,1
+gourgeist-large,10031,1,pickup,Pickup,0
+gourgeist-large,10031,2,frisk,Frisk,0
+gourgeist-large,10031,3,insomnia,Insomnia,1
+gourgeist-super,10032,1,pickup,Pickup,0
+gourgeist-super,10032,2,frisk,Frisk,0
+gourgeist-super,10032,3,insomnia,Insomnia,1
+venusaur-mega,10033,1,thick-fat,Thick femaleat,0
+charizard-mega-x,10034,1,tough-claws,Tough Claws,0
+charizard-mega-y,10035,1,drought,Drought,0
+blastoise-mega,10036,1,mega-launcher,Mega Launcher,0
+alakazam-mega,10037,1,trace,Trace,0
+gengar-mega,10038,1,shadow-tag,Shadow Tag,0
+kangaskhan-mega,10039,1,parental-bond,Parental Bond,0
+pinsir-mega,10040,1,aerilate,Aerilate,0
+gyarados-mega,10041,1,mold-breaker,Mold Breaker,0
+aerodactyl-mega,10042,1,tough-claws,Tough Claws,0
+mewtwo-mega-x,10043,1,steadfast,Steadfast,0
+mewtwo-mega-y,10044,1,insomnia,Insomnia,0
+ampharos-mega,10045,1,mold-breaker,Mold Breaker,0
+scizor-mega,10046,1,technician,Technician,0
+heracross-mega,10047,1,skill-link,Skill Link,0
+houndoom-mega,10048,1,solar-power,Solar Power,0
+tyranitar-mega,10049,1,sand-stream,Sand Stream,0
+blaziken-mega,10050,1,speed-boost,Speed Boost,0
+gardevoir-mega,10051,1,pixilate,Pixilate,0
+mawile-mega,10052,1,huge-power,Huge Power,0
+aggron-mega,10053,1,filter,Filter,0
+medicham-mega,10054,1,pure-power,Pure Power,0
+manectric-mega,10055,1,intimidate,Intimidate,0
+banette-mega,10056,1,prankster,Prankster,0
+absol-mega,10057,1,magic-bounce,Magic Bounce,0
+garchomp-mega,10058,1,sand-force,Sand femaleorce,0
+lucario-mega,10059,1,adaptability,Adaptability,0
+abomasnow-mega,10060,1,snow-warning,Snow Warning,0
+floette-eternal,10061,1,flower-veil,Flower Veil,0
+floette-eternal,10061,3,symbiosis,Symbiosis,1
+latias-mega,10062,1,levitate,Levitate,0
+latios-mega,10063,1,levitate,Levitate,0
+swampert-mega,10064,1,swift-swim,Swift Swim,0
+sceptile-mega,10065,1,lightning-rod,Lightning Rod,0
+sableye-mega,10066,1,magic-bounce,Magic Bounce,0
+altaria-mega,10067,1,pixilate,Pixilate,0
+gallade-mega,10068,1,inner-focus,Inner femaleocus,0
+audino-mega,10069,1,healer,Healer,0
+sharpedo-mega,10070,1,strong-jaw,Strong Jaw,0
+slowbro-mega,10071,1,shell-armor,Shell Armor,0
+steelix-mega,10072,1,sand-force,Sand femaleorce,0
+pidgeot-mega,10073,1,no-guard,No Guard,0
+glalie-mega,10074,1,refrigerate,Refrigerate,0
+diancie-mega,10075,1,magic-bounce,Magic Bounce,0
+metagross-mega,10076,1,tough-claws,Tough Claws,0
+kyogre-primal,10077,1,primordial-sea,Primordial Sea,0
+groudon-primal,10078,1,desolate-land,Desolate Land,0
+rayquaza-mega,10079,1,delta-stream,Delta Stream,0
+pikachu-rock-star,10080,1,static,Static,0
+pikachu-rock-star,10080,3,lightning-rod,Lightning Rod,1
+pikachu-belle,10081,1,static,Static,0
+pikachu-belle,10081,3,lightning-rod,Lightning Rod,1
+pikachu-pop-star,10082,1,static,Static,0
+pikachu-pop-star,10082,3,lightning-rod,Lightning Rod,1
+pikachu-phd,10083,1,static,Static,0
+pikachu-phd,10083,3,lightning-rod,Lightning Rod,1
+pikachu-libre,10084,1,static,Static,0
+pikachu-libre,10084,3,lightning-rod,Lightning Rod,1
+pikachu-cosplay,10085,1,static,Static,0
+pikachu-cosplay,10085,3,lightning-rod,Lightning Rod,1
+hoopa-unbound,10086,1,magician,Magician,0
+camerupt-mega,10087,1,sheer-force,Sheer femaleorce,0
+lopunny-mega,10088,1,scrappy,Scrappy,0
+salamence-mega,10089,1,aerilate,Aerilate,0
+beedrill-mega,10090,1,adaptability,Adaptability,0
+rattata-alola,10091,1,gluttony,Gluttony,0
+rattata-alola,10091,2,hustle,Hustle,0
+rattata-alola,10091,3,thick-fat,Thick femaleat,1
+raticate-alola,10092,1,gluttony,Gluttony,0
+raticate-alola,10092,2,hustle,Hustle,0
+raticate-alola,10092,3,thick-fat,Thick femaleat,1
+raticate-totem-alola,10093,1,gluttony,Gluttony,0
+raticate-totem-alola,10093,2,hustle,Hustle,0
+raticate-totem-alola,10093,3,thick-fat,Thick femaleat,1
+pikachu-original-cap,10094,1,static,Static,0
+pikachu-original-cap,10094,3,lightning-rod,Lightning Rod,1
+pikachu-hoenn-cap,10095,1,static,Static,0
+pikachu-hoenn-cap,10095,3,lightning-rod,Lightning Rod,1
+pikachu-sinnoh-cap,10096,1,static,Static,0
+pikachu-sinnoh-cap,10096,3,lightning-rod,Lightning Rod,1
+pikachu-unova-cap,10097,1,static,Static,0
+pikachu-unova-cap,10097,3,lightning-rod,Lightning Rod,1
+pikachu-kalos-cap,10098,1,static,Static,0
+pikachu-kalos-cap,10098,3,lightning-rod,Lightning Rod,1
+pikachu-alola-cap,10099,1,static,Static,0
+pikachu-alola-cap,10099,3,lightning-rod,Lightning Rod,1
+raichu-alola,10100,1,surge-surfer,Surge Surfer,0
+sandshrew-alola,10101,1,snow-cloak,Snow Cloak,0
+sandshrew-alola,10101,3,slush-rush,Slush Rush,1
+sandslash-alola,10102,1,snow-cloak,Snow Cloak,0
+sandslash-alola,10102,3,slush-rush,Slush Rush,1
+vulpix-alola,10103,1,snow-cloak,Snow Cloak,0
+vulpix-alola,10103,3,snow-warning,Snow Warning,1
+ninetales-alola,10104,1,snow-cloak,Snow Cloak,0
+ninetales-alola,10104,3,snow-warning,Snow Warning,1
+diglett-alola,10105,1,sand-veil,Sand Veil,0
+diglett-alola,10105,2,tangling-hair,Tangling Hair,0
+diglett-alola,10105,3,sand-force,Sand femaleorce,1
+dugtrio-alola,10106,1,sand-veil,Sand Veil,0
+dugtrio-alola,10106,2,tangling-hair,Tangling Hair,0
+dugtrio-alola,10106,3,sand-force,Sand femaleorce,1
+meowth-alola,10107,1,pickup,Pickup,0
+meowth-alola,10107,2,technician,Technician,0
+meowth-alola,10107,3,rattled,Rattled,1
+persian-alola,10108,1,fur-coat,Fur Coat,0
+persian-alola,10108,2,technician,Technician,0
+persian-alola,10108,3,rattled,Rattled,1
+geodude-alola,10109,1,magnet-pull,Magnet Pull,0
+geodude-alola,10109,2,sturdy,Sturdy,0
+geodude-alola,10109,3,galvanize,Galvanize,1
+graveler-alola,10110,1,magnet-pull,Magnet Pull,0
+graveler-alola,10110,2,sturdy,Sturdy,0
+graveler-alola,10110,3,galvanize,Galvanize,1
+golem-alola,10111,1,magnet-pull,Magnet Pull,0
+golem-alola,10111,2,sturdy,Sturdy,0
+golem-alola,10111,3,galvanize,Galvanize,1
+grimer-alola,10112,1,poison-touch,Poison Touch,0
+grimer-alola,10112,2,gluttony,Gluttony,0
+grimer-alola,10112,3,power-of-alchemy,Power Of Alchemy,1
+muk-alola,10113,1,poison-touch,Poison Touch,0
+muk-alola,10113,2,gluttony,Gluttony,0
+muk-alola,10113,3,power-of-alchemy,Power Of Alchemy,1
+exeggutor-alola,10114,1,frisk,Frisk,0
+exeggutor-alola,10114,3,harvest,Harvest,1
+marowak-alola,10115,1,cursed-body,Cursed Body,0
+marowak-alola,10115,2,lightning-rod,Lightning Rod,0
+marowak-alola,10115,3,rock-head,Rock Head,1
+greninja-battle-bond,10116,1,battle-bond,Battle Bond,0
+greninja-ash,10117,1,battle-bond,Battle Bond,0
+zygarde-10-power-construct,10118,1,power-construct,Power Construct,0
+zygarde-50-power-construct,10119,1,power-construct,Power Construct,0
+zygarde-complete,10120,1,power-construct,Power Construct,0
+gumshoos-totem,10121,1,stakeout,Stakeout,0
+gumshoos-totem,10121,2,strong-jaw,Strong Jaw,0
+gumshoos-totem,10121,3,adaptability,Adaptability,1
+vikavolt-totem,10122,1,levitate,Levitate,0
+oricorio-pom-pom,10123,1,dancer,Dancer,0
+oricorio-pau,10124,1,dancer,Dancer,0
+oricorio-sensu,10125,1,dancer,Dancer,0
+lycanroc-midnight,10126,1,keen-eye,Keen Eye,0
+lycanroc-midnight,10126,2,vital-spirit,Vital Spirit,0
+lycanroc-midnight,10126,3,no-guard,No Guard,1
+wishiwashi-school,10127,1,schooling,Schooling,0
+lurantis-totem,10128,1,leaf-guard,Leaf Guard,0
+lurantis-totem,10128,3,contrary,Contrary,1
+salazzle-totem,10129,1,corrosion,Corrosion,0
+salazzle-totem,10129,3,oblivious,Oblivious,1
+minior-orange-meteor,10130,1,shields-down,Shields Down,0
+minior-yellow-meteor,10131,1,shields-down,Shields Down,0
+minior-green-meteor,10132,1,shields-down,Shields Down,0
+minior-blue-meteor,10133,1,shields-down,Shields Down,0
+minior-indigo-meteor,10134,1,shields-down,Shields Down,0
+minior-violet-meteor,10135,1,shields-down,Shields Down,0
+minior-red,10136,1,shields-down,Shields Down,0
+minior-orange,10137,1,shields-down,Shields Down,0
+minior-yellow,10138,1,shields-down,Shields Down,0
+minior-green,10139,1,shields-down,Shields Down,0
+minior-blue,10140,1,shields-down,Shields Down,0
+minior-indigo,10141,1,shields-down,Shields Down,0
+minior-violet,10142,1,shields-down,Shields Down,0
+mimikyu-busted,10143,1,disguise,Disguise,0
+mimikyu-totem-disguised,10144,1,disguise,Disguise,0
+mimikyu-totem-busted,10145,1,disguise,Disguise,0
+kommo-o-totem,10146,1,bulletproof,Bulletproof,0
+kommo-o-totem,10146,2,soundproof,Soundproof,0
+kommo-o-totem,10146,3,overcoat,Overcoat,1
+magearna-original,10147,1,soul-heart,Soul Heart,0
+pikachu-partner-cap,10148,1,static,Static,0
+pikachu-partner-cap,10148,3,lightning-rod,Lightning Rod,1
+marowak-totem,10149,1,cursed-body,Cursed Body,0
+marowak-totem,10149,2,lightning-rod,Lightning Rod,0
+marowak-totem,10149,3,rock-head,Rock Head,1
+ribombee-totem,10150,1,honey-gather,Honey Gather,0
+ribombee-totem,10150,2,shield-dust,Shield Dust,0
+ribombee-totem,10150,3,sweet-veil,Sweet Veil,1
+rockruff-own-tempo,10151,1,own-tempo,Own Tempo,0
+lycanroc-dusk,10152,1,tough-claws,Tough Claws,0
+araquanid-totem,10153,1,water-bubble,Water Bubble,0
+araquanid-totem,10153,3,water-absorb,Water Absorb,1
+togedemaru-totem,10154,1,iron-barbs,Iron Barbs,0
+togedemaru-totem,10154,2,lightning-rod,Lightning Rod,0
+togedemaru-totem,10154,3,sturdy,Sturdy,1
+necrozma-dusk,10155,1,prism-armor,Prism Armor,0
+necrozma-dawn,10156,1,prism-armor,Prism Armor,0
+necrozma-ultra,10157,1,neuroforce,Neuroforce,0
+pikachu-starter,10158,1,static,Static,0
+pikachu-starter,10158,3,lightning-rod,Lightning Rod,1
+eevee-starter,10159,1,run-away,Run Away,0
+eevee-starter,10159,2,adaptability,Adaptability,0
+eevee-starter,10159,3,anticipation,Anticipation,1
+pikachu-world-cap,10160,1,static,Static,0
+pikachu-world-cap,10160,3,lightning-rod,Lightning Rod,1
+meowth-galar,10161,1,pickup,Pickup,0
+meowth-galar,10161,2,tough-claws,Tough Claws,0
+meowth-galar,10161,3,unnerve,Unnerve,1
+ponyta-galar,10162,1,run-away,Run Away,0
+ponyta-galar,10162,2,pastel-veil,Pastel Veil,0
+ponyta-galar,10162,3,anticipation,Anticipation,1
+rapidash-galar,10163,1,run-away,Run Away,0
+rapidash-galar,10163,2,pastel-veil,Pastel Veil,0
+rapidash-galar,10163,3,anticipation,Anticipation,1
+slowpoke-galar,10164,1,gluttony,Gluttony,0
+slowpoke-galar,10164,2,own-tempo,Own Tempo,0
+slowpoke-galar,10164,3,regenerator,Regenerator,1
+slowbro-galar,10165,1,quick-draw,Quick Draw,0
+slowbro-galar,10165,2,own-tempo,Own Tempo,0
+slowbro-galar,10165,3,regenerator,Regenerator,1
+farfetchd-galar,10166,1,steadfast,Steadfast,0
+farfetchd-galar,10166,3,scrappy,Scrappy,1
+weezing-galar,10167,1,levitate,Levitate,0
+weezing-galar,10167,2,neutralizing-gas,Neutralizing Gas,0
+weezing-galar,10167,3,misty-surge,Misty Surge,1
+mr-mime-galar,10168,1,vital-spirit,Vital Spirit,0
+mr-mime-galar,10168,2,screen-cleaner,Screen Cleaner,0
+mr-mime-galar,10168,3,ice-body,Ice Body,1
+articuno-galar,10169,1,competitive,Competitive,0
+zapdos-galar,10170,1,defiant,Defiant,0
+moltres-galar,10171,1,berserk,Berserk,0
+slowking-galar,10172,1,curious-medicine,Curious maleedicine,0
+slowking-galar,10172,2,own-tempo,Own Tempo,0
+slowking-galar,10172,3,regenerator,Regenerator,1
+corsola-galar,10173,1,weak-armor,Weak Armor,0
+corsola-galar,10173,3,cursed-body,Cursed Body,1
+zigzagoon-galar,10174,1,pickup,Pickup,0
+zigzagoon-galar,10174,2,gluttony,Gluttony,0
+zigzagoon-galar,10174,3,quick-feet,Quick femaleeet,1
+linoone-galar,10175,1,pickup,Pickup,0
+linoone-galar,10175,2,gluttony,Gluttony,0
+linoone-galar,10175,3,quick-feet,Quick femaleeet,1
+darumaka-galar,10176,1,hustle,Hustle,0
+darumaka-galar,10176,3,inner-focus,Inner femaleocus,1
+darmanitan-galar-standard,10177,1,gorilla-tactics,Gorilla Tactics,0
+darmanitan-galar-standard,10177,3,zen-mode,Zen maleode,1
+darmanitan-galar-zen,10178,1,gorilla-tactics,Gorilla Tactics,0
+darmanitan-galar-zen,10178,3,zen-mode,Zen maleode,1
+yamask-galar,10179,1,wandering-spirit,Wandering Spirit,0
+stunfisk-galar,10180,1,mimicry,Mimicry,0
+zygarde-10,10181,1,aura-break,Aura Break,0
+cramorant-gulping,10182,1,gulp-missile,Gulp maleissile,0
+cramorant-gorging,10183,1,gulp-missile,Gulp maleissile,0
+toxtricity-low-key,10184,1,punk-rock,Punk Rock,0
+toxtricity-low-key,10184,2,minus,Minus,0
+toxtricity-low-key,10184,3,technician,Technician,1
+eiscue-noice,10185,1,ice-face,Ice femaleace,0
+indeedee-female,10186,1,own-tempo,Own Tempo,0
+indeedee-female,10186,2,synchronize,Synchronize,0
+indeedee-female,10186,3,psychic-surge,Psychic Surge,1
+morpeko-hangry,10187,1,hunger-switch,Hunger Switch,0
+zacian-crowned,10188,1,intrepid-sword,Intrepid Sword,0
+zamazenta-crowned,10189,1,dauntless-shield,Dauntless Shield,0
+eternatus-eternamax,10190,1,pressure,Pressure,0
+urshifu-rapid-strike,10191,1,unseen-fist,Unseen femaleist,0
+zarude-dada,10192,1,leaf-guard,Leaf Guard,0
+calyrex-ice,10193,1,as-one-glastrier,As One Glastrier,0
+calyrex-shadow,10194,1,as-one-spectrier,As One Spectrier,0
+venusaur-gmax,10195,1,overgrow,Overgrow,0
+venusaur-gmax,10195,3,chlorophyll,Chlorophyll,1
+charizard-gmax,10196,1,blaze,Blaze,0
+charizard-gmax,10196,3,solar-power,Solar Power,1
+blastoise-gmax,10197,1,torrent,Torrent,0
+blastoise-gmax,10197,3,rain-dish,Rain Dish,1
+butterfree-gmax,10198,1,compound-eyes,Compound Eyes,0
+butterfree-gmax,10198,3,tinted-lens,Tinted Lens,1
+pikachu-gmax,10199,1,static,Static,0
+pikachu-gmax,10199,3,lightning-rod,Lightning Rod,1
+meowth-gmax,10200,1,pickup,Pickup,0
+meowth-gmax,10200,2,technician,Technician,0
+meowth-gmax,10200,3,unnerve,Unnerve,1
+machamp-gmax,10201,1,guts,Guts,0
+machamp-gmax,10201,2,no-guard,No Guard,0
+machamp-gmax,10201,3,steadfast,Steadfast,1
+gengar-gmax,10202,1,cursed-body,Cursed Body,0
+kingler-gmax,10203,1,hyper-cutter,Hyper Cutter,0
+kingler-gmax,10203,2,shell-armor,Shell Armor,0
+kingler-gmax,10203,3,sheer-force,Sheer femaleorce,1
+lapras-gmax,10204,1,water-absorb,Water Absorb,0
+lapras-gmax,10204,2,shell-armor,Shell Armor,0
+lapras-gmax,10204,3,hydration,Hydration,1
+eevee-gmax,10205,1,run-away,Run Away,0
+eevee-gmax,10205,2,adaptability,Adaptability,0
+eevee-gmax,10205,3,anticipation,Anticipation,1
+snorlax-gmax,10206,1,immunity,Immunity,0
+snorlax-gmax,10206,2,thick-fat,Thick femaleat,0
+snorlax-gmax,10206,3,gluttony,Gluttony,1
+garbodor-gmax,10207,1,stench,Stench,0
+garbodor-gmax,10207,2,weak-armor,Weak Armor,0
+garbodor-gmax,10207,3,aftermath,Aftermath,1
+melmetal-gmax,10208,1,iron-fist,Iron femaleist,0
+rillaboom-gmax,10209,1,overgrow,Overgrow,0
+rillaboom-gmax,10209,3,grassy-surge,Grassy Surge,1
+cinderace-gmax,10210,1,blaze,Blaze,0
+cinderace-gmax,10210,3,libero,Libero,1
+inteleon-gmax,10211,1,torrent,Torrent,0
+inteleon-gmax,10211,3,sniper,Sniper,1
+corviknight-gmax,10212,1,pressure,Pressure,0
+corviknight-gmax,10212,2,unnerve,Unnerve,0
+corviknight-gmax,10212,3,mirror-armor,Mirror Armor,1
+orbeetle-gmax,10213,1,swarm,Swarm,0
+orbeetle-gmax,10213,2,frisk,Frisk,0
+orbeetle-gmax,10213,3,telepathy,Telepathy,1
+drednaw-gmax,10214,1,strong-jaw,Strong Jaw,0
+drednaw-gmax,10214,2,shell-armor,Shell Armor,0
+drednaw-gmax,10214,3,swift-swim,Swift Swim,1
+coalossal-gmax,10215,1,steam-engine,Steam Engine,0
+coalossal-gmax,10215,2,flame-body,Flame Body,0
+coalossal-gmax,10215,3,flash-fire,Flash femaleire,1
+flapple-gmax,10216,1,ripen,Ripen,0
+flapple-gmax,10216,2,gluttony,Gluttony,0
+flapple-gmax,10216,3,hustle,Hustle,1
+appletun-gmax,10217,1,ripen,Ripen,0
+appletun-gmax,10217,2,gluttony,Gluttony,0
+appletun-gmax,10217,3,thick-fat,Thick femaleat,1
+sandaconda-gmax,10218,1,sand-spit,Sand Spit,0
+sandaconda-gmax,10218,2,shed-skin,Shed Skin,0
+sandaconda-gmax,10218,3,sand-veil,Sand Veil,1
+toxtricity-amped-gmax,10219,1,punk-rock,Punk Rock,0
+toxtricity-amped-gmax,10219,2,plus,Plus,0
+toxtricity-amped-gmax,10219,3,technician,Technician,1
+centiskorch-gmax,10220,1,flash-fire,Flash femaleire,0
+centiskorch-gmax,10220,2,white-smoke,White Smoke,0
+centiskorch-gmax,10220,3,flame-body,Flame Body,1
+hatterene-gmax,10221,1,healer,Healer,0
+hatterene-gmax,10221,2,anticipation,Anticipation,0
+hatterene-gmax,10221,3,magic-bounce,Magic Bounce,1
+grimmsnarl-gmax,10222,1,prankster,Prankster,0
+grimmsnarl-gmax,10222,2,frisk,Frisk,0
+grimmsnarl-gmax,10222,3,pickpocket,Pickpocket,1
+alcremie-gmax,10223,1,sweet-veil,Sweet Veil,0
+alcremie-gmax,10223,3,aroma-veil,Aroma Veil,1
+copperajah-gmax,10224,1,sheer-force,Sheer femaleorce,0
+copperajah-gmax,10224,3,heavy-metal,Heavy maleetal,1
+duraludon-gmax,10225,1,light-metal,Light maleetal,0
+duraludon-gmax,10225,2,heavy-metal,Heavy maleetal,0
+duraludon-gmax,10225,3,stalwart,Stalwart,1
+urshifu-single-strike-gmax,10226,1,unseen-fist,Unseen femaleist,0
+urshifu-rapid-strike-gmax,10227,1,unseen-fist,Unseen femaleist,0
+toxtricity-low-key-gmax,10228,1,punk-rock,Punk Rock,0
+toxtricity-low-key-gmax,10228,2,minus,Minus,0
+toxtricity-low-key-gmax,10228,3,technician,Technician,1
+growlithe-hisui,10229,1,intimidate,Intimidate,0
+growlithe-hisui,10229,2,flash-fire,Flash femaleire,0
+growlithe-hisui,10229,3,rock-head,Rock Head,1
+arcanine-hisui,10230,1,intimidate,Intimidate,0
+arcanine-hisui,10230,2,flash-fire,Flash femaleire,0
+arcanine-hisui,10230,3,rock-head,Rock Head,1
+voltorb-hisui,10231,1,soundproof,Soundproof,0
+voltorb-hisui,10231,2,static,Static,0
+voltorb-hisui,10231,3,aftermath,Aftermath,1
+electrode-hisui,10232,1,soundproof,Soundproof,0
+electrode-hisui,10232,2,static,Static,0
+electrode-hisui,10232,3,aftermath,Aftermath,1
+typhlosion-hisui,10233,1,blaze,Blaze,0
+typhlosion-hisui,10233,3,frisk,Frisk,1
+qwilfish-hisui,10234,1,poison-point,Poison Point,0
+qwilfish-hisui,10234,2,swift-swim,Swift Swim,0
+qwilfish-hisui,10234,3,intimidate,Intimidate,1
+sneasel-hisui,10235,1,inner-focus,Inner femaleocus,0
+sneasel-hisui,10235,2,keen-eye,Keen Eye,0
+sneasel-hisui,10235,3,pickpocket,Pickpocket,1
+samurott-hisui,10236,1,torrent,Torrent,0
+samurott-hisui,10236,3,sharpness,Sharpness,1
+lilligant-hisui,10237,1,chlorophyll,Chlorophyll,0
+lilligant-hisui,10237,2,hustle,Hustle,0
+lilligant-hisui,10237,3,leaf-guard,Leaf Guard,1
+zorua-hisui,10238,1,illusion,Illusion,0
+zoroark-hisui,10239,1,illusion,Illusion,0
+braviary-hisui,10240,1,keen-eye,Keen Eye,0
+braviary-hisui,10240,2,sheer-force,Sheer femaleorce,0
+braviary-hisui,10240,3,tinted-lens,Tinted Lens,1
+sliggoo-hisui,10241,1,sap-sipper,Sap Sipper,0
+sliggoo-hisui,10241,2,shell-armor,Shell Armor,0
+sliggoo-hisui,10241,3,gooey,Gooey,1
+goodra-hisui,10242,1,sap-sipper,Sap Sipper,0
+goodra-hisui,10242,2,shell-armor,Shell Armor,0
+goodra-hisui,10242,3,gooey,Gooey,1
+avalugg-hisui,10243,1,strong-jaw,Strong Jaw,0
+avalugg-hisui,10243,2,ice-body,Ice Body,0
+avalugg-hisui,10243,3,sturdy,Sturdy,1
+decidueye-hisui,10244,1,overgrow,Overgrow,0
+decidueye-hisui,10244,3,scrappy,Scrappy,1
+dialga-origin,10245,1,pressure,Pressure,0
+dialga-origin,10245,3,telepathy,Telepathy,1
+palkia-origin,10246,1,pressure,Pressure,0
+palkia-origin,10246,3,telepathy,Telepathy,1
+basculin-white-striped,10247,1,rattled,Rattled,0
+basculin-white-striped,10247,2,adaptability,Adaptability,0
+basculin-white-striped,10247,3,mold-breaker,Mold Breaker,1
+basculegion-female,10248,1,swift-swim,Swift Swim,0
+basculegion-female,10248,2,adaptability,Adaptability,0
+basculegion-female,10248,3,mold-breaker,Mold Breaker,1
+enamorus-therian,10249,1,overcoat,Overcoat,0
+tauros-paldea-combat-breed,10250,1,intimidate,Intimidate,0
+tauros-paldea-combat-breed,10250,2,anger-point,Anger Point,0
+tauros-paldea-combat-breed,10250,3,cud-chew,Cud Chew,1
+tauros-paldea-blaze-breed,10251,1,intimidate,Intimidate,0
+tauros-paldea-blaze-breed,10251,2,anger-point,Anger Point,0
+tauros-paldea-blaze-breed,10251,3,cud-chew,Cud Chew,1
+tauros-paldea-aqua-breed,10252,1,intimidate,Intimidate,0
+tauros-paldea-aqua-breed,10252,2,anger-point,Anger Point,0
+tauros-paldea-aqua-breed,10252,3,cud-chew,Cud Chew,1
+wooper-paldea,10253,1,poison-point,Poison Point,0
+wooper-paldea,10253,2,water-absorb,Water Absorb,0
+wooper-paldea,10253,3,unaware,Unaware,1
+oinkologne-female,10254,1,aroma-veil,Aroma Veil,0
+oinkologne-female,10254,2,gluttony,Gluttony,0
+oinkologne-female,10254,3,thick-fat,Thick femaleat,1
+dudunsparce-three-segment,10255,1,serene-grace,Serene Grace,0
+dudunsparce-three-segment,10255,2,run-away,Run Away,0
+dudunsparce-three-segment,10255,3,rattled,Rattled,1
+palafin-hero,10256,1,zero-to-hero,Zero To Hero,0
+maushold-family-of-three,10257,1,friend-guard,Friend Guard,0
+maushold-family-of-three,10257,2,cheek-pouch,Cheek Pouch,0
+maushold-family-of-three,10257,3,technician,Technician,1
+tatsugiri-droopy,10258,1,commander,Commander,0
+tatsugiri-droopy,10258,3,storm-drain,Storm Drain,1
+tatsugiri-stretchy,10259,1,commander,Commander,0
+tatsugiri-stretchy,10259,3,storm-drain,Storm Drain,1
+squawkabilly-blue-plumage,10260,1,intimidate,Intimidate,0
+squawkabilly-blue-plumage,10260,2,hustle,Hustle,0
+squawkabilly-blue-plumage,10260,3,guts,Guts,1
+squawkabilly-yellow-plumage,10261,1,intimidate,Intimidate,0
+squawkabilly-yellow-plumage,10261,2,hustle,Hustle,0
+squawkabilly-yellow-plumage,10261,3,sheer-force,Sheer femaleorce,1
+squawkabilly-white-plumage,10262,1,intimidate,Intimidate,0
+squawkabilly-white-plumage,10262,2,hustle,Hustle,0
+squawkabilly-white-plumage,10262,3,sheer-force,Sheer femaleorce,1
+gimmighoul-roaming,10263,1,run-away,Run Away,0
+koraidon-limited-build,10264,1,orichalcum-pulse,Orichalcum Pulse,0
+koraidon-sprinting-build,10265,1,orichalcum-pulse,Orichalcum Pulse,0
+koraidon-swimming-build,10266,1,orichalcum-pulse,Orichalcum Pulse,0
+koraidon-gliding-build,10267,1,orichalcum-pulse,Orichalcum Pulse,0
+miraidon-low-power-mode,10268,1,hadron-engine,Hadron Engine,0
+miraidon-drive-mode,10269,1,hadron-engine,Hadron Engine,0
+miraidon-aquatic-mode,10270,1,hadron-engine,Hadron Engine,0
+miraidon-glide-mode,10271,1,hadron-engine,Hadron Engine,0
+ursaluna-bloodmoon,10272,1,minds-eye,Minds Eye,0
+ogerpon-wellspring-mask,10273,1,water-absorb,Water Absorb,0
+ogerpon-hearthflame-mask,10274,1,mold-breaker,Mold Breaker,0
+ogerpon-cornerstone-mask,10275,1,sturdy,Sturdy,0
+terapagos-terastal,10276,1,tera-shell,Tera Shell,0
+terapagos-stellar,10277,1,teraform-zero,Teraform Zero,0
+clefable-mega,10278,1,magic-bounce,Magic Bounce,0
+victreebel-mega,10279,1,innards-out,Innards Out,0
+starmie-mega,10280,1,huge-power,Huge Power,0
+dragonite-mega,10281,1,multiscale,Multiscale,0
+meganium-mega,10282,1,mega-sol,Mega Sol,0
+feraligatr-mega,10283,1,dragonize,Dragonize,0
+skarmory-mega,10284,1,stalwart,Stalwart,0
+froslass-mega,10285,1,snow-warning,Snow Warning,0
+emboar-mega,10286,1,mold-breaker,Mold Breaker,0
+excadrill-mega,10287,1,piercing-drill,Piercing Drill,0
+chandelure-mega,10291,1,infiltrator,Infiltrator,0
+chesnaught-mega,10292,1,bulletproof,Bulletproof,0
+delphox-mega,10293,1,levitate,Levitate,0
+greninja-mega,10294,1,protean,Protean,0
+floette-mega,10296,1,fairy-aura,Fairy Aura,0
+hawlucha-mega,10300,1,no-guard,No Guard,0
+drampa-mega,10302,1,berserk,Berserk,0
+chimecho-mega,10306,1,levitate,Levitate,0
+golurk-mega,10313,1,unseen-fist,Unseen femaleist,0
+meowstic-mega,10314,1,trace,Trace,0
+crabominable-mega,10315,1,iron-fist,Iron femaleist,0
+scovillain-mega,10320,1,spicy-spray,Spicy Spray,0
+glimmora-mega,10321,1,adaptability,Adaptability,0
