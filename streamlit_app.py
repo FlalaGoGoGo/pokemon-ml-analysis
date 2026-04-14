@@ -870,6 +870,18 @@ def inject_global_styles() -> None:
           z-index: 0;
         }
 
+        .sprite-ground-shadow {
+          position: absolute;
+          left: 50%;
+          bottom: 12%;
+          width: 58%;
+          height: 18%;
+          transform: translateX(-50%);
+          background: radial-gradient(ellipse at center, rgba(13,19,33,0.38) 0%, rgba(13,19,33,0.18) 46%, rgba(13,19,33,0.02) 78%);
+          filter: blur(2px);
+          z-index: 0;
+        }
+
         .sprite-stage-scan {
           background:
             radial-gradient(circle at 50% 28%, rgba(255,255,255,0.34), transparent 36%),
@@ -891,6 +903,14 @@ def inject_global_styles() -> None:
           left: 19%;
           right: 9%;
           transform: skewX(12deg);
+        }
+
+        .sprite-stage.player-side .sprite-ground-shadow {
+          transform: translateX(-58%) skewX(-10deg);
+        }
+
+        .sprite-stage.opponent-side .sprite-ground-shadow {
+          transform: translateX(-42%) skewX(10deg);
         }
 
         .sprite-stage img {
@@ -1198,6 +1218,14 @@ def inject_global_styles() -> None:
           padding: 1rem;
         }
 
+        .fighter-card.player-card {
+          background: linear-gradient(180deg, rgba(255,247,227,0.97), rgba(153,227,212,0.16));
+        }
+
+        .fighter-card.opponent-card {
+          background: linear-gradient(180deg, rgba(255,247,227,0.97), rgba(122,167,255,0.14));
+        }
+
         .fighter-sprite {
           width: 100%;
           min-height: 170px;
@@ -1208,6 +1236,103 @@ def inject_global_styles() -> None:
           align-items: center;
           justify-content: center;
           box-shadow: inset 0 0 0 4px rgba(255,255,255,0.35);
+        }
+
+        .battle-nameplate {
+          background: rgba(255,247,227,0.96);
+          border: 4px solid rgba(16,32,60,0.3);
+          box-shadow: 4px 4px 0 rgba(13,19,33,0.22);
+          padding: 0.75rem 0.8rem 0.7rem;
+          margin-bottom: 0.7rem;
+          position: relative;
+        }
+
+        .battle-nameplate.leading {
+          box-shadow: 0 0 0 4px rgba(247,214,74,0.22), 4px 4px 0 rgba(13,19,33,0.25);
+        }
+
+        .battle-nameplate.player {
+          border-color: rgba(71,124,66,0.48);
+        }
+
+        .battle-nameplate.opponent {
+          border-color: rgba(70,102,176,0.46);
+        }
+
+        .battle-nameplate-top,
+        .battle-hp-header,
+        .battle-nameplate-meta {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 0.6rem;
+        }
+
+        .battle-name {
+          font-size: 1.5rem;
+          line-height: 1.1;
+          color: var(--shell-navy);
+        }
+
+        .battle-dex,
+        .battle-nameplate-meta {
+          font-size: 0.9rem;
+          line-height: 1.05;
+          color: #243550;
+        }
+
+        .battle-type-row {
+          margin: 0.4rem 0 0.55rem;
+        }
+
+        .battle-nameplate .type-badge {
+          font-size: 0.44rem;
+          padding: 0.28rem 0.45rem;
+          margin-right: 0.35rem;
+          margin-bottom: 0.1rem;
+        }
+
+        .battle-hp-header {
+          margin-bottom: 0.28rem;
+        }
+
+        .battle-hp-label {
+          font-size: 0.5rem;
+          color: var(--battle-red);
+          letter-spacing: 0.08em;
+          display: inline-flex;
+          align-items: center;
+          gap: 0.35rem;
+          flex-wrap: wrap;
+        }
+
+        .battle-hp-value {
+          font-size: 1.1rem;
+          color: var(--shell-navy);
+        }
+
+        .battle-hp-track {
+          height: 18px;
+          background: rgba(16,32,60,0.08);
+          border: 3px solid rgba(16,32,60,0.26);
+          overflow: hidden;
+          margin-bottom: 0.45rem;
+        }
+
+        .battle-hp-fill {
+          height: 100%;
+        }
+
+        .battle-advantage-tag {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0.08rem 0.28rem;
+          background: #F7D64A;
+          color: #10203C;
+          border: 2px solid rgba(16,32,60,0.22);
+          font-size: 0.44rem;
+          line-height: 1.1;
         }
 
         .vs-core {
@@ -1275,6 +1400,60 @@ def inject_global_styles() -> None:
         .battle-meter-label {
           font-size: 1.4rem;
           color: var(--shell-navy);
+        }
+
+        .battle-dialogue-panel {
+          background: linear-gradient(180deg, rgba(255,247,227,0.98), rgba(222,232,255,0.38));
+          margin-top: -0.2rem;
+        }
+
+        .dialogue-tab {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 0.7rem;
+          padding: 0.35rem 0.65rem;
+          background: var(--shell-navy);
+          color: var(--cartridge-cream);
+          border: 3px solid #081123;
+          box-shadow: 4px 4px 0 rgba(13,19,33,0.24);
+          font-size: 0.52rem;
+          letter-spacing: 0.08em;
+        }
+
+        .dialogue-screen {
+          border: 4px solid rgba(16,32,60,0.28);
+          background:
+            linear-gradient(180deg, rgba(16,32,60,0.04) 50%, transparent 50%),
+            linear-gradient(180deg, rgba(255,247,227,0.96), rgba(255,247,227,0.88));
+          background-size: 100% 12px, 100% 100%;
+          padding: 0.85rem 0.95rem;
+          display: flex;
+          flex-direction: column;
+          gap: 0.45rem;
+        }
+
+        .dialogue-line {
+          display: flex;
+          gap: 0.55rem;
+          align-items: flex-start;
+          font-size: 1.2rem;
+          line-height: 1.14;
+          color: var(--shell-navy);
+        }
+
+        .dialogue-prompt {
+          color: var(--battle-red);
+          min-width: 1.8rem;
+        }
+
+        .dialogue-cursor {
+          margin-top: 0.65rem;
+          text-align: right;
+          font-size: 0.58rem;
+          color: var(--battle-red);
+          letter-spacing: 0.08em;
+          animation: pulseStart 1.3s steps(1) infinite;
         }
 
         .feature-grid {
@@ -1585,12 +1764,74 @@ def _render_sprite_shell(image_url: str, name: str, mode: str = "scan", stance: 
     stage_classes.append(f"{stance}-side")
 
     overlay_label = "SCAN CHAMBER" if mode == "scan" else ("PLAYER SIDE" if stance == "player" else "RIVAL SIDE")
+    ground_shadow = '<div class="sprite-ground-shadow"></div>' if mode == "battle" else ""
     return f"""
     <div class="{' '.join(shell_classes)}">
       <div class="sprite-overlay-label">{escape(overlay_label)}</div>
       <div class="{' '.join(stage_classes)}">
+        {ground_shadow}
         <img src="{escape(image_url, quote=True)}" alt="{escape(name)} sprite" />
       </div>
+    </div>
+    """
+
+
+def _battle_hp_palette(probability: float) -> tuple[str, str]:
+    if probability >= 0.67:
+        return ("#67B85F", "#355A32")
+    if probability >= 0.4:
+        return ("#F7D64A", "#8E6A0A")
+    return ("#D94A3A", "#7F2218")
+
+
+def _render_battle_nameplate(pokemon: dict, probability: float, side: str, leading: bool) -> str:
+    fill_color, border_color = _battle_hp_palette(probability)
+    lead_badge = '<span class="battle-advantage-tag">LEAD</span>' if leading else ""
+    return f"""
+    <div class="battle-nameplate {escape(side)} {'leading' if leading else ''}">
+      <div class="battle-nameplate-top">
+        <div class="battle-name">{escape(pokemon['name'].upper())}</div>
+        <div class="battle-dex">DEX {int(pokemon['dexnum_int']):03d}</div>
+      </div>
+      <div class="battle-type-row">{_render_type_badges([pokemon['type1'], pokemon['type2']])}</div>
+      <div class="battle-hp-header">
+        <div class="battle-hp-label">WIN EDGE {lead_badge}</div>
+        <div class="battle-hp-value">{probability:.1%}</div>
+      </div>
+      <div class="battle-hp-track">
+        <div class="battle-hp-fill" style="width:{probability * 100:.1f}%;background:{fill_color};box-shadow:inset 0 -3px 0 rgba(255,255,255,0.22);"></div>
+      </div>
+      <div class="battle-nameplate-meta">
+        <span>BST {int(pokemon['total'])}</span>
+        <span>{escape(side.upper())} SLOT</span>
+      </div>
+    </div>
+    """
+
+
+def _render_battle_dialogue_box(result: dict) -> str:
+    history = result["history"]
+    winner = result["predicted_winner"].upper()
+    top_line = f"{winner} HAS THE MOMENTUM."
+    if history["total_battles"]:
+        history_line = f"HISTORY LOG :: {history['total_battles']} BATTLES ON FILE."
+    else:
+        history_line = "HISTORY LOG :: NO DIRECT BATTLE RECORD ON FILE."
+
+    explanation_lines = [str(line).upper() for line in result.get("explanation", [])[:2]]
+    if not explanation_lines:
+        explanation_lines = ["MODEL IS READING TYPE PRESSURE, SPEED EDGE, AND STAT SWING."]
+
+    dialogue_lines = [top_line, history_line, *explanation_lines]
+    items = "".join(
+        f'<div class="dialogue-line"><span class="dialogue-prompt">&gt;&gt;</span><span>{escape(_ascii_text(line))}</span></div>'
+        for line in dialogue_lines
+    )
+    return f"""
+    <div class="pixel-panel battle-dialogue-panel">
+      <div class="dialogue-tab">BATTLE TEXT</div>
+      <div class="dialogue-screen">{items}</div>
+      <div class="dialogue-cursor">NEXT &gt;</div>
     </div>
     """
 
@@ -1650,17 +1891,14 @@ def _render_battle_header(result: dict) -> str:
     pokemon_b = result["pokemon_b"]
     image_a = _display_sprite_url(pokemon_a.get("sprite_url", ""), pokemon_a.get("image_url", ""))
     image_b = _display_sprite_url(pokemon_b.get("sprite_url", ""), pokemon_b.get("image_url", ""))
+    leading_a = float(result["win_prob_a"]) >= float(result["win_prob_b"])
+    leading_b = not leading_a
     return f"""
     <div class="app-shell battle-hero">
-      <div class="fighter-card">
+      <div class="fighter-card player-card">
         <div class="panel-kicker">COMBATANT A</div>
+        {_render_battle_nameplate(pokemon_a, float(result["win_prob_a"]), "player", leading_a)}
         {_render_sprite_shell(image_a, pokemon_a['name'], mode="battle", stance="player")}
-        <h3>{escape(pokemon_a['name'].upper())}</h3>
-        <div>{_render_type_badges([pokemon_a['type1'], pokemon_a['type2']])}</div>
-        {_render_stat_strip([
-            ("DEX", f"#{pokemon_a['dexnum_int']:03d}"),
-            ("BST", str(pokemon_a["total"])),
-        ])}
       </div>
       <div class="vs-core">
         <div class="vs-badge">VS</div>
@@ -1669,15 +1907,10 @@ def _render_battle_header(result: dict) -> str:
           <div class="winner-name">{escape(result['predicted_winner'].upper())}</div>
         </div>
       </div>
-      <div class="fighter-card">
+      <div class="fighter-card opponent-card">
         <div class="panel-kicker">COMBATANT B</div>
+        {_render_battle_nameplate(pokemon_b, float(result["win_prob_b"]), "opponent", leading_b)}
         {_render_sprite_shell(image_b, pokemon_b['name'], mode="battle", stance="opponent")}
-        <h3>{escape(pokemon_b['name'].upper())}</h3>
-        <div>{_render_type_badges([pokemon_b['type1'], pokemon_b['type2']])}</div>
-        {_render_stat_strip([
-            ("DEX", f"#{pokemon_b['dexnum_int']:03d}"),
-            ("BST", str(pokemon_b["total"])),
-        ])}
       </div>
     </div>
     """
@@ -1770,6 +2003,7 @@ def render_battle_page(bundle: dict) -> None:
 
     result = predict_battle(_key_from_option(option_a), _key_from_option(option_b), bundle).payload
     _mount_html(_render_battle_header(result))
+    _mount_html(_render_battle_dialogue_box(result))
     _mount_html(_render_battle_probability_panel(result))
     _mount_html(_render_feature_snapshot(result["feature_snapshot"]))
     _mount_html(_render_commentary_lines(result["explanation"], "BATTLE COMMENTARY", tone="battle"))
