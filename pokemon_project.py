@@ -1167,8 +1167,26 @@ def predict_battle(pokemon_a: str | int, pokemon_b: str | int, bundle: dict[str,
 
     return PredictionResult(
         {
-            "pokemon_a": {"name": row_a["name"], "dexnum_int": int(row_a["dexnum_int"]), "type1": row_a["type1"], "type2": row_a["type2"], "image_url": row_a.get("image_url", ""), "total": int(row_a["total"])},
-            "pokemon_b": {"name": row_b["name"], "dexnum_int": int(row_b["dexnum_int"]), "type1": row_b["type1"], "type2": row_b["type2"], "image_url": row_b.get("image_url", ""), "total": int(row_b["total"])},
+            "pokemon_a": {
+                "name": row_a["name"],
+                "dexnum_int": int(row_a["dexnum_int"]),
+                "type1": row_a["type1"],
+                "type2": row_a["type2"],
+                "image_url": row_a.get("image_url", ""),
+                "sprite_url": row_a.get("sprite_url", ""),
+                "official_artwork_url": row_a.get("official_artwork_url", ""),
+                "total": int(row_a["total"]),
+            },
+            "pokemon_b": {
+                "name": row_b["name"],
+                "dexnum_int": int(row_b["dexnum_int"]),
+                "type1": row_b["type1"],
+                "type2": row_b["type2"],
+                "image_url": row_b.get("image_url", ""),
+                "sprite_url": row_b.get("sprite_url", ""),
+                "official_artwork_url": row_b.get("official_artwork_url", ""),
+                "total": int(row_b["total"]),
+            },
             "predicted_winner": predicted_winner,
             "win_prob_a": probability_a,
             "win_prob_b": probability_b,

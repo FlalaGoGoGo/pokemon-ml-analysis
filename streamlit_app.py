@@ -484,6 +484,33 @@ def inject_global_styles() -> None:
           border-radius: 0 !important;
         }
 
+        div[data-testid="stButton"] > button {
+          width: 100%;
+          min-height: 86px;
+          background: linear-gradient(180deg, rgba(255,247,227,0.96), rgba(210,241,255,0.34));
+          color: var(--shell-navy);
+          border: var(--panel-border);
+          border-radius: 0 !important;
+          box-shadow: var(--panel-shadow);
+          font-family: "Press Start 2P", "Courier New", monospace !important;
+          font-size: 0.62rem;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+        }
+
+        div[data-testid="stButton"] > button:hover {
+          border-color: #D94A3A;
+          color: #D94A3A;
+        }
+
+        div[data-testid="stButton"] > button:disabled {
+          background: linear-gradient(180deg, rgba(247,214,74,0.96), rgba(232,180,60,0.95));
+          color: #10203C;
+          border-color: #8E6A0A;
+          opacity: 1;
+          box-shadow: 4px 4px 0 rgba(13,19,33,0.28);
+        }
+
         div[data-testid="stRadio"] > div {
           flex-direction: row;
           gap: 0.8rem;
@@ -930,22 +957,8 @@ def inject_global_styles() -> None:
           z-index: 1;
         }
 
-        .sprite-stage .sprite-silhouette {
-          position: absolute;
-          z-index: 0;
-          filter: brightness(0) saturate(0) opacity(0.24) blur(1px);
-        }
-
-        .scan-shell .sprite-stage .main-sprite {
-          animation: scanFloat 1.9s steps(2, end) infinite;
-        }
-
         .sprite-stage.neutral-side img {
           transform: translateY(6px) scale(1.08);
-        }
-
-        .scan-shell .sprite-stage.neutral-side .sprite-silhouette {
-          transform: translateY(10px) scale(1.1);
         }
 
         .sprite-stage.player-side img {
@@ -954,18 +967,10 @@ def inject_global_styles() -> None:
           transform: translate(-6px, 10px) scale(1.08);
         }
 
-        .scan-shell .sprite-stage.player-side .sprite-silhouette {
-          transform: translate(-6px, 12px) scale(1.1);
-        }
-
         .sprite-stage.opponent-side img {
           width: 86%;
           height: 86%;
           transform: translate(6px, 10px) scale(1.08);
-        }
-
-        .scan-shell .sprite-stage.opponent-side .sprite-silhouette {
-          transform: translate(6px, 12px) scale(1.1);
         }
 
         .hero-data h2,
@@ -1095,6 +1100,21 @@ def inject_global_styles() -> None:
           gap: 0.55rem;
         }
 
+        .reveal-lock-band {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          align-self: center;
+          padding: 0.25rem 0.55rem;
+          background: rgba(16,32,60,0.86);
+          color: var(--cartridge-cream);
+          border: 3px solid rgba(255,247,227,0.22);
+          box-shadow: 4px 4px 0 rgba(13,19,33,0.22);
+          font-size: 0.5rem;
+          letter-spacing: 0.08em;
+          animation: lockBlink 1.15s steps(2, end) infinite;
+        }
+
         .reveal-card.match {
           background: linear-gradient(180deg, rgba(103,184,95,0.2), rgba(255,247,227,0.95));
         }
@@ -1130,6 +1150,37 @@ def inject_global_styles() -> None:
           font-size: 1.25rem;
           line-height: 1.1;
           color: var(--shell-navy);
+        }
+
+        .reveal-lock-bars {
+          display: flex;
+          justify-content: center;
+          gap: 0.22rem;
+        }
+
+        .reveal-lock-bar {
+          width: 14px;
+          height: 10px;
+          border: 2px solid rgba(16,32,60,0.18);
+          background: rgba(16,32,60,0.12);
+        }
+
+        .reveal-card.match .reveal-lock-bar,
+        .reveal-card.partial .reveal-lock-bar,
+        .reveal-card.miss .reveal-lock-bar {
+          animation: pulseBars 1.2s steps(3, end) infinite;
+        }
+
+        .reveal-card.match .reveal-lock-bar {
+          background: rgba(103,184,95,0.86);
+        }
+
+        .reveal-card.partial .reveal-lock-bar {
+          background: rgba(247,214,74,0.88);
+        }
+
+        .reveal-card.miss .reveal-lock-bar {
+          background: rgba(217,74,58,0.86);
         }
 
         .signal-hero-card {
@@ -1818,16 +1869,21 @@ def inject_global_styles() -> None:
           50% { transform: translate(2px, 2px); box-shadow: 2px 2px 0 rgba(13,19,33,0.4); }
         }
 
-        @keyframes scanFloat {
-          0%, 100% { transform: translateY(6px) scale(1.08); opacity: 0.98; }
-          50% { transform: translateY(4px) scale(1.09); opacity: 1; }
+        @keyframes lockBlink {
+          0%, 100% { opacity: 1; }
+          50% { opacity: 0.62; }
+        }
+
+        @keyframes pulseBars {
+          0%, 100% { transform: translateY(0); opacity: 0.95; }
+          50% { transform: translateY(-2px); opacity: 1; }
         }
 
         .sidebar-shell {
           padding: 1rem;
           margin-bottom: 1rem;
-          background: rgba(255,247,227,0.08);
-          border-color: rgba(255,247,227,0.4);
+          background: linear-gradient(180deg, rgba(31,45,69,0.98), rgba(12,20,36,0.98));
+          border-color: rgba(255,247,227,0.22);
           box-shadow: 5px 5px 0 rgba(0,0,0,0.38);
         }
 
@@ -1846,6 +1902,65 @@ def inject_global_styles() -> None:
           line-height: 1.12;
           margin-bottom: 0.75rem;
           color: rgba(255,247,227,0.92);
+        }
+
+        .system-grid {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 0.55rem;
+          margin-top: 0.75rem;
+        }
+
+        .system-tile {
+          background: rgba(255,247,227,0.08);
+          border: 2px solid rgba(255,247,227,0.14);
+          padding: 0.45rem 0.5rem;
+        }
+
+        .system-tile-label {
+          font-size: 0.46rem;
+          color: rgba(247,214,74,0.9);
+          letter-spacing: 0.08em;
+          margin-bottom: 0.22rem;
+        }
+
+        .system-tile-value {
+          font-size: 1rem;
+          line-height: 1.02;
+          color: rgba(255,247,227,0.96);
+        }
+
+        .registry-row {
+          display: grid;
+          grid-template-columns: 1fr auto;
+          gap: 0.5rem;
+          align-items: center;
+          padding: 0.45rem 0;
+          border-bottom: 1px solid rgba(255,247,227,0.12);
+        }
+
+        .registry-row:last-child {
+          border-bottom: none;
+        }
+
+        .registry-name {
+          font-size: 1rem;
+          line-height: 1.06;
+          color: rgba(255,247,227,0.96);
+        }
+
+        .registry-metric {
+          font-size: 0.95rem;
+          color: rgba(153,227,212,0.96);
+          white-space: nowrap;
+        }
+
+        .registry-block-title {
+          margin-top: 0.75rem;
+          margin-bottom: 0.25rem;
+          font-size: 0.5rem;
+          color: rgba(247,214,74,0.94);
+          letter-spacing: 0.08em;
         }
 
         .side-table {
@@ -1960,18 +2075,57 @@ def inject_global_styles() -> None:
 
 def render_sidebar(bundle: dict) -> None:
     tables = notebook_ready_tables(bundle)
+    type_random = tables["type_random"].copy()
+    battle_grouped = tables["battle_grouped"].copy()
+    top_type = type_random.sort_values(["exact_match", "micro_f1"], ascending=[False, False]).iloc[0]
+    top_battle = battle_grouped.sort_values(["roc_auc", "accuracy"], ascending=[False, False]).iloc[0]
+    type_registry = "".join(
+        f"""
+        <div class="registry-row">
+          <div class="registry-name">{escape(_display_model_variant(row.model))}</div>
+          <div class="registry-metric">EXACT {row.exact_match:.3f}</div>
+        </div>
+        """
+        for row in type_random.head(3).itertuples(index=False)
+    )
+    battle_registry = "".join(
+        f"""
+        <div class="registry-row">
+          <div class="registry-name">{escape(_ascii_text(row.model).upper())}</div>
+          <div class="registry-metric">ROC {row.roc_auc:.3f}</div>
+        </div>
+        """
+        for row in battle_grouped.head(2).itertuples(index=False)
+    )
     _mount_html(
         f"""
         <div class="sidebar-shell">
-          <div class="panel-kicker">TRAINER CONSOLE</div>
-          <div class="console-title">POKEMON ML ANALYSIS</div>
+          <div class="panel-kicker">SYSTEM PANEL</div>
+          <div class="console-title">TRAINER DEVICE OS</div>
           <div class="console-copy">
-            Retro device styling wrapped around a canonical hybrid Pokemon dataset.
+            Canonical hybrid Pokemon data routed through a live retro trainer interface.
           </div>
-          <div class="note-card note-card-wrap">Bundle source :: {escape(str(bundle.get('bundle_source', 'unknown')).upper())}</div>
-          <div class="note-card note-card-wrap">Type model :: {escape(bundle['type_bundle']['final_model_name'])}</div>
-          <div class="note-card note-card-wrap">Battle model :: {escape(bundle['battle_bundle']['final_model_name'])}</div>
-          <div class="note-card note-card-wrap">Data source :: CANONICAL HYBRID</div>
+          <div class="system-grid">
+            <div class="system-tile">
+              <div class="system-tile-label">STATUS</div>
+              <div class="system-tile-value">ONLINE</div>
+            </div>
+            <div class="system-tile">
+              <div class="system-tile-label">SOURCE</div>
+              <div class="system-tile-value">CANONICAL</div>
+            </div>
+            <div class="system-tile">
+              <div class="system-tile-label">TYPE BEST</div>
+              <div class="system-tile-value">{top_type.exact_match:.3f}</div>
+            </div>
+            <div class="system-tile">
+              <div class="system-tile-label">BATTLE BEST</div>
+              <div class="system-tile-value">{top_battle.roc_auc:.3f}</div>
+            </div>
+          </div>
+          <div class="note-card note-card-wrap">Bundle :: {escape(str(bundle.get('bundle_source', 'unknown')).upper())}</div>
+          <div class="note-card note-card-wrap">Deploy type :: {escape(_display_model_variant(bundle['type_bundle']['final_model_name']))}</div>
+          <div class="note-card note-card-wrap">Deploy battle :: {escape(_ascii_text(bundle['battle_bundle']['final_model_name']).upper())}</div>
         </div>
         """,
         container=st.sidebar,
@@ -1980,30 +2134,11 @@ def render_sidebar(bundle: dict) -> None:
     _mount_html(
         f"""
         <div class="sidebar-shell">
-          <div class="panel-kicker">TYPE LEADERBOARD</div>
-          {_render_sidebar_table(
-              tables["type_random"][["model", "micro_f1", "macro_f1", "exact_match"]].round(3),
-              ["model", "micro_f1", "macro_f1", "exact_match"],
-              {"micro_f1": ".3f", "macro_f1": ".3f", "exact_match": ".3f"},
-              column_widths={"model": "2.8fr", "micro_f1": "0.85fr", "macro_f1": "0.85fr", "exact_match": "0.95fr"},
-              wrap_columns={"model"},
-          )}
-        </div>
-        """,
-        container=st.sidebar,
-    )
-
-    _mount_html(
-        f"""
-        <div class="sidebar-shell">
-          <div class="panel-kicker">BATTLE LEADERBOARD</div>
-          {_render_sidebar_table(
-              tables["battle_grouped"][["model", "accuracy", "roc_auc"]].round(3),
-              ["model", "accuracy", "roc_auc"],
-              {"accuracy": ".3f", "roc_auc": ".3f"},
-              column_widths={"model": "2.2fr", "accuracy": "0.9fr", "roc_auc": "0.9fr"},
-              wrap_columns={"model"},
-          )}
+          <div class="panel-kicker">MODEL REGISTRY</div>
+          <div class="registry-block-title">TYPE PIPELINE</div>
+          {type_registry}
+          <div class="registry-block-title">BATTLE PIPELINE</div>
+          {battle_registry}
         </div>
         """,
         container=st.sidebar,
@@ -2086,18 +2221,12 @@ def _render_sprite_shell(image_url: str, name: str, mode: str = "scan", stance: 
 
     overlay_label = "SCAN CHAMBER" if mode == "scan" else ("PLAYER SIDE" if stance == "player" else "RIVAL SIDE")
     ground_shadow = '<div class="sprite-ground-shadow"></div>' if mode == "battle" else ""
-    silhouette = (
-        f'<img class="sprite-silhouette" src="{escape(image_url, quote=True)}" alt="{escape(name)} silhouette" />'
-        if mode == "scan"
-        else ""
-    )
     return f"""
     <div class="{' '.join(shell_classes)}">
       <div class="sprite-overlay-label">{escape(overlay_label)}</div>
       <div class="{' '.join(stage_classes)}">
         {ground_shadow}
-        {silhouette}
-        <img class="main-sprite" src="{escape(image_url, quote=True)}" alt="{escape(name)} sprite" />
+        <img src="{escape(image_url, quote=True)}" alt="{escape(name)} sprite" />
       </div>
     </div>
     """
@@ -2197,7 +2326,24 @@ def render_dialog_box(title: str, lines: list[str], theme: str = "type") -> str:
 
 
 def render_command_menu(label: str, key: str, options: list[str]) -> str:
-    return st.radio(label, options, horizontal=True, label_visibility="collapsed", key=key)
+    if key not in st.session_state or st.session_state[key] not in options:
+        st.session_state[key] = options[0]
+
+    row_pairs = [options[:2], options[2:4]]
+    for row_index, row_options in enumerate(row_pairs):
+        cols = st.columns(2)
+        for col, option in zip(cols, row_options):
+            is_active = st.session_state[key] == option
+            with col:
+                clicked = st.button(
+                    option,
+                    key=f"{key}_{row_index}_{option.lower()}",
+                    use_container_width=True,
+                    disabled=is_active,
+                )
+                if clicked:
+                    st.session_state[key] = option
+    return st.session_state[key]
 
 
 def _type_slots(result: dict) -> tuple[list[str], list[str]]:
@@ -2239,12 +2385,20 @@ def _type_match_payload(result: dict) -> dict[str, str | int]:
 
 def render_reveal_state(result: dict) -> str:
     payload = _type_match_payload(result)
+    lock_label = {
+        "match": "SIGNAL LOCKED",
+        "partial": "LOCK UNSTABLE",
+        "miss": "SIGNAL LOST",
+    }.get(str(payload["tone"]), "SIGNAL READ")
+    lock_bars = "".join("<span class='reveal-lock-bar'></span>" for _ in range(5))
     return f"""
     <div class="pixel-panel reveal-card {escape(str(payload['tone']))}">
+      <div class="reveal-lock-band">{escape(lock_label)}</div>
       <div class="reveal-header">
         <div class="reveal-state">{escape(str(payload['state']))}</div>
         <div class="reveal-match-count">{int(payload['matched_count'])}/{int(payload['slot_total'])} SLOTS</div>
       </div>
+      <div class="reveal-lock-bars">{lock_bars}</div>
       <div class="reveal-copy">{escape(str(payload['detail']).upper())}</div>
     </div>
     """
