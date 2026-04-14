@@ -487,6 +487,7 @@ def inject_global_styles() -> None:
         div[data-testid="stRadio"] > div {
           flex-direction: row;
           gap: 0.8rem;
+          flex-wrap: wrap;
         }
 
         div[data-testid="stRadio"] label {
@@ -495,7 +496,8 @@ def inject_global_styles() -> None:
           box-shadow: var(--panel-shadow);
           border-radius: 0 !important;
           padding: 0.8rem 1rem;
-          min-width: 220px;
+          min-width: 150px;
+          flex: 1 1 150px;
           justify-content: center;
         }
 
@@ -928,8 +930,22 @@ def inject_global_styles() -> None:
           z-index: 1;
         }
 
+        .sprite-stage .sprite-silhouette {
+          position: absolute;
+          z-index: 0;
+          filter: brightness(0) saturate(0) opacity(0.24) blur(1px);
+        }
+
+        .scan-shell .sprite-stage .main-sprite {
+          animation: scanFloat 1.9s steps(2, end) infinite;
+        }
+
         .sprite-stage.neutral-side img {
           transform: translateY(6px) scale(1.08);
+        }
+
+        .scan-shell .sprite-stage.neutral-side .sprite-silhouette {
+          transform: translateY(10px) scale(1.1);
         }
 
         .sprite-stage.player-side img {
@@ -938,10 +954,18 @@ def inject_global_styles() -> None:
           transform: translate(-6px, 10px) scale(1.08);
         }
 
+        .scan-shell .sprite-stage.player-side .sprite-silhouette {
+          transform: translate(-6px, 12px) scale(1.1);
+        }
+
         .sprite-stage.opponent-side img {
           width: 86%;
           height: 86%;
           transform: translate(6px, 10px) scale(1.08);
+        }
+
+        .scan-shell .sprite-stage.opponent-side .sprite-silhouette {
+          transform: translate(6px, 12px) scale(1.1);
         }
 
         .hero-data h2,
@@ -972,9 +996,255 @@ def inject_global_styles() -> None:
           letter-spacing: 0.08em;
         }
 
+        .game-window {
+          background: linear-gradient(180deg, rgba(255,247,227,0.98), rgba(255,247,227,0.9));
+        }
+
+        .scan-status-row {
+          display: flex;
+          align-items: center;
+          gap: 0.75rem;
+          flex-wrap: wrap;
+          margin-bottom: 0.75rem;
+        }
+
+        .scan-chip {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0.4rem 0.65rem;
+          background: var(--battle-red);
+          color: var(--cartridge-cream);
+          border: 3px solid #7F2218;
+          box-shadow: 4px 4px 0 rgba(13,19,33,0.22);
+          font-size: 0.52rem;
+          letter-spacing: 0.08em;
+          animation: pulseStart 1.5s steps(2, end) infinite;
+        }
+
+        .scan-light-row,
+        .scan-bars,
+        .scan-stepper {
+          display: inline-flex;
+          align-items: center;
+          gap: 0.4rem;
+          flex-wrap: wrap;
+        }
+
+        .scan-light {
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+          background: rgba(16,32,60,0.16);
+          border: 2px solid rgba(16,32,60,0.18);
+        }
+
+        .scan-light.active {
+          background: #67B85F;
+          box-shadow: 0 0 0 3px rgba(103,184,95,0.22);
+        }
+
+        .scan-bars {
+          gap: 0.2rem;
+        }
+
+        .scan-bar {
+          width: 16px;
+          height: 12px;
+          background: rgba(16,32,60,0.14);
+          border: 2px solid rgba(16,32,60,0.18);
+          transform-origin: bottom center;
+        }
+
+        .scan-bar.level-1 { height: 10px; background: rgba(103,184,95,0.45); }
+        .scan-bar.level-2 { height: 14px; background: rgba(103,184,95,0.58); }
+        .scan-bar.level-3 { height: 18px; background: rgba(247,214,74,0.62); }
+        .scan-bar.level-4 { height: 22px; background: rgba(247,214,74,0.76); }
+        .scan-bar.level-5 { height: 26px; background: rgba(217,74,58,0.82); }
+
+        .scan-stepper {
+          gap: 0.5rem;
+          margin-bottom: 0.75rem;
+        }
+
+        .scan-step {
+          padding: 0.35rem 0.55rem;
+          background: rgba(16,32,60,0.08);
+          border: 3px solid rgba(16,32,60,0.18);
+          font-size: 0.5rem;
+          color: #243550;
+        }
+
+        .scan-step.active {
+          background: rgba(153,227,212,0.34);
+          border-color: rgba(16,32,60,0.28);
+        }
+
         .pixel-panel {
           padding: 1rem;
           margin-bottom: 1rem;
+        }
+
+        .reveal-card {
+          background: linear-gradient(180deg, rgba(255,247,227,0.98), rgba(255,247,227,0.9));
+          text-align: center;
+          min-height: 160px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap: 0.55rem;
+        }
+
+        .reveal-card.match {
+          background: linear-gradient(180deg, rgba(103,184,95,0.2), rgba(255,247,227,0.95));
+        }
+
+        .reveal-card.partial {
+          background: linear-gradient(180deg, rgba(247,214,74,0.22), rgba(255,247,227,0.95));
+        }
+
+        .reveal-card.miss {
+          background: linear-gradient(180deg, rgba(217,74,58,0.2), rgba(255,247,227,0.95));
+        }
+
+        .reveal-header {
+          display: flex;
+          flex-direction: column;
+          gap: 0.35rem;
+          align-items: center;
+        }
+
+        .reveal-state {
+          font-family: "Press Start 2P", "Courier New", monospace !important;
+          font-size: 0.72rem;
+          line-height: 1.45;
+          color: var(--shell-navy);
+        }
+
+        .reveal-match-count {
+          font-size: 1.1rem;
+          color: #243550;
+        }
+
+        .reveal-copy {
+          font-size: 1.25rem;
+          line-height: 1.1;
+          color: var(--shell-navy);
+        }
+
+        .signal-hero-card {
+          border: 4px solid rgba(16,32,60,0.26);
+          background: linear-gradient(180deg, rgba(255,247,227,0.98), rgba(153,227,212,0.18));
+          padding: 0.85rem;
+          margin-bottom: 0.9rem;
+        }
+
+        .signal-hero-kicker {
+          font-size: 0.5rem;
+          color: var(--battle-red);
+          letter-spacing: 0.08em;
+          margin-bottom: 0.35rem;
+        }
+
+        .signal-hero-type .type-badge {
+          font-size: 0.68rem;
+          padding: 0.45rem 0.7rem;
+        }
+
+        .signal-hero-value {
+          font-size: 2.2rem;
+          color: var(--shell-navy);
+          line-height: 1;
+          margin-top: 0.35rem;
+        }
+
+        .signal-hero-copy {
+          margin-top: 0.3rem;
+          font-size: 1.2rem;
+          line-height: 1.08;
+          color: #243550;
+        }
+
+        .signal-stack {
+          display: flex;
+          flex-direction: column;
+          gap: 0.6rem;
+        }
+
+        .signal-row {
+          display: grid;
+          grid-template-columns: 120px 1fr 78px;
+          gap: 0.55rem;
+          align-items: center;
+        }
+
+        .signal-row-track {
+          height: 16px;
+          background: rgba(16,32,60,0.11);
+          border: 3px solid rgba(16,32,60,0.22);
+          overflow: hidden;
+        }
+
+        .signal-row-fill {
+          height: 100%;
+          box-shadow: inset 0 -3px 0 rgba(255,255,255,0.22);
+        }
+
+        .signal-row-value {
+          text-align: center;
+          border: 3px solid rgba(16,32,60,0.22);
+          padding: 0.1rem 0.3rem;
+          font-size: 1.1rem;
+          line-height: 1;
+        }
+
+        .bait-window .panel-title,
+        .system-window .panel-title {
+          margin-bottom: 0.55rem;
+        }
+
+        .bait-card-shell {
+          display: flex;
+          flex-direction: column;
+          gap: 0.55rem;
+        }
+
+        .bait-headline {
+          font-family: "Press Start 2P", "Courier New", monospace !important;
+          font-size: 0.62rem;
+          line-height: 1.45;
+          color: var(--shell-navy);
+        }
+
+        .bait-type-row {
+          display: grid;
+          grid-template-columns: 0.9fr 1fr 0.6fr;
+          gap: 0.55rem;
+          align-items: center;
+        }
+
+        .bait-type-label {
+          font-size: 0.5rem;
+          color: var(--battle-red);
+          letter-spacing: 0.08em;
+        }
+
+        .bait-type-value {
+          font-size: 1.7rem;
+          color: var(--shell-navy);
+          line-height: 1;
+        }
+
+        .bait-type-prob {
+          font-size: 1.2rem;
+          color: #243550;
+          text-align: right;
+        }
+
+        .bait-copy {
+          font-size: 1.2rem;
+          line-height: 1.1;
+          color: #243550;
         }
 
         .oof-panel {
@@ -1335,6 +1605,11 @@ def inject_global_styles() -> None:
           line-height: 1.1;
         }
 
+        .battle-advantage-tag.underdog {
+          background: rgba(16,32,60,0.12);
+          color: var(--shell-navy);
+        }
+
         .vs-core {
           display: flex;
           flex-direction: column;
@@ -1378,6 +1653,12 @@ def inject_global_styles() -> None:
           line-height: 1;
         }
 
+        .vs-copy {
+          font-size: 0.5rem;
+          letter-spacing: 0.08em;
+          color: #243550;
+        }
+
         .hud-grid {
           display: grid;
           grid-template-columns: 1.1fr 0.9fr;
@@ -1402,9 +1683,44 @@ def inject_global_styles() -> None:
           color: var(--shell-navy);
         }
 
+        .battle-state-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+          gap: 0.75rem;
+          margin-bottom: 0.9rem;
+        }
+
+        .battle-state-tile {
+          border: 3px solid rgba(16,32,60,0.25);
+          background: rgba(16,32,60,0.08);
+          padding: 0.7rem;
+        }
+
+        .battle-state-tile.winner {
+          background: linear-gradient(180deg, rgba(247,214,74,0.24), rgba(255,247,227,0.95));
+        }
+
+        .battle-state-label {
+          font-size: 0.48rem;
+          color: var(--battle-red);
+          letter-spacing: 0.08em;
+          margin-bottom: 0.3rem;
+        }
+
+        .battle-state-value {
+          font-size: 1.55rem;
+          color: var(--shell-navy);
+          line-height: 1.02;
+        }
+
         .battle-dialogue-panel {
           background: linear-gradient(180deg, rgba(255,247,227,0.98), rgba(222,232,255,0.38));
           margin-top: -0.2rem;
+        }
+
+        .type-dialog .dialogue-tab {
+          background: var(--battle-red);
+          border-color: #7F2218;
         }
 
         .dialogue-tab {
@@ -1500,6 +1816,11 @@ def inject_global_styles() -> None:
         @keyframes pulseStart {
           0%, 100% { transform: translate(0, 0); }
           50% { transform: translate(2px, 2px); box-shadow: 2px 2px 0 rgba(13,19,33,0.4); }
+        }
+
+        @keyframes scanFloat {
+          0%, 100% { transform: translateY(6px) scale(1.08); opacity: 0.98; }
+          50% { transform: translateY(4px) scale(1.09); opacity: 1; }
         }
 
         .sidebar-shell {
@@ -1765,12 +2086,18 @@ def _render_sprite_shell(image_url: str, name: str, mode: str = "scan", stance: 
 
     overlay_label = "SCAN CHAMBER" if mode == "scan" else ("PLAYER SIDE" if stance == "player" else "RIVAL SIDE")
     ground_shadow = '<div class="sprite-ground-shadow"></div>' if mode == "battle" else ""
+    silhouette = (
+        f'<img class="sprite-silhouette" src="{escape(image_url, quote=True)}" alt="{escape(name)} silhouette" />'
+        if mode == "scan"
+        else ""
+    )
     return f"""
     <div class="{' '.join(shell_classes)}">
       <div class="sprite-overlay-label">{escape(overlay_label)}</div>
       <div class="{' '.join(stage_classes)}">
         {ground_shadow}
-        <img src="{escape(image_url, quote=True)}" alt="{escape(name)} sprite" />
+        {silhouette}
+        <img class="main-sprite" src="{escape(image_url, quote=True)}" alt="{escape(name)} sprite" />
       </div>
     </div>
     """
@@ -1785,8 +2112,12 @@ def _battle_hp_palette(probability: float) -> tuple[str, str]:
 
 
 def _render_battle_nameplate(pokemon: dict, probability: float, side: str, leading: bool) -> str:
-    fill_color, border_color = _battle_hp_palette(probability)
-    lead_badge = '<span class="battle-advantage-tag">LEAD</span>' if leading else ""
+    fill_color, _ = _battle_hp_palette(probability)
+    lead_badge = (
+        '<span class="battle-advantage-tag">LEAD</span>'
+        if leading
+        else '<span class="battle-advantage-tag underdog">UNDERDOG</span>'
+    )
     return f"""
     <div class="battle-nameplate {escape(side)} {'leading' if leading else ''}">
       <div class="battle-nameplate-top">
@@ -1807,6 +2138,10 @@ def _render_battle_nameplate(pokemon: dict, probability: float, side: str, leadi
       </div>
     </div>
     """
+
+
+def render_nameplate_hp(pokemon: dict, probability: float, side: str, leading: bool) -> str:
+    return _render_battle_nameplate(pokemon, probability, side, leading)
 
 
 def _render_battle_dialogue_box(result: dict) -> str:
@@ -1836,6 +2171,312 @@ def _render_battle_dialogue_box(result: dict) -> str:
     """
 
 
+def render_game_window(kicker: str, title: str, body_html: str, extra_class: str = "") -> str:
+    extra = f" {extra_class}" if extra_class else ""
+    return f"""
+    <div class="pixel-panel game-window{extra}">
+      <div class="panel-kicker">{escape(_ascii_text(kicker).upper())}</div>
+      <div class="panel-title">{escape(_ascii_text(title).upper())}</div>
+      {body_html}
+    </div>
+    """
+
+
+def render_dialog_box(title: str, lines: list[str], theme: str = "type") -> str:
+    items = "".join(
+        f'<div class="dialogue-line"><span class="dialogue-prompt">&gt;&gt;</span><span>{escape(_ascii_text(line).upper())}</span></div>'
+        for line in lines[:5]
+    )
+    return f"""
+    <div class="pixel-panel battle-dialogue-panel {escape(theme)}-dialog">
+      <div class="dialogue-tab">{escape(_ascii_text(title).upper())}</div>
+      <div class="dialogue-screen">{items}</div>
+      <div class="dialogue-cursor">NEXT &gt;</div>
+    </div>
+    """
+
+
+def render_command_menu(label: str, key: str, options: list[str]) -> str:
+    return st.radio(label, options, horizontal=True, label_visibility="collapsed", key=key)
+
+
+def _type_slots(result: dict) -> tuple[list[str], list[str]]:
+    true_types = [result["true_primary"], result["true_secondary"]]
+    predicted_types = [result["predicted_primary"], result["predicted_secondary"]]
+    return [t for t in true_types if t and t != "None"], [t for t in predicted_types if t and t != "None"]
+
+
+def _type_match_payload(result: dict) -> dict[str, str | int]:
+    true_types, predicted_types = _type_slots(result)
+    true_set = set(true_types)
+    predicted_set = set(predicted_types)
+    matched_count = len(true_set & predicted_set)
+    slot_total = max(len(true_set), 1)
+    if true_set == predicted_set:
+        return {
+            "state": "MATCH",
+            "detail": "Model locked onto the exact typing signature.",
+            "tone": "match",
+            "matched_count": matched_count,
+            "slot_total": slot_total,
+        }
+    if matched_count:
+        return {
+            "state": "PARTIAL MATCH",
+            "detail": f"Model caught {matched_count} correct slot and drifted on the rest.",
+            "tone": "partial",
+            "matched_count": matched_count,
+            "slot_total": slot_total,
+        }
+    return {
+        "state": "MISREAD",
+        "detail": "Model chased the wrong elemental signal this time.",
+        "tone": "miss",
+        "matched_count": matched_count,
+        "slot_total": slot_total,
+    }
+
+
+def render_reveal_state(result: dict) -> str:
+    payload = _type_match_payload(result)
+    return f"""
+    <div class="pixel-panel reveal-card {escape(str(payload['tone']))}">
+      <div class="reveal-header">
+        <div class="reveal-state">{escape(str(payload['state']))}</div>
+        <div class="reveal-match-count">{int(payload['matched_count'])}/{int(payload['slot_total'])} SLOTS</div>
+      </div>
+      <div class="reveal-copy">{escape(str(payload['detail']).upper())}</div>
+    </div>
+    """
+
+
+def _scan_status_markup() -> str:
+    bars = "".join(f"<span class='scan-bar level-{idx + 1}'></span>" for idx in range(5))
+    lights = "".join(
+        f"<span class='scan-light {'active' if idx < 2 else ''}'></span>" for idx in range(3)
+    )
+    steps = "".join(
+        f"<span class='scan-step {'active' if idx < 3 else ''}'>{label}</span>"
+        for idx, label in enumerate(["SPECIMEN DETECTED", "SIGNAL ANALYSIS", "GROUND TRUTH REVEAL"])
+    )
+    return f"""
+    <div class="scan-status-row">
+      <div class="scan-chip">SCANNING...</div>
+      <div class="scan-light-row">{lights}</div>
+      <div class="scan-bars">{bars}</div>
+    </div>
+    <div class="scan-stepper">{steps}</div>
+    """
+
+
+def _render_type_signal_hud(result: dict, top_n: int = 5) -> str:
+    probability_df = result["probabilities"].query("type != 'None'").reset_index(drop=True)
+    top_row = probability_df.iloc[0]
+    secondary_rows = []
+    for row in probability_df.iloc[1:top_n].itertuples(index=False):
+        bg_color, text_color = TYPE_STYLE_MAP.get(str(row.type), ("#72808E", "#FFF7E3"))
+        secondary_rows.append(
+            f"""
+            <div class="signal-row">
+              <div class="signal-row-type">{_render_type_badges([str(row.type)])}</div>
+              <div class="signal-row-track">
+                <div class="signal-row-fill" style="width:{float(row.probability) * 100:.1f}%;background:{bg_color};"></div>
+              </div>
+              <div class="signal-row-value" style="background:{bg_color};color:{text_color};">{float(row.probability):.1%}</div>
+            </div>
+            """
+        )
+    return f"""
+    <div class="signal-hero-card">
+      <div class="signal-hero-kicker">PRIMARY LOCK</div>
+      <div class="signal-hero-type">{_render_type_badges([str(top_row['type'])])}</div>
+      <div class="signal-hero-value">{float(top_row['probability']):.1%}</div>
+      <div class="signal-hero-copy">Top ranked type signature detected by the scan engine.</div>
+    </div>
+    <div class="signal-stack">
+      {''.join(secondary_rows)}
+    </div>
+    """
+
+
+def _render_visual_bait_panel(result: dict) -> str:
+    probability_df = result["probabilities"].query("type != 'None'").reset_index(drop=True)
+    true_types, _ = _type_slots(result)
+    false_reads = probability_df[~probability_df["type"].isin(true_types)]
+    if false_reads.empty:
+        headline = "NO FALSE SIGNAL"
+        copy = "The scan does not see a strong fake typing cue."
+        bait_type = "NONE"
+        bait_prob = 0.0
+    else:
+        top_false = false_reads.iloc[0]
+        bait_type = str(top_false["type"]).upper()
+        bait_prob = float(top_false["probability"])
+        if bait_prob >= 0.18:
+            headline = "VISUAL BAIT DETECTED"
+            copy = f"This Pokemon can read like {bait_type} even though that is not the true typing."
+        elif bait_prob >= 0.07:
+            headline = "ALT SIGNAL"
+            copy = f"The scan briefly leaned toward {bait_type} before locking on the real type."
+        else:
+            headline = "CLEAN READ"
+            copy = f"The strongest wrong cue is only {bait_type}, so the profile stays fairly clean."
+
+    return render_game_window(
+        "WHO DOES IT LOOK LIKE?",
+        "VISUAL MISDIRECTION READOUT",
+        f"""
+        <div class="bait-card-shell">
+          <div class="bait-headline">{escape(headline)}</div>
+          <div class="bait-type-row">
+            <div class="bait-type-label">FALSE CUE</div>
+            <div class="bait-type-value">{escape(bait_type)}</div>
+            <div class="bait-type-prob">{bait_prob:.1%}</div>
+          </div>
+          <div class="bait-copy">{escape(copy.upper())}</div>
+        </div>
+        """,
+        extra_class="bait-window",
+    )
+
+
+def _render_system_card(result: dict) -> str:
+    provenance = result.get("provenance", {})
+    body = f"""
+    {_render_stat_strip([
+        ("SOURCE", "CANONICAL HYBRID"),
+        ("VALID", _display_validation_status(str(provenance.get("validation_status", "unknown")))),
+        ("MODE", _display_feature_mode(result.get("feature_mode", "structured"))),
+    ], compact_labels={"SOURCE", "VALID", "MODE"}, wrap_labels={"SOURCE", "VALID", "MODE"})}
+    {_render_link_note("Pokedex URL", provenance.get("official_pokedex_url", ""))}
+    {_render_link_note("Artwork URL", provenance.get("official_artwork_url", ""))}
+    """
+    return render_game_window("SYSTEM CARD", "PROVENANCE + VALIDATION", body, extra_class="system-window")
+
+
+def _render_scan_log(result: dict) -> str:
+    panels = result.get("evidence_panels", {})
+    lines: list[str] = []
+    for title, panel_lines in panels.items():
+        for line in panel_lines:
+            lines.append(f"{title}: {line}")
+            if len(lines) >= 5:
+                break
+        if len(lines) >= 5:
+            break
+    if not lines:
+        lines = result.get("explanation", [])[:5]
+    return render_dialog_box("PROFESSOR NOTES", lines, theme="type")
+
+
+def _battle_feature_map(result: dict) -> dict[str, float]:
+    snapshot = result["feature_snapshot"]
+    return {str(row.feature): float(row.value) for row in snapshot.itertuples(index=False)}
+
+
+def _battle_state_summary(result: dict) -> dict[str, str]:
+    feature_map = _battle_feature_map(result)
+    lead_gap = abs(float(result["win_prob_a"]) - float(result["win_prob_b"]))
+    if lead_gap >= 0.30:
+        advantage = "DECISIVE"
+        threat = "LOW"
+    elif lead_gap >= 0.18:
+        advantage = "FAVORABLE"
+        threat = "MEDIUM"
+    elif lead_gap >= 0.08:
+        advantage = "SLIGHT"
+        threat = "ELEVATED"
+    else:
+        advantage = "CLOSE"
+        threat = "HIGH"
+
+    type_pressure_value = feature_map.get("A_best_stab", 0.0) - feature_map.get("B_best_stab", 0.0)
+    if abs(type_pressure_value) < 0.15:
+        type_pressure = "BALANCED"
+    elif type_pressure_value > 0:
+        type_pressure = "A PRESSURE"
+    else:
+        type_pressure = "B PRESSURE"
+
+    winner = result["predicted_winner"].upper()
+    return {
+        "winner": winner,
+        "advantage": advantage,
+        "threat": threat,
+        "type_pressure": type_pressure,
+    }
+
+
+def _render_battle_state_hud(result: dict) -> str:
+    summary = _battle_state_summary(result)
+    body = f"""
+    <div class="battle-state-grid">
+      <div class="battle-state-tile winner">
+        <div class="battle-state-label">PROJECTED WINNER</div>
+        <div class="battle-state-value">{escape(summary['winner'])}</div>
+      </div>
+      <div class="battle-state-tile">
+        <div class="battle-state-label">BATTLE ADVANTAGE</div>
+        <div class="battle-state-value">{escape(summary['advantage'])}</div>
+      </div>
+      <div class="battle-state-tile">
+        <div class="battle-state-label">THREAT LEVEL</div>
+        <div class="battle-state-value">{escape(summary['threat'])}</div>
+      </div>
+      <div class="battle-state-tile">
+        <div class="battle-state-label">TYPE PRESSURE</div>
+        <div class="battle-state-value">{escape(summary['type_pressure'])}</div>
+      </div>
+    </div>
+    <div class="battle-meter-shell">
+      <div class="battle-meter-row">
+        <div class="battle-meter-label">{escape(result['pokemon_a']['name'].upper())}</div>
+        <div class="meter-track"><div class="meter-fill" style="width:{result['win_prob_a'] * 100:.1f}%;background:#67B85F;"></div></div>
+        <div class="meter-row-value" style="background:#67B85F;color:#FFF7E3;">{result['win_prob_a']:.1%}</div>
+      </div>
+      <div class="battle-meter-row">
+        <div class="battle-meter-label">{escape(result['pokemon_b']['name'].upper())}</div>
+        <div class="meter-track"><div class="meter-fill" style="width:{result['win_prob_b'] * 100:.1f}%;background:#D94A3A;"></div></div>
+        <div class="meter-row-value" style="background:#D94A3A;color:#FFF7E3;">{result['win_prob_b']:.1%}</div>
+      </div>
+    </div>
+    """
+    return render_game_window("FIGHT MENU", "PROJECTED WINNER + BATTLE ADVANTAGE", body, extra_class="battle-state-window")
+
+
+def _render_battle_info_panel(result: dict) -> str:
+    history = result["history"]
+    body = f"""
+    {_render_stat_strip([
+        ("MODEL", result["model_name"].upper()),
+        ("LEAD", result["predicted_winner"].upper()),
+        ("HIST", str(history["total_battles"])),
+        ("MODE", "DEPLOYMENT"),
+    ], compact_labels={"MODEL", "MODE"}, wrap_labels={"MODEL", "MODE"})}
+    <div class="note-card note-card-wrap">SYSTEM :: LIVE MODEL FORECAST WITH LOCAL BATTLE HISTORY SIDE-BY-SIDE.</div>
+    <div class="note-card note-card-wrap">RULESET :: 1V1 SINGLES SIMPLIFIED MATCHUP FORECAST.</div>
+    """
+    return render_game_window("INFO MENU", "MATCH BRIEFING", body, extra_class="battle-info-window")
+
+
+def _render_battle_history_panel(result: dict) -> str:
+    history = result["history"]
+    if history["total_battles"]:
+        lines = [
+            f"RECORDED BATTLES :: {history['total_battles']}",
+            f"{result['pokemon_a']['name'].upper()} WINS :: {history['wins_a']} ({history['rate_a']:.1%})",
+            f"{result['pokemon_b']['name'].upper()} WINS :: {history['wins_b']} ({history['rate_b']:.1%})",
+            "HISTORICAL RECORD IS A DATASET MEMORY, NOT THE LIVE MODEL FORECAST.",
+        ]
+    else:
+        lines = [
+            "RECORDED BATTLES :: 0",
+            "NO DIRECT MATCHUP RECORD EXISTS IN THE LOCAL DATASET.",
+            "USE THE MODEL FORECAST AS THE PRIMARY SIGNAL FOR THIS PAIR.",
+        ]
+    return render_dialog_box("TRAINER LOGBOOK", lines, theme="battle")
+
+
 def render_type_page(bundle: dict) -> None:
     master_df = bundle["type_master_df"]
     options = _pokemon_options(master_df, "display_name", "canonical_slug")
@@ -1853,37 +2494,37 @@ def render_type_page(bundle: dict) -> None:
       <div class="hero-screen">
         {_render_sprite_shell(display_image_url, result['name'], mode="scan", stance="neutral")}
         <div class="hero-data">
-          <div class="hero-status">POKEDEX SCAN MODE :: ACTIVE</div>
-          <div class="panel-kicker">GROUND TRUTH VS MODEL PREDICTION</div>
+          {_scan_status_markup()}
+          <div class="panel-kicker">POKEDEX SCAN INTRO</div>
           <h2>DEX #{int(result['dexnum_int']):04d} :: {escape(result['name'].upper())}</h2>
           <p>Reading stat signature, species tag, growth profile, text corpus, and provenance record.</p>
           {_render_stat_strip([
-              ("TRUE PRIMARY", result["true_primary"].upper()),
-              ("TRUE SECONDARY", result["true_secondary"].upper()),
-              ("MODEL", result["model_name"].replace("ClassifierChain ", "").upper()),
-          ])}
+              ("TRUE TYPE", " / ".join([t.upper() for t in _type_slots(result)[0]]) or "NONE"),
+              ("SCAN CLASS", "DUAL TYPE" if result["true_secondary"] != "None" else "SINGLE TYPE"),
+              ("MODEL", _display_model_variant(result["model_name"])),
+          ], compact_labels={"TRUE TYPE", "SCAN CLASS", "MODEL"}, wrap_labels={"TRUE TYPE", "MODEL"})}
         </div>
       </div>
-      <div class="pixel-panel">
-        <div class="panel-kicker">TYPE SIGNAL HUD</div>
-        <div class="panel-title">RANKED TYPE CONFIDENCE</div>
-        {_render_probability_meter(result["probabilities"])}
-      </div>
+      {render_game_window("TYPE SIGNAL HUD", "TYPE STACK // TOP SIGNALS", _render_type_signal_hud(result, top_n=5), extra_class="signal-window")}
     </div>
     """
     _mount_html(hero_html)
 
-    left_col, right_col = st.columns([1, 1])
+    left_col, center_col, right_col = st.columns([1, 0.55, 1])
     with left_col:
         _mount_html(_render_type_overview_card(row, result))
+    with center_col:
+        _mount_html(render_reveal_state(result))
     with right_col:
         _mount_html(_render_type_prediction_card(result))
 
     third_left, third_right = st.columns([1, 1])
     with third_left:
-        _mount_html(_render_provenance_card(result))
+        _mount_html(_render_system_card(result))
     with third_right:
-        _mount_html(_render_evidence_panels(result))
+        _mount_html(_render_visual_bait_panel(result))
+
+    _mount_html(_render_scan_log(result))
 
 
 def _render_battle_header(result: dict) -> str:
@@ -1897,11 +2538,12 @@ def _render_battle_header(result: dict) -> str:
     <div class="app-shell battle-hero">
       <div class="fighter-card player-card">
         <div class="panel-kicker">COMBATANT A</div>
-        {_render_battle_nameplate(pokemon_a, float(result["win_prob_a"]), "player", leading_a)}
+        {render_nameplate_hp(pokemon_a, float(result["win_prob_a"]), "player", leading_a)}
         {_render_sprite_shell(image_a, pokemon_a['name'], mode="battle", stance="player")}
       </div>
       <div class="vs-core">
         <div class="vs-badge">VS</div>
+        <div class="vs-copy">TURN 0 FORECAST</div>
         <div class="winner-banner">
           <div class="winner-label">PREDICTED WINNER</div>
           <div class="winner-name">{escape(result['predicted_winner'].upper())}</div>
@@ -1909,7 +2551,7 @@ def _render_battle_header(result: dict) -> str:
       </div>
       <div class="fighter-card opponent-card">
         <div class="panel-kicker">COMBATANT B</div>
-        {_render_battle_nameplate(pokemon_b, float(result["win_prob_b"]), "opponent", leading_b)}
+        {render_nameplate_hp(pokemon_b, float(result["win_prob_b"]), "opponent", leading_b)}
         {_render_sprite_shell(image_b, pokemon_b['name'], mode="battle", stance="opponent")}
       </div>
     </div>
@@ -2004,9 +2646,18 @@ def render_battle_page(bundle: dict) -> None:
     result = predict_battle(_key_from_option(option_a), _key_from_option(option_b), bundle).payload
     _mount_html(_render_battle_header(result))
     _mount_html(_render_battle_dialogue_box(result))
-    _mount_html(_render_battle_probability_panel(result))
-    _mount_html(_render_feature_snapshot(result["feature_snapshot"]))
-    _mount_html(_render_commentary_lines(result["explanation"], "BATTLE COMMENTARY", tone="battle"))
+    _mount_html(render_game_window("COMMAND MENU", "FIGHT // INFO // HISTORY // SIGNALS", '<div class="mode-copy">Choose a battle panel and inspect the matchup like a handheld RPG screen.</div>', extra_class="command-window"))
+    command = render_command_menu("Battle menu", "battle_command_menu", ["FIGHT", "INFO", "HISTORY", "SIGNALS"])
+
+    if command == "FIGHT":
+        _mount_html(_render_battle_state_hud(result))
+    elif command == "INFO":
+        _mount_html(_render_battle_info_panel(result))
+    elif command == "HISTORY":
+        _mount_html(_render_battle_history_panel(result))
+    else:
+        _mount_html(_render_feature_snapshot(result["feature_snapshot"]))
+        _mount_html(_render_commentary_lines(result["explanation"], "ADVANTAGE READOUT", tone="battle"))
 
 
 def main() -> None:
