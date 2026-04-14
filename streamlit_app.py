@@ -123,6 +123,14 @@ def _render_link_note(label: str, url: str) -> str:
     )
 
 
+def _display_sprite_url(*urls: object) -> str:
+    for value in urls:
+        text = _ascii_text(value).strip()
+        if text:
+            return text
+    return ""
+
+
 def _render_type_badges(types: list[str]) -> str:
     badges = []
     for type_name in types:
@@ -752,14 +760,58 @@ def inject_global_styles() -> None:
           background: linear-gradient(180deg, #b9fff0, #85d2c3);
           border: var(--panel-border);
           box-shadow: inset 0 0 0 4px rgba(255,255,255,0.45);
+          position: relative;
+          overflow: hidden;
+        }
+
+        .hero-sprite::before,
+        .fighter-sprite::before {
+          content: "";
+          position: absolute;
+          inset: 0;
+          background:
+            repeating-linear-gradient(
+              180deg,
+              rgba(255,255,255,0.12) 0px,
+              rgba(255,255,255,0.12) 3px,
+              rgba(16,32,60,0.08) 3px,
+              rgba(16,32,60,0.08) 6px
+            ),
+            repeating-linear-gradient(
+              90deg,
+              rgba(16,32,60,0.05) 0px,
+              rgba(16,32,60,0.05) 4px,
+              rgba(255,255,255,0.02) 4px,
+              rgba(255,255,255,0.02) 8px
+            );
+          opacity: 0.45;
+          pointer-events: none;
+          mix-blend-mode: multiply;
+          z-index: 2;
+        }
+
+        .hero-sprite::after,
+        .fighter-sprite::after {
+          content: "";
+          position: absolute;
+          inset: 8px;
+          border: 2px solid rgba(255,247,227,0.35);
+          box-shadow: inset 0 0 0 2px rgba(16,32,60,0.18);
+          pointer-events: none;
+          z-index: 3;
         }
 
         .hero-sprite img,
         .fighter-sprite img {
-          width: 100%;
-          height: 100%;
+          width: 84%;
+          height: 84%;
           object-fit: contain;
+          image-rendering: crisp-edges;
           image-rendering: pixelated;
+          filter: saturate(1.08) contrast(1.12) drop-shadow(4px 4px 0 rgba(13,19,33,0.28));
+          transform: translateY(2px) scale(1.04);
+          position: relative;
+          z-index: 1;
         }
 
         .hero-data h2,
@@ -796,7 +848,43 @@ def inject_global_styles() -> None:
         }
 
         .oof-panel {
-          background: linear-gradient(135deg, rgba(255,247,227,0.96), rgba(103,184,95,0.10));
+          background: linear-gradient(180deg, rgba(60,76,96,0.96), rgba(22,34,52,0.98));
+          border-color: rgba(255,247,227,0.18);
+          box-shadow: 6px 6px 0 rgba(0,0,0,0.42);
+        }
+
+        .oof-panel .panel-kicker {
+          color: #F7D64A;
+        }
+
+        .oof-panel .panel-title,
+        .oof-panel .oof-meter-label,
+        .oof-panel .mode-copy {
+          color: var(--cartridge-cream);
+        }
+
+        .oof-panel .mini-stat {
+          background: rgba(255,247,227,0.08);
+          border-color: rgba(255,247,227,0.18);
+        }
+
+        .oof-panel .mini-stat-label {
+          color: #A7F0F2;
+        }
+
+        .oof-panel .mini-stat-value {
+          color: var(--cartridge-cream);
+        }
+
+        .oof-panel .meter-track {
+          background: rgba(255,247,227,0.08);
+          border-color: rgba(255,247,227,0.18);
+        }
+
+        .oof-panel .note-card {
+          background: rgba(255,247,227,0.08);
+          border-color: rgba(255,247,227,0.16);
+          color: var(--cartridge-cream);
         }
 
         .mode-panel {
@@ -1009,6 +1097,8 @@ def inject_global_styles() -> None:
           display: flex;
           align-items: center;
           justify-content: center;
+          position: relative;
+          overflow: hidden;
         }
 
         .vs-core {
@@ -1384,12 +1474,17 @@ def render_type_page(bundle: dict) -> None:
     selection = st.selectbox("Choose a Pokemon to scan", options, index=5)
     result = predict_types(_key_from_option(selection), bundle).payload
     row = master_df[master_df["canonical_slug"] == result["canonical_slug"]].iloc[0]
+    display_image_url = _display_sprite_url(
+        result.get("sprite_url", ""),
+        result.get("image_url", ""),
+        result.get("official_artwork_url", ""),
+    )
 
     hero_html = f"""
     <div class="app-shell page-hero">
       <div class="hero-screen">
         <div class="hero-sprite">
-          <img src="{escape(result['image_url'])}" alt="{escape(result['name'])} sprite" />
+          <img src="{escape(display_image_url)}" alt="{escape(result['name'])} sprite" />
         </div>
         <div class="hero-data">
           <div class="hero-status">POKEDEX SCAN MODE :: ACTIVE</div>
@@ -1428,11 +1523,13 @@ def render_type_page(bundle: dict) -> None:
 def _render_battle_header(result: dict) -> str:
     pokemon_a = result["pokemon_a"]
     pokemon_b = result["pokemon_b"]
+    image_a = _display_sprite_url(pokemon_a.get("sprite_url", ""), pokemon_a.get("image_url", ""))
+    image_b = _display_sprite_url(pokemon_b.get("sprite_url", ""), pokemon_b.get("image_url", ""))
     return f"""
     <div class="app-shell battle-hero">
       <div class="fighter-card">
         <div class="panel-kicker">COMBATANT A</div>
-        <div class="fighter-sprite"><img src="{escape(pokemon_a['image_url'])}" alt="{escape(pokemon_a['name'])} sprite" /></div>
+        <div class="fighter-sprite"><img src="{escape(image_a)}" alt="{escape(pokemon_a['name'])} sprite" /></div>
         <h3>{escape(pokemon_a['name'].upper())}</h3>
         <div>{_render_type_badges([pokemon_a['type1'], pokemon_a['type2']])}</div>
         {_render_stat_strip([
@@ -1449,7 +1546,7 @@ def _render_battle_header(result: dict) -> str:
       </div>
       <div class="fighter-card">
         <div class="panel-kicker">COMBATANT B</div>
-        <div class="fighter-sprite"><img src="{escape(pokemon_b['image_url'])}" alt="{escape(pokemon_b['name'])} sprite" /></div>
+        <div class="fighter-sprite"><img src="{escape(image_b)}" alt="{escape(pokemon_b['name'])} sprite" /></div>
         <h3>{escape(pokemon_b['name'].upper())}</h3>
         <div>{_render_type_badges([pokemon_b['type1'], pokemon_b['type2']])}</div>
         {_render_stat_strip([
