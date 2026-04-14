@@ -750,6 +750,11 @@ def inject_global_styles() -> None:
           align-items: center;
         }
 
+        .sprite-shell {
+          position: relative;
+          overflow: hidden;
+        }
+
         .hero-sprite {
           width: 180px;
           min-width: 180px;
@@ -759,13 +764,21 @@ def inject_global_styles() -> None:
           justify-content: center;
           background: linear-gradient(180deg, #b9fff0, #85d2c3);
           border: var(--panel-border);
-          box-shadow: inset 0 0 0 4px rgba(255,255,255,0.45);
-          position: relative;
-          overflow: hidden;
+          box-shadow: inset 0 0 0 4px rgba(255,255,255,0.45), 5px 5px 0 rgba(13,19,33,0.32);
         }
 
-        .hero-sprite::before,
-        .fighter-sprite::before {
+        .scan-shell {
+          background:
+            radial-gradient(circle at 28% 24%, rgba(255,255,255,0.55), transparent 34%),
+            linear-gradient(180deg, #bdf6ec 0%, #94dece 56%, #78c7b6 100%);
+        }
+
+        .arena-shell {
+          background:
+            linear-gradient(180deg, rgba(159,216,255,0.75) 0%, rgba(210,241,255,0.72) 42%, rgba(255,247,227,0.94) 42%, rgba(239,228,187,0.92) 100%);
+        }
+
+        .sprite-shell::before {
           content: "";
           position: absolute;
           inset: 0;
@@ -790,8 +803,7 @@ def inject_global_styles() -> None:
           z-index: 2;
         }
 
-        .hero-sprite::after,
-        .fighter-sprite::after {
+        .sprite-shell::after {
           content: "";
           position: absolute;
           inset: 8px;
@@ -801,17 +813,115 @@ def inject_global_styles() -> None:
           z-index: 3;
         }
 
-        .hero-sprite img,
-        .fighter-sprite img {
-          width: 84%;
-          height: 84%;
+        .sprite-overlay-label {
+          position: absolute;
+          top: 10px;
+          left: 10px;
+          z-index: 4;
+          padding: 0.2rem 0.35rem;
+          background: rgba(16,32,60,0.75);
+          color: rgba(255,247,227,0.95);
+          border: 2px solid rgba(255,247,227,0.2);
+          font-size: 0.38rem;
+          letter-spacing: 0.08em;
+          line-height: 1.2;
+        }
+
+        .sprite-stage {
+          position: absolute;
+          inset: 12px;
+          display: flex;
+          align-items: flex-end;
+          justify-content: center;
+          overflow: hidden;
+          z-index: 1;
+        }
+
+        .sprite-stage::before {
+          content: "";
+          position: absolute;
+          left: 14%;
+          right: 14%;
+          bottom: 7%;
+          height: 16%;
+          border: 3px solid rgba(16,32,60,0.3);
+          background:
+            repeating-linear-gradient(
+              90deg,
+              rgba(255,247,227,0.14) 0px,
+              rgba(255,247,227,0.14) 10px,
+              rgba(16,32,60,0.1) 10px,
+              rgba(16,32,60,0.1) 20px
+            ),
+            linear-gradient(180deg, rgba(255,247,227,0.14), rgba(16,32,60,0.18));
+          box-shadow: 0 6px 0 rgba(13,19,33,0.18);
+          z-index: 0;
+        }
+
+        .sprite-stage::after {
+          content: "";
+          position: absolute;
+          left: 18%;
+          right: 18%;
+          top: 12%;
+          bottom: 18%;
+          background: radial-gradient(circle at 50% 42%, rgba(255,247,227,0.35), rgba(255,247,227,0.02) 62%);
+          filter: blur(6px);
+          z-index: 0;
+        }
+
+        .sprite-stage-scan {
+          background:
+            radial-gradient(circle at 50% 28%, rgba(255,255,255,0.34), transparent 36%),
+            linear-gradient(180deg, rgba(210,255,246,0.64) 0%, rgba(128,206,191,0.62) 100%);
+        }
+
+        .sprite-stage-battle {
+          background:
+            linear-gradient(180deg, rgba(199,233,255,0.36) 0%, rgba(255,247,227,0.18) 38%, rgba(222,210,160,0.46) 39%, rgba(181,159,108,0.56) 100%);
+        }
+
+        .sprite-stage.player-side::before {
+          left: 9%;
+          right: 19%;
+          transform: skewX(-12deg);
+        }
+
+        .sprite-stage.opponent-side::before {
+          left: 19%;
+          right: 9%;
+          transform: skewX(12deg);
+        }
+
+        .sprite-stage img {
+          width: 82%;
+          height: 82%;
           object-fit: contain;
           image-rendering: crisp-edges;
           image-rendering: pixelated;
-          filter: saturate(1.08) contrast(1.12) drop-shadow(4px 4px 0 rgba(13,19,33,0.28));
-          transform: translateY(2px) scale(1.04);
+          filter:
+            saturate(1.08)
+            contrast(1.15)
+            drop-shadow(0 0 8px rgba(255,247,227,0.46))
+            drop-shadow(4px 4px 0 rgba(13,19,33,0.26));
           position: relative;
           z-index: 1;
+        }
+
+        .sprite-stage.neutral-side img {
+          transform: translateY(6px) scale(1.08);
+        }
+
+        .sprite-stage.player-side img {
+          width: 86%;
+          height: 86%;
+          transform: translate(-6px, 10px) scale(1.08);
+        }
+
+        .sprite-stage.opponent-side img {
+          width: 86%;
+          height: 86%;
+          transform: translate(6px, 10px) scale(1.08);
         }
 
         .hero-data h2,
@@ -1097,8 +1207,7 @@ def inject_global_styles() -> None:
           display: flex;
           align-items: center;
           justify-content: center;
-          position: relative;
-          overflow: hidden;
+          box-shadow: inset 0 0 0 4px rgba(255,255,255,0.35);
         }
 
         .vs-core {
@@ -1468,6 +1577,24 @@ def _render_evidence_panels(result: dict) -> str:
     return "".join(_render_commentary_lines(lines, title, tone="type") for title, lines in panels.items())
 
 
+def _render_sprite_shell(image_url: str, name: str, mode: str = "scan", stance: str = "neutral") -> str:
+    shell_classes = ["sprite-shell", "hero-sprite" if mode == "scan" else "fighter-sprite"]
+    shell_classes.append("scan-shell" if mode == "scan" else "arena-shell")
+
+    stage_classes = ["sprite-stage", "sprite-stage-scan" if mode == "scan" else "sprite-stage-battle"]
+    stage_classes.append(f"{stance}-side")
+
+    overlay_label = "SCAN CHAMBER" if mode == "scan" else ("PLAYER SIDE" if stance == "player" else "RIVAL SIDE")
+    return f"""
+    <div class="{' '.join(shell_classes)}">
+      <div class="sprite-overlay-label">{escape(overlay_label)}</div>
+      <div class="{' '.join(stage_classes)}">
+        <img src="{escape(image_url, quote=True)}" alt="{escape(name)} sprite" />
+      </div>
+    </div>
+    """
+
+
 def render_type_page(bundle: dict) -> None:
     master_df = bundle["type_master_df"]
     options = _pokemon_options(master_df, "display_name", "canonical_slug")
@@ -1483,9 +1610,7 @@ def render_type_page(bundle: dict) -> None:
     hero_html = f"""
     <div class="app-shell page-hero">
       <div class="hero-screen">
-        <div class="hero-sprite">
-          <img src="{escape(display_image_url)}" alt="{escape(result['name'])} sprite" />
-        </div>
+        {_render_sprite_shell(display_image_url, result['name'], mode="scan", stance="neutral")}
         <div class="hero-data">
           <div class="hero-status">POKEDEX SCAN MODE :: ACTIVE</div>
           <div class="panel-kicker">GROUND TRUTH VS MODEL PREDICTION</div>
@@ -1529,7 +1654,7 @@ def _render_battle_header(result: dict) -> str:
     <div class="app-shell battle-hero">
       <div class="fighter-card">
         <div class="panel-kicker">COMBATANT A</div>
-        <div class="fighter-sprite"><img src="{escape(image_a)}" alt="{escape(pokemon_a['name'])} sprite" /></div>
+        {_render_sprite_shell(image_a, pokemon_a['name'], mode="battle", stance="player")}
         <h3>{escape(pokemon_a['name'].upper())}</h3>
         <div>{_render_type_badges([pokemon_a['type1'], pokemon_a['type2']])}</div>
         {_render_stat_strip([
@@ -1546,7 +1671,7 @@ def _render_battle_header(result: dict) -> str:
       </div>
       <div class="fighter-card">
         <div class="panel-kicker">COMBATANT B</div>
-        <div class="fighter-sprite"><img src="{escape(image_b)}" alt="{escape(pokemon_b['name'])} sprite" /></div>
+        {_render_sprite_shell(image_b, pokemon_b['name'], mode="battle", stance="opponent")}
         <h3>{escape(pokemon_b['name'].upper())}</h3>
         <div>{_render_type_badges([pokemon_b['type1'], pokemon_b['type2']])}</div>
         {_render_stat_strip([
